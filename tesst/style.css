@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400&display=swap');
+
+  /*  good good
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+a {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: calc(3.35vh/2);
+  font-style: italic;  
+  color: #B9B0AB;
+  -webkit-text-stroke: calc(0.0724vh/2) #B9B0AB;
+}
+  
+a:hover, a:focus {
+  color: #E1DEDD;
+  -webkit-text-stroke: calc(0.065vh/2) #E1DEDD;
+}
+*/
+
+.circle-outer {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  min-width: 0%;
+  min-height: 200%;
+  width: 200%;
+  height: auto;
+  list-style: none;
+  background-color: #000;
+}
+
+.circle {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  min-width: 0%;
+  min-height: 200%;
+  width: 200%;
+  height: auto;
+  list-style: none;
+  background-color: #000;
+}
+
+li .background {
+  border: 0.333vw solid black;
+  position: fixed;
+  top: -15%; /* 115% */
+  left: 87.5%;
+  transform: translate(-50%, -50%);
+  min-width: 0%;
+  min-height: 100%; /* 200% */
+  width: 100%; /* 200% */
+  height: auto;
+  transform-origin: 0% 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 30;
+  text-align: center;
+}
+
+.content .icon {
+  font-size: 80px;
+  color: #000;
+}
+
+li:first-child .background {
+  position: fixed;
+  transform: rotate(calc((360deg/3)*1)) skewY(30deg);
+  overflow: hidden;
+}
+
+li:nth-child(2) .background {
+  position: fixed;
+  transform: rotate(calc((360deg/3)*2)) skewY(30deg);
+  overflow: hidden;
+}
+
+li:nth-child(3) .background {
+  position: fixed;
+  transform: rotate(calc((360deg/3)*3)) skewY(30deg);
+  overflow: hidden;
+}
+
+li:first-child .background:before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  min-height: 100%; /* 50% */
+  bottom: -45%;
+  left: -50%;
+  transform: skewY(-30deg) rotate(calc((-360deg/3)*1));
+  background-image: url(https://cdn.discordapp.com/attachments/1061636859689709680/1062419809352032306/test2.jpg);  
+  background-position: center;
+}
+  
+li:nth-child(2) .background:before {
+  content: "";
+  position: fixed;
+  min-width: 100%; /* 50% */
+  height: 100%;
+  top: 50%;
+  right: 60%;
+  transform: skewY(-30deg) rotate(calc((-360deg/3)*2));
+  background-image: url(https://cdn.discordapp.com/attachments/1061636859689709680/1062419810270580836/test3.jpg);
+  background-position: center;
+}
+
+li:nth-child(3) .background:before {
+  content: "";
+  position: fixed;
+  min-width: 150%; /* 100% */
+  height: 100vh;
+  transform: skewY(-30deg);
+  background-image: url(https://cdn.discordapp.com/attachments/1061636859689709680/1062419809825980547/test1.jpg);
+  background-position: left;
+  background-size: contain;
+}
+
+/* 
+li:nth-child(3) .bbackground:before {
+  content: "";
+  position: fixed;
+  min-width: 50%;
+  height: 100%;
+  top: 16%;
+  left: -12%;
+  transform: skewY(-30deg) rotate(calc((-360deg/3)*3));
+  background-image: url(https://cdn.discordapp.com/attachments/1061636859689709680/1062419809825980547/test1.jpg);
+  background-position: center;
+}
+*/
+
+/*
+.content.first {
+  left: 17.5%;
+  top: 100%;
+}
+
+.content.second {
+  right: 55%;
+  top: 60%
+}
+
+.content.third {
+  bottom: 15%;
+  left: 10%
+}
+*/
+  
+/*
+li:nth-child .background {
+  background: #FF0000;
+}
+
+li:nth-child(2) .background {
+  background: #00FF00;
+}
+
+li:nth-child(3) .background {
+  background: #0000FF;
+}
+*/

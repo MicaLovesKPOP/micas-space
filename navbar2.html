@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
-    <link rel="stylesheet" href="../Personal Website/style.css">
+    <link rel="stylesheet" href="../Personal Website/navbar2.css">
     <script src="script.js"></script>
-<title>Mica's</title>
+<title>Mica's Space</title>
 </head>
 <header>
-    <script id="insert_navbar" src="../Personal Website/navbar2.js"></script>
+<!-- partial:index.partial.html -->
+    <div class="header">
+        <div class="navbar-left">
+            <a href="./" class="logo" id="logo">
+                <img class="img-passive" id="img" src="https://cdn.discordapp.com/attachments/1061636859689709680/1066830597814763571/logo_inactive.png" alt="Home">
+                <img class="img-active" id="img" src="https://cdn.discordapp.com/attachments/1061636859689709680/1066830597567303730/logo_active.png" alt="Home">
+            </a>
+        </div>
+        <div class="navbar-right">
+            <nav id="result">
+            </nav>
+        </div>
+        <div class="filler">
+        </div>
+        <div id="buttonbox">
+            <button id="navbarSize" onclick="resizeNavbar()">large mode</button>
+            <button id="lightnessMode" onclick="changeLightness()">dark mode</button>
+        </div>
+    </div>
+<!-- partial -->
+  <script  src="./navbar2.js"></script>
+
 </header>
 <body id="body" class="reg">
     <bodytext>

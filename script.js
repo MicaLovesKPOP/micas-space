@@ -5,6 +5,12 @@ child.style.right = child.clientWidth - child.offsetWidth + "px";
 function resizeNavbar() {
     var element = document.getElementById("body");
     element.classList.toggle("alt");
+    var element = document.getElementById("buttonbox");
+    element.classList.toggle("alt");
+    var element = document.getElementById("img");
+    element.classList.toggle("alt");
+    var element = document.getElementById("logo");
+    element.classList.toggle("alt");
     var btn = document.getElementById("navbarSize");
     if (btn.innerHTML=="small mode") btn.innerHTML = "large mode";
     else btn.innerHTML = "small mode";

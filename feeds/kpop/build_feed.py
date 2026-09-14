@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Build Mica's K-pop changelog RSS feed.
 
-This feed is deliberately *not* a celebrity/gossip feed. It only keeps concrete
-changes: debuts, meaningful comeback/release announcements, contract/agency
-changes, legal disputes/rulings, group/member status changes and major K-pop
-industry moves. Reddit is not used as a source or intermediary.
+This is intentionally a change log, not a celebrity-news feed. It keeps concrete
+changes such as debuts, comebacks/releases, contract/agency moves, meaningful
+legal disputes, group/member status changes and major label developments.
+Reddit is not used as a source or intermediary.
 """
 
 from __future__ import annotations
@@ -13,7 +13,6 @@ import calendar
 import html
 import json
 import re
-import sys
 import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -31,23 +30,18 @@ OUTPUT = ROOT / "micas-kpop-feed.xml"
 DEBUG_OUTPUT = ROOT / "filter-debug.json"
 
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; MicasKpopChangelog/1.0; "
+    "Mozilla/5.0 (compatible; MicasKpopChangelog/1.1; "
     "+https://github.com/MicaLovesKPOP/micas-space)"
 )
 
-# Sources are intentionally direct publishers. No Reddit, aggregators or gossip
-# sites are used. Soompi is useful for release/agency statements; Korean news
-# sources and MBW are preferred for legal/business developments.
 SOURCES = {
     "Korea Herald": {"kind": "rss", "url": "https://www.koreaherald.com/rss/kh_Kpop"},
     "Music Business Worldwide": {"kind": "rss", "url": "https://www.musicbusinessworldwide.com/feed/"},
-    "Soompi Music": {"kind": "html", "url": "https://www.soompi.com/category/music", "host": "soompi.com"},
-    "Soompi Celeb": {"kind": "html", "url": "https://www.soompi.com/category/celeb", "host": "soompi.com"},
+    "Soompi Music": {"kind": "rss", "url": "https://www.soompi.com/category/music/feed"},
+    "Soompi Celeb": {"kind": "rss", "url": "https://www.soompi.com/category/celeb/feed"},
     "Yonhap K-pop": {"kind": "html", "url": "https://en.yna.co.kr/culture/k-pop", "host": "en.yna.co.kr"},
 }
 
-# MBW is a global music-industry feed, so it needs an explicit Korean/K-pop
-# context check. The other sources are already K-pop-specific enough.
 MBW_KPOP_CONTEXT = [
     "k-pop", "kpop", "south korea", "korean music", "korean entertainment",
     "hybe", "ador", "belift", "source music", "pledis", "koz entertainment",
@@ -57,28 +51,28 @@ MBW_KPOP_CONTEXT = [
     "le sserafim", "twice", "stray kids", "seventeen", "enhypen", "txt",
 ]
 
-# Strong whitelist signals. An article must match one of these event families.
 EVENT_PATTERNS: list[tuple[str, list[str]]] = [
     ("Debut / new group", [
         r"\bdebut(?:s|ed|ing)?\b", r"\bpre[- ]?debut\b", r"\bnew girl group\b",
-        r"\bnew boy group\b", r"\bnew group\b", r"\bdebut lineup\b",
-        r"\blaunch(?:es|ing)? .*group\b",
+        r"\bnew boy group\b", r"\bnew idol group\b", r"\bdebut lineup\b",
+        r"\blaunch(?:es|ing)? .*\bgroup\b", r"\bsolo debut\b",
     ]),
     ("Comeback / release", [
-        r"\bcomeback\b", r"\breturns? with\b", r"\bset to return\b",
-        r"\bconfirms? .*return\b", r"\bannounces? .*album\b",
-        r"\bannounces? .*single\b", r"\bnew (?:full[- ]length )?album\b",
-        r"\bnew mini album\b", r"\bnew ep\b", r"\bset to release\b",
-        r"\brelease date\b", r"\bdrops? .*album\b", r"\breleases? .*album\b",
-        r"\breleases? .*single\b",
+        r"\bcomeback\b",
+        r"\b(?:to |will )?return(?:s|ing)? with .*\b(?:album|ep|single)\b",
+        r"\bset to return with .*\b(?:album|ep|single)\b",
+        r"\bannounces? .*\b(?:album|ep|single)\b",
+        r"\bnew (?:full[- ]length )?album\b", r"\bnew mini album\b", r"\bnew ep\b",
+        r"\bset to release .*\b(?:album|ep|single)\b", r"\brelease date\b",
+        r"\b(?:drops?|releases?|to drop|to release) .*\b(?:album|ep|single)\b",
     ]),
     ("Contract / agency", [
         r"\bexclusive contract\b", r"\bcontract dispute\b", r"\bcontract termination\b",
         r"\bterminates? .*contract\b", r"\bends? .*contract\b", r"\brenews? .*contract\b",
         r"\bcontract renewal\b", r"\bsigns? with .*agency\b", r"\bsigned with .*agency\b",
-        r"\bnew agency\b", r"\bjoins? .*agency\b", r"\bleaves? .*agency\b",
-        r"\bparts ways with\b", r"\bmanagement contract\b", r"\btransfer(?:s|red)? to\b",
-        r"\bchanges? agencies\b",
+        r"\bsigning with .*agency\b", r"\bnew agency\b", r"\bjoins? .*agency\b",
+        r"\bleaves? .*agency\b", r"\bparts ways with\b", r"\bmanagement contract\b",
+        r"\btransfer(?:s|red)? to\b", r"\bchanges? agencies\b",
     ]),
     ("Legal / dispute", [
         r"\bcourt\b", r"\blawsuit\b", r"\bsues?\b", r"\bsued\b", r"\binjunction\b",
@@ -101,7 +95,6 @@ EVENT_PATTERNS: list[tuple[str, list[str]]] = [
     ]),
 ]
 
-# These topics are precisely the celebrity-news noise this feed is meant to avoid.
 GOSSIP_DROP = [
     "dating", "relationship rumor", "dating rumor", "spotted with", "seen with",
     "male idol", "female idol", "airport fashion", "airport look", "outfit",
@@ -113,24 +106,31 @@ GOSSIP_DROP = [
     "magazine cover", "birthday", "wealth", "net worth", "richest", "expensive car",
 ]
 
-# Routine fandom/PR churn that is not a meaningful change.
 NOISE_DROP = [
-    "music chart", "weekly chart", "billboard chart", "world albums chart", "circle chart",
+    "music chart", "weekly chart", "billboard", "world albums chart", "circle chart",
     "brand reputation", "takes 1st win", "takes 2nd win", "takes 3rd win", "music show win",
     "million views", "billion views", "sales record", "first-week sales", "pre-order record",
     "award lineup", "red carpet", "fan meeting", "fanmeeting", "tour dates", "tour stops",
-    "concert tour", "festival lineup", "performance video", "dance practice",
+    "concert tour", "festival lineup", "performance video", "dance practice", "itunes chart",
 ]
 
-# Teaser spam is excluded unless the title also contains one of the strong
-# announcement phrases below.
 TEASER_DROP = [
     "teaser", "concept photo", "concept image", "highlight medley", "track list",
     "tracklist", "scheduler", "schedule poster", "preview", "mood sampler",
 ]
-TEASER_KEEP = [
-    "confirms comeback", "announces comeback", "sets comeback", "comeback date",
-    "release date", "set to debut", "debut date",
+STRONG_ANNOUNCEMENT = [
+    "announces", "announced", "confirms", "confirmed", "comeback date", "debut date",
+    "set to debut", "to debut", "set to return", "set to release", "release date",
+]
+
+REGIONAL_DEBUT_DROP = ["japan debut", "japanese debut", "korean debut", "u.s. debut", "us debut"]
+
+LEGAL_RELEVANCE = [
+    "contract", "agency", "label", "management", "exclusive", "copyright", "plagiarism",
+    "trademark", "artist rights", "music rights", "royalt", "company", "ceo",
+    "hybe", "ador", "attrakt", "belift", "source music", "pledis", "starship",
+    "sm entertainment", "jyp entertainment", "yg entertainment", "cube entertainment",
+    "wakeone", "modhaus",
 ]
 
 STOPWORDS = {
@@ -185,7 +185,7 @@ def fetch_bytes(url: str) -> bytes:
             "Accept": "application/rss+xml, application/xml, text/xml, text/html, */*",
         },
     )
-    with urllib.request.urlopen(req, timeout=35) as response:
+    with urllib.request.urlopen(req, timeout=30) as response:
         return response.read()
 
 
@@ -200,11 +200,14 @@ def published_info(entry) -> tuple[str | None, float]:
     return published, 0.0
 
 
-def classify(title: str, summary: str, source: str) -> tuple[str | None, str]:
-    text = lower(f"{title} {summary}")
+def classify(title: str, source: str) -> tuple[str | None, str]:
+    """Classify from the headline only to avoid historical details in summaries
+    turning ordinary profile/performance pieces into false positives.
+    """
+    text = lower(title)
 
     if source == "Music Business Worldwide" and not any(term in text for term in MBW_KPOP_CONTEXT):
-        return None, "MBW: no Korean/K-pop context"
+        return None, "MBW: no Korean/K-pop context in headline"
 
     gossip = [term for term in GOSSIP_DROP if term in text]
     if gossip:
@@ -214,19 +217,34 @@ def classify(title: str, summary: str, source: str) -> tuple[str | None, str]:
     if noise:
         return None, "routine fandom/PR noise: " + ", ".join(noise[:3])
 
-    teaser = [term for term in TEASER_DROP if term in text]
-    if teaser and not any(term in text for term in TEASER_KEEP):
-        return None, "teaser/rollout post"
-
-    for category, patterns in EVENT_PATTERNS:
+    category = None
+    for candidate, patterns in EVENT_PATTERNS:
         if any(re.search(pattern, text, flags=re.I) for pattern in patterns):
-            return category, "whitelisted event"
+            category = candidate
+            break
 
-    return None, "no meaningful-change event matched"
+    if not category:
+        return None, "no meaningful-change event matched"
+
+    if category == "Debut / new group":
+        if any(term in text for term in REGIONAL_DEBUT_DROP) and not any(
+            term in text for term in ("new girl group", "new boy group", "new idol group")
+        ):
+            return None, "regional-market debut rather than a new act"
+
+    teaser = [term for term in TEASER_DROP if term in text]
+    if teaser and category in {"Debut / new group", "Comeback / release"}:
+        if not any(term in text for term in STRONG_ANNOUNCEMENT):
+            return None, "teaser/rollout post"
+
+    if category == "Legal / dispute" and source != "Music Business Worldwide":
+        if not any(term in text for term in LEGAL_RELEVANCE):
+            return None, "legal story unrelated to artist/agency business or rights"
+
+    return category, "whitelisted event"
 
 
 def article_meta(url: str) -> tuple[str, str | None, float]:
-    """Fetch a useful excerpt/date for HTML-listing sources. Best-effort only."""
     try:
         soup = BeautifulSoup(fetch_bytes(url), "html.parser")
     except Exception:
@@ -276,8 +294,11 @@ def rss_items(name: str, url: str, debug: dict) -> list[Item]:
         title = normalize(entry.get("title", ""))
         link = entry.get("link", "")
         summary = trim(entry.get("summary", "") or entry.get("description", ""))
-        category, reason = classify(title, summary, name)
-        debug["decisions"].append({"source": name, "title": title, "link": link, "keep": bool(category), "category": category, "reason": reason})
+        category, reason = classify(title, name)
+        debug["decisions"].append({
+            "source": name, "title": title, "link": link, "keep": bool(category),
+            "category": category, "reason": reason,
+        })
         if not category:
             continue
         published, ts = published_info(entry)
@@ -299,15 +320,8 @@ def html_listing_items(name: str, url: str, host: str, debug: dict) -> list[Item
         parsed = urlparse(href)
         if parsed.hostname != host and not (parsed.hostname and parsed.hostname.endswith("." + host)):
             continue
-
-        # Keep only actual article shapes for these sites.
-        if name.startswith("Soompi"):
-            if "/article/" not in parsed.path:
-                continue
-        elif name == "Yonhap K-pop":
-            if "/view/AEN" not in parsed.path:
-                continue
-
+        if name == "Yonhap K-pop" and "/view/AEN" not in parsed.path:
+            continue
         title = normalize(a.get_text(" ", strip=True))
         if len(title) < 12 or href in seen:
             continue
@@ -319,20 +333,19 @@ def html_listing_items(name: str, url: str, host: str, debug: dict) -> list[Item
     debug["sources"].append({"name": name, "url": url, "status": "ok", "items": len(links)})
     result = []
     for title, link in links:
-        # First classify by title to avoid fetching every celebrity-fluff page.
-        category, reason = classify(title, "", name)
+        category, reason = classify(title, name)
         if not category:
-            debug["decisions"].append({"source": name, "title": title, "link": link, "keep": False, "category": None, "reason": reason})
+            debug["decisions"].append({
+                "source": name, "title": title, "link": link, "keep": False,
+                "category": None, "reason": reason,
+            })
             continue
-
         summary, published, ts = article_meta(link)
-        # Reclassify with the actual article description; this catches gossip/noise
-        # that had an ambiguous headline.
-        category2, reason2 = classify(title, summary, name)
-        keep = bool(category2)
-        debug["decisions"].append({"source": name, "title": title, "link": link, "keep": keep, "category": category2, "reason": reason2})
-        if keep:
-            result.append(Item(title, link, name, summary, category2, published, ts))
+        debug["decisions"].append({
+            "source": name, "title": title, "link": link, "keep": True,
+            "category": category, "reason": reason,
+        })
+        result.append(Item(title, link, name, summary, category, published, ts))
     return result
 
 
@@ -354,27 +367,22 @@ def duplicates(a: Item, b: Item) -> bool:
 
 def source_priority(item: Item) -> int:
     base = SOURCE_BASE_PRIORITY.get(item.source, 50)
-    # Soompi is particularly useful for official comeback/debut announcements.
     if item.category in {"Debut / new group", "Comeback / release", "Group / member status"} and item.source.startswith("Soompi"):
-        return base + 25
-    # Korean news outlets are preferred for court/legal developments.
+        return base + 30
     if item.category in {"Legal / dispute", "Contract / agency"} and item.source in {"Yonhap K-pop", "Korea Herald"}:
         return base + 20
     return base
 
 
 def dedupe(items: list[Item], debug: dict) -> list[Item]:
-    # Consider higher-quality sources first, then more recent items.
     ranked = sorted(items, key=lambda x: (source_priority(x), x.sort_ts), reverse=True)
     kept: list[Item] = []
     for item in ranked:
         match = next((existing for existing in kept if duplicates(item, existing)), None)
         if match:
             debug["duplicates"].append({
-                "dropped": item.title,
-                "dropped_source": item.source,
-                "kept": match.title,
-                "kept_source": match.source,
+                "dropped": item.title, "dropped_source": item.source,
+                "kept": match.title, "kept_source": match.source,
                 "category": item.category,
             })
             continue
@@ -395,7 +403,7 @@ def build_feed(items: list[Item]) -> bytes:
     add_text(
         channel,
         "description",
-        "Alleen betekenisvolle K-pop-veranderingen: debuts, comebacks/releases, contracten/agencies, juridische zaken, groepsstatus en belangrijke labelontwikkelingen. Geen gossip, lifestyle, dating, donaties, luxe-aankopen, charts of teaser-spam. Geen Reddit.",
+        "Betekenisvolle K-pop-veranderingen: debuts, comebacks/releases, contracten/agencies, relevante juridische zaken, groepsstatus en belangrijke labelontwikkelingen. Geen gossip, lifestyle, dating, donaties, charts of teaser-spam. Geen Reddit.",
     )
     add_text(channel, "language", "en")
     add_text(channel, "lastBuildDate", format_datetime(datetime.now(timezone.utc)))
@@ -409,7 +417,6 @@ def build_feed(items: list[Item]) -> bytes:
         add_text(node, "pubDate", item.published)
         add_text(node, "category", item.category)
         add_text(node, "source", item.source, {"url": item.link})
-
         description = f"{item.source} • {item.category}"
         if item.summary:
             description += "\n\n" + item.summary
@@ -422,11 +429,8 @@ def build_feed(items: list[Item]) -> bytes:
 def main() -> int:
     debug = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "sources": [],
-        "decisions": [],
-        "duplicates": [],
+        "sources": [], "decisions": [], "duplicates": [],
     }
-
     candidates: list[Item] = []
     for name, cfg in SOURCES.items():
         if cfg["kind"] == "rss":

@@ -1,16 +1,25 @@
-name: Update filtered AutoWeek RSS
+name: Update curated car RSS
 
 on:
   schedule:
     # Twice per hour, deliberately away from :00 when GitHub cron is busiest.
     - cron: "13,43 * * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "feeds/autoweek/**"
+      - "feeds/cars/**"
+      - ".github/workflows/autoweek-filtered-feed.yml"
 
 permissions:
   contents: write
 
 jobs:
   build-feed:
+    # Generated-feed commits trigger `push` too; do not recursively rebuild them.
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -21,20 +30,31 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install feed parser
-        run: python -m pip install --disable-pip-version-check feedparser
+      - name: Install feed dependencies
+        run: python -m pip install --disable-pip-version-check feedparser beautifulsoup4
 
-      - name: Build filtered feed
+      - name: Build filtered AutoWeek core feed
         run: python feeds/autoweek/filter_feed.py
 
-      - name: Commit changed feed
+      - name: Build curated multi-source feed
+        run: python feeds/cars/curated_feed.py
+
+      - name: Commit changed feeds
         run: |
-          if git diff --quiet -- feeds/autoweek/autoweek-filtered.xml feeds/autoweek/filter-debug.json; then
+          if git diff --quiet -- \
+            feeds/autoweek/autoweek-filtered.xml \
+            feeds/autoweek/filter-debug.json \
+            feeds/cars/micas-autofeed.xml \
+            feeds/cars/curated-debug.json; then
             echo "No feed changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feeds/autoweek/autoweek-filtered.xml feeds/autoweek/filter-debug.json
-          git commit -m "Update filtered AutoWeek feed"
+          git add \
+            feeds/autoweek/autoweek-filtered.xml \
+            feeds/autoweek/filter-debug.json \
+            feeds/cars/micas-autofeed.xml \
+            feeds/cars/curated-debug.json
+          git commit -m "Update curated car feeds"
           git push

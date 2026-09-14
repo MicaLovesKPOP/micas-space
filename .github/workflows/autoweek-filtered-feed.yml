@@ -37,7 +37,7 @@ jobs:
         run: python feeds/autoweek/filter_feed.py
 
       - name: Build curated multi-source feed
-        run: python feeds/cars/curated_feed.py
+        run: python feeds/cars/run_curated.py
 
       - name: Commit changed feeds
         run: |

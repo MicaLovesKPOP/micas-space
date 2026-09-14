@@ -1,58 +1,34 @@
 #!/usr/bin/env python3
-"""Build a lightweight RSS feed from Reuters' public World section.
+"""Build a lightweight Reuters World RSS feed from Reuters' public news sitemaps.
 
-Reuters no longer offers the old public RSS endpoints. This script reads the
-public World landing page, keeps the stories Reuters itself places there, and
-writes a normal RSS 2.0 feed for Inoreader. It stores only headline, a short
-publisher-provided description, timestamp and original Reuters URL; it never
-copies article bodies.
+Reuters' normal site blocks cloud scrapers, but its robots.txt explicitly
+publishes news-sitemap endpoints for machine discovery. We use only those
+metadata feeds: headline, publication time and original Reuters URL. Article
+bodies are never fetched or copied.
 """
 
 from __future__ import annotations
 
-import html
 import json
 import re
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit, urlunsplit
+from urllib.parse import urlsplit, urlunsplit
 from xml.etree import ElementTree as ET
-
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / "reuters-world.xml"
 DEBUG_OUTPUT = ROOT / "reuters-world-debug.json"
 WORLD_URL = "https://www.reuters.com/world/"
-BASE_URL = "https://www.reuters.com"
+NEWS_SITEMAP_INDEX = "https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml"
 MAX_ITEMS = 30
-USER_AGENT = (
-    "Mozilla/5.0 (compatible; MicasReutersWorldFeed/1.0; "
-    "+https://github.com/MicaLovesKPOP/micas-space)"
-)
+MAX_CHILD_SITEMAPS = 24
+USER_AGENT = "MicasReutersWorldFeed/1.1 (+https://github.com/MicaLovesKPOP/micas-space)"
+
+NEWS_NS = "http://www.google.com/schemas/sitemap-news/0.9"
 ARTICLE_PATH = re.compile(r"^/world(?:/[^/?#]+)+/[^/?#]+-\d{4}-\d{2}-\d{2}/?$")
-
-
-def clean_text(value: str) -> str:
-    value = html.unescape(value or "")
-    value = re.sub(r"<[^>]+>", " ", value)
-    return re.sub(r"\s+", " ", value).strip()
-
-
-def trim(value: str, limit: int = 520) -> str:
-    value = clean_text(value)
-    if len(value) <= limit:
-        return value
-    return value[: limit - 1].rsplit(" ", 1)[0] + "…"
-
-
-def canonical_url(url: str) -> str:
-    parts = urlsplit(url)
-    path = parts.path if parts.path.endswith("/") else parts.path + "/"
-    return urlunsplit(("https", "www.reuters.com", path, "", ""))
 
 
 def fetch(url: str) -> bytes:
@@ -60,50 +36,18 @@ def fetch(url: str) -> bytes:
         url,
         headers={
             "User-Agent": USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.8",
+            "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.5",
         },
     )
     with urllib.request.urlopen(req, timeout=35) as response:
         return response.read()
 
 
-def discover_world_stories() -> list[dict]:
-    soup = BeautifulSoup(fetch(WORLD_URL), "html.parser")
-    by_url: dict[str, dict] = {}
-
-    for a in soup.find_all("a", href=True):
-        href = urljoin(WORLD_URL, a.get("href", ""))
-        parts = urlsplit(href)
-        if parts.hostname not in {"reuters.com", "www.reuters.com"}:
-            continue
-        if not ARTICLE_PATH.match(parts.path):
-            continue
-
-        url = canonical_url(href)
-        text = clean_text(a.get_text(" ", strip=True))
-        current = by_url.get(url)
-        if current is None:
-            by_url[url] = {"url": url, "title": text}
-        elif len(text) > len(current.get("title", "")):
-            current["title"] = text
-
-    stories = []
-    for item in by_url.values():
-        title = item.get("title", "")
-        # Image-only and tiny utility links are not useful RSS entries.
-        if len(title) < 12:
-            continue
-        stories.append(item)
-        if len(stories) >= MAX_ITEMS:
-            break
-
-    if not stories:
-        raise RuntimeError("Reuters World page yielded no article links")
-    return stories
+def text(node: ET.Element | None) -> str:
+    return (node.text or "").strip() if node is not None else ""
 
 
-def parse_datetime(value: str | None) -> datetime | None:
+def parse_dt(value: str) -> datetime | None:
     if not value:
         return None
     try:
@@ -115,54 +59,119 @@ def parse_datetime(value: str | None) -> datetime | None:
         return None
 
 
-def article_metadata(story: dict) -> dict:
-    result = dict(story)
-    try:
-        soup = BeautifulSoup(fetch(story["url"]), "html.parser")
+def canonical_reuters_url(url: str) -> str:
+    parts = urlsplit(url)
+    path = parts.path if parts.path.endswith("/") else parts.path + "/"
+    return urlunsplit(("https", "www.reuters.com", path, "", ""))
 
-        def meta(*, name: str | None = None, prop: str | None = None) -> str:
-            attrs = {"name": name} if name else {"property": prop}
-            node = soup.find("meta", attrs=attrs)
-            return clean_text(node.get("content", "")) if node else ""
 
-        headline = meta(prop="og:title") or meta(name="twitter:title")
-        description = (
-            meta(prop="og:description")
-            or meta(name="description")
-            or meta(name="twitter:description")
+def child_sitemaps(index_xml: bytes) -> list[str]:
+    root = ET.fromstring(index_xml)
+    entries: list[tuple[datetime | None, int, str]] = []
+    for i, sitemap in enumerate(root.findall("{*}sitemap")):
+        loc = text(sitemap.find("{*}loc"))
+        if not loc:
+            continue
+        lastmod = parse_dt(text(sitemap.find("{*}lastmod")))
+        entries.append((lastmod, i, loc))
+
+    if not entries:
+        # Some sitemap indexes use nested loc elements without conventional wrappers.
+        locs = [text(n) for n in root.findall(".//{*}loc") if text(n)]
+        return locs[:MAX_CHILD_SITEMAPS]
+
+    # Prefer the most recently modified child maps. Entries without lastmod retain
+    # their original order after the dated maps.
+    dated = [e for e in entries if e[0] is not None]
+    undated = [e for e in entries if e[0] is None]
+    dated.sort(key=lambda e: e[0], reverse=True)
+    ordered = dated + undated
+    return [e[2] for e in ordered[:MAX_CHILD_SITEMAPS]]
+
+
+def region_from_path(path: str) -> str:
+    bits = [b for b in path.split("/") if b]
+    if len(bits) >= 2 and bits[0] == "world":
+        return bits[1].replace("-", " ").title()
+    return "World"
+
+
+def parse_news_sitemap(xml_data: bytes) -> list[dict]:
+    root = ET.fromstring(xml_data)
+    items: list[dict] = []
+    for url_node in root.findall("{*}url"):
+        loc = text(url_node.find("{*}loc"))
+        if not loc:
+            continue
+        parts = urlsplit(loc)
+        if parts.hostname not in {"reuters.com", "www.reuters.com"}:
+            continue
+        if not ARTICLE_PATH.match(parts.path):
+            continue
+
+        news = url_node.find(f"{{{NEWS_NS}}}news")
+        if news is None:
+            # Be liberal about namespaces if Reuters changes the prefix/namespace.
+            news = url_node.find("{*}news")
+        title = ""
+        published_raw = ""
+        if news is not None:
+            title = text(news.find(f"{{{NEWS_NS}}}title")) or text(news.find("{*}title"))
+            published_raw = (
+                text(news.find(f"{{{NEWS_NS}}}publication_date"))
+                or text(news.find("{*}publication_date"))
+            )
+        if not title:
+            continue
+
+        canonical = canonical_reuters_url(loc)
+        items.append(
+            {
+                "title": title,
+                "url": canonical,
+                "published_raw": published_raw,
+                "published_dt": parse_dt(published_raw),
+                "region": region_from_path(parts.path),
+            }
         )
-        published = (
-            meta(prop="article:published_time")
-            or meta(name="article:published_time")
-            or meta(name="date")
-        )
-
-        if headline:
-            # Reuters sometimes appends " | Reuters" to page metadata.
-            headline = re.sub(r"\s*\|\s*Reuters\s*$", "", headline, flags=re.I)
-            result["title"] = headline
-        result["description"] = trim(description)
-        result["published"] = published or None
-        result["published_dt"] = parse_datetime(published)
-        result["status"] = "ok"
-    except Exception as exc:  # keep the headline/link even if article enrichment fails
-        result["description"] = ""
-        result["published"] = None
-        result["published_dt"] = None
-        result["status"] = "metadata_error"
-        result["error"] = str(exc)
-    return result
+    return items
 
 
-def enrich(stories: list[dict]) -> list[dict]:
-    results: dict[str, dict] = {}
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        futures = {pool.submit(article_metadata, item): item["url"] for item in stories}
-        for future in as_completed(futures):
-            item = future.result()
-            results[item["url"]] = item
-    # Preserve Reuters' own World-page ordering instead of sorting by timestamps.
-    return [results[item["url"]] for item in stories if item["url"] in results]
+def discover() -> tuple[list[dict], dict]:
+    index_xml = fetch(NEWS_SITEMAP_INDEX)
+    children = child_sitemaps(index_xml)
+    debug = {"child_sitemaps_found": len(children), "child_sitemaps_checked": []}
+
+    by_url: dict[str, dict] = {}
+    for child in children:
+        child_debug = {"url": child}
+        try:
+            rows = parse_news_sitemap(fetch(child))
+            child_debug["world_items"] = len(rows)
+            for item in rows:
+                current = by_url.get(item["url"])
+                if current is None:
+                    by_url[item["url"]] = item
+                else:
+                    a = item.get("published_dt")
+                    b = current.get("published_dt")
+                    if a and (not b or a > b):
+                        by_url[item["url"]] = item
+        except Exception as exc:
+            child_debug["error"] = str(exc)
+        debug["child_sitemaps_checked"].append(child_debug)
+
+        # Current Google News sitemaps normally cover only a short recency window.
+        # Once we have a healthy buffer there is no need to fetch older maps.
+        if len(by_url) >= MAX_ITEMS * 3:
+            break
+
+    stories = list(by_url.values())
+    stories.sort(
+        key=lambda x: x.get("published_dt") or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+    return stories[:MAX_ITEMS], debug
 
 
 def build_rss(stories: list[dict]) -> None:
@@ -171,7 +180,8 @@ def build_rss(stories: list[dict]) -> None:
     ET.SubElement(channel, "title").text = "Reuters World — Mica"
     ET.SubElement(channel, "link").text = WORLD_URL
     ET.SubElement(channel, "description").text = (
-        "Reuters World headlines in RSS form. Direct Reuters links; no Google, Reddit or proxy reader."
+        "Latest Reuters World stories rebuilt from Reuters' official news-sitemap metadata. "
+        "Every item links directly to Reuters; no Google News, Reddit or proxy reader."
     )
     ET.SubElement(channel, "language").text = "en"
     ET.SubElement(channel, "lastBuildDate").text = format_datetime(datetime.now(timezone.utc))
@@ -185,11 +195,13 @@ def build_rss(stories: list[dict]) -> None:
         guid.text = story["url"]
         if story.get("published_dt"):
             ET.SubElement(item, "pubDate").text = format_datetime(story["published_dt"])
-        ET.SubElement(item, "category").text = "World"
+        ET.SubElement(item, "category").text = story.get("region") or "World"
         source = ET.SubElement(item, "source", {"url": WORLD_URL})
         source.text = "Reuters"
-        description = story.get("description") or "Open the original Reuters story for details."
-        ET.SubElement(item, "description").text = f"Reuters • World\n\n{description}"
+        ET.SubElement(item, "description").text = (
+            f"Reuters • World / {story.get('region', 'World')}\n\n"
+            "Headline from Reuters' official news sitemap. Open the original Reuters story for the article."
+        )
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
@@ -197,28 +209,24 @@ def build_rss(stories: list[dict]) -> None:
 
 
 def main() -> int:
-    debug = {
+    debug: dict = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": WORLD_URL,
+        "source": NEWS_SITEMAP_INDEX,
         "max_items": MAX_ITEMS,
     }
     try:
-        discovered = discover_world_stories()
-        stories = enrich(discovered)
+        stories, discovery_debug = discover()
+        debug.update(discovery_debug)
+        if not stories:
+            raise RuntimeError("Reuters news sitemaps yielded no /world/ articles")
         build_rss(stories)
-        debug["discovered_items"] = len(discovered)
         debug["final_items"] = len(stories)
-        debug["metadata_errors"] = [
-            {"title": s["title"], "url": s["url"], "error": s.get("error")}
-            for s in stories
-            if s.get("status") != "ok"
-        ]
         debug["items"] = [
             {
                 "title": s["title"],
                 "url": s["url"],
-                "published": s.get("published"),
-                "status": s.get("status"),
+                "published": s.get("published_raw"),
+                "region": s.get("region"),
             }
             for s in stories
         ]

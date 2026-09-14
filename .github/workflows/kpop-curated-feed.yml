@@ -33,7 +33,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check feedparser beautifulsoup4
 
       - name: Build curated K-pop feed
-        run: python feeds/kpop/build_feed_v2.py
+        run: python feeds/kpop/build_feed_v3.py
 
       - name: Commit changed feed
         run: |

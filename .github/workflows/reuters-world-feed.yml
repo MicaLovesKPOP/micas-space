@@ -2,7 +2,7 @@ name: Update Reuters World RSS
 
 on:
   schedule:
-    # Hourly is plenty for an RSS supplement; NOS handles breaking-news push alerts.
+    # Keep the existing hourly cadence; NOS supplies breaking-news push alerts.
     - cron: "23 * * * *"
   workflow_dispatch:
   push:
@@ -10,39 +10,58 @@ on:
       - main
     paths:
       - "feeds/news/build_reuters_world.py"
+      - "feeds/news/world_selection.py"
+      - "feeds/news/tests/**"
       - ".github/workflows/reuters-world-feed.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: reuters-world-feed
+  cancel-in-progress: false
+
 jobs:
   build-feed:
-    # Avoid rebuilding when the bot commits only generated feed/debug files.
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependency
-        run: python -m pip install --disable-pip-version-check beautifulsoup4
+      - name: Test selection and publication safeguards
+        run: python -m unittest discover -s feeds/news/tests -v
 
-      - name: Build Reuters World feed
+      - name: Build curated Reuters World feed
         run: python feeds/news/build_reuters_world.py
 
-      - name: Commit changed feed
+      - name: Commit changed feed and publication history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feeds/news/reuters-world.xml feeds/news/reuters-world-debug.json
+          git add feeds/news/reuters-world.xml feeds/news/reuters-world-debug.json feeds/news/reuters-world-state.json
           if git diff --cached --quiet; then
             echo "No Reuters feed changes to commit."
             exit 0
           fi
-          git commit -m "Update Reuters World feed"
-          git push
+          git commit -m "Update curated Reuters World feed"
+          # The car/K-pop jobs may have published since checkout. Rebase those
+          # disjoint changes instead of overwriting them or force-pushing.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Could not publish feed after concurrent repository updates."
+          exit 1

@@ -66,9 +66,10 @@ def tolls(title: str) -> dict[str, int]:
 FEATURE = (r"^(?:analysis|explainer|factbox|timeline|profile|column|opinion)\b|"
            r"\b\d+ years? (?:on|after)\b|\banniversary\b|\bthe reporter who\b|"
            r"\bthe reuters reporter\b")
-REACTION = (r"\b(?:express(?:es)? relief|welcomes?|hails?|praises?|blasts?|slams?|"
+REACTION = (r"\b(?:express(?:es)? relief|welcomes?|hails?|praises?|slams?|"
             r"demands? justice|attributes?|condemns?|criticis(?:es|e)|criticiz(?:es|e))\b|"
             r"\b(?:vows? to|calls? for|urges? .{0,45} to|hopes? for)\b|"
+            r"\bblasts? (?:the )?(?:election|government|decision|policy|calls|proposal)\b|"
             r"\b(?:documentary|insider|privately met|long for loved ones)\b")
 MARKETS = (r"^(?:stocks|shares|tech stocks|global .{0,20}stocks|gold|silver|dollar|"
            r"oil prices|bitcoin|sterling|yen|euro|gulf equities|south african rand|"
@@ -93,7 +94,8 @@ def classify(title: str) -> Decision:
         return no("feature_or_retrospective")
     if has(PROCEDURAL, t):
         return no("preview_poll_or_administrative_step")
-    if has(r"\b(?:considers?|weighs?|plans? to|threatens? to|expected to|poised to|may launch|could launch)\b", t):
+    if has(r"\b(?:considers?|weighs?|plans? to|threatens? to|expected to|poised to|may launch|could launch|"
+           r"(?:may|could) (?:give|help|pave|reshape))\b", t):
         return no("proposal_or_speculation_not_implementation")
     if has(REACTION, t):
         return no("reaction_commentary_or_promise")
@@ -142,7 +144,8 @@ def classify(title: str) -> Decision:
 
     # Subnational contests and poll fluctuations are not automatic world headlines.
     election = has(r"\b(?:election|elections|presidential vote|parliamentary vote|referendum)\b", t)
-    local = has(r"\b(?:state election|regional election|local election|mayoral|municipal|by-election)\b", t)
+    local = has(r"\b(?:state election|regional election|local election|mayoral|municipal|by-election|"
+                r"gubernatorial|prefectural|regional vote|state vote)\b", t)
     if election and not local:
         if has(r"\b(?:annulled|annuls?|overturned|overturns?|invalidates?|invalidated)\b", t):
             return yes("election.annulment", "election_result_invalidated", 100)
@@ -156,6 +159,12 @@ def classify(title: str) -> Decision:
     if has(r"\b(?:president|prime minister|government|ruling coalition)\b", t) and has(
             r"\b(?:resigns?|resigned|ousted|overthrown|impeached|assassinated|dies|"
             r"collapses?|loses? .{0,20}confidence|no-confidence vote|forms? .{0,20}government)\b", t):
+        corporate_role = has(
+            r"\b(?:company|corporate|bank|airline|utility|university|association) president\b|"
+            r"\bpresident of (?:a |the )?(?:company|bank|airline|university|association)\b|"
+            r"\bits president\b.{0,80}\b(?:nuclear restart|shareholders?|board|company)\b", t)
+        if corporate_role:
+            return no("corporate_leadership_not_national_power")
         return yes("power.change", "change_in_national_power", 95)
     if has(r"\b(?:opposition leader|presidential candidate)\b", t) and has(
             r"\b(?:jailed|arrested|assassinated|barred from)\b", t):
@@ -163,6 +172,10 @@ def classify(title: str) -> Decision:
 
     if has(r"\b(?:sanctions?|embargo|tariffs?|export (?:ban|curbs|controls|restrictions))\b", t) and has(
             r"\b(?:imposes?|introduces?|approves?|lifts?|removes?|bans?|unveils?|agrees?)\b", t):
+        if has(r"\bsanctions? (?:on|against) "
+               r"(?:(?:his|her|their|a|an|the|former|ex-)\s*){0,3}"
+               r"(?:press secretary|spokesperson|spokesman|aide|blogger|journalist)\b", t):
+            return no("narrow_individual_sanction_not_major_policy")
         phase = "lift" if has(r"\b(?:lifts?|removes?)\b", t) else "impose"
         return yes("policy.trade." + phase, "new_sanctions_or_trade_policy_not_routine_renewal", 80)
     if has(r"\b(?:treaty|defence pact|defense pact|trade agreement|trade deal|"
@@ -181,7 +194,8 @@ def classify(title: str) -> Decision:
         return yes("disaster.toll", "large_reported_human_impact", 90)
     if has(r"\b(?:earthquake|quake|tsunami|hurricane|cyclone|typhoon|floods?|wildfires?|volcano)\b", t) and has(
             r"\b(?:mass evacuations?|evacuates? thousands|category [45]|major tsunami|"
-            r"tsunami warning|state of emergency|national emergency)\b|"
+            r"tsunami warning|state of emergency|national emergency|"
+            r"(?:threatens?|engulfs?|reaches?) .{0,40}capital)\b|"
             r"\b(?:magnitude[- ]?|magnitude of )?[789]\.\d[- ]magnitude\b|"
             r"\bmagnitude[- ]?[789]\.\d\b", t):
         return yes("disaster.warning", "major_disaster_or_serious_emergency_warning", 90)
@@ -203,6 +217,9 @@ def classify(title: str) -> Decision:
             r"\b(?:hottest year|hottest month|climate tipping point|climate treaty|"
             r"emissions treaty|ozone recovery)\b", t):
         return yes("climate.global", "major_global_climate_finding_or_agreement", 80)
+    if has(r"\b(?:trigger|triggers|spark|sparks|erupt|erupted)\b", t) and has(
+            r"\b(?:widest|largest) protests\b.{0,60}\bsince\b", t):
+        return yes("society.national", "major_new_wave_of_protests", 85)
     if has(r"\b(?:nationwide|across the country|national|millions)\b", t) and has(
             r"\b(?:blackout|power outage|internet shutdown|general strike|mass protests|"
             r"protests spread|bans? .{0,25}opposition|suspends? .{0,25}constitution)\b", t):

@@ -1,17 +1,32 @@
 {
-  "generated_at": "2026-09-14T12:37:33.191097+00:00",
+  "generated_at": "2026-09-14T18:10:38.239774+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Van alle auto's in Nederland heeft 93 procent gewoon nog een verbrandingsmotor",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/van-alle-autos-in-nederland-heeft-93-procent-gewoon-nog-een-verbrandingsmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "title": "De Porsche Macan van Onno (63) zorgt voor problemen op de rollenbank: 'Het is één vlakke bodem'",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-porsche-macan-van-onno-63-zorgt-voor-problemen-op-de-rollenbank-het-is-een-vlakke-bodem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "In één jaar zijn er in Nederland 134.000 elektrische auto's bijgekomen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/van-alle-autos-in-nederland-heeft-93-procent-gewoon-nog-een-verbrandingsmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
         "major": [],
         "exceptional": [],
         "boring": [],
@@ -342,23 +357,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Prijzen aan de pomp iets omhoog, diesel klimt naar recordhoogte",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/prijzen-aan-de-pomp-iets-omhoog-diesel-klimt-naar-recordhoogte/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [
-          "duurder"
-        ],
         "routine_product": []
       }
     }

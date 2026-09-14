@@ -1,10 +1,142 @@
 {
-  "generated_at": "2026-09-14T06:18:39.967123+00:00",
+  "generated_at": "2026-09-14T12:37:33.191097+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Van alle auto's in Nederland heeft 93 procent gewoon nog een verbrandingsmotor",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/van-alle-autos-in-nederland-heeft-93-procent-gewoon-nog-een-verbrandingsmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Toyota wil flink minder variatie in onderdelen: tot -76 procent!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-wil-flink-minder-variatie-in-onderdelen-tot-76-procent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is de nieuwe BMW 3-serie!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-bmw-3-serie-is-nu-al-te-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Kia PV7: Kia's grootste is er als bedrijfswagen én als PV7 Passenger!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kia-pv7-kias-grootste-is-er-als-bedrijfswagen-en-als-pv7-passenger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Na lange periode van enorme stijging daalt de benzineprijs weer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/na-lange-periode-van-enorme-stijging-daalt-de-benzineprijs-weer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Renault Trafic: belangrijke elektrische bedrijfswagen heeft 470 kilometer bereik",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-renault-trafic-elektrische-bedrijfswagen-met-470-kilometer-bereik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen Mission Efficiency: superzuinig vierzittertje op ID Polo-basis",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-mission-efficiency-superzuinig-vierzittertje-op-id-polo-basis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Polestar 4 SUV: goedkoper dan de 4 Coupé, maar tijdelijk toch duurder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/polestar-4-suv-goedkoper-dan-de-4-coupe-maar-tijdelijk-toch-duurder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "polestar"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper",
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Hybride Kia K4 klaar voor Nederland: eindelijk meer vermogen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hybride-kia-k4-bijna-klaar-voor-nederland-eindelijk-meer-vermogen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -227,131 +359,6 @@
         "boring": [
           "duurder"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Trump staat open voor Chinese autofabrieken in VS",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/trump-staat-open-voor-chinese-autofabrieken-in-vs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mazda CX-6e is veel beter dan zijn lagere broer. Maar....",
-      "link": "https://www.autoweek.nl/autotests/artikel/mazda-cx-6e-is-veel-beter-dan-zijn-lagere-broer-maar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Mijn Suzuki Vitara uit 2025 begint vanaf 60 km/h te trillen maar de dealer kan niets vinden'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mijn-suzuki-vitara-uit-2025-begint-vanaf-60-km-h-te-trillen-maar-de-dealer-kan-niets-vinden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Handig tijdens OV-staking of anders wel uit heimwee naar MPV: deze zevenzitters koop je voor 5k",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/handig-tijdens-ov-staking-of-anders-wel-uit-heimwee-naar-mpv-deze-zevenzitters-koop-je-voor-e5-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "De zwaarste en grootste Tesla ooit komt naar Europa met een 548 kWh accu",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-zwaarste-en-grootste-tesla-ooit-komt-naar-europa-en-heeft-548-kwh-accu/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "kwh"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Kabinet trekt 750 miljoen euro extra uit om pijn aan de pomp iets te verzachten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kabinet-trekt-750-miljoen-euro-extra-uit-om-pijn-aan-de-pomp-iets-te-verzachten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit was nieuw al een beetje een vreemde auto, maar nu zeker - In het wild",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-was-nieuw-al-een-beetje-een-vreemde-auto-maar-nu-zeker-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Porsche 718 Boxster doet circuitervaring op",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-porsche-718-boxster-doet-circuitervaring-op/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Skoda Superb viert jubileum: van vreemde eend tot bekende ruimtereus",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-superb-viert-jubileum-van-vreemde-eend-tot-bekende-ruimtereus/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

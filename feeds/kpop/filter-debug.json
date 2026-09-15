@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T15:41:10.438743+00:00",
+  "generated_at": "2026-09-15T19:12:20.565585+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 38
+      "items": 28
     },
     {
       "name": "Music Business Worldwide",
@@ -28,8 +28,8 @@
     {
       "name": "Yonhap K-pop",
       "url": "https://en.yna.co.kr/culture/k-pop",
-      "status": "error",
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "status": "ok",
+      "items": 20
     }
   ],
   "decisions": [
@@ -258,84 +258,28 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "Red Velvet’s Irene, Seulgi to make splash in Japan",
-      "link": "https://www.koreaherald.com/article/10869090",
+      "source": "Music Business Worldwide",
+      "title": "Independence in an interdependent industry.",
+      "link": "https://www.musicbusinessworldwide.com/independence-in-an-interdependent-industry/",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Korea Herald",
-      "title": "Rose to release 'New Trick,' shot on iPhone 18 Pro",
-      "link": "https://www.koreaherald.com/article/10869046",
+      "source": "Music Business Worldwide",
+      "title": "Panic! at the Disco company sues online sellers over counterfeit merch",
+      "link": "https://www.musicbusinessworldwide.com/panic-at-the-disco-company-sues-online-sellers-over-counterfeit-merch/",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Korea Herald",
-      "title": "BTS makes Billboard’s summer songs ranking with ‘Swim’",
-      "link": "https://www.koreaherald.com/article/10868918",
+      "source": "Music Business Worldwide",
+      "title": "Universal Music Group sues DistroKid, accusing it of ‘unlawful practices’ and ‘flooding platforms with AI-generated slop’",
+      "link": "https://www.musicbusinessworldwide.com/universal-music-group-sues-distrokid-ai-generated-slop/",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Creator gets prison time for fabricated video of Ive’s Wonyoung",
-      "link": "https://www.koreaherald.com/article/10868842",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Hwasa performs at state dinner during Lee Jae Myung’s France visit",
-      "link": "https://www.koreaherald.com/article/10868155",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Why are Japan-based groups turning their attention to Korea?",
-      "link": "https://www.koreaherald.com/article/10867948",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Stray Kids anchor new 'Straycity' festival in Latin America",
-      "link": "https://www.koreaherald.com/article/10867899",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Seventeen’s Jun cast in another Chinese film",
-      "link": "https://www.koreaherald.com/article/10867648",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Boycott calls extend to Jennie over Adidas Israel campaign",
-      "link": "https://www.koreaherald.com/article/10867647",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Lightsum to drop prerelease from Japan debut album",
-      "link": "https://www.koreaherald.com/article/10867606",
-      "keep": false,
-      "category": null,
-      "reason": "regional-market debut rather than a new act"
+      "reason": "legal story unrelated to contracts/agency business/artist rights"
     },
     {
       "source": "Music Business Worldwide",
@@ -394,28 +338,12 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Non-English-speaking artists now account for 30% of Live Nation’s top 50 tours – but 47 of the top 75 international markets lack modern arenas to host them",
-      "link": "https://www.musicbusinessworldwide.com/non-english-speaking-artists-account-for-30-of-live-nations-top-50-tours-up-from-8-pre-covid-and-47-of-the-top-75-international-markets-lack-the-arenas-to-host-them/",
+      "source": "Soompi Music",
+      "title": "SHINee’s Minho Breaks His 1st-Week Sales Record With “Make it hot”",
+      "link": "https://www.soompi.com/article/1870870wpp/shinees-minho-breaks-his-1st-week-sales-record-with-make-it-hot",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Matt Serletic – Grammy-winning producer, ex-Virgin Records, Amazon Music exec – named Dean of the University of Miami’s Frost School of Music",
-      "link": "https://www.musicbusinessworldwide.com/matt-serletic-grammy-winning-producer-ex-virgin-records-amazon-music-exec-named-dean-of-the-university-of-miamis-frost-school-of-music/",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Spotify promotes Mia Nygren to Vice President and General Manager for Europe and Latin America",
-      "link": "https://www.musicbusinessworldwide.com/spotify-promotes-mia-nygren-to-vice-president-and-general-manager-for-europe-and-latin-america/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: sales record"
     },
     {
       "source": "Soompi Music",
@@ -890,9 +818,9 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Music",
-      "title": "Watch: WAYF BOYS Flaunts Their “SWAG” In Chill MV For New Single",
-      "link": "https://www.soompi.com/article/1867453wpp/watch-wayf-boys-flaunts-their-swag-in-chill-mv-for-new-single",
+      "source": "Soompi Celeb",
+      "title": "Watch: JYP Boy Group KickFlip Introduces Adorable “KICKDOONGS” Characters For Each Member",
+      "link": "https://www.soompi.com/article/1870888wpp/watch-kickflip-introduces-adorable-kickdoongs-characters-for-each-member",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1370,15 +1298,195 @@
       "reason": "Soompi Celeb: acting/non-music item"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "THE BOYZ’s Hyunjae Poses In New Profile Photos As Actor Lee Jae Hyun",
-      "link": "https://www.soompi.com/article/1867185wpp/the-boyzs-hyunjae-poses-in-new-profile-photos-as-actor-lee-jae-hyun",
+      "source": "Yonhap K-pop",
+      "title": "'Dracula' featuring Jennie longest-charting song by K-pop artist in Hot 100's top 10",
+      "link": "https://en.yna.co.kr/view/AEN20260915010600315?section=culture/k-pop",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Stray Kids' Felix donates 300 mln won for child patients, Nepal relief",
+      "link": "https://en.yna.co.kr/view/AEN20260915005500315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "celebrity/lifestyle noise: donates"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Stray Kids electrifies 100,000 fans at Brazil's Rock in Rio",
+      "link": "https://en.yna.co.kr/view/AEN20260914008400315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "TXT to launch new world tour in Nov.",
+      "link": "https://en.yna.co.kr/view/AEN20260914006200315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Girl group Illit to return with new EP next month",
+      "link": "https://en.yna.co.kr/view/AEN20260914005200315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "The Boyz to restart group activities under new label after contract dispute",
+      "link": "https://en.yna.co.kr/view/AEN20260914004900315?section=culture/k-pop",
+      "keep": true,
+      "category": "Contract / agency",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Riize to release 2nd studio album next spring",
+      "link": "https://en.yna.co.kr/view/AEN20260914001800315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Le Sserafim drops new single 'Made My Night'",
+      "link": "https://en.yna.co.kr/view/AEN20260911005100315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Aespa to drop digital single featuring new solo pieces from each member",
+      "link": "https://en.yna.co.kr/view/AEN20260911002300315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "BTS to stream live concerts in Argentina, Brazil at theaters worldwide",
+      "link": "https://en.yna.co.kr/view/AEN20260911002000315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "BTS' 'Arirang' tour tops ticket scalping reports over past year",
+      "link": "https://en.yna.co.kr/view/AEN20260910004900315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "IU to drop self-penned digital single",
+      "link": "https://en.yna.co.kr/view/AEN20260910002500315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Rookie band hrtz.wav hoping to headline Lollapalooza in future",
+      "link": "https://en.yna.co.kr/view/AEN20260909011000315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Stray Kids launches 'Stray City' festival tour in Latin America",
+      "link": "https://en.yna.co.kr/view/AEN20260909005000315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "From powerful dance to gentle piano: &Team shows mature side in new EP",
+      "link": "https://en.yna.co.kr/view/AEN20260908008300315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "BTS' Jungkook hits 500 mln Spotify streams with self-written 'Still With You'",
+      "link": "https://en.yna.co.kr/view/AEN20260908003200315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "BTS concludes N. American tour with record-breaking LA shows",
+      "link": "https://en.yna.co.kr/view/AEN20260908001900315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "(LEAD) Evan shares innermost self on debut EP 'Death of Me'",
+      "link": "https://en.yna.co.kr/view/AEN20260907007051315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Evan shares innermost self on debut EP 'Death of Me'",
+      "link": "https://en.yna.co.kr/view/AEN20260907007000315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "I-dle's Soyeon returns with solo album about quitting work",
+      "link": "https://en.yna.co.kr/view/AEN20260907002000315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
+    {
+      "dropped": "The Boyz find new agency for team activities",
+      "dropped_source": "Korea Herald",
+      "kept": "The Boyz to restart group activities under new label after contract dispute",
+      "kept_source": "Yonhap K-pop",
+      "category": "Contract / agency"
+    },
+    {
+      "dropped": "Girl group Illit to return with new EP next month",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "ILLIT Announces Fall Comeback Date",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
+      "dropped": "Riize to release 2nd studio album next spring",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "RIIZE Announces October Comeback And 2027 Plans For New Full-Length Album",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
+      "dropped": "Evan shares innermost self on debut EP 'Death of Me'",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "(LEAD) Evan shares innermost self on debut EP 'Death of Me'",
+      "kept_source": "Yonhap K-pop",
+      "category": "Debut / new group"
+    },
     {
       "dropped": "Illit announces October comeback",
       "dropped_source": "Korea Herald",
@@ -1394,6 +1502,13 @@
       "category": "Comeback / release"
     },
     {
+      "dropped": "Aespa to drop single album with solo tracks",
+      "dropped_source": "Korea Herald",
+      "kept": "Aespa to drop digital single featuring new solo pieces from each member",
+      "kept_source": "Yonhap K-pop",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "Chungha Parts Ways With MORE VISION",
       "dropped_source": "Soompi Celeb",
       "kept": "Go Soo Parts Ways With BH Entertainment After 15 Years",
@@ -1403,11 +1518,11 @@
     {
       "dropped": "9 Members Of THE BOYZ Officially Sign With New Agency For Group Activities",
       "dropped_source": "Soompi Celeb",
-      "kept": "The Boyz find new agency for team activities",
-      "kept_source": "Korea Herald",
+      "kept": "The Boyz to restart group activities under new label after contract dispute",
+      "kept_source": "Yonhap K-pop",
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 23,
-  "final_items": 19
+  "candidate_items": 32,
+  "final_items": 23
 }

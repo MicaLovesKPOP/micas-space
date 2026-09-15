@@ -1,10 +1,115 @@
 {
-  "generated_at": "2026-09-15T10:24:56.386447+00:00",
+  "generated_at": "2026-09-15T15:15:31.245388+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 19,
+  "dropped_items": 6,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Er komt een sloopregeling voor wie brandstofauto inruilt op elektrische auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kabinet-komt-met-inruilregeling-voor-wie-brandstofauto-inruilt-op-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bovag wil uitstel pseudo-eindheffing en uitzondering voor dealerdemo's",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bovag-wil-uitstel-pseudo-eindheffing-en-uitzondering-voor-dealerdemos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Greentimerregeling: lagere bijtelling voor elektrische auto’s van vijf jaar en ouder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/lagere-bijtelling-voor-elektrische-autos-van-vijf-jaar-en-ouder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "bijtelling"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Youngtimergrens per 2028 naar 20 jaar, 25-jaar-grens van de baan",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/youngtimergrens-per-2028-naar-20-jaar-afschaffing-van-de-baan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Amerika’s populairste ‘auto’ krijgt meer V8-opties",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/amerikas-populairste-auto-krijgt-meer-v8-opties/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "‘Nieuwe BMW M3 wordt zo goedkoop als in 2007’",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-bmw-m3-wordt-zo-goedkoop-als-in-2007/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe motoren voor Mercedes-Benz E-klasse, maar ze zijn vrijwel overbodig",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-motoren-voor-mercedes-benz-e-klasse-maar-ze-zijn-vrijwel-overbodig/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [
+          "leverbaar"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -271,103 +376,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo zuinig is de Mitsubishi Colt in vergelijking met de vrijwel identieke Renault Clio",
-      "link": "https://www.autoweek.nl/autotests/artikel/zo-zuinig-is-de-mitsubishi-colt-in-vergelijking-met-de-vrijwel-identieke-renault-clio/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De Polestar 5 smijt je met een zijden handschoen naar de horizon",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-polestar-5-smijt-je-met-een-zijden-handschoen-naar-de-horizon/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "polestar"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Pas na 6 jaar dacht Opel aan een GSi voor de Corsa A",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/pas-na-6-jaar-dacht-opel-aan-een-gsi-voor-de-corsa-a/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Onze Zeekr 7X heeft bizar veel vermogen, maar te veel kan blijkbaar ook",
-      "link": "https://www.autoweek.nl/autotests/artikel/onze-zeekr-7x-heeft-bizar-veel-vermogen-maar-te-veel-kan-blijkbaar-ook/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "zeekr"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Omdat auto's zo duur zijn in Dominica verscheepte Herman zijn Saab 900",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/omdat-autos-zo-duur-zijn-in-dominicaanse-republiek-verscheepte-herman-zijn-net-aangeschafte-saab-900/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Alfa Romeo Giulietta keert terug op basis van bekend recept - Vooruitblik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-alfa-romeo-giulietta-keert-terug-op-basis-van-bekend-recept/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Als instapper was deze Volkswagen Golf II superkaal, maar daar is iets aan gedaan",
-      "link": "https://www.autoweek.nl/autotests/artikel/in-de-basis-was-deze-volkswagen-golf-ii-superkaal-maar-daar-is-iets-aan-gedaan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "instapper"
-        ]
       }
     }
   ]

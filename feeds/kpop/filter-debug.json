@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T00:55:26.259490+00:00",
+  "generated_at": "2026-09-15T06:09:25.048786+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -35,6 +35,30 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "Lisa’s apology over racial slur reignites debate",
+      "link": "https://www.koreaherald.com/article/10874195",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "&Team hits career-best with 2nd EP sales",
+      "link": "https://www.koreaherald.com/article/10874106",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illegal BTS ‘Swim’ copies sold on Temu",
+      "link": "https://www.koreaherald.com/article/10873718",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "K-pop stars shine at Brazil’s Rock in Rio",
       "link": "https://www.koreaherald.com/article/10873142",
       "keep": false,
@@ -48,6 +72,38 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Big Ocean kicks off US tour with sold-out New York show",
+      "link": "https://www.koreaherald.com/article/10872658",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Riize to release second LP in spring 2027",
+      "link": "https://www.koreaherald.com/article/10872651",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit announces October comeback",
+      "link": "https://www.koreaherald.com/article/10872608",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "AllDay Project to return with second EP ‘Crash’",
+      "link": "https://www.koreaherald.com/article/10872593",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
@@ -819,6 +875,14 @@
     },
     {
       "source": "Soompi Celeb",
+      "title": "Stray Kids’ Felix Makes Meaningful Birthday Donation To Help Children In Need",
+      "link": "https://www.soompi.com/article/1870597wpp/stray-kids-felix-makes-meaningful-birthday-donation-to-help-children-in-need",
+      "keep": false,
+      "category": null,
+      "reason": "celebrity/lifestyle noise: donation, birthday"
+    },
+    {
+      "source": "Soompi Celeb",
       "title": "Jeongyeon Unveils Dashing New Profile Photos",
       "link": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "keep": false,
@@ -1290,12 +1354,12 @@
       "reason": "routine PR/fandom noise: brand reputation"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "August Rising Star Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1866699wpp/august-rising-star-brand-reputation-rankings-announced-2",
+      "source": "Yonhap K-pop",
+      "title": "Stray Kids' Felix donates 300 mln won for child patients, Nepal relief",
+      "link": "https://en.yna.co.kr/view/AEN20260915005500315?section=culture/k-pop",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
+      "reason": "celebrity/lifestyle noise: donates"
     },
     {
       "source": "Yonhap K-pop",
@@ -1448,14 +1512,6 @@
       "keep": true,
       "category": "Comeback / release",
       "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BLACKPINK's Lisa and Jisoo release solo singles on same day",
-      "link": "https://en.yna.co.kr/view/AEN20260904007600315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
@@ -1488,6 +1544,20 @@
       "category": "Debut / new group"
     },
     {
+      "dropped": "Illit announces October comeback",
+      "dropped_source": "Korea Herald",
+      "kept": "ILLIT Announces Fall Comeback Date",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
+      "dropped": "AllDay Project to return with second EP ‘Crash’",
+      "dropped_source": "Korea Herald",
+      "kept": "ALLDAY PROJECT Announces September Comeback With 1st Teasers For “CRASH”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "NCT Wish to return with 4th EP next month",
       "dropped_source": "Korea Herald",
       "kept": "Watch: NCT WISH Announces October Comeback Date With Trailer For “I SPY”",
@@ -1509,6 +1579,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 34,
-  "final_items": 27
+  "candidate_items": 35,
+  "final_items": 26
 }

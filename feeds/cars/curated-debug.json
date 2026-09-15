@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:11:34.809194+00:00",
+  "generated_at": "2026-09-15T22:12:35.587053+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -16,32 +16,37 @@
     {
       "name": "Autovisie Klassiekers",
       "url": "https://www.autovisie.nl/klassiekers/feed/",
-      "status": "ok",
-      "items": 12
+      "status": "error",
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Autovisie Youngtimers",
       "url": "https://www.autovisie.nl/youngtimers/feed/",
-      "status": "ok",
-      "items": 12
+      "status": "error",
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Autovisie Uw Garage",
       "url": "https://www.autovisie.nl/video/uw-garage/feed/",
-      "status": "ok",
-      "items": 12
+      "status": "error",
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Autovisie Sjoerds Weetjes",
       "url": "https://www.autovisie.nl/video/sjoerd-weetjes/feed/",
-      "status": "ok",
-      "items": 12
+      "status": "error",
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Autovisie Occasion Battle",
       "url": "https://www.autovisie.nl/video/occasion-battle/feed/",
-      "status": "ok",
-      "items": 12
+      "status": "error",
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "PistonHeads PH Heroes",
@@ -77,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -103,7 +108,7 @@
       "source": "Autoblog",
       "keep": false,
       "reason": "EV-extra",
-      "title": "Porsche presenteert gelimiteerde EV die écht heel licht is",
+      "title": "Porsche lanceert meest nutteloze EV ooit (maar hij is wel leuk)",
       "link": "https://www.autoblog.nl/nieuws/porsche-presenteert-gelimiteerde-ev-die-echt-heel-licht-is",
       "details": {
         "ev": [
@@ -398,471 +403,6 @@
           "ev"
         ]
       }
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Een betaalbare klassieker: waarom deze occasion zo geliefd blijft",
-      "link": "https://www.autovisie.nl/occasions/betaalbare-klassieker-waarom-occasion-geliefd-blijft-citroen-2cv/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Skateboard-icoon Tony Hawk bouwde klassieke Corvette om tot EV: “Puristen vinden dit niet leuk”",
-      "link": "https://www.autovisie.nl/nieuws/skateboard-icoon-tony-hawk-bouwde-klassieke-corvette-om-tot-ev-puristen-vinden-dit-niet-leuk/",
-      "details": {
-        "ev": [
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Een levende legende op wielen: deze occasion was een jongensdroom en kost een fortuin",
-      "link": "https://www.autovisie.nl/occasions/occasion-was-jongensdroom-kost-fortuin-audi-quattro/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": false,
-      "reason": "Autovisie-nieuws",
-      "title": "Ferrari van Michael Jordan duikt na 24 jaar op en moet nu dit megabedrag opleveren bij veiling",
-      "link": "https://www.autovisie.nl/nieuws/ferrari-van-michael-jordan-duikt-na-24-jaar-op-en-moet-nu-dit-megabedrag-opleveren-bij-veiling/",
-      "details": {
-        "tags": [
-          "klassiekers",
-          "nieuws",
-          "veiling"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "De duurste auto van Marktplaats komt uit 1989 (of toch niet?)",
-      "link": "https://www.autovisie.nl/occasions/de-duurste-auto-van-marktplaats-komt-uit-1989-of-toch-niet/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": false,
-      "reason": "Autovisie-nieuws",
-      "title": "Porsche 911 van Nederlandse politie voor recordbedrag geveild: 100.000 dollar meer dan gedacht",
-      "link": "https://www.autovisie.nl/klassiekers/porsche-911-van-nederlandse-politie-voor-recordbedrag-geveild-100-000-dollar-meer-dan-gedacht/",
-      "details": {
-        "tags": [
-          "klassiekers",
-          "nieuws",
-          "politie"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Te koop: schattigste brandweerwagen aller tijden! En hij is niet duur",
-      "link": "https://www.autovisie.nl/klassiekers/te-koop-de-schattigste-brandweerwagen-aller-tijden-en-hij-is-niet-duur/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Voor 18.000 euro kun je een Messerschmitt kopen en nee, deze occasion is geen jachtvliegtuig",
-      "link": "https://www.autovisie.nl/occasions/kunt-messerschmitt-kr200-kopen-occasion-heeft-wielen/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Te koop: de gaafste stationwagon aller tijden had 40 jaar geleden al een digitaal dashboard",
-      "link": "https://www.autovisie.nl/klassiekers/te-koop-de-gaafste-stationwagon-aller-tijden-had-40-jaar-geleden-al-een-digitaal-dashboard/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Opel Kadett GT/E vs. Kadett GSi en Mokka GSE: ‘Opgepepte gewone auto’s met gunfactor’",
-      "link": "https://www.autovisie.nl/reportage/opel-kadett-gte-vs-kadett-gsi-en-mokka-gse-openlijk-stout/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Risicovolle occasion met Italiaanse charme en bijzondere techniek rijdt fantastisch",
-      "link": "https://www.autovisie.nl/occasions/risicovolle-occasion-stuurt-geweldig-charme-alfa-romeo-alfasud/"
-    },
-    {
-      "source": "Autovisie Klassiekers",
-      "keep": false,
-      "reason": "dagelijks/politiek/veilingnieuws",
-      "title": "Deze 3 heerlijke occasions behoren tot de laatste auto’s die wegenbelastingvrije oldtimers worden",
-      "link": "https://www.autovisie.nl/klassiekers/deze-3-heerlijke-occasions-behoren-tot-de-laatste-autos-die-wegenbelastingvrije-oldtimers-worden/",
-      "details": {
-        "news": [
-          "regeling",
-          "belasting",
-          "wegenbelasting"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Deze occasion wil je: zeldzame BMW met V12 en vierwielsturing, waarvan momenteel maar één exemplaar te koop staat",
-      "link": "https://www.autovisie.nl/occasions/deze-occasion-wil-je-een-zeldzame-bmw-met-v12-en-vierwielsturing-waarvan-momenteel-maar-een-exemplaar-te-koop-staat-bmw-850-csi/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Deze oldtimer was een statussymbool, maar koop je als occasion voor minder dan 20.000 euro",
-      "link": "https://www.autovisie.nl/occasions/deze-youngtimer-was-vroeger-een-statussymbool-maar-koop-je-als-occasion-voor-minder-dan-20-000-euro-bmw-7-serie/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Van deze sportieve gezins-occasion staat er momenteel slechts één te koop voor minder dan 1.400 euro",
-      "link": "https://www.autovisie.nl/occasions/maar-1-occasion-te-koop-schamele-1-395-euro-ford-mondeo-st200/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Deze wil je: een zeldzame Italiaanse occasion met een dak zoals je nog nooit hebt gezien",
-      "link": "https://www.autovisie.nl/occasions/occasion-zeldzame-italiaan-bijzonder-dak-qvale-mangusta/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Een van de beste auto’s om mee te beginnen: deze occasion is spotgoedkoop, makkelijk te repareren en licht",
-      "link": "https://www.autovisie.nl/occasions/occasion-spotgoedkoop-maakelijk-repareren-licht-citroen-saxo/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Opel Kadett GT/E vs. Kadett GSi en Mokka GSE: ‘Opgepepte gewone auto’s met gunfactor’",
-      "link": "https://www.autovisie.nl/reportage/opel-kadett-gte-vs-kadett-gsi-en-mokka-gse-openlijk-stout/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": false,
-      "reason": "dagelijks/politiek/veilingnieuws",
-      "title": "Deze 3 heerlijke occasions behoren tot de laatste auto’s die wegenbelastingvrije oldtimers worden",
-      "link": "https://www.autovisie.nl/klassiekers/deze-3-heerlijke-occasions-behoren-tot-de-laatste-autos-die-wegenbelastingvrije-oldtimers-worden/",
-      "details": {
-        "news": [
-          "regeling",
-          "belasting",
-          "wegenbelasting"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Harm (53) heeft een bijzondere Tjaffer: “Het liefst rij ik zonder deuren”",
-      "link": "https://www.autovisie.nl/video/uw-garage/mega-tjaffer-automaat-fun-en-toerauto-fabriek-nooit-leverde/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Voor minder dan 10.000 euro koop je deze lichtvoetige Italiaanse occasion, die een bonafide klassieker is",
-      "link": "https://www.autovisie.nl/occasions/lichtvoetige-italiaanse-occasion-minder-10-000-euro-alfa-romeo-33/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Unieke occasion met Ferrari-motor koop je nu voor 16.900 euro",
-      "link": "https://www.autovisie.nl/occasions/deze-unieke-occasion-met-ferrari-motor-koop-je-voor-16-900-euro/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Deze occasion wil je: er zijn maar 250 exemplaren van deze Volkswagen-hot hatch gemaakt",
-      "link": "https://www.autovisie.nl/occasions/maar-250-exemplaren-vw-occasion-gemaakt-volkswagen-new-beetle-rsi/"
-    },
-    {
-      "source": "Autovisie Youngtimers",
-      "keep": true,
-      "reason": "occasions",
-      "title": "Deze Duitse occasion lijkt nog jong, maar is stiekem al bijna 20 jaar oud",
-      "link": "https://www.autovisie.nl/occasions/deze-duitse-occasion-lijkt-nog-jong-maar-is-stiekem-al-bijna-20-jaar-oud/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "uw garage",
-      "title": "Jean (58) rijdt heel Europa door in zijn Smart Crossblade: “In de regen verzuip ik zo wat”",
-      "link": "https://www.autovisie.nl/video/jean-58-rijdt-heel-europa-door-in-zijn-smart-crossblade-in-de-regen-verzuip-ik-zo-wat/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Harm (53) heeft een bijzondere Tjaffer: “Het liefst rij ik zonder deuren”",
-      "link": "https://www.autovisie.nl/video/uw-garage/mega-tjaffer-automaat-fun-en-toerauto-fabriek-nooit-leverde/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Eelco heeft een vergeten Land Rover uit 1969: “Hij had ongeveer 11.000 km gereden toen ik hem kocht’",
-      "link": "https://www.autovisie.nl/video/uw-garage/eelco-heeft-een-vergeten-land-rover-uit-1969-hij-had-ongeveer-11-000-km-gereden-toen-ik-hem-kocht/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "uw garage",
-      "title": "Allard (23): “Garagisten waarschuwden me deze Alfa Romeo niet te kopen, dat heb ik genegeerd”",
-      "link": "https://www.autovisie.nl/video/uw-garage/allard-23-garagisten-waarschuwden-me-deze-alfa-romeo-niet-te-kopen-dat-heb-ik-genegeerd/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Deze VW uit 1964 is eerste auto van Bram (19): “Ik zat op school toen mijn vader hem ophaalde”",
-      "link": "https://www.autovisie.nl/video/uw-garage/deze-vw-uit-1964-is-eerste-auto-van-bram-19-ik-zat-op-school-toen-mijn-vader-hem-ophaalde/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "uw garage",
-      "title": "Jens (20) kocht zijn droomauto: “Hij stond pas 15 minuten op Marktplaats”",
-      "link": "https://www.autovisie.nl/video/uw-garage/jens-20-kocht-zijn-droomauto-hij-stond-pas-15-minuten-op-marktplaats/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Bij Jacko (54) blijft geen Fiat origineel! Hij maakt er steevast een Abarth van",
-      "link": "https://www.autovisie.nl/video/bij-jacko-54-blijft-geen-fiat-origineel-hij-maakt-er-steevast-een-abarth-van/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "uw garage",
-      "title": "Matthieu (54) kreeg per ongeluk een zak geld en kocht snel deze Alpine… Maar toen belde de gemeente",
-      "link": "https://www.autovisie.nl/video/uw-garage/matthieu-54-kreeg-per-ongeluk-een-zak-geld-en-kocht-snel-deze-alpine-maar-toen-belde-de-gemeente/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "uw garage",
-      "title": "Oscar (29) rijdt een Saab 96 V4 uit 1972: “Hij is nog helemaal origineel”",
-      "link": "https://www.autovisie.nl/video/uw-garage/oscar-29-rijdt-een-saab-96-v4-uit-1972-hij-is-nog-helemaal-origineel/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Rob (27) is Mini-manager, maar rijdt zijn hele leven Peugeot 205: “Met deze auto ga je even terug naar fabrieksinstellingen”",
-      "link": "https://www.autovisie.nl/video/uw-garage/rob-27-is-mini-manager-maar-rijdt-zijn-hele-leven-peugeot-205-met-deze-auto-ga-je-even-terug-naar-je-fabrieksinstellingen/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "uw garage",
-      "title": "Jan (59) kocht een Chevrolet Camaro: “Zelfs met deze benzineprijzen is het wel te doen”",
-      "link": "https://www.autovisie.nl/video/uw-garage/jan-59-kocht-een-chevrolet-camaro-zelfs-met-deze-benzineprijzen-is-het-wel-te-doen/"
-    },
-    {
-      "source": "Autovisie Uw Garage",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Thijs (27) verruilde zijn Porsche voor deze gekke klassieker: “Ik heb hem geen seconde gemist”",
-      "link": "https://www.autovisie.nl/video/uw-garage/thijs-27-verruilde-zijn-porsche-voor-deze-gekke-klassieker-ik-heb-hem-geen-seconde-gemist/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Deze (dure) cadeautjes krijg je bij een Ferrari Monza SP1 van 1,8 miljoen euro",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/bij-deze-ferrari-van-18-miljoen-euro-kreeg-je-er-allerlei-dure-cadeautjes-gratis-bij/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Van deze BMW bestaan er slechts 3 op de hele wereld | Sjoerds Weetjes 520",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/van-deze-bmw-bestaan-er-slechts-3-op-de-hele-wereld/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Zelfs de designer van Lancia zag de bizarre Thesis niet aankomen | Sjoerds Weetjes 519",
-      "link": "https://www.autovisie.nl/video/zelfs-de-designer-van-lancia-zag-de-bizarre-thesis-niet-aankomen-sjoerds-weetjes-519/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Zelfs na vierde titel kreeg Max Verstappen niet zo’n eerbetoon | Sjoerds Weetjes 518",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/zelfs-na-vierde-titel-kreeg-max-verstappen-niet-zon-eerbetoon-sjoerds-weetjes-518/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Een van de spectaculairste Opels ooit is helemaal geen Opel",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/een-van-de-spectaculairste-opels-ooit-is-helemaal-geen-opel/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Kunnen ze bij het Franse DS Automobiles wel tellen? Hier is de DS 5 gebleven | Sjoerds Weetjes 515",
-      "link": "https://www.autovisie.nl/video/kunnen-ze-bij-het-franse-ds-automobiles-wel-tellen-hier-is-de-ds-5-gebleven-sjoerds-weetjes-515/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "“Dit was de eerste keer dan de 1001 pk-W16 in een Bugatti Veyron lag” | Sjoerds Weetjes 514",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/dit-was-de-eerste-keer-dan-de-1001-pk-w16-in-een-bugatti-veyron-lag-sjoerds-weetjes-514/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Van deze Alfa Romeo bestaat er slechts één op de hele wereld",
-      "link": "https://www.autovisie.nl/video/van-deze-alfa-romeo-bestaat-er-slechts-een-op-de-hele-wereld/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Hoe MG met een investering van ‘slechts’ £20 miljoen deze complete auto veranderde",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/hoe-mg-met-een-investering-van-slechts-20-miljoen-deze-complete-auto-veranderde/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "In 1.100 uur wordt een BMW M8 omgetoverd tot deze uiterst zeldzame roadster | Sjoerds Weetjes 510",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/in-1-100-uur-wordt-een-bmw-m8-omgetoverd-tot-deze-uiterst-zeldzame-roadster/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Waarom de Fiat Panda 100 HP last minute geen Abarth mocht zijn | Sjoerds Weetjes 509",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/waarom-de-fiat-panda-100-hp-last-minute-geen-abarth-mocht-zijn-sjoerds-weetjes-509/"
-    },
-    {
-      "source": "Autovisie Sjoerds Weetjes",
-      "keep": true,
-      "reason": "sjoerds weetjes",
-      "title": "Aan deze Opel hangt een Ferrari-prijskaartje | Sjoerds Weetjes 508",
-      "link": "https://www.autovisie.nl/video/sjoerd-weetjes/aan-deze-opel-hangt-een-ferrari-prijskaartje-en-dat-heeft-een-goede-reden/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Elektrische sportwagens voor ‘weinig’: de Audi E-Tron GT en Porsche Taycan zijn flink afgeschreven",
-      "link": "https://www.autovisie.nl/video/occasion-battle/elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgeschreven/",
-      "details": {
-        "ev": [
-          "e-tron",
-          "elektrisch",
-          "taycan"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Met deze occasion tank je voor 0,92 euro per liter: “En hij kost minder dan een iPhone”",
-      "link": "https://www.autovisie.nl/video/occasion-battle/met-deze-occasion-tank-je-voor-092-euro-per-liter-en-hij-kost-minder-dan-een-iphone/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "klassiekers",
-      "title": "Jeep Cherokee XJ vs. Mitsubishi Pajero: leuke hobby-auto’s of met grote boog omheen lopen?",
-      "link": "https://www.autovisie.nl/video/occasion-battle/jeep-cherokee-xj-vs-mitsubishi-pajero-occasion-leuke-hobby-autos-of-met-grote-boog-omheen-lopen/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Audi RS 6 vs. Jaguar XFR-S: dit is de ultieme powerstation met een topsnelheid van 250+ km/h",
-      "link": "https://www.autovisie.nl/video/occasion-battle/audi-rs-6-vs-jaguar-xfr-s-dit-is-de-ultieme-powerstation-met-een-topsnelheid-van-250-km-h/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Mercedes G-klasse vs. Toyota Hilux: wat is de beste en betrouwbaarste offroader?",
-      "link": "https://www.autovisie.nl/video/occasion-battle/mercedes-g-klasse-vs-toyota-hilux-wat-is-de-beste-en-betrouwbaarste-offroader/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Renault vs. Volkswagen: deze occasions sturen geweldig en kosten weinig",
-      "link": "https://www.autovisie.nl/video/occasion-battle/renault-vs-volkswagen-deze-occasions-sturen-geweldig-en-kosten-weinig/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Maserati GranTurismo vs. Mercedes-Benz CL 500: voel je een miljonair voor een fractie van de nieuwprijs",
-      "link": "https://www.autovisie.nl/video/occasion-battle/maserati-granturismo-vs-mercedes-benz-cl-500-voel-je-een-miljonair-voor-een-fractie-van-de-nieuwprijs/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Mazda MX-5 RF vs. Toyota GT86: Betaalbare en betrouwbare “coupés” voor liefhebbers",
-      "link": "https://www.autovisie.nl/video/occasion-battle/mazda-mx-5-rf-vs-toyota-gt86-betaalbare-en-betrouwbare-coupes-voor-liefhebbers/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "MG ZT-T vs. Volkswagen Passat W8: één van deze occasions maakt je echt blij",
-      "link": "https://www.autovisie.nl/video/occasion-battle/mg-zt-t-vs-volkswagen-passat-w8-een-van-deze-occasions-maakt-je-echt-blij/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Deze Porsche Panamera-concurrent is een beeldige, maar ook extreem risicovolle occasion",
-      "link": "https://www.autovisie.nl/video/occasion-battle/deze-porsche-panamera-concurrent-is-een-beeldige-maar-ook-extreem-risicovolle-occasion/"
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "BMW i3 vs. Mazda MX-30: elektrische afschrijfkanonnen koop je nu voor 10.000 euro",
-      "link": "https://www.autovisie.nl/video/occasion-battle/bmw-i3-vs-mazda-mx-30-elektrische-afschrijfkanonnen-koop-je-nu-voor-10-000-euro/",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autovisie Occasion Battle",
-      "keep": true,
-      "reason": "occasion battle",
-      "title": "Hyundai i30 N vs. Peugeot 308 GTi: “Zó erg is die beruchte THP-motor niet”",
-      "link": "https://www.autovisie.nl/video/occasion-battle/hyundai-i30-n-occasion-vs-peugeot-308-gti-zo-erg-is-die-beruchte-thp-motor-niet/"
     },
     {
       "source": "PistonHeads PH Heroes",
@@ -1445,6 +985,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "The Ford Crown Victoria Is Now a Popular Secret Handshake",
+      "link": "https://www.hagerty.com/media/automotive-history/the-ford-crown-victoria-is-now-a-popular-secret-handshake/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "This Corvette C5-R Retired from the Race Track to Relax at the Race Track",
       "link": "https://www.hagerty.com/media/automotive-history/this-corvette-c5-r-retired-from-the-race-track-to-relax-at-the-race-track/"
     },
@@ -1597,6 +1144,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 126,
-  "output_items": 124
+  "input_items": 74,
+  "output_items": 74
 }

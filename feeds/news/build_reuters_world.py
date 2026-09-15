@@ -189,10 +189,11 @@ def rss_bytes(stories: list[dict], now: datetime) -> bytes:
         ET.SubElement(item, "pubDate").text = format_datetime(story["published_dt"], usegmt=True)
         ET.SubElement(item, "category").text = story.get("region") or "World"
         ET.SubElement(item, "source", {"url": WORLD_URL}).text = "Reuters"
-        ET.SubElement(item, "description").text = (
-            f"Reuters • World / {story.get('region', 'World')}\n\n"
-            "Selected from Reuters' official headline metadata. "
-            "Open the original Reuters story for the article.")
+        # Sitemaps supply no article summary. Keep this explicitly empty rather
+        # than filling every reader preview with repeated publisher boilerplate.
+        # RSS 2.0 permits title-only items; do not change GUIDs/dates to refresh
+        # cached copies. Feed-level explanation stays in channel/description.
+        ET.SubElement(item, "description")
     ET.indent(rss, space="  ")
     return ET.tostring(rss, encoding="utf-8", xml_declaration=True)
 

@@ -1,10 +1,77 @@
 {
-  "generated_at": "2026-09-15T05:17:56.034735+00:00",
+  "generated_at": "2026-09-15T10:24:56.386447+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Prijzen vernieuwde Volvo XC60 en XC90: van alles meer en dus ook iets duurder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/prijzen-vernieuwde-volvo-xc60-en-xc90-van-alles-meer-en-dus-ook-iets-duurder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Toyota bZ4X Touring: elektrische familie-SUV duizenden euro's goedkoper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-bz4x-touring-elektrische-familie-suv-duizenden-euros-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "vanaf €",
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "De heftig vernieuwde Volvo XC60 is bijna een EV (en de XC90 ook!)",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-heftig-vernieuwde-volvo-xc60-is-bijna-een-ev-en-de-xc90-ook/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De prijzen aan de pomp stijgen hard: het feest was van korte duur",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-prijzen-aan-de-pomp-stijgen-hard-het-feest-was-van-korte-duur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -301,61 +368,6 @@
         "routine_product": [
           "instapper"
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Subaru Uncharted op details beter dan Toyota C-HR+ waarmee hij bijna alles deelt",
-      "link": "https://www.autoweek.nl/autotests/artikel/subaru-uncharted-op-details-beter-dan-toyota-c-hr/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "In jaren 50 was enthousiasme voor kernenergie zo groot dat Ford auto met eigen kernreactor bedacht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/in-de-jaren-50-was-het-enthousiasme-voor-kernenergie-zo-groot-dat-ford-auto-met-eigen-kenreactor-presenteerde/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De eerste Mazda MX-5 stijgt sterk in waarde, maar hoe zit het met andere klassieke roadsters?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-eerste-mazda-mx-5-stijgt-sterk-in-waarde-maar-hoe-zit-het-met-andere-klassieke-roadsters/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De Kia EV3 is wél leuk als GT, de EV5 GT zouden wij laten staan",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-kia-ev3-is-wel-leuk-als-gt-de-ev5-gt-zouden-wij-laten-staan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev3",
-          "ev5"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

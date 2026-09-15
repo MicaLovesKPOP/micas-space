@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-15T00:33:38.198504+00:00",
+  "generated_at": "2026-09-15T05:17:56.034735+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "In één jaar zijn er meer dan 85.000 dieselauto's uit Nederland verdwenen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/in-een-jaar-zijn-er-meer-dan-85-000-dieselautos-uit-nederland-verdwenen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -338,21 +351,6 @@
         "ev": [
           "ev3",
           "ev5"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De wielen van de goedkoopste Hyundai Ioniq 6 zijn bij de topversie een optie – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-wielen-van-de-goedkoopste-hyundai-ioniq-6-zijn-bij-de-topversie-optioneel-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ioniq 6"
         ],
         "major": [],
         "exceptional": [],

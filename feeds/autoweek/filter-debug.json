@@ -1,10 +1,57 @@
 {
-  "generated_at": "2026-09-16T00:18:56.644630+00:00",
+  "generated_at": "2026-09-16T05:12:29.619610+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 19,
-  "dropped_items": 6,
+  "kept_items": 18,
+  "dropped_items": 7,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bijna 127.000 auto’s rijden in Nederland rond met een gevaarlijke airbag",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bijna-127-000-autos-rijden-in-nederland-rond-met-een-gevaarlijke-airbag/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "terugroep"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Ruim één op de tien auto's in Nederland is een Volkswagen, slechts één procent is een Tesla",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ruim-een-op-de-tien-autos-in-nederland-is-een-volkswagen-slechts-een-procent-is-een-tesla/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "ANWB: stop inflatiecorrectie op brandstofaccijns",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/anwb-stop-inflatiecorrectie-op-brandstofaccijns/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -329,47 +376,6 @@
       "reason": "non-EV car news",
       "title": "Hybride Kia K4 klaar voor Nederland: eindelijk meer vermogen",
       "link": "https://www.autoweek.nl/autonieuws/artikel/hybride-kia-k4-bijna-klaar-voor-nederland-eindelijk-meer-vermogen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Maar nu echt: Tesla Roadster komt op 1 oktober",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/maar-nu-echt-tesla-roadster-komt-op-1-oktober/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Skoda Epiq is heerlijk saai en heel goed",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-skoda-epiq-is-heerlijk-saai-en-heel-goed/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Meer liters, minder uitgeven: de Dacia Sandero Stepway op lpg troeft de Citroën C3 Hybrid af",
-      "link": "https://www.autoweek.nl/autotests/artikel/meer-liters-minder-uitgeven-de-dacia-sandero-stepway-op-lpg-troeft-de-citroen-c3-hybrid-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

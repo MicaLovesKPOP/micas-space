@@ -1,10 +1,83 @@
 {
-  "generated_at": "2026-09-16T05:12:29.619610+00:00",
+  "generated_at": "2026-09-16T09:56:31.658011+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 18,
-  "dropped_items": 7,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dat is handig: BMW maakt je nieuwe X5 zelf al fout",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dat-is-handig-bmw-maakt-je-nieuwe-x5-zelf-al-fout/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Volkswagen ID3 GTI is opgefriste GTX en de eerste achterwielaangedreven GTI van VW",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id3-gti-is-opgefriste-gtx-en-de-eerste-achterwielaangedreven-gti-van-vw/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Praktische elektrische Renault Kangoo nu ook met plek voor vijf",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/praktische-elektrische-renault-kangoo-nu-ook-met-plek-voor-vijf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Elektrische Porsche voor een prikkie, maar hij heeft ook maar 11 pk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kleine-elektrische-open-porsche-is-voor-een-prikkie-maar-heeft-ook-maar-11-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Nio blijft ondanks bar slechte verkopen in Europa, maar gaat het wel anders doen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nio-blijft-ondanks-bar-slechte-verkopen-in-europa-maar-gaat-het-wel-anders-doen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "nio "
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -25,7 +98,7 @@
     {
       "keep": false,
       "reason": "routine EV product/update coverage",
-      "title": "Ruim één op de tien auto's in Nederland is een Volkswagen, slechts één procent is een Tesla",
+      "title": "12 procent van alle auto's in Nederland is een Volkswagen, slechts één procent een Tesla",
       "link": "https://www.autoweek.nl/autonieuws/artikel/ruim-een-op-de-tien-autos-in-nederland-is-een-volkswagen-slechts-een-procent-is-een-tesla/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [
@@ -300,82 +373,6 @@
       "reason": "non-EV car news",
       "title": "Kia PV7: Kia's grootste is er als bedrijfswagen én als PV7 Passenger!",
       "link": "https://www.autoweek.nl/autonieuws/artikel/kia-pv7-kias-grootste-is-er-als-bedrijfswagen-en-als-pv7-passenger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Na lange periode van enorme stijging daalt de benzineprijs weer",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/na-lange-periode-van-enorme-stijging-daalt-de-benzineprijs-weer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Renault Trafic: belangrijke elektrische bedrijfswagen heeft 470 kilometer bereik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-renault-trafic-elektrische-bedrijfswagen-met-470-kilometer-bereik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen Mission Efficiency: superzuinig vierzittertje op ID Polo-basis",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-mission-efficiency-superzuinig-vierzittertje-op-id-polo-basis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Polestar 4 SUV: goedkoper dan de 4 Coupé, maar tijdelijk toch duurder",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/polestar-4-suv-goedkoper-dan-de-4-coupe-maar-tijdelijk-toch-duurder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "polestar"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper",
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Hybride Kia K4 klaar voor Nederland: eindelijk meer vermogen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hybride-kia-k4-bijna-klaar-voor-nederland-eindelijk-meer-vermogen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

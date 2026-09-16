@@ -1,10 +1,61 @@
 {
-  "generated_at": "2026-09-16T09:56:31.658011+00:00",
+  "generated_at": "2026-09-16T14:55:01.706216+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 20,
   "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla Cybercab is met afstand de meest efficiënte EV",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-cybercab-is-met-afstand-de-meest-efficiente-ev/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev",
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs in Nederland naar hoogste niveau ooit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-in-nederland-naar-hoogste-niveau-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Slechts één op de vijf nieuwe auto's in Nederland door particulier gekocht",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/slechts-een-op-de-vijf-nieuwe-autos-in-nederland-door-particulier-gekocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe ",
+          "in nederland"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -338,47 +389,6 @@
         "routine_product": [
           "in nederland"
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Toyota wil flink minder variatie in onderdelen: tot -76 procent!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-wil-flink-minder-variatie-in-onderdelen-tot-76-procent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is de nieuwe BMW 3-serie!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-bmw-3-serie-is-nu-al-te-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Kia PV7: Kia's grootste is er als bedrijfswagen én als PV7 Passenger!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kia-pv7-kias-grootste-is-er-als-bedrijfswagen-en-als-pv7-passenger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

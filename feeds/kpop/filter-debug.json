@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-16T05:15:37.533841+00:00",
+  "generated_at": "2026-09-16T09:58:04.723231+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 33
+      "items": 34
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "MMA 2026 reveals first lineup of chart-topping boy groups",
+      "link": "https://www.koreaherald.com/article/10875668",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Teenage fan dies after medical emergency before Stray Kids concert in Argentina",
@@ -459,11 +467,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ALLDAY PROJECT Exudes Charisma In New Photos For Upcoming Album “CRASH”",
+      "title": "Update: ALLDAY PROJECT Drops More Photos For Upcoming Album “CRASH”",
       "link": "https://www.soompi.com/article/1870170wpp/allday-project-announces-september-comeback-with-1st-teasers-for-crash",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -856,6 +864,14 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: weekly chart"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "BIGHIT MUSIC Shares Update On Legal Action To Protect CORTIS’s Rights",
+      "link": "https://www.soompi.com/article/1871123wpp/bighit-music-shares-update-on-legal-action-to-protect-cortiss-rights",
+      "keep": true,
+      "category": "Legal / dispute",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Celeb",
@@ -1330,14 +1346,6 @@
       "reason": "routine PR/fandom noise: brand reputation"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "Sunmi’s Shanghai Fan Meeting Canceled At Last Minute",
-      "link": "https://www.soompi.com/article/1867430wpp/sunmis-shanghai-fan-meeting-canceled-at-last-minute",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: fan meeting"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "'Dracula' featuring Jennie longest-charting song by K-pop artist in Hot 100's top 10",
       "link": "https://en.yna.co.kr/view/AEN20260915010600315?section=culture/k-pop",
@@ -1507,6 +1515,13 @@
       "category": "Contract / agency"
     },
     {
+      "dropped": "Update: NCT WISH Reveals Comeback Schedule For “I SPY”",
+      "dropped_source": "Soompi Music",
+      "kept": "Update: ALLDAY PROJECT Drops More Photos For Upcoming Album “CRASH”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "Girl group Illit to return with new EP next month",
       "dropped_source": "Yonhap K-pop",
       "kept": "ILLIT Announces Fall Comeback Date",
@@ -1535,9 +1550,9 @@
       "category": "Comeback / release"
     },
     {
-      "dropped": "NCT Wish to return with 4th EP next month",
+      "dropped": "AllDay Project to return with second EP ‘Crash’",
       "dropped_source": "Korea Herald",
-      "kept": "Update: NCT WISH Reveals Comeback Schedule For “I SPY”",
+      "kept": "Update: ALLDAY PROJECT Drops More Photos For Upcoming Album “CRASH”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
     },
@@ -1563,6 +1578,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 32,
-  "final_items": 23
+  "candidate_items": 34,
+  "final_items": 24
 }

@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-16T18:51:55.227844+00:00",
+  "generated_at": "2026-09-16T22:06:17.807412+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De MG IM6 is indrukwekkend, maar niet op de juiste punten",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-mg-im6-maakt-indruk-maar-niet-op-de-juiste-punten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -372,23 +385,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "In één jaar zijn er in Nederland 134.000 elektrische auto's bijgekomen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/van-alle-autos-in-nederland-heeft-93-procent-gewoon-nog-een-verbrandingsmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
       }
     }
   ]

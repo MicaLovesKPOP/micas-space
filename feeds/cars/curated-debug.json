@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-16T18:52:00.339061+00:00",
+  "generated_at": "2026-09-16T22:06:22.923450+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 20
+      "items": 21
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Lifehack: PHEV-camper met 7 zitplaatsen is goedkoop qua MRB",
+      "link": "https://www.autoblog.nl/nieuws/een-7-zits-phev-en-toch-lage-mrb-het-kan-nog-in-nederland",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -388,19 +400,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Porsche lanceert meest nutteloze EV ooit (maar hij is wel leuk)",
-      "link": "https://www.autoblog.nl/nieuws/porsche-presenteert-gelimiteerde-ev-die-echt-heel-licht-is",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
       }
     },
     {
@@ -1143,6 +1142,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

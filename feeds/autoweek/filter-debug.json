@@ -1,10 +1,159 @@
 {
-  "generated_at": "2026-09-17T05:19:40.148421+00:00",
+  "generated_at": "2026-09-17T10:24:27.844181+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volvo staat voor grootste productoffensief ooit: 13 nieuwe auto’s tot eind 2030",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volvo-staat-voor-grootste-productoffensief-ooit-13-nieuwe-autos-tot-eind-2030/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Verkeer over Suurhoffbrug naar Maasvlakte nog vier tot acht weken via vluchtstrook",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/verkeer-over-suurhoffbrug-naar-maasvlakte-nog-vier-tot-acht-weken-via-vluchtstrook/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dieselprijs stijgt verder en is bijna op recordhoogte uit april",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dieselprijs-stijgt-verder-en-is-bijna-op-recordhoogte-uit-april/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [
+          "prijs van",
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ayvens wil versnelde invoering greentimerregeling en nieuwe SEPP",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ayvens-wil-versnelde-invoering-greentimerregeling-en-sepp/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Hyundai Bayon bevestigt spionagebeelden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hyundai-bayon-bevestigt-spionagebeelden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Italië schrapt wegenbelasting voor kleine auto’s",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/italie-schrapt-wegenbelasting-voor-kleine-autos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "schrapt"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Toyota Corolla 60th Anniversary kost maar €300 extra",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-toyota-corolla-60th-anniversary-kost-maar-e300-extra/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nissan brengt compacte hybride-SUV naar Europa",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nissan-brengt-compacte-suv-naar-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "EU vraagt China om export hybride auto's te beperken, meldt FT",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/eu-vraagt-china-om-export-hybride-autos-te-beperken-meldt-ft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "europese unie"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Wegenbelasting in tien jaar bijna veertig procent duurder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/wegenbelasting-in-tien-jaar-bijna-veertig-procent-duurder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -231,159 +380,6 @@
         "boring": [
           "bijtelling"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Youngtimergrens per 2028 naar 20 jaar, 25-jaar-grens van de baan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/youngtimergrens-per-2028-naar-20-jaar-afschaffing-van-de-baan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Amerika’s populairste ‘auto’ krijgt meer V8-opties",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/amerikas-populairste-auto-krijgt-meer-v8-opties/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "‘Nieuwe BMW M3 wordt zo goedkoop als in 2007’",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-bmw-m3-wordt-zo-goedkoop-als-in-2007/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe motoren voor Mercedes-Benz E-klasse, maar ze zijn vrijwel overbodig",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-motoren-voor-mercedes-benz-e-klasse-maar-ze-zijn-vrijwel-overbodig/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "verbod"
-        ],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Prijzen vernieuwde Volvo XC60 en XC90: van alles meer en dus ook iets duurder",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/prijzen-vernieuwde-volvo-xc60-en-xc90-van-alles-meer-en-dus-ook-iets-duurder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": [
-          "vernieuwde "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Toyota bZ4X Touring: elektrische familie-SUV duizenden euro's goedkoper",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-bz4x-touring-elektrische-familie-suv-duizenden-euros-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "vanaf €",
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "De heftig vernieuwde Volvo XC60 is bijna een EV (en de XC90 ook!)",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-heftig-vernieuwde-volvo-xc60-is-bijna-een-ev-en-de-xc90-ook/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "vernieuwde "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De prijzen aan de pomp stijgen hard: het feest was van korte duur",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-prijzen-aan-de-pomp-stijgen-hard-het-feest-was-van-korte-duur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "In één jaar zijn er meer dan 85.000 dieselauto's uit Nederland verdwenen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/in-een-jaar-zijn-er-meer-dan-85-000-dieselautos-uit-nederland-verdwenen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Porsche Macan van Onno (63) zorgt voor problemen op de rollenbank: 'Het is één vlakke bodem'",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-porsche-macan-van-onno-63-zorgt-voor-problemen-op-de-rollenbank-het-is-een-vlakke-bodem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

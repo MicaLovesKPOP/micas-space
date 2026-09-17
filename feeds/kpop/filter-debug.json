@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-17T00:29:16.502137+00:00",
+  "generated_at": "2026-09-17T05:23:40.539609+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 32
     },
     {
       "name": "Music Business Worldwide",
@@ -45,6 +45,38 @@
       "source": "Korea Herald",
       "title": "Teenage fan dies after medical emergency before Stray Kids concert in Argentina",
       "link": "https://www.koreaherald.com/article/10875579",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Kim Jaehwan to drop single before concert",
+      "link": "https://www.koreaherald.com/article/10875499",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS’ Jin joins Spotify’s Billions Club",
+      "link": "https://www.koreaherald.com/article/10875343",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Katseye logs 100m views with ‘Animal’ music video",
+      "link": "https://www.koreaherald.com/article/10875321",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit garners 100m streams in Japan with ‘It’s Me’",
+      "link": "https://www.koreaherald.com/article/10875233",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -819,6 +851,14 @@
     },
     {
       "source": "Soompi Celeb",
+      "title": "WJSN’s Eunseo And SeolA Part Ways With STARSHIP Entertainment",
+      "link": "https://www.soompi.com/article/1871345wpp/wjsns-eunseo-and-seola-part-ways-with-starship-entertainment",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Celeb",
       "title": "September Movie Star Brand Reputation Rankings Announced",
       "link": "https://www.soompi.com/article/1871238wpp/september-movie-star-brand-reputation-rankings-announced-5",
       "keep": false,
@@ -1290,14 +1330,6 @@
       "reason": "legal story unrelated to contracts/agency business/artist rights"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "STELLAR’s Minhee Announces Wedding Date With Beautiful Photos",
-      "link": "https://www.soompi.com/article/1867513wpp/stellars-minhee-announces-wedding-date-with-beautiful-photos",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: wedding"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "'Dracula' featuring Jennie longest-charting song by K-pop artist in Hot 100's top 10",
       "link": "https://en.yna.co.kr/view/AEN20260915010600315?section=culture/k-pop",
@@ -1495,6 +1527,13 @@
       "category": "Debut / new group"
     },
     {
+      "dropped": "Kim Jaehwan to drop single before concert",
+      "dropped_source": "Korea Herald",
+      "kept": "Kim Jae Hwan Announces October Comeback With Teaser For “Love, From Here”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "Illit announces October comeback",
       "dropped_source": "Korea Herald",
       "kept": "ILLIT Announces Fall Comeback Date",
@@ -1530,6 +1569,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 34,
+  "candidate_items": 35,
   "final_items": 24
 }

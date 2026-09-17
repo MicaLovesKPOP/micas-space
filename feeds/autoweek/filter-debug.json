@@ -1,10 +1,78 @@
 {
-  "generated_at": "2026-09-17T10:24:27.844181+00:00",
+  "generated_at": "2026-09-17T15:18:00.902231+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Duitsland wil meer bescherming Europese autosector tegen China",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/duitsland-wil-meer-bescherming-europese-autosector-tegen-china/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volvo gaat terug van 7 naar 5 pure Volvo-fabrieken, Gent en Chengdu worden gedeeld",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volvo-gaat-terug-van-7-naar-5-pure-volvo-fabrieken-gent-en-chengdu-worden-gedeeld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'De Peugeot 205 GTI voelt broos aan, ik ben bang om er hard mee te gaan' - podcast",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-peugeot-205-gti-voelt-broos-aan-ik-ben-bang-om-er-hard-mee-te-gaan-podcast/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De CLK GTR herleeft in deze extreme Mercedes-AMG GT Black Series",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-clk-gtr-herleeft-in-deze-extreme-mercedes-amg-gt-black-series/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit betalen we in Nederland gemiddeld voor een nieuwe personenauto: meer dan €50.000!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-betalen-we-in-nederland-gemiddeld-voor-een-nieuwe-personenauto-meer-dan-e50-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe ",
+          "in nederland"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -306,81 +374,6 @@
         "routine_product": [
           "in nederland"
         ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "12 procent van alle auto's in Nederland is een Volkswagen, slechts één procent een Tesla",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ruim-een-op-de-tien-autos-in-nederland-is-een-volkswagen-slechts-een-procent-is-een-tesla/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "ANWB: stop inflatiecorrectie op brandstofaccijns",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/anwb-stop-inflatiecorrectie-op-brandstofaccijns/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Verrassing: sloopregeling voor wie brandstofauto inruilt op elektrische auto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kabinet-komt-met-inruilregeling-voor-wie-brandstofauto-inruilt-op-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bovag wil uitstel pseudo-eindheffing en uitzondering voor dealerdemo's",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bovag-wil-uitstel-pseudo-eindheffing-en-uitzondering-voor-dealerdemos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Greentimerregeling: lagere bijtelling voor elektrische auto’s van vijf jaar en ouder",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/lagere-bijtelling-voor-elektrische-autos-van-vijf-jaar-en-ouder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "bijtelling"
-        ],
-        "routine_product": []
       }
     }
   ]

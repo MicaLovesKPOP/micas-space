@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-18T14:56:53.516957+00:00",
+  "generated_at": "2026-09-18T18:23:11.567694+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Toyota Yaris Hybrid is niet meer je enige optie als je een zuinige tweedehands hybride zoekt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-toyota-yaris-hybrid-is-niet-meer-je-enige-optie-als-je-een-zuinige-compacte-tweedehands-hybride-zoekt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -21,7 +34,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Dacia-CEO bekritiseert Europese regeldrift: \"iedereen wil die systemen uit\"",
+      "title": "Dacia-CEO bekritiseert Europese regeldrift: 'Iedereen wil die systemen uitzetten'",
       "link": "https://www.autoweek.nl/autonieuws/artikel/dacia-ceo-bekritiseert-europese-regeldrift/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -351,19 +364,6 @@
         "boring": [
           "duurder"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De MG IM6 is indrukwekkend, maar niet op de juiste punten",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-mg-im6-maakt-indruk-maar-niet-op-de-juiste-punten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

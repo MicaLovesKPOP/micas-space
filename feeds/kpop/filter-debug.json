@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-18T04:44:59.549432+00:00",
+  "generated_at": "2026-09-18T09:13:21.047733+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -35,8 +35,24 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "Missing YG's legendary producer Perry",
+      "link": "https://www.koreaherald.com/article/10878837",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Beyond music shows: How gaming, news and brands are becoming K-pop’s new stages",
       "link": "https://www.koreaherald.com/article/10877333",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Riize amasses 100m plays with ‘Love 119’",
+      "link": "https://www.koreaherald.com/article/10876990",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -339,6 +355,22 @@
     },
     {
       "source": "Soompi Music",
+      "title": "RESCENE Announces Comeback Date",
+      "link": "https://www.soompi.com/article/1871680wpp/rescene-announces-comeback-date",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: Rosé Has A “new trick” For Bouncing Back From Heartbreak In New MV",
+      "link": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
       "title": "ZEROBASEONE’s Seok Matthew And Park Gun Wook Gear Up For Unit Mixtape With ZEROBASEONE EMP Teaser",
       "link": "https://www.soompi.com/article/1871507wpp/zerobaseones-seok-matthew-and-park-gun-wook-gear-up-for-unit-mixtape-with-zerobaseone-emp-teaser",
       "keep": false,
@@ -563,7 +595,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ATEEZ’s Hongjoong Drops New MV Teaser For Bazzi Collab “ENOuGH”",
+      "title": "Watch: ATEEZ’s Hongjoong And Bazzi Expand Each Other’s Worlds Through Music In MV For “ENOuGH” Collab",
       "link": "https://www.soompi.com/article/1869364wpp/ateez-gets-fans-guessing-with-mysterious-teasers",
       "keep": false,
       "category": null,
@@ -802,17 +834,9 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Music",
-      "title": "Watch: IU Returns With Cinematic MV For “Unknown Planet”",
-      "link": "https://www.soompi.com/article/1867964wpp/listen-iu-surprises-with-teaser-for-new-digital-single",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: ENHYPEN Takes 6th Win For “Bloody Paradise” On “M Countdown”; Performances By Chungha, TWS, And More",
-      "link": "https://www.soompi.com/article/1867943wpp/watch-enhypen-takes-6th-win-for-bloody-paradise-on-m-countdown-performances-by-chungha-tws-and-more",
+      "source": "Soompi Celeb",
+      "title": "Chungha To Miss University Festival Performance After Being Rushed To ER Due To Health Issue",
+      "link": "https://www.soompi.com/article/1871669wpp/chungha-to-miss-university-festival-performance-after-being-rushed-to-er-due-to-health-issue",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1290,12 +1314,12 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "Ji Ye Eun And Vata Write To Fans Following Marriage Announcement",
-      "link": "https://www.soompi.com/article/1867679wpp/ji-ye-eun-and-vata-write-to-fans-following-marriage-announcement",
+      "source": "Yonhap K-pop",
+      "title": "Singer-actor IU donates 200 mln won on debut anniversary",
+      "link": "https://en.yna.co.kr/view/AEN20260918007000315?section=culture/k-pop",
       "keep": false,
       "category": null,
-      "reason": "celebrity/lifestyle noise: marriage"
+      "reason": "celebrity/lifestyle noise: donates"
     },
     {
       "source": "Yonhap K-pop",
@@ -1448,14 +1472,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "(LEAD) Evan shares innermost self on debut EP 'Death of Me'",
-      "link": "https://en.yna.co.kr/view/AEN20260907007051315?section=culture/k-pop",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [

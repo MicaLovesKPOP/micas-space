@@ -1,10 +1,99 @@
 {
-  "generated_at": "2026-09-18T05:52:43.036049+00:00",
+  "generated_at": "2026-09-18T11:07:31.470552+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Kia EV5 dankzij nieuwe versie duizenden euro's goedkoper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kia-pv5-dankzij-nieuwe-versie-duizenden-euros-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev5"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ford Kuga PHEV heeft flink minder bereik na software-update terugroepactie: 12 of toch 20 procent?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ford-kuga-phev-heeft-flink-minder-bereik-na-software-update-terugroepactie-12-tot-20-procent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "terugroep",
+          "brandgevaar"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Leapmotor gaat voor maximale ‘ruimte-efficiëntie’ met nieuw platform",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-gaat-voor-maximale-ruimte-efficientie-met-nieuw-platform/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "leapmotor"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Opel gewoontjes? Welnee, het komt met 'spectaculair nieuw studiemodel'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/opel-gewoontjes-welnee-het-komt-met-spectaculair-nieuw-studiemodel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Alfa Romeo komt met model 'waar Alfa Romeo-liefhebbers al lang op wachten'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/alfa-romeo-komt-met-model-waar-de-alfisten-al-lang-op-wachten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Opel hangt 280 pk sterke elektromotor ook in Astra maar noemt het daarmee geen hothatch: GSE Line",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/opel-hangt-280-pk-sterke-elektromotor-ook-in-astra-gse-line/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -282,96 +371,6 @@
         "boring": [],
         "routine_product": [
           "nieuwe ",
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dat is handig: BMW maakt je nieuwe X5 zelf al fout",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dat-is-handig-bmw-maakt-je-nieuwe-x5-zelf-al-fout/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Volkswagen ID3 GTI is opgefriste GTX en de eerste achterwielaangedreven GTI van VW",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id3-gti-is-opgefriste-gtx-en-de-eerste-achterwielaangedreven-gti-van-vw/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Praktische elektrische Renault Kangoo nu ook met plek voor vijf",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/praktische-elektrische-renault-kangoo-nu-ook-met-plek-voor-vijf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Elektrische Porsche voor een prikkie, maar hij heeft ook maar 11 pk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kleine-elektrische-open-porsche-is-voor-een-prikkie-maar-heeft-ook-maar-11-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Nio blijft ondanks bar slechte verkopen in Europa, maar gaat het wel anders doen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nio-blijft-ondanks-bar-slechte-verkopen-in-europa-maar-gaat-het-wel-anders-doen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "nio "
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bijna 127.000 auto’s rijden in Nederland rond met een gevaarlijke airbag",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bijna-127-000-autos-rijden-in-nederland-rond-met-een-gevaarlijke-airbag/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "terugroep"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
           "in nederland"
         ]
       }

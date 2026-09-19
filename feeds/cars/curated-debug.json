@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T11:29:51.123272+00:00",
+  "generated_at": "2026-09-19T14:45:42.164354+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,43 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Ik huurde een spotgoedkope Tesla en de kilometerstand verbaasde me",
+      "link": "https://www.autoblog.nl/nieuws/ik-huurde-een-spotgoedkope-tesla-en-de-kilometerstand-verbaasde-me",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Benzine is peperduur, wat kost een knappe gebruikte BMW i4 eigenlijk?",
+      "link": "https://www.autoblog.nl/nieuws/gebruikte-bmw-i4-kopen-dit-kosten-ze-op-marktplaats",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla Model 3 Premium in Nederland teruggeroepen",
+      "link": "https://www.autoblog.nl/nieuws/tesla-model-3-premium-terugroepactie",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -354,42 +391,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Dode bij heftige crash met Porsche op N307",
       "link": "https://www.autoblog.nl/nieuws/dode-bij-heftige-crash-met-porsche-op-n307",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Jeremy Clarkson verkoopt The Grand Tour-auto’s, waaronder zijn allerlaatste",
-      "link": "https://www.autoblog.nl/nieuws/jeremy-clarkson-veilt-drie-legendarische-the-grand-tour-auto-s",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Krijgt GTA 6 echte automerken? Hyundai hint ernaar",
-      "link": "https://www.autoblog.nl/nieuws/krijgt-gta-6-echte-automerken-dit-automerk-hint-ernaar",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze brute Porsche komt voor het eerst in actie in Nederland",
-      "link": "https://www.autoblog.nl/nieuws/deze-brute-porsche-komt-voor-het-eerst-in-actie-in-nederland",
       "details": {
         "feature": [],
         "tags": [],
@@ -1136,6 +1137,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 76,
+  "output_items": 76
 }

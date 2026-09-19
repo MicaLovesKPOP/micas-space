@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-09-19T11:29:44.938005+00:00",
+  "generated_at": "2026-09-19T14:45:37.495300+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Lexus ES komt wat te kort maar Volvo ES90 maakt meer fouten",
+      "link": "https://www.autoweek.nl/autotests/artikel/lexus-es-komt-wat-te-kort-maar-volvo-es90-maakt-meer-fouten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is het verschil tussen het meten van de bagageruimte en de frunk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-het-verschil-tussen-het-meten-van-de-bagageruimte-en-de-frunk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze 7 modellen deden het imago van een automerk meer kwaad dan goed",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-7-modellen-deden-het-imago-van-een-automerk-meer-kwaad-dan-goed/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -311,56 +350,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dieselprijs stijgt verder en is bijna op recordhoogte uit april",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dieselprijs-stijgt-verder-en-is-bijna-op-recordhoogte-uit-april/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [
-          "prijs van",
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ayvens wil versnelde invoering greentimerregeling en nieuwe SEPP",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ayvens-wil-versnelde-invoering-greentimerregeling-en-sepp/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Hyundai Bayon bevestigt spionagebeelden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hyundai-bayon-bevestigt-spionagebeelden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

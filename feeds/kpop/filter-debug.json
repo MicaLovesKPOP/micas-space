@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21T07:10:03.689534+00:00",
+  "generated_at": "2026-09-21T14:05:46.121214+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 34
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "J.Y. Park's unlikely journey from K-pop to pulpit",
+      "link": "https://www.koreaherald.com/article/10881210",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Zerobaseone’s 1st subunit drops mixtape",
@@ -331,14 +339,6 @@
     },
     {
       "source": "Music Business Worldwide",
-      "title": "Sound designers and SFX libraries launch Professional Sound Alliance to fight AI scraping: ‘Now sound will have protection of our own’",
-      "link": "https://www.musicbusinessworldwide.com/sound-designers-and-sfx-libraries-launch-professional-sound-alliance-to-fight-ai-scraping-now-sound-will-have-protection-of-our-own/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
       "title": "SoundExchange strikes reciprocal agreement with the UAE’s MusicNation, opening neighboring rights royalty flows in both markets",
       "link": "https://www.musicbusinessworldwide.com/soundexchange-strikes-reciprocal-agreement-with-the-uaes-musicnation-opening-neighboring-rights-royalty-flows-in-both-markets/",
       "keep": false,
@@ -384,6 +384,30 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Stem co-founder Tim Luckow raises $5M for royalty platform Notes.fm; Zach Bryan, Benny Blanco and Ari Emanuel among the backers",
+      "link": "https://www.musicbusinessworldwide.com/stem-co-founder-tim-luckow-raises-5m-for-royalty-platform-notes-fm-zach-bryan-benny-blanco-and-ari-emanuel-among-the-backers/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: N.Flying Announces Comeback Date For 9th Mini Album “Still” With New Trailer",
+      "link": "https://www.soompi.com/article/1872180wpp/watch-n-flying-announces-comeback-date-for-9th-mini-album-still-with-new-trailer",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "UNIS Announces Release Date For New Digital Single “Milky Way”",
+      "link": "https://www.soompi.com/article/1872168wpp/unis-announces-release-date-for-new-digital-single-milky-way",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -515,7 +539,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ZEROBASEONE Unveils Track List For Unit ZEROBASEONE EMP’s Mixtape “We the Extra”",
+      "title": "Watch: ZEROBASEONE EMP Unveils Sketch Film For “Pina C” From Unit Mixtape “We the Extra”",
       "link": "https://www.soompi.com/article/1871507wpp/zerobaseones-seok-matthew-and-park-gun-wook-gear-up-for-unit-mixtape-with-zerobaseone-emp-teaser",
       "keep": false,
       "category": null,
@@ -643,7 +667,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ALLDAY PROJECT Reveals MV Teaser For “TALK”",
+      "title": "Update: ALLDAY PROJECT Is More Than Just “TALK” In Fierce Pre-Release MV",
       "link": "https://www.soompi.com/article/1870170wpp/allday-project-announces-september-comeback-with-1st-teasers-for-crash",
       "keep": false,
       "category": null,
@@ -723,7 +747,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: CRAVITY Drops New Concept Film For “sonorous” Comeback",
+      "title": "Update: CRAVITY Stars In Concept Photos For “sonorous” Comeback",
       "link": "https://www.soompi.com/article/1869574wpp/watch-cravity-announces-comeback-with-teaser-for-new-ep-sonorous",
       "keep": false,
       "category": null,
@@ -827,11 +851,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Watch: CLOSE YOUR EYES Invites You To “Open Your Eyes” In New Jazz-Fused MV",
+      "title": "Update: CLOSE YOUR EYES Drops Next Set Of Concept Photos For New Album “256th Note”",
       "link": "https://www.soompi.com/article/1868701wpp/close-your-eyes-announces-comeback-date-with-teaser-for-256th-note",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "teaser/rollout post"
     },
     {
       "source": "Soompi Music",
@@ -850,17 +874,9 @@
       "reason": "routine PR/fandom noise: billboard, world albums chart"
     },
     {
-      "source": "Soompi Music",
-      "title": "Update: NiziU Unveils Concept Film II For Upcoming Korean Album “Sour Grapes”",
-      "link": "https://www.soompi.com/article/1868429wpp/watch-niziu-announces-korean-comeback-date-with-intense-trailer-for-sour-grapes",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Update: KickFlip Dances In The Rain In “Puzzle Piece” MV Teaser",
-      "link": "https://www.soompi.com/article/1868426wpp/watch-kickflip-announces-comeback-schedule-plans-for-1st-tour-rock-off-the-wall",
+      "source": "Soompi Celeb",
+      "title": "Ningning Announced As New Ambassador For Bvlgari",
+      "link": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1338,14 +1354,6 @@
       "reason": "whitelisted event"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "OH MY GIRL’s YooA Signs With New Agency",
-      "link": "https://www.soompi.com/article/1867760wpp/oh-my-girls-yooa-signs-with-new-agency",
-      "keep": true,
-      "category": "Contract / agency",
-      "reason": "whitelisted event"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "I-dle's Soyeon sweeps charts with anthem about quitting work",
       "link": "https://en.yna.co.kr/view/AEN20260921004200315?section=culture/k-pop",
@@ -1543,6 +1551,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 30,
-  "final_items": 25
+  "candidate_items": 31,
+  "final_items": 26
 }

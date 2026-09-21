@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:38:43.506854+00:00",
+  "generated_at": "2026-09-21T16:34:56.363875+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -76,13 +76,13 @@
       "name": "PistonHeads Spotted",
       "url": "https://www.pistonheads.com/news/spotted",
       "status": "ok",
-      "items": 15
+      "items": 16
     },
     {
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,138 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog youngtimers",
+      "title": "Youngtimer gered? Voor de autobedrijven nog lang niet",
+      "link": "https://www.autoblog.nl/nieuws/youngtimer-gered-voor-de-autobedrijven-nog-lang-niet"
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze M3 heeft 180.000 kilometer gereden en is nog steeds duur",
+      "link": "https://www.autoblog.nl/nieuws/deze-m3-heeft-180-000-kilometer-gereden-en-is-nog-steeds-duur",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Tanken in het buitenland? Als je hier woont, loont het!",
+      "link": "https://www.autoblog.nl/nieuws/tanken-in-het-buitenland-als-je-hier-woont-loont-het",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "accijns"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit is de duurste schadebak van Nederland",
+      "link": "https://www.autoblog.nl/nieuws/dit-is-de-duurste-schadebak-van-nederland",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Grootste nachtmerrie van iedere automobilist is nu werkelijkheid",
+      "link": "https://www.autoblog.nl/nieuws/grootste-nachtmerrie-van-iedere-automobilist-is-nu-werkelijkheid",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Experts: De beste trekauto van dit moment is GEEN SUV!",
+      "link": "https://www.autoblog.nl/nieuws/caravanvereniging-dit-zijn-de-beste-trekauto-s-van-dit-moment",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Waarom de F1-race dit weekend op zaterdag is",
+      "link": "https://www.autoblog.nl/nieuws/let-op-f1-race-wordt-dit-weekend-op-zaterdag-verreden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "AI maakt de perfecte autoscam en ook jij trapt erin",
+      "link": "https://www.autoblog.nl/nieuws/ai-maakt-van-facebook-marketplace-een-grote-autoscam",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Deze Chinese SUV heeft iets wat je nog nooit in een auto zag",
+      "link": "https://www.autoblog.nl/nieuws/deze-chinese-suv-heeft-iets-wat-je-nog-nooit-in-een-auto-zag",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "leapmotor"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "'Porsche komt met motor die nog nooit eerder in een productieauto lag'",
+      "link": "https://www.autoblog.nl/nieuws/porsche-komt-met-motor-die-nog-nooit-eerder-in-een-productieauto-lag",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Belangrijkste adviseur aan overheid: ‘verhoog NIET de verkeersboetes!’",
+      "link": "https://www.autoblog.nl/nieuws/belangrijkste-adviseur-aan-overheid-verhoog-niet-de-verkeersboetes",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "kabinet"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -260,142 +392,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Zo is een EV opladen DUURDER dan een benzineauto tanken",
-      "link": "https://www.autoblog.nl/nieuws/waarom-snelladen-soms-duurder-is-dan-benzine-tanken",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Uniek: een gele Ferrari Enzo duikt op bij de carwash",
-      "link": "https://www.autoblog.nl/nieuws/ge-i-le-ferrari-enzo-brengt-een-bezoekje-aan-de-carwash",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit merk haalt zijn HELE gamma uit productie",
-      "link": "https://www.autoblog.nl/nieuws/mclaren-stuurt-ook-de-750s-en-gts-met-pensioen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Aso in Mazda is het bokje",
-      "link": "https://www.autoblog.nl/video/aso-in-mazda-is-het-bokje",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Zo verander je een doodnormale Kia-hatchback in een heerlijk dikke auto",
-      "link": "https://www.autoblog.nl/nieuws/aero-flow-dynamics-verandert-de-kia-k4-hatchback-naar-een-dikke-auto",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Perfecte upgrade voor de oude Volvo V70 is hier",
-      "link": "https://www.autoblog.nl/nieuws/volvo-v70-krijgt-fraai-ogende-led-achterlichten-van-vparts",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Lijstje: zo weinig hete hatchbacks kan je nog kopen in Nederland",
-      "link": "https://www.autoblog.nl/nieuws/lijstje-zo-weinig-hete-hatchbacks-op-benzine-kan-je-nog-kopen-in-nederland",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev",
-          "id.3"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Voor deze groep Nederlanders is de Duitse tankkorting een drama",
-      "link": "https://www.autoblog.nl/nieuws/duitse-tankkorting-nederlandse-grenspompen-vrezen-klanten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Ik huurde een spotgoedkope Tesla en de kilometerstand verbaasde me",
-      "link": "https://www.autoblog.nl/nieuws/ik-huurde-een-spotgoedkope-tesla-en-de-kilometerstand-verbaasde-me",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Benzine is peperduur, wat kost een knappe gebruikte BMW i4 eigenlijk?",
-      "link": "https://www.autoblog.nl/nieuws/gebruikte-bmw-i4-kopen-dit-kosten-ze-op-marktplaats",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla Model 3 Premium in Nederland teruggeroepen",
-      "link": "https://www.autoblog.nl/nieuws/tesla-model-3-premium-terugroepactie",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
       }
     },
     {
@@ -862,6 +858,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Performance Link MX-5 (ND) for sale",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/performance-link-mx-5-nd-for-sale/51701"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Fiat Strada Abarth 130TC | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/fiat-strada-abarth-130tc--spotted/51693"
     },
@@ -979,6 +982,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "Scooting Through History: 13 Vespas to Celebrate the Model’s 80th",
+      "link": "https://www.hagerty.com/media/automotive-history/scooting-through-history-13-vespas-to-celebrate-the-models-80th/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "The Ford Crown Victoria Is Now a Popular Secret Handshake",
       "link": "https://www.hagerty.com/media/automotive-history/the-ford-crown-victoria-is-now-a-popular-secret-handshake/"
     },
@@ -1014,8 +1024,22 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "They Don’t Make ’Em Like They Used To, and Maybe That’s OK",
-      "link": "https://www.hagerty.com/media/opinion/they-dont-make-em-like-they-used-to-and-maybe-thats-ok/"
+      "title": "Powerful Statement: Crate Engines Could Solve Your Problem",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/powerful-statement-crate-engines-could-solve-your-problem/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Restomod",
+      "link": "https://www.hagerty.com/media/tags/restomod/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Crate Engine",
+      "link": "https://www.hagerty.com/media/tags/crate-engine/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1065,20 +1089,6 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "Project Car",
       "link": "https://www.hagerty.com/media/tags/project-car/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Piston Slap",
-      "link": "https://www.hagerty.com/media/tags/piston-slap/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Transmission",
-      "link": "https://www.hagerty.com/media/tags/transmission/"
     },
     {
       "source": "Hagerty Buyer's Guides",
@@ -1138,6 +1148,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 79,
+  "output_items": 79
 }

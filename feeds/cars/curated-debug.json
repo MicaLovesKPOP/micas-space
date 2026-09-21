@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:34:56.363875+00:00",
+  "generated_at": "2026-09-21T20:33:28.602698+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,42 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit grote probleem hebben alle nieuwe auto's",
+      "link": "https://www.autoblog.nl/nieuws/dit-grote-probleem-hebben-alle-nieuwe-auto-s",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit merk gaat HEEL ver met testen...",
+      "link": "https://www.autoblog.nl/nieuws/dit-merk-gaat-heel-ver-met-testen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze 5-zits 'Ferrari' kost maar 35k",
+      "link": "https://www.autoblog.nl/nieuws/deze-5-zits-ferrari-kost-maar-35k",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": true,
@@ -356,42 +392,6 @@
         "news": [
           "accijns"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Autosalon van Parijs 2026: dit zijn de primeurs",
-      "link": "https://www.autoblog.nl/nieuws/autosalon-van-parijs-2026-dit-zijn-de-primeurs",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Ook dit kwamen jullie tegen op vakantie!",
-      "link": "https://www.autoblog.nl/nieuws/ook-dit-kwam-jullie-tegen-op-vakantie",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze Mercedes op Marktplaats wordt nog wel eens vergeten",
-      "link": "https://www.autoblog.nl/nieuws/mercedes-cl63-facelift-vergeten-maar-toch-blubberdik",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1024,8 +1024,15 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Powerful Statement: Crate Engines Could Solve Your Problem",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/powerful-statement-crate-engines-could-solve-your-problem/"
+      "title": "Project Cheap Camaro #9: Parts Make It Whole",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/project-cheap-camaro-9-parts-make-it-whole/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Project Cheap Camaro",
+      "link": "https://www.hagerty.com/media/tags/project-cheap-camaro/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1045,15 +1052,15 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Automotive History",
-      "link": "https://www.hagerty.com/media/tags/automotive-history/"
+      "title": "Innovation",
+      "link": "https://www.hagerty.com/media/tags/innovation/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Innovation",
-      "link": "https://www.hagerty.com/media/tags/innovation/"
+      "title": "Automotive History",
+      "link": "https://www.hagerty.com/media/tags/automotive-history/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1082,13 +1089,6 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "Maintenance and Tech",
       "link": "https://www.hagerty.com/media/tags/maintenance-and-tech/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Project Car",
-      "link": "https://www.hagerty.com/media/tags/project-car/"
     },
     {
       "source": "Hagerty Buyer's Guides",

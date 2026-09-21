@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-09-21T16:34:51.917179+00:00",
+  "generated_at": "2026-09-21T20:33:23.308451+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 25,
   "dropped_items": 0,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Duizenden euro's subsidie voor elektrische tweedehands auto bij laag inkomen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/duizenden-euros-subsidie-voor-elektrische-auto-bij-laag-inkomen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -321,19 +336,6 @@
       "reason": "non-EV car news",
       "title": "Tankstations onaangenaam verrast door Duitse accijnsverlaging",
       "link": "https://www.autoweek.nl/autonieuws/artikel/tankstations-onaangenaam-verrast-door-duitse-accijnsverlaging/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Rijdt niet meer als een camper van deze tijd maar deze Niesmann van 43 jaar straalt kwaliteit uit",
-      "link": "https://www.autoweek.nl/autotests/artikel/rijdt-niet-meer-als-een-camper-van-deze-tijd-maar-wat-een-kwaliteit-straalt-deze-niesmann-van-43-jaar-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

@@ -1,10 +1,40 @@
 {
-  "generated_at": "2026-09-22T01:50:07.150827+00:00",
+  "generated_at": "2026-09-22T07:39:58.691929+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 25,
   "dropped_items": 0,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Dit zijn de eerste en extreme elektrische auto's uit Saoedi-Arabië",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-zijn-de-eerste-en-extreme-elektrische-autos-uit-saoudi-arabie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bij steeds meer tankstations in Frankrijk is zeker één brandstof niet meer te krijgen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-steeds-meer-tankstations-in-frankrijk-is-zeker-een-brandstof-niet-meer-te-krijgen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -310,32 +340,6 @@
       "reason": "non-EV car news",
       "title": "Deze 7 modellen deden het imago van een automerk meer kwaad dan goed",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-7-modellen-deden-het-imago-van-een-automerk-meer-kwaad-dan-goed/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bij de komst van de Volvo S80 kwamen de brede schouders terug die het merk hadden grootgemaakt",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-de-komst-van-de-volvo-s80-kwamen-de-brede-schouders-terug/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Tankstations onaangenaam verrast door Duitse accijnsverlaging",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tankstations-onaangenaam-verrast-door-duitse-accijnsverlaging/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

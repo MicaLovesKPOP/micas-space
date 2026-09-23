@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T22:55:34.958412+00:00",
+  "generated_at": "2026-09-23T01:30:03.694249+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -35,6 +35,22 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "I-dle's Yuqi to return with new EP next month",
+      "link": "https://www.koreaherald.com/article/10883053",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "JMsolution denies ties with Seungri",
+      "link": "https://www.koreaherald.com/article/10883010",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Exo fan keeps promise to Kai with Asian Games gold",
       "link": "https://www.koreaherald.com/article/10882145",
       "keep": false,
@@ -53,14 +69,6 @@
       "source": "Korea Herald",
       "title": "J.Y. Park's unlikely journey from K-pop to pulpit",
       "link": "https://www.koreaherald.com/article/10881210",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Seungri ties reignite boycott against K-beauty brand JM Solution",
-      "link": "https://www.koreaherald.com/article/10881104",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -258,6 +266,14 @@
       "reason": "no meaningful-change event matched"
     },
     {
+      "source": "Korea Herald",
+      "title": "Illegal BTS ‘Swim’ copies sold on Temu",
+      "link": "https://www.koreaherald.com/article/10873718",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
       "source": "Music Business Worldwide",
       "title": "Charles Goldstuck’s GoldState makes minority investment in Podium Entertainment, as Flexpoint Ford and Shamrock Capital buy audiobook publisher in reported $400M+ deal",
       "link": "https://www.musicbusinessworldwide.com/charles-goldstucks-goldstate-music-takes-minority-stake-in-podium-entertainment-as-flexpoint-ford-and-shamrock-capital-acquire-the-audiobook-publisher/",
@@ -336,6 +352,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "TWICE’s “Perfect World” Extends Their Record As Girl Group With Most MVs To Hit 100 Million Views",
+      "link": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Music",
@@ -810,12 +834,12 @@
       "reason": "routine PR/fandom noise: weekly chart"
     },
     {
-      "source": "Soompi Music",
-      "title": "&TEAM Breaks 1st-Day Sales Record As “Mark On Me” Becomes Million-Seller",
-      "link": "https://www.soompi.com/article/1869114wpp/team-breaks-1st-day-sales-record-as-mark-on-me-becomes-million-seller",
+      "source": "Soompi Celeb",
+      "title": "September Individual Idol Brand Reputation Rankings Announced",
+      "link": "https://www.soompi.com/article/1872642wpp/september-individual-idol-brand-reputation-rankings-announced-5",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: sales record"
+      "reason": "routine PR/fandom noise: brand reputation"
     },
     {
       "source": "Soompi Celeb",
@@ -1290,12 +1314,12 @@
       "reason": "routine PR/fandom noise: light stick"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "Rising Actor Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1868284wpp/rising-actor-brand-reputation-rankings-announced-3",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
+      "source": "Yonhap K-pop",
+      "title": "Seventeen's new unit of Jeonghan, Joshua to debut with 'Dreamscape'",
+      "link": "https://en.yna.co.kr/view/AEN20260923003200315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
     },
     {
       "source": "Yonhap K-pop",
@@ -1448,17 +1472,16 @@
       "keep": true,
       "category": "Comeback / release",
       "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS to stream live concerts in Argentina, Brazil at theaters worldwide",
-      "link": "https://en.yna.co.kr/view/AEN20260911002000315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
+    {
+      "dropped": "Seventeen's new unit of Jeonghan, Joshua to debut with 'Dreamscape'",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "Watch: SEVENTEEN’s Jeonghan X Joshua Announce JxJ Unit Debut Date And Details With “DREAMSCAPE” Teaser",
+      "kept_source": "Soompi Music",
+      "category": "Debut / new group"
+    },
     {
       "dropped": "Girl group Rescene to drop new EP in Nov.",
       "dropped_source": "Yonhap K-pop",
@@ -1477,6 +1500,13 @@
       "dropped": "Riize to release 2nd studio album next spring",
       "dropped_source": "Yonhap K-pop",
       "kept": "RIIZE Announces October Comeback And 2027 Plans For New Full-Length Album",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
+      "dropped": "I-dle's Yuqi to return with new EP next month",
+      "dropped_source": "Korea Herald",
+      "kept": "i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
     },
@@ -1502,6 +1532,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 28,
+  "candidate_items": 30,
   "final_items": 22
 }

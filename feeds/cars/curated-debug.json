@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T01:45:43.524793+00:00",
+  "generated_at": "2026-09-23T07:42:16.683527+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 25
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla belandt opnieuw in de rechtbank wegens racisme",
+      "link": "https://www.autoblog.nl/nieuws/tesla-belandt-opnieuw-in-de-rechtbank-wegens-racisme",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "De M5 krijgt binnenkort een flinke portie Neue Klasse",
+      "link": "https://www.autoblog.nl/nieuws/de-m5-krijgt-binnenkort-een-flinke-portie-neue-klasse",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -369,30 +393,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "F1 verkort races en de reden is hilarisch",
       "link": "https://www.autoblog.nl/nieuws/f1-verandert-37-jaar-oude-regel-om-bijzondere-reden",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze bizarre sedan met vleugeldeuren en 850 pk is een echte productieauto!",
-      "link": "https://www.autoblog.nl/nieuws/dit-is-de-exobot-een-echte-productieauto-met-vleugeldeuren-en-850-pk",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit grote probleem hebben alle nieuwe auto's",
-      "link": "https://www.autoblog.nl/nieuws/dit-grote-probleem-hebben-alle-nieuwe-auto-s",
       "details": {
         "feature": [],
         "tags": [],
@@ -863,6 +863,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Maybe the best V8 saloon ever built for sale",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/maybe-the-best-v8-saloon-ever-built-for-sale/51707"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Audi RS4 (B5) | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/audi-rs4-b5--spotted/51703"
     },
@@ -975,13 +982,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Ford Capri 280 Brooklands Turbo Technics | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/ford-capri-280-brooklands-turbo-technics--spotted/51648"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Ferrari 550 Maranello | Spotted",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/ferrari-550-maranello--spotted/51643"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1146,6 +1146,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 76,
+  "output_items": 76
 }

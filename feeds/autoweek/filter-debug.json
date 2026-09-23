@@ -1,10 +1,42 @@
 {
-  "generated_at": "2026-09-23T01:45:37.601509+00:00",
+  "generated_at": "2026-09-23T07:42:10.742401+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 25,
-  "dropped_items": 0,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Hyundai Ioniq 9: groot, beresterk en niet altijd inktzwart",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-ioniq-9-groot-beresterk-en-niet-altijd-inktzwart/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ioniq 9"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Peugeot 208: enkel elektrisch en naast de oude",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-peugeot-208-enkel-elektrisch-en-naast-de-oude/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -324,34 +356,6 @@
           "review"
         ],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met de eerste Accord begon Honda aan het serieuzere werk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/met-de-eerste-accord-begon-honda-aan-het-serieuzere-werk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Van budget naar premium: Skoda-topman wordt de nieuwe CEO van Volvo",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/van-budget-naar-premium-voormalig-skoda-topman-is-de-nieuwe-ceo-van-volvo/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

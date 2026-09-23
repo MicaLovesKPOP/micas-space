@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:01:09.627025+00:00",
+  "generated_at": "2026-09-23T17:50:29.009875+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,66 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Zo bizar veel heeft deze Ferrari gereden",
+      "link": "https://www.autoblog.nl/nieuws/zo-bizar-veel-heeft-deze-ferrari-gereden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "En jij dacht dat jouw Tesla snel was",
+      "link": "https://www.autoblog.nl/nieuws/en-jij-dacht-dat-jouw-tesla-snel-was",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Lelijkste Audi op Marktplaats heeft een bijzonder verhaal",
+      "link": "https://www.autoblog.nl/nieuws/deze-zeer-gelimiteerde-audi-op-marktplaats-kost-nog-geen-5-000-euro",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Vergeet 16,5 jaar: volgens rijinstructeurs moet je veel eerder leren autorijden",
+      "link": "https://www.autoblog.nl/nieuws/onderzoek-bewijst-14-jaar-is-de-beste-leeftijd-om-te-leren-autorijden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Nederlanders negeren massaal deze simpele manier om benzine te besparen",
+      "link": "https://www.autoblog.nl/nieuws/de-oplossing-voor-hoge-brandstofkosten-is-simpel-en-ligt-bij-jezelf",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -333,66 +393,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Past Wouter op de derde zitrij van de Skoda Peaq?",
-      "link": "https://www.autoblog.nl/video/past-wouter-op-de-derde-zitrij-van-de-skoda-peaq",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze Porsche heeft net een beurtje gehad van €35k en kan nu van jou zijn",
-      "link": "https://www.autoblog.nl/nieuws/deze-porsche-heeft-net-een-beurtje-gehad-van-35k-en-kan-nu-van-jou-zijn",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze supercarbouwer komt met een opvallend nieuw logo",
-      "link": "https://www.autoblog.nl/nieuws/deze-supercarbouwer-komt-met-een-opvallend-nieuw-logo",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Red Bull maakt teamgenoot Verstappen in Bakoe bekend",
-      "link": "https://www.autoblog.nl/nieuws/red-bull-heeft-nieuws-voor-liam-lawson",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Mercedes-AMG maakt niet dezelfde fout met de GLC 53 4MATIC+ Coupe #test",
-      "link": "https://www.autoblog.nl/nieuws/mercedes-amg-maakt-niet-dezelfde-fout-met-de-glc-53-4matic-coupe-test",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
       }
     },
     {
@@ -983,6 +983,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "The Tricks to Keeping a 100-Year-Old Aston Martin on Track and in the Family",
+      "link": "https://www.hagerty.com/media/automotive-history/the-tricks-to-keeping-a-100-year-old-aston-martin-on-track-and-in-the-family/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "Scooting Through History: 13 Vespas to Celebrate the Model’s 80th",
       "link": "https://www.hagerty.com/media/automotive-history/scooting-through-history-13-vespas-to-celebrate-the-models-80th/"
     },
@@ -1142,6 +1149,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

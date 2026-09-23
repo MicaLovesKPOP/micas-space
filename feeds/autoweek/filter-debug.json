@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-09-23T17:50:21.755950+00:00",
+  "generated_at": "2026-09-23T21:27:04.134280+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Bentley Torcal: eerste elektrische Bentley is toch verrassend traditioneel",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bentley-torcal-de-eerste-elektrische-bentley-is-ondanks-nieuw-design-verrassend-traditioneel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -343,21 +358,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Hyundai Tucson: razend populaire gezinsauto is groter, ruimer en efficiënter",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hyundai-tucson-vlijmscherp-gesneden-succesnummer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

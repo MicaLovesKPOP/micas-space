@@ -1,10 +1,68 @@
 {
-  "generated_at": "2026-09-23T07:42:10.742401+00:00",
+  "generated_at": "2026-09-23T13:01:03.647468+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Fiat Topolino is de misschien wel de kleinste speedster ter wereld",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/knotsgekke-fiat-topolino-is-de-misschien-wel-de-kleinste-speedster-ter-wereld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Chinese automerken winnen meer terrein in Europa",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-automerken-winnen-meer-terrein-in-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "marktaandeel"
+        ],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe Nissan Pixo: eindelijk heeft Nissan weer een goedkope stadsauto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-nissan-pixo-eindelijk-heeft-nissan-weer-een-goedkope-stadsauto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Lexus RX en RZ: uitgerekt, verdraaid en niet meer rijdbaar",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/lexus-rx-en-rz-uitgerekt-verdraaid-en-niet-meer-rijdbaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -23,7 +81,7 @@
     {
       "keep": false,
       "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Peugeot 208: enkel elektrisch en naast de oude",
+      "title": "Nieuwe Peugeot 208: altijd elektrisch en naast de oude",
       "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-peugeot-208-enkel-elektrisch-en-naast-de-oude/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [
@@ -302,60 +360,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Winstwaarschuwing Volkswagen: flink lagere winst door reorganisatie",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/winstwaarschuwing-volkswagen-flink-lagere-winst-door-reorganisatie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Skoda Peaq is heel fijn en niet vatbaar voor de pseudo-eindheffing",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-skoda-peaq-is-heel-fijn-en-niet-vatbaar-voor-de-pseudo-eindheffing/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nader (43) heeft veel met Amerikanen, toch bouwde hij in een Mercedes 190 een Corvette-motor",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nader-43-heeft-veel-met-amerikanen-toch-bouwde-hij-in-een-mercedes-190-een-corvette-motor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Eigenaren waarderen ruimte en comfort huidige Passat, rijhulpsystemen minder",
-      "link": "https://www.autoweek.nl/autotests/artikel/eigenaren-waarderen-ruimte-en-comfort-huidige-passat-rijhulpsystemen-minder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "review"
-        ],
-        "routine_product": []
       }
     }
   ]

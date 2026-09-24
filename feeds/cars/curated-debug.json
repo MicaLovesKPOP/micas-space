@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:24:18.078958+00:00",
+  "generated_at": "2026-09-24T18:38:59.249640+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,59 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Gast vindt manier om diesel voor 1,50 euro de liter te scoren, maar kijk wel uit",
+      "link": "https://www.autoblog.nl/nieuws/is-frituurvet-van-1-50-euro-per-liter-oplossing-voor-torenhoge-dieselprijzen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "belasting",
+          "wegenbelasting"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Bentley Torcal nu al in het wild gespot",
+      "link": "https://www.autoblog.nl/nieuws/bentley-torcal-maakt-nu-al-rondjes-in-londen",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Launch control met de GLC 53",
+      "link": "https://www.autoblog.nl/video/launch-control-met-de-glc-53",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Moederbedrijf Volvo heeft sterkste snellader ter wereld!",
+      "link": "https://www.autoblog.nl/nieuws/dit-chinese-merk-maakt-elektrisch-laden-bijna-net-zo-snel-als-tanken",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "laadpaal"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -337,54 +390,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Het lijkt klaar voor aartsvijand Max Verstappen",
       "link": "https://www.autoblog.nl/nieuws/het-lijkt-klaar-voor-aartsvijand-max-verstappen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Zo bizar veel heeft deze Ferrari gereden",
-      "link": "https://www.autoblog.nl/nieuws/zo-bizar-veel-heeft-deze-ferrari-gereden",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "En jij dacht dat jouw Tesla snel was",
-      "link": "https://www.autoblog.nl/nieuws/en-jij-dacht-dat-jouw-tesla-snel-was",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Lelijkste Audi op Marktplaats heeft een bijzonder verhaal",
-      "link": "https://www.autoblog.nl/nieuws/deze-zeer-gelimiteerde-audi-op-marktplaats-kost-nog-geen-5-000-euro",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Vergeet 16,5 jaar: volgens rijinstructeurs moet je veel eerder leren autorijden",
-      "link": "https://www.autoblog.nl/nieuws/onderzoek-bewijst-14-jaar-is-de-beste-leeftijd-om-te-leren-autorijden",
       "details": {
         "feature": [],
         "tags": [],
@@ -979,6 +984,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "Man Owns 400 Jeeps and Still Says, “No, I Don’t Have A Problem”",
+      "link": "https://www.hagerty.com/media/automotive-history/man-owns-400-jeeps-and-still-says-no-i-dont-have-a-problem/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "The 2006–09 Mitsubishi Raider Proves History Repeats Itself",
       "link": "https://www.hagerty.com/media/automotive-history/the-2006-09-mitsubishi-raider-proves-history-repeats-itself/"
     },
@@ -1145,6 +1157,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

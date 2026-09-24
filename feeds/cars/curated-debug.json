@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:38:59.249640+00:00",
+  "generated_at": "2026-09-24T21:47:07.564604+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Voor dit bedrag wordt een Range Rover Velar op Marktplaats zeer aantrekkelijk",
+      "link": "https://www.autoblog.nl/nieuws/goedkoopste-range-rover-velar-met-zescilinder-van-marktplaats-is-verleidelijk",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -378,18 +390,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "F1 Baku: tijden en alles wat je moet weten over de GP Azerbeidzjan 2026",
       "link": "https://www.autoblog.nl/nieuws/f1-baku-tijden-en-alles-wat-je-moet-weten-over-de-gp-azerbeidzjan-2026",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Het lijkt klaar voor aartsvijand Max Verstappen",
-      "link": "https://www.autoblog.nl/nieuws/het-lijkt-klaar-voor-aartsvijand-max-verstappen",
       "details": {
         "feature": [],
         "tags": [],
@@ -1033,8 +1033,29 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Project Cheap Camaro #9: Parts Make It Whole",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/project-cheap-camaro-9-parts-make-it-whole/"
+      "title": "4 Tips That Helped Quickly “Sort Out” My Project Corvette",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/4-tips-that-helped-quickly-sort-out-my-project-corvette/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Kyle Smith",
+      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Maintenance and Tech",
+      "link": "https://www.hagerty.com/media/tags/maintenance-and-tech/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Project Car",
+      "link": "https://www.hagerty.com/media/tags/project-car/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1061,13 +1082,6 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Innovation",
-      "link": "https://www.hagerty.com/media/tags/innovation/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
       "title": "Automotive History",
       "link": "https://www.hagerty.com/media/tags/automotive-history/"
     },
@@ -1075,29 +1089,15 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
+      "title": "Innovation",
+      "link": "https://www.hagerty.com/media/tags/innovation/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
       "title": "Manufacturing",
       "link": "https://www.hagerty.com/media/tags/manufacturing/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Automotive Testing",
-      "link": "https://www.hagerty.com/media/tags/automotive-testing/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "The Industry",
-      "link": "https://www.hagerty.com/media/tags/the-industry/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Maintenance and Tech",
-      "link": "https://www.hagerty.com/media/tags/maintenance-and-tech/"
     },
     {
       "source": "Hagerty Buyer's Guides",

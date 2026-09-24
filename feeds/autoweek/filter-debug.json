@@ -1,10 +1,103 @@
 {
-  "generated_at": "2026-09-24T04:40:06.514017+00:00",
+  "generated_at": "2026-09-24T09:31:30.463656+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Elektrische Volkswagen ID Polo als compacte bestelauto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-volkswagen-id-polo-als-compacte-bestelauto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "leverbaar"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Weer meer verkeersovertreders betrapt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/weer-meer-verkeersovertreders-betrapt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Peugeot komt met nieuwe uitvoering om 'kritiek weg te nemen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-komt-met-nieuwe-uitvoering-om-kritiek-weg-te-nemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe ",
+          "uitvoering"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nissan brengt T-top terug bij nieuwe Z-concept",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nissan-brengt-t-top-terug-bij-nieuwe-z-concept/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Chinese merken jagen Europese verkoop elektrische auto's omhoog",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-merken-jagen-europese-verkoop-elektrische-autos-omhoog/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [
+          "europese unie"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Retrofestijn: Renault 8 Gordini herleeft!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-8-gordini-herleeft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "rally"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -270,88 +363,6 @@
       "reason": "non-EV car news",
       "title": "Jack ging meteen met zijn BMW 520i Touring naar de tuner: 'Ik weet nog niet hoeveel pk hij heeft'",
       "link": "https://www.autoweek.nl/autotests/artikel/jack-ging-meteen-met-zijn-bmw-520i-touring-naar-de-tuner-ik-weet-nog-niet-hoeveel-pk-hij-heeft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mercedes-AMG ‘SUV’ heeft Mercedes-sterren als wenkbrauwen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mercedes-amg-suv-heeft-mercedes-sterren-als-wenkbrauwen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Politie houdt verkeer in de gaten met drones, eerste boetes uitgedeeld",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/politie-houdt-verkeer-in-de-gaten-met-drones-eerste-boetes-uitgedeeld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit Spaanse merk dat je ook in Nederland kent is terug!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-spaanse-merk-is-terug-en-lanceert-direct-twee-ruige-modellen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Tienduizenden werknemers protesteren in Duitsland tegen baanverlies auto-industrie",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tienduizenden-werknemers-protesteren-in-duitsland-tegen-baanverlies-auto-industrie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Olieprijzen dalen opnieuw, maar blijven op hoog niveau",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/olieprijzen-dalen-opnieuw-maar-blijven-op-hoog-niveau/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Raad van State kritisch over verdere verhoging verkeersboetes",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/raad-van-state-kritisch-over-verdere-verhoging-verkeersboetes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

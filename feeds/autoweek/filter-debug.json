@@ -1,10 +1,26 @@
 {
-  "generated_at": "2026-09-25T15:32:07.988068+00:00",
+  "generated_at": "2026-09-25T19:31:57.356781+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Een gebruikte EV van het gevestigde Chinese BYD of toch liever een occasion van EV-pionier?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/een-gebruikte-ev-van-het-gevestigde-chinese-byd-of-toch-liever-een-occasion-van-ev-pionier/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd",
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -355,21 +371,6 @@
           "europese unie"
         ],
         "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Retrofestijn: Renault 8 Gordini herleeft!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-8-gordini-herleeft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
         "boring": [],
         "routine_product": []
       }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:32:13.388498+00:00",
+  "generated_at": "2026-09-25T19:32:02.592720+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Gevonden: een Alpina die je nog niet kende (met een reden)",
+      "link": "https://www.autoblog.nl/nieuws/doodgeboren-alpina-x5-heeft-nooit-bestaan-maar-toch-ook-weer-wel",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Op deze manier willen we wel een kleine SUV hebben!",
+      "link": "https://www.autoblog.nl/nieuws/lexus-lbx-morizo-rr-wordt-nog-leuker",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Dit EV-onderdeel moet veel beter worden dan het is, aldus Ford",
+      "link": "https://www.autoblog.nl/nieuws/ford-patenteert-televisie-voor-in-je-frunk",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Bentley Torcal is officieel en heeft een Nederlandse prijs!",
+      "link": "https://www.autoblog.nl/nieuws/nu-helemaal-officieel-de-elektrische-bentley-torcal",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -352,50 +400,6 @@
           "ev"
         ]
       }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Launch control met de GLC 53",
-      "link": "https://www.autoblog.nl/video/launch-control-met-de-glc-53",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Moederbedrijf Volvo heeft sterkste snellader ter wereld!",
-      "link": "https://www.autoblog.nl/nieuws/dit-chinese-merk-maakt-elektrisch-laden-bijna-net-zo-snel-als-tanken",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "laadpaal"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Deze betaalbare EV is zuinigste in de echte wereld!",
-      "link": "https://www.autoblog.nl/nieuws/deze-betaalbare-ev-is-zuinigste-in-de-praktijk",
-      "details": {
-        "ev": [
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": true,
-      "reason": "Autoblog aankoopadvies",
-      "title": "Fiat/Abarth 500e 2020/2023-heden occasion aankoopadvies",
-      "link": "https://www.autoblog.nl/video/fiat-abarth-500e-2020-2023-heden-occasion-aankoopadvies"
     },
     {
       "source": "PistonHeads PH Heroes",
@@ -1158,6 +1162,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 76,
+  "output_items": 76
 }

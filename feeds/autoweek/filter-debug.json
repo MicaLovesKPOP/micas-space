@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-09-26T11:44:51.551867+00:00",
+  "generated_at": "2026-09-26T16:18:24.830111+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Mazda 2 Hybrid wint aan de pomp, maar de Renault Clio is beter",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-mazda-2-hybrid-wint-aan-de-pomp-maar-de-renault-clio-is-beter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze auto houdt je voor de gek en je zou het niet anders willen",
+      "link": "https://www.autoweek.nl/autotests/artikel/deze-auto-houdt-je-voor-de-gek-en-je-zou-het-niet-anders-willen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -335,38 +361,6 @@
           "goedkoper"
         ],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Gemiddelde dieselprijs in EU op record van 2,23 euro per liter",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/gemiddelde-dieselprijs-in-eu-op-record-van-223-euro-per-liter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "europese unie"
-        ],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Hyundai Bayon: meer SUV dan ooit en klaar voor Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hyundai-bayon-meer-suv-dan-ooit-en-klaar-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

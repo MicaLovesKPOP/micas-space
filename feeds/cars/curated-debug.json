@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:29:37.896207+00:00",
+  "generated_at": "2026-09-26T06:35:42.755388+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,25 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Audi A6 allroad (C9) is letterlijk een dikke sjaak",
+      "link": "https://www.autoblog.nl/video/audi-a6-allroad-c9-is-letterlijk-een-dikke-sjaak",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog mijn auto",
+      "title": "Leesvoer: is de B3 Touring van Jurgen de perfecte zaken-Alpina?",
+      "link": "https://www.autoblog.nl/nieuws/leesvoer-jurgen-maakt-zijn-alpina-garage-compleet-roadster-coupe-en-touring"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -371,34 +390,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Gast vindt manier om diesel voor 1,50 euro de liter te scoren, maar kijk wel uit",
-      "link": "https://www.autoblog.nl/nieuws/is-frituurvet-van-1-50-euro-per-liter-oplossing-voor-torenhoge-dieselprijzen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "belasting",
-          "wegenbelasting"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Bentley Torcal nu al in het wild gespot",
-      "link": "https://www.autoblog.nl/nieuws/bentley-torcal-maakt-nu-al-rondjes-in-londen",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
       }
     },
     {
@@ -1162,6 +1153,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

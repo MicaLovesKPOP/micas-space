@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-26T01:29:32.986538+00:00",
+  "generated_at": "2026-09-26T06:35:38.156357+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Waarom mag mijn hybride Kia Niro meer trekken dan de krachtiger Kia Seltos?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/waarom-mag-mijn-hybride-kia-niro-meer-trekken-dan-de-krachtiger-kia-seltos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -356,23 +369,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Chinese merken jagen Europese verkoop elektrische auto's omhoog",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-merken-jagen-europese-verkoop-elektrische-autos-omhoog/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [
-          "europese unie"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

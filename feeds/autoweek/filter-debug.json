@@ -1,10 +1,69 @@
 {
-  "generated_at": "2026-09-26T06:35:38.156357+00:00",
+  "generated_at": "2026-09-26T11:44:51.551867+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze gebruikte ‘dikke’ middenklassers kosten en klinken hetzelfde als een tweedehands Aygo",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-gebruikte-dikke-middenklassers-kosten-en-klinken-hetzelfde-als-een-tweedehands-aygo/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "We missen de zescilinder diesel want daarmee kon je heerlijk kilometervreten!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/een-zescilinder-diesel-maakt-kilometervreten-tot-een-feest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "verkoopcijfers",
+          "marktaandeel"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Met vijfcilinder turbo kan de Audi 200 de Mercedes 280E en BMW 528i wel bijbenen maar niet aftroeven",
+      "link": "https://www.autoweek.nl/autotests/artikel/met-vijfcilinder-turbo-kan-de-audi-200-de-mercedes-280e-en-bmw-528i-wel-bijbenen-maar-niet-aftroeven/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "De Volvo EX40 is goedkoper én luxueuzer dan voorheen – Back to basics",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-de-volvo-ex40-goedkoper-en-luxueuzer-dan-voorheen-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ex40"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -300,67 +359,6 @@
       "reason": "non-EV car news",
       "title": "Nieuwe Hyundai Bayon: meer SUV dan ooit en klaar voor Nederland",
       "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hyundai-bayon-meer-suv-dan-ooit-en-klaar-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Elektrische Volkswagen ID Polo als compacte bestelauto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-volkswagen-id-polo-als-compacte-bestelauto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Weer meer verkeersovertreders betrapt",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/weer-meer-verkeersovertreders-betrapt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Peugeot komt met nieuwe uitvoering om 'kritiek weg te nemen'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-komt-met-nieuwe-uitvoering-om-kritiek-weg-te-nemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe ",
-          "uitvoering"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nissan brengt T-top terug bij nieuwe Z-concept",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nissan-brengt-t-top-terug-bij-nieuwe-z-concept/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:06:11.880179+00:00",
+  "generated_at": "2026-09-27T13:55:51.670100+00:00",
   "sources": [
     {
       "name": "Korea Herald",
@@ -360,6 +360,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "IVE Announces Comeback Date For New EP “Looks Can Kill”",
+      "link": "https://www.soompi.com/article/1873360wpp/ive-announces-comeback-date-for-new-ep-looks-can-kill",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -832,14 +840,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: music chart"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "RIIZE Announces October Comeback And 2027 Plans For New Full-Length Album",
-      "link": "https://www.soompi.com/article/1870026wpp/riize-announces-october-comeback-and-2027-plans-for-new-full-length-album",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Celeb",
@@ -1505,13 +1505,6 @@
       "category": "Comeback / release"
     },
     {
-      "dropped": "Riize to release 2nd studio album next spring",
-      "dropped_source": "Yonhap K-pop",
-      "kept": "RIIZE Announces October Comeback And 2027 Plans For New Full-Length Album",
-      "kept_source": "Soompi Music",
-      "category": "Comeback / release"
-    },
-    {
       "dropped": "Rescene to release 4th EP in November",
       "dropped_source": "Korea Herald",
       "kept": "RESCENE Announces Comeback Date",
@@ -1541,5 +1534,5 @@
     }
   ],
   "candidate_items": 29,
-  "final_items": 21
+  "final_items": 22
 }

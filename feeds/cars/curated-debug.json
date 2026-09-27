@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-27T05:42:04.761572+00:00",
+  "generated_at": "2026-09-27T10:45:15.879650+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 22
+      "items": 23
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,56 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Corvette-rijder met een kort lontje",
+      "link": "https://www.autoblog.nl/video/corvette-rijder-met-een-kort-lontje",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Eindelijk gaat een welbekend merk meer echte namen gebruiken",
+      "link": "https://www.autoblog.nl/nieuws/mclaren-stopt-met-codes-en-stapt-over-naar-echte-namen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "De enige BMW M5 met een W10(!) wordt geveild in België",
+      "link": "https://www.autoblog.nl/nieuws/de-enige-bmw-m5-met-een-w10-wordt-geveild-in-belgie",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog lijstje ",
+      "title": "Met deze auto’s gingen jullie zelf op vakantie!",
+      "link": "https://www.autoblog.nl/nieuws/met-deze-auto-s-gingen-jullie-zelf-op-vakantie"
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog #mijnauto",
+      "title": "Nadeem stopte de aanschafprijs nóg een keer in zijn Porsche 997 #MijnAuto",
+      "link": "https://www.autoblog.nl/video/nadeem-stopte-de-aanschafprijs-nog-een-keer-in-zijn-porsche-997-mijnauto"
+    },
     {
       "source": "Autoblog",
       "keep": true,
@@ -320,66 +370,6 @@
         "ev": [
           "elektrisch",
           "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Goedkoopste PHEV van Marktplaats was ooit de best verkochte stekkerauto van NL",
-      "link": "https://www.autoblog.nl/nieuws/de-goedkoopste-phev-van-marktplaats-is-echt-een-schijntje",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Trek je agenda: BMW onthult nieuwe BMW 3 Serie",
-      "link": "https://www.autoblog.nl/nieuws/trek-je-agenda-bmw-onthult-nieuwe-bmw-3-serie",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Revven met de elektrische Abarth 500e",
-      "link": "https://www.autoblog.nl/video/revven-met-de-elektrische-abarth-500e",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Blijf weg van de A27 bij Gorinchem! Ik herhaal: blijf weg!",
-      "link": "https://www.autoblog.nl/nieuws/blijf-weg-van-de-a27-bij-gorinchem-ik-herhaal-blijf-weg",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla troeft alle andere automerken af met deze toffe nieuwe functie",
-      "link": "https://www.autoblog.nl/nieuws/grok-bot-in-je-tesla-koffie-voor-je-bestellen-en-er-automatisch-heenrijden",
-      "details": {
-        "ev": [
-          "tesla"
         ]
       }
     },
@@ -1132,6 +1122,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 81,
+  "output_items": 81
 }

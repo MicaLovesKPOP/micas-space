@@ -1,10 +1,113 @@
 {
-  "generated_at": "2026-09-28T06:48:45.739280+00:00",
+  "generated_at": "2026-09-28T15:21:46.099345+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Gemeenten breiden betaald parkeren uit vanwege financiële tekorten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/gemeenten-breiden-betaald-parkeren-uit-vanwege-financiele-tekorten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Misschien kun je straks met je Volvo ook accu's gaan wisselen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/misschien-kun-je-straks-met-je-volvo-ook-accus-gaan-wisselen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "laadpaal"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze MG F is misschien wel het investeren waard - Liefhebber gezocht",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-mg-f-is-misschien-wel-het-investeren-waard-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "EU stelt besluit over zelfrijdende Tesla's uit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/eu-stelt-besluit-over-zelfrijdende-teslas-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen ID4 opvolger ID Tiguan nog comfortabeler",
+      "link": "https://www.autoweek.nl/autotests/artikel/volkswagen-id-4-opvolger-id-tiguan-nog-comfortabeler/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "prototype"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs op nieuw record, zorgen om tanktoerisme nemen toe",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-op-nieuw-record-zorgen-om-tanktoerisme-nemen-toe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe Alpine A110 laat zijn vorm alvast zien",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-alpine-a110-laat-zijn-vorm-alvast-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -255,105 +358,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Unieke Ferrari van voormalig Ferrari-CEO staat te koop en kan van jou zijn",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/unieke-ferrari-360-modena-van-voormalig-ferrari-ceo-staat-te-koop-en-kan-van-jou-zijn/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Om één schroefje roepen Volkswagen en Audi miljoenen auto's terug",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-en-audi-roepen-wereldwijd-29-miljoen-autos-terug-om-stuurprobleem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Jarenlang niet aan te slepen, nu kost deze elektrische Kia minder dan €18.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-kia-e-niro-als-occasion-voor-minder-dan-een-nieuwe-dacia-spring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met deze grijze Japanner koop je een van de grootste sleepers aller tijden - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-grijze-japanner-koop-je-een-van-de-grootste-sleepers-aller-tijden-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Peugeot e-208 GTI is misschien wel de meest waardige opvolger die de Peugeot 205 GTI kreeg",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-peugeot-e-208-gti-is-misschien-wel-de-meest-waardige-opvolger-die-de-peugeot-205-gti-kreeg/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze gigantische Lexus heeft twee beestachtige dieselmotoren van Volvo",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-lexus-ly-680-heeft-twee-gigantische-dieselmotoren-van-volvo/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Bijna 1.400 kilometer rijden zonder te laden: het kan met de Audi A6 e-tron",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-audi-a6-e-tron-is-record-ev-bijna-1-400-kilometer-rijden-zonder-te-laden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "a6 e-tron",
-          "e-tron"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "actieradius",
-          "rijbereik"
-        ],
         "routine_product": []
       }
     }

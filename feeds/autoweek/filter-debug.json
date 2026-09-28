@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-28T01:10:03.537520+00:00",
+  "generated_at": "2026-09-28T06:48:45.739280+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nederlanders tanken 20 procent vaker over de grens",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nederlanders-tanken-20-procent-vaker-over-de-grens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -342,25 +355,6 @@
           "rijbereik"
         ],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De prijs van benzine stijgt weer naar een nieuwe recordhoogte",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-prijs-van-benzine-stijgt-weer-naar-een-nieuwe-recordhoogte/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

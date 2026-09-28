@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-28T15:21:46.099345+00:00",
+  "generated_at": "2026-09-28T21:22:13.352925+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Welke beroemdheden zullen in deze Mercedes-Benz 600 Pullman hebben gezeten? - In het Wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/welke-beroemdheden-zullen-in-deze-mercedes-benz-600-pullman-hebben-gezeten-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -338,22 +351,6 @@
         "ev": [
           "byd",
           "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Volkswagen ID4 is Elektrische Occasion van het Jaar, BMW i4 heeft gezondste accu's",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id4-is-elektrische-occasion-van-het-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "i4"
         ],
         "major": [],
         "exceptional": [],

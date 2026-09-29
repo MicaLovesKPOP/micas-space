@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-29T07:29:11.933783+00:00",
+  "generated_at": "2026-09-29T14:19:56.506723+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 25
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 5
+      "items": 4
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,176 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Bespaar op opties, niet op de accu met de Audi Q6 e-tron",
+      "link": "https://www.autoblog.nl/video/bespaar-op-opties-niet-op-de-accu-met-de-audi-q6-e-tron",
+      "details": {
+        "ev": [
+          "e-tron",
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit kost je rijbewijs tegenwoordig en daar schrik je van",
+      "link": "https://www.autoblog.nl/nieuws/dit-kost-je-rijbewijs-tegenwoordig-en-daar-schrik-je-van",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Citroën presenteert over 2 weken een nieuwe 2CV!",
+      "link": "https://www.autoblog.nl/nieuws/citroen-presenteert-over-2-weken-een-nieuwe-2cv",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze Limited Edition sportcoupé was zo populair dat Europa hem ook krijgt",
+      "link": "https://www.autoblog.nl/nieuws/deze-limited-edition-sportcoupe-komt-eindelijk-naar-europa",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hoera! AC Schnitzer krijgt een tweede leven dankzij Nederlanders",
+      "link": "https://www.autoblog.nl/nieuws/nederlanders-redden-legendarische-bmw-tuner-van-de-ondergang",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Renault Scenic vernieuwd: weer een goede deal?",
+      "link": "https://www.autoblog.nl/nieuws/renault-scenic-biedt-nu-meer-range-voor-minder-geld",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Fernando Alonso hakt knoop door over F1-toekomst",
+      "link": "https://www.autoblog.nl/nieuws/fernando-alonso-hakt-knoop-door-over-f1-toekomst",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hierom verwacht Max Verstappen een gridpenalty, maar Red Bull niet",
+      "link": "https://www.autoblog.nl/nieuws/hierom-verwacht-max-verstappen-een-gridpenalty-maar-red-bull-niet",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Breedste Audi A4 van Marktplaats is breder dan een RS4",
+      "link": "https://www.autoblog.nl/nieuws/breedste-audi-a4-van-marktplaats-is-breder-dan-een-rs4",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Afslaan zonder te kijken",
+      "link": "https://www.autoblog.nl/video/afslaan-zonder-te-kijken",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Neppe handbak nu te krijgen op álle supercars met dubbele koppeling",
+      "link": "https://www.autoblog.nl/nieuws/neppe-handbak-nu-te-krijgen-op-alle-supercars-met-dubbele-koppeling",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Attentie Hyundai- en Kia-rijders, u gaat bespioneerd worden",
+      "link": "https://www.autoblog.nl/nieuws/hyundai-en-kia-gaan-bestuurders-bekijken-om-data-te-verzamelen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit is (waarschijnlijk) de duurste nieuwe Alfa ooit",
+      "link": "https://www.autoblog.nl/nieuws/dit-is-waarschijnlijk-de-duurste-nieuwe-alfa-ooit",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Porsche zorgt voor bizarste snelheidsovertreding van Frankrijk",
+      "link": "https://www.autoblog.nl/nieuws/het-franse-flitsrecord-is-alweer-aan-gort-gereden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -222,179 +392,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Heet: AMG Black Series GT-prototype vat vlam bij de Nürburgring!",
-      "link": "https://www.autoblog.nl/nieuws/heet-amg-black-series-gt-prototype-vat-vlam-bij-de-nurburgring",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Pas op: volgende week is er weer een Europese flitsmarathon!",
-      "link": "https://www.autoblog.nl/nieuws/pas-op-volgende-week-is-er-weer-een-europese-flitsmarathon",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "BYD is op oorlogspad en dreigt ook dit merk in Europa te verslaan",
-      "link": "https://www.autoblog.nl/nieuws/na-tesla-gaat-byd-ook-deze-autogigant-verslaan-in-europa",
-      "details": {
-        "ev": [
-          "byd",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Goed nieuws voor iedereen die een Bugatti Veyron heeft",
-      "link": "https://www.autoblog.nl/nieuws/bugatti-veyron-geveild-voor-een-recordbedrag",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "nieuw record"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Voor de goedkoopste Corvette C7 van Marktplaats moet je een vliegticket boeken",
-      "link": "https://www.autoblog.nl/nieuws/voor-de-goedkoopste-corvette-c7-van-marktplaats-moet-je-een-vliegticket-boeken",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Tankstation stelt eigen maximumprijs in: € 1,99 per liter benzine!",
-      "link": "https://www.autoblog.nl/nieuws/tankstation-stelt-eigen-maximumprijs-in-1-99-per-liter-benzine",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Volkswagen ID. Polo moet binnen een maand terug naar de dealer",
-      "link": "https://www.autoblog.nl/nieuws/volkswagen-id-polo-begint-meteen-met-een-terugroepactie",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Je gelooft nooit welke stadsrakker zich onder deze bodykit verschuilt",
-      "link": "https://www.autoblog.nl/nieuws/duitse-tuner-maakt-van-brave-ev-een-bizarre-straatracer",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Nieuwe Alpine A110 wordt een beauty, maar er is ook slecht nieuws",
-      "link": "https://www.autoblog.nl/nieuws/nieuwe-alpine-a110-wordt-een-beauty-maar-er-is-ook-slecht-nieuws",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Volkswagen schrapt de ID.4: dit is de ID.Tiguan",
-      "link": "https://www.autoblog.nl/video/volkswagen-schrapt-de-id-4-dit-is-de-id-tiguan",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "id.4"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "F1 heeft dit weekend een nieuw probleem bij de vervangrace van Bahrein",
-      "link": "https://www.autoblog.nl/nieuws/hierdoor-is-het-nog-niet-zeker-dat-de-f1-dit-weekend-racet-in-maleisie",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Chauffeur ziet auto niet en maakt het spannend",
-      "link": "https://www.autoblog.nl/video/chauffeur-ziet-auto-niet-en-maakt-het-spannend",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze Chinese hybride blijkt een makkelijke prooi voor hackers",
-      "link": "https://www.autoblog.nl/nieuws/deze-hybride-blijkt-een-open-deur-voor-hackers",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Kan je straks met je Volvo ook van accupakket wisselen?",
-      "link": "https://www.autoblog.nl/nieuws/geely-koopt-zich-in-bij-nio-en-heeft-plannen-voor-batterijswappende-auto-s",
-      "details": {
-        "ev": [
-          "polestar",
-          "zeekr"
-        ]
       }
     },
     {
@@ -849,6 +846,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Rare Subaru BRZ TS for sale",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/rare-subaru-brz-ts-for-sale/51726"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Pitch-perfect Kingsley KSR for sale",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/pitch-perfect-kingsley-ksr-for-sale/51725"
     },
@@ -951,13 +955,6 @@
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/epic-one-of-ten-singer-dls-turbo-for-sale/51674"
     },
     {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Sold! The best Audi Sport cars you missed out on",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/sold-the-best-audi-sport-cars-you-missed-out-on/51669"
-    },
-    {
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
@@ -986,13 +983,6 @@
       "link": "https://www.hagerty.com/media/automotive-history/the-tricks-to-keeping-a-100-year-old-aston-martin-on-track-and-in-the-family/"
     },
     {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "Scooting Through History: 13 Vespas to Celebrate the Model’s 80th",
-      "link": "https://www.hagerty.com/media/automotive-history/scooting-through-history-13-vespas-to-celebrate-the-models-80th/"
-    },
-    {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
@@ -1010,15 +1000,15 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "4 Tips That Helped Quickly “Sort Out” My Project Corvette",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/4-tips-that-helped-quickly-sort-out-my-project-corvette/"
+      "title": "How to Pick the Right Car Trailer",
+      "link": "https://www.hagerty.com/media/advice/picking-the-right-car-trailer-for-transporting-your-classic/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Kyle Smith",
-      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+      "title": "Benjamin Hunting",
+      "link": "https://www.hagerty.com/media/author/bhunting/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1134,6 +1124,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 79,
-  "output_items": 79
+  "input_items": 77,
+  "output_items": 77
 }

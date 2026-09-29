@@ -1,10 +1,168 @@
 {
-  "generated_at": "2026-09-29T07:29:07.176359+00:00",
+  "generated_at": "2026-09-29T14:19:51.520684+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 25,
-  "dropped_items": 0,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Renault Dauphine is al bizar lang bij dezelfde eigenaar - In het wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-renault-dauphine-is-al-bizar-lang-bij-dezelfde-eigenaar-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Carsten (40) kocht een Volvo 940 Estate met 7 ton op de klok: 'Ik vond het echt een buitenkansje'",
+      "link": "https://www.autoweek.nl/autotests/artikel/carsten-40-kocht-een-volvo-940-estate-met-7-ton-op-de-klok-ik-vond-het-echt-een-buitenkansje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Alfa Romeo Cuorerosso: passievolle intentieverklaring",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/alfa-romeo-cuorerosso-passievolle-intentieverklaring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Studenten Eindhoven bouwen elektrische auto die fijnstof opvangt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/studenten-eindhoven-bouwen-elektrische-auto-die-fijnstof-opvangt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [
+          "conceptauto"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "AC Schnitzer komt in Nederlandse handen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ac-schnitzer-komt-in-nederlandse-handen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Speciale Honda Prelude in gelimiteerde oplage voor Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/speciale-honda-prelude-in-gelimiteerde-oplage-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Vernieuwde Renault Scenic E-Tech Electric is duizenden euro's goedkoper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-renault-scenic-e-tech-electric-is-duizenden-euros-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "electric"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper",
+          "duurder"
+        ],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Hof vraagt Staat om uitleg over kentekenherkenning",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hof-vraagt-staat-om-uitleg-over-kentekenherkenning/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Hyundai Kona Electric: razend populair en al voor minder dan €16.000 te koop",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-hyundai-kona-electric-razend-populair-en-al-voor-minder-dan-e16-000-te-koop/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "electric"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Je kunt nu al een Mercedes-Benz G-klasse Cabrio kopen voordat Mercedes hem heeft",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/je-kunt-nu-al-een-mercedes-benz-g-klasse-cabrio-kopen-voordat-mercedes-hem-heeft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "2.488 tankstations vergeleken: omrijden kan 51 cent per liter schelen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/2-488-tankstations-vergeleken-omrijden-kan-51-cent-per-liter-schelen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -196,158 +354,6 @@
       "matches": {
         "ev": [],
         "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Eigenaren Lexus LBX houden van onderstel en luxe gevoel, maar de achterbank vinden ze krap",
-      "link": "https://www.autoweek.nl/autotests/artikel/eigenaren-lexus-lbx-houden-van-onderstel-en-luxe-gevoel-maar-de-achterbank-vinden-ze-krap/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "review"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Wat bedoelen jullie met ‘besturing is licht, zelfs gevoelloos’ of ‘wollig rijgedrag’?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/wat-bedoelen-jullie-met-besturing-is-licht-zelfs-gevoelloos-of-wollig-rijgedrag/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Mercedes-AMG GLC 53 Coupé ziet eruit als een hooligan, maar is stiekem (te) beschaafd",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-mercedes-amg-glc-53-coupe-ziet-eruit-als-een-hooligan-maar-is-stiekem-te-beschaafd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit was de pk- en techtovenaar van Renault: Amédée Gordini",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/amedee-gordini-de-tech-tovenaar-van-renault/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Overgenomen van ome Thijs voor de boekwaarde en lekker traag tokkelen, Jaap denkt nog veel aan Jetta",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/overgenomen-van-ome-thijs-voor-de-boekwaarde-en-lekker-traag-tokkelen-jaap-denkt-nog-veel-aan-jetta-diesel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dankzij deze enthousiaste sleutelaars kunnen we nog lang van de oer Renault 4 op de weg genieten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dankzij-deze-enthousiaste-sleutelaars-kunnen-we-nog-van-de-oer-renault-4-op-de-weg-genieten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Rallye, GS/E, GT/E en 400, dit waren de heftigste Opels van de jaren 70 en vroege jaren 80",
-      "link": "https://www.autoweek.nl/autotests/artikel/rallye-gs-e-gt-e-en-400-dit-waren-de-heftigste-opels-van-de-jaren-70-en-vroege-jaren-80/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Mazda 2 Hybrid wint aan de pomp, maar de Renault Clio is beter",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-mazda-2-hybrid-wint-aan-de-pomp-maar-de-renault-clio-is-beter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze auto houdt je voor de gek en je zou het niet anders willen",
-      "link": "https://www.autoweek.nl/autotests/artikel/deze-auto-houdt-je-voor-de-gek-en-je-zou-het-niet-anders-willen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze gebruikte ‘dikke’ middenklassers kosten en klinken hetzelfde als een tweedehands Aygo",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-gebruikte-dikke-middenklassers-kosten-en-klinken-hetzelfde-als-een-tweedehands-aygo/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "We missen de zescilinder diesel want daarmee kon je heerlijk kilometervreten!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/een-zescilinder-diesel-maakt-kilometervreten-tot-een-feest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "verkoopcijfers",
-          "marktaandeel"
-        ],
         "exceptional": [],
         "boring": [],
         "routine_product": []

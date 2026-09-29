@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-28T23:56:02.914756+00:00",
+  "generated_at": "2026-09-29T05:40:46.347652+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 32
     },
     {
       "name": "Music Business Worldwide",
@@ -28,11 +28,19 @@
     {
       "name": "Yonhap K-pop",
       "url": "https://en.yna.co.kr/culture/k-pop",
-      "status": "ok",
-      "items": 20
+      "status": "error",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Seventeen’s Jeonghan X Joshua to launch 6-city tour",
+      "link": "https://www.koreaherald.com/article/10887272",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "November rush gives K-pop one last comeback window",
@@ -67,8 +75,40 @@
     },
     {
       "source": "Korea Herald",
+      "title": "BTS sweeps all 3 nominated categories at 2026 MTV VMAs",
+      "link": "https://www.koreaherald.com/article/10886188",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Ive set to release 5th EP in late October",
+      "link": "https://www.koreaherald.com/article/10886123",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "TWS to return in November with 2nd single: report",
+      "link": "https://www.koreaherald.com/article/10885945",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Seventeen’s Jeonghan X Joshua duo unveils teaser photos for 1st EP",
       "link": "https://www.koreaherald.com/article/10885897",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "TXT to roll out 9th EP in November",
+      "link": "https://www.koreaherald.com/article/10885874",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -331,6 +371,14 @@
     },
     {
       "source": "Soompi Music",
+      "title": "SHINee’s Taemin Postpones North American Stops Of “LiMiNaL” World Tour",
+      "link": "https://www.soompi.com/article/1873899wpp/shinees-taemin-postpones-north-american-stops-of-liminal-world-tour",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
       "title": "SEVENTEEN Unit JxJ (Jeonghan X Joshua) Announces Stops For Tour “Journey Into ‘DREAMING’”",
       "link": "https://www.soompi.com/article/1873646wpp/seventeen-unit-jxj-jeonghan-x-joshua-announces-stops-for-tour-journey-into-dreaming",
       "keep": false,
@@ -387,7 +435,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "XLOV Teases Comeback With Brand-New Logo",
+      "title": "Update: XLOV Announces Comeback Date With Scheduler For 3rd Mini Album “i=!”",
       "link": "https://www.soompi.com/article/1873398wpp/xlov-teases-comeback-with-brand-new-logo",
       "keep": true,
       "category": "Comeback / release",
@@ -635,11 +683,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: Xdinary Heroes Shares Instrumental Live Sampler For Upcoming Album “IMPULSE”",
+      "title": "Update: Xdinary Heroes Drops New Teasers Of Jooyeon, Jun Han, And O.de For “IMPULSE” Comeback",
       "link": "https://www.soompi.com/article/1871957wpp/watch-xdinary-heroes-announces-comeback-date-with-cinematic-mood-film-for-impulse",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "teaser/rollout post"
     },
     {
       "source": "Soompi Music",
@@ -802,12 +850,12 @@
       "reason": "routine PR/fandom noise: sales record"
     },
     {
-      "source": "Soompi Music",
-      "title": "Kim Jae Hwan Announces October Comeback With Teaser For “Love, From Here”",
-      "link": "https://www.soompi.com/article/1870869wpp/kim-jae-hwan-announces-october-comeback-with-teaser-for-love-from-here",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
+      "source": "Soompi Celeb",
+      "title": "STAYC And UNCHILD’s Agency Shares Update On Artists’ Scheduled Activities",
+      "link": "https://www.soompi.com/article/1873975wpp/stayc-and-unchilds-agency-shares-update-on-artists-scheduled-activities",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Celeb",
@@ -1280,210 +1328,21 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "TXT’s Soobin Announced As New Global Ambassador For Dolce&Gabbana",
-      "link": "https://www.soompi.com/article/1868907wpp/txts-soobin-announced-as-new-global-ambassador-for-dolcegabbana",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: global ambassador"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Ive to return with new EP next month",
-      "link": "https://en.yna.co.kr/view/AEN20260928006900315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "(2nd LD) BTS sweeps 3 categories at MTV VMAs; BLACKPINK's Lisa wins Best Pop",
-      "link": "https://en.yna.co.kr/view/AEN20260928005452315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "(LEAD) BTS sweeps 3 categories at MTV VMAs; BLACKPINK's Lisa wins Best Pop",
-      "link": "https://en.yna.co.kr/view/AEN20260928005451315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BLACKPINK's Lisa becomes 1st Asian soloist to win Best Pop at MTV VMAs",
-      "link": "https://en.yna.co.kr/view/AEN20260928005400315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "TXT to return with new EP in November",
-      "link": "https://en.yna.co.kr/view/AEN20260928002200315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Seventeen's new unit of Jeonghan, Joshua to debut with 'Dreamscape'",
-      "link": "https://en.yna.co.kr/view/AEN20260923003200315?section=culture/k-pop",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Seventeen's Joshua releases new digital single in Chinese, English",
-      "link": "https://en.yna.co.kr/view/AEN20260922005800315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Girl group Rescene to drop new EP in Nov.",
-      "link": "https://en.yna.co.kr/view/AEN20260922003000315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "I-dle's Soyeon sweeps charts with anthem about quitting work",
-      "link": "https://en.yna.co.kr/view/AEN20260921004200315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Girl group Fin.K.L to resume full-group activities after 21 years",
-      "link": "https://en.yna.co.kr/view/AEN20260921003800315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS performs at iHeartRadio Music Festival in Las Vegas",
-      "link": "https://en.yna.co.kr/view/AEN20260920002400315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Stray Kids' Bang Chan donates 200 mln won for rehabilitation patients, Nepal relief",
-      "link": "https://en.yna.co.kr/view/AEN20260919001100315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: donates"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS, Cortis land 3rd nomination at 2026 MTV Video Music Awards",
-      "link": "https://en.yna.co.kr/view/AEN20260919000900315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Singer-actor IU donates 200 mln won on debut anniversary",
-      "link": "https://en.yna.co.kr/view/AEN20260918007000315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: donates"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BLACKPINK's Rose drops new single 'New Trick'",
-      "link": "https://en.yna.co.kr/view/AEN20260918002300315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Cortis' 'GreenGreen' tops 4 mln copies in sales",
-      "link": "https://en.yna.co.kr/view/AEN20260917007200315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "'Dracula' featuring Jennie longest-charting song by K-pop artist in Hot 100's top 10",
-      "link": "https://en.yna.co.kr/view/AEN20260915010600315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Stray Kids' Felix donates 300 mln won for child patients, Nepal relief",
-      "link": "https://en.yna.co.kr/view/AEN20260915005500315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: donates"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Stray Kids electrifies 100,000 fans at Brazil's Rock in Rio",
-      "link": "https://en.yna.co.kr/view/AEN20260914008400315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "TXT to launch new world tour in Nov.",
-      "link": "https://en.yna.co.kr/view/AEN20260914006200315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
     {
-      "dropped": "Ive to return with new EP next month",
-      "dropped_source": "Yonhap K-pop",
+      "dropped": "Ive set to release 5th EP in late October",
+      "dropped_source": "Korea Herald",
       "kept": "IVE Announces Comeback Date For New EP “Looks Can Kill”",
-      "kept_source": "Soompi Music",
-      "category": "Comeback / release"
-    },
-    {
-      "dropped": "TXT to return with new EP in November",
-      "dropped_source": "Yonhap K-pop",
-      "kept": "TXT Announces Comeback Date And Details For Return With “PERFECT STORM”",
-      "kept_source": "Soompi Music",
-      "category": "Comeback / release"
-    },
-    {
-      "dropped": "Seventeen's new unit of Jeonghan, Joshua to debut with 'Dreamscape'",
-      "dropped_source": "Yonhap K-pop",
-      "kept": "Update: SEVENTEEN’s Jeonghan And Joshua Pose In Photos For Unit Debut As JxJ",
-      "kept_source": "Soompi Music",
-      "category": "Debut / new group"
-    },
-    {
-      "dropped": "Girl group Rescene to drop new EP in Nov.",
-      "dropped_source": "Yonhap K-pop",
-      "kept": "RESCENE Announces Comeback Date",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
     },
     {
       "dropped": "Fly to the Sky teases comeback after 8 years",
       "dropped_source": "Korea Herald",
-      "kept": "XLOV Teases Comeback With Brand-New Logo",
-      "kept_source": "Soompi Music",
+      "kept": "TVXQ's Max Changmin to make solo comeback after nearly 5 years",
+      "kept_source": "Korea Herald",
       "category": "Comeback / release"
     },
     {
@@ -1501,6 +1360,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 30,
-  "final_items": 23
+  "candidate_items": 24,
+  "final_items": 20
 }

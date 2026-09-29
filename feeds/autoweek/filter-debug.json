@@ -1,14 +1,68 @@
 {
-  "generated_at": "2026-09-29T01:14:27.055419+00:00",
+  "generated_at": "2026-09-29T07:29:07.176359+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 25,
+  "dropped_items": 0,
   "decisions": [
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Welke beroemdheden zullen in deze Mercedes-Benz 600 Pullman hebben gezeten? - In het Wild",
+      "title": "Zuid-Hollandse weggebruiker betaalt weer iets meer wegenbelasting",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zuid-hollandse-weggebruiker-betaalt-weer-iets-meer-wegenbelasting/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zwaar verkeer mag vanaf 21 oktober niet meer over dijk Lelystad-Enkhuizen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zwaar-verkeer-mag-vanaf-21-oktober-niet-meer-over-dijk-lelystad-enkhuizen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Goedkoper wordt het niet: deze nieuwkomer kost minder dan €5.000!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/goedkoper-wordt-het-niet-deze-kleine-nieuwkomer-kost-minder-dan-e5-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit lijkt een klassieke BMW, maar dat is het niet",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-lijkt-een-klassieke-bmw-maar-dat-is-het-niet/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Welke beroemdheden zullen in deze Mercedes-Benz 600 Pullman hebben gezeten? - In het wild",
       "link": "https://www.autoweek.nl/autonieuws/artikel/welke-beroemdheden-zullen-in-deze-mercedes-benz-600-pullman-hebben-gezeten-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -294,65 +348,6 @@
           "verkoopcijfers",
           "marktaandeel"
         ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met vijfcilinder turbo kan de Audi 200 de Mercedes 280E en BMW 528i wel bijbenen maar niet aftroeven",
-      "link": "https://www.autoweek.nl/autotests/artikel/met-vijfcilinder-turbo-kan-de-audi-200-de-mercedes-280e-en-bmw-528i-wel-bijbenen-maar-niet-aftroeven/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "De Volvo EX40 is goedkoper én luxueuzer dan voorheen – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-de-volvo-ex40-goedkoper-en-luxueuzer-dan-voorheen-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ex40"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Waarom mag mijn hybride Kia Niro meer trekken dan de krachtiger Kia Seltos?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/waarom-mag-mijn-hybride-kia-niro-meer-trekken-dan-de-krachtiger-kia-seltos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Een gebruikte EV van het gevestigde Chinese BYD of toch liever een occasion van EV-pionier?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/een-gebruikte-ev-van-het-gevestigde-chinese-byd-of-toch-liever-een-occasion-van-ev-pionier/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd",
-          "ev"
-        ],
-        "major": [],
         "exceptional": [],
         "boring": [],
         "routine_product": []

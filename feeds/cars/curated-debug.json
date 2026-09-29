@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-29T01:14:32.142818+00:00",
+  "generated_at": "2026-09-29T07:29:11.933783+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 24
+      "items": 25
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Volkswagen gaat goedkope accu's ook in duurste EV's verwerken",
+      "link": "https://www.autoblog.nl/nieuws/volkswagen-gaat-nog-meer-inzetten-op-lfp-batterijen-ook-voor-porsche",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit is hoe bizar veel Car of the Year-kandidaten Chinees zijn",
+      "link": "https://www.autoblog.nl/nieuws/dit-is-hoe-bizar-veel-car-of-the-year-kandidaten-chinees-zijn",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Ford viert twee jaar voor verjaardag al feest met dit speciaaltje",
+      "link": "https://www.autoblog.nl/nieuws/ford-viert-twee-jaar-voor-verjaardag-al-feest-met-dit-speciaaltje",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "De Tesla Roadster doet het niet in de regen en komt daarom nog later",
+      "link": "https://www.autoblog.nl/nieuws/tesla-stelt-de-lancering-van-de-roadster-weer-uit-om-een-wel-heel-slappe-reden",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -346,58 +394,6 @@
         "ev": [
           "polestar",
           "zeekr"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Dodge komt met meest Amerikaanse oplossing voor brandende accu",
-      "link": "https://www.autoblog.nl/nieuws/dodge-komt-met-meest-amerikaanse-oplossing-voor-brandende-accu",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Volkswagen gebruikt nog een bekende naam voor een EV",
-      "link": "https://www.autoblog.nl/nieuws/officieel-dit-is-de-nieuwe-bekende-naam-van-de-volkswagen-id-4-en-id-5",
-      "details": {
-        "ev": [
-          "bev",
-          "elektrisch",
-          "ev",
-          "id.4"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Tanktoerisme ontploft: Nederlander laat Nederlandse pomp massaal links liggen",
-      "link": "https://www.autoblog.nl/nieuws/tanktoerisme-ontploft-nederlander-laat-nederlandse-pomp-massaal-links-liggen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla Model X zorgt voor een nogal opmerkelijke rechtszaak",
-      "link": "https://www.autoblog.nl/nieuws/tesla-aangeklaagd-na-bizar-incident-met-model-x",
-      "details": {
-        "ev": [
-          "tesla"
         ]
       }
     },
@@ -1138,6 +1134,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 79,
+  "output_items": 79
 }

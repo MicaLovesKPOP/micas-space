@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-09-29T19:37:06.130168+00:00",
+  "generated_at": "2026-09-29T23:10:46.933454+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is de tweede nieuwe BMW 3-serie: ook met brandstofmotoren!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-tweede-nieuwe-bmw-3-serie-ook-met-brandstofmotoren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -338,19 +353,6 @@
       "reason": "non-EV car news",
       "title": "Nederlanders tanken 20 procent vaker over de grens",
       "link": "https://www.autoweek.nl/autonieuws/artikel/nederlanders-tanken-20-procent-vaker-over-de-grens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Thijs (42) kocht zijn Audi A3 1.6 TDI met 235.000 km: 'Mijn omgeving verklaarde me voor gek'",
-      "link": "https://www.autoweek.nl/autotests/artikel/thijs-42-kocht-zijn-audi-a3-1-6-tdi-met-235-000-km-mijn-omgeving-verklaarde-me-voor-gek/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

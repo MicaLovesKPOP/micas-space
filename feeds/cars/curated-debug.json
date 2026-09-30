@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-30T02:05:35.320647+00:00",
+  "generated_at": "2026-09-30T08:26:49.773962+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 24
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hoera: F1 GP van Zuid-Afrika komt terug en NIET op een stratencircuit!",
+      "link": "https://www.autoblog.nl/nieuws/hoera-f1-gp-van-zuid-afrika-komt-terug-en-niet-op-een-stratencircuit",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Automerken lekken massaal data naar grote techbedrijven",
+      "link": "https://www.autoblog.nl/nieuws/je-auto-deelt-stiekem-gegevens-met-deze-techreuzen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla heeft een bizarre truc voor de nieuwe Roadster",
+      "link": "https://www.autoblog.nl/nieuws/tesla-heeft-een-bizarre-truc-voor-de-nieuwe-roadster",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "BMW gaat helemaal los met M Performance Parts voor i3 M60 en M350",
+      "link": "https://www.autoblog.nl/nieuws/bmw-gaat-helemaal-los-met-m-performance-parts-voor-i3-m60-en-m350",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -341,54 +389,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Breedste Audi A4 van Marktplaats is breder dan een RS4",
       "link": "https://www.autoblog.nl/nieuws/breedste-audi-a4-van-marktplaats-is-breder-dan-een-rs4",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Afslaan zonder te kijken",
-      "link": "https://www.autoblog.nl/video/afslaan-zonder-te-kijken",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Neppe handbak nu te krijgen op álle supercars met dubbele koppeling",
-      "link": "https://www.autoblog.nl/nieuws/neppe-handbak-nu-te-krijgen-op-alle-supercars-met-dubbele-koppeling",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Attentie Hyundai- en Kia-rijders, u gaat bespioneerd worden",
-      "link": "https://www.autoblog.nl/nieuws/hyundai-en-kia-gaan-bestuurders-bekijken-om-data-te-verzamelen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit is (waarschijnlijk) de duurste nieuwe Alfa ooit",
-      "link": "https://www.autoblog.nl/nieuws/dit-is-waarschijnlijk-de-duurste-nieuwe-alfa-ooit",
       "details": {
         "feature": [],
         "tags": [],
@@ -1125,6 +1125,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 75,
+  "output_items": 75
 }

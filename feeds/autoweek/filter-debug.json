@@ -1,10 +1,101 @@
 {
-  "generated_at": "2026-09-30T02:05:30.924143+00:00",
+  "generated_at": "2026-09-30T08:26:44.147240+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Range Rover Sport Electric: ruim 600 kilometer rijbereik met 550 pk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/range-rover-sport-electric-ruim-600-kilometer-rijbereik-met-550-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "electric"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "rijbereik",
+          "range"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Er komen mogelijk meer elektrische Mazda's op Chinese basis",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/er-komen-mogelijk-meer-elektrische-mazdas-op-chinese-basis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Rechtszaak tegen Stellantis om sjoemelsoftware in campers",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/rechtszaak-tegen-stellantis-om-sjoemelsoftware-in-campers/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "BMW 7-serie nu ook als diesel en plug-in met tot 612 pk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-7-serie-nu-ook-als-diesel-en-plug-in-met-tot-612-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Elektrische BMW i3 is sterker en veel goedkoper dan benzineversie",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/prijzen-nieuwe-bmw-i3-en-3-serie-benzineversie-veel-duurder-dan-elektrische/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stellantis legt fabrieken stil om accutekort",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-legt-fabrieken-stil-om-accutekort/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -270,94 +361,6 @@
         "boring": [
           "laadpaal"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze MG F is misschien wel het investeren waard - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-mg-f-is-misschien-wel-het-investeren-waard-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "EU stelt besluit over zelfrijdende Tesla's uit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/eu-stelt-besluit-over-zelfrijdende-teslas-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen ID4 opvolger ID Tiguan nog comfortabeler",
-      "link": "https://www.autoweek.nl/autotests/artikel/volkswagen-id-4-opvolger-id-tiguan-nog-comfortabeler/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "prototype"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs op nieuw record, zorgen om tanktoerisme nemen toe",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-op-nieuw-record-zorgen-om-tanktoerisme-nemen-toe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Alpine A110 laat zijn vorm alvast zien",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-alpine-a110-laat-zijn-vorm-alvast-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nederlanders tanken 20 procent vaker over de grens",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nederlanders-tanken-20-procent-vaker-over-de-grens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

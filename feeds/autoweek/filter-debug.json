@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-10-01T18:50:26.825835+00:00",
+  "generated_at": "2026-10-01T23:08:26.557796+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 21,
   "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze nieuwe Hyundai Tucson is zowel langer als korter",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-nieuwe-hyundai-tucson-is-zowel-langer-als-korter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -342,21 +357,6 @@
           "rijbereik",
           "range"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Er komen mogelijk meer elektrische Mazda's op Chinese basis",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/er-komen-mogelijk-meer-elektrische-mazdas-op-chinese-basis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

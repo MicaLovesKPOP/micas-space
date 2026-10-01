@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-10-01T00:09:33.247661+00:00",
+  "generated_at": "2026-10-01T05:45:35.585679+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen zegt arbeidsovereenkomsten op, bonden boos",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-zegt-arbeidsovereenkomsten-op-bonden-boos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -341,19 +354,6 @@
         "ev": [
           "electric"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Je kunt nu al een Mercedes-Benz G-klasse Cabrio kopen voordat Mercedes hem heeft",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/je-kunt-nu-al-een-mercedes-benz-g-klasse-cabrio-kopen-voordat-mercedes-hem-heeft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-10-01T13:04:34.819690+00:00",
+  "generated_at": "2026-10-01T18:50:26.825835+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Opel Vectra is geweldig in al zijn onopvallendheid - Liefhebber gezocht",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-opel-vectra-is-geweldig-in-al-zijn-onopvallendheid-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Plug-in hybride gezins-SUV van Lynk & Co laat nu duidelijk zien dat hij 350 pk heeft",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/plug-in-hybride-gezins-suv-van-lynk-co-laat-nu-duidelijk-zien-dat-hij-350-pk-heeft/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -60,12 +86,14 @@
       }
     },
     {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Lexus TZ: groter maar duizenden euro's goedkoper dan de RX",
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Lexus TZ: grote elektrische SUV is duizenden euro's goedkoper dan de RX",
       "link": "https://www.autoweek.nl/autonieuws/artikel/lexus-tz-groter-maar-duizenden-euros-goedkoper-dan-de-rx/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
-        "ev": [],
+        "ev": [
+          "elektrisch"
+        ],
         "major": [],
         "exceptional": [],
         "boring": [
@@ -326,34 +354,6 @@
         "ev": [
           "elektrisch"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Rechtszaak tegen Stellantis om sjoemelsoftware in campers",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/rechtszaak-tegen-stellantis-om-sjoemelsoftware-in-campers/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "verbod"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "BMW 7-serie nu ook als diesel en plug-in met tot 612 pk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-7-serie-nu-ook-als-diesel-en-plug-in-met-tot-612-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

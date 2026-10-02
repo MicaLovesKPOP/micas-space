@@ -1,10 +1,39 @@
 {
-  "generated_at": "2026-10-02T02:10:29.259019+00:00",
+  "generated_at": "2026-10-02T08:27:39.942702+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volvo heeft last van China en stelt verwachting omlaag bij",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volvo-heeft-last-van-china-en-stelt-verwachting-omlaag-bij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe Citroën 2CV: niet in Parijs, later wel in Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-citroen-2cv-nog-niet-in-parijs-later-wel-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe ",
+          "in nederland"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -326,37 +355,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Topman Ford waarschuwt voor Chinese merken: 'Voor Europa is het al te laat'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/topman-ford-waarschuwt-voor-chinese-merken-voor-europa-is-het-te-laat/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Range Rover Sport Electric: ruim 600 kilometer rijbereik met 550 pk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/range-rover-sport-electric-ruim-600-kilometer-rijbereik-met-550-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "electric"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik",
-          "range"
-        ],
         "routine_product": []
       }
     }

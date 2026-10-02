@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T02:10:33.764795+00:00",
+  "generated_at": "2026-10-02T08:27:44.737195+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 21
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,80 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Dit is je eerste goede kijk op de Tesla Roadster",
+      "link": "https://www.autoblog.nl/nieuws/dit-is-je-eerste-goede-kijk-op-de-tesla-roadster",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Waanzin: iemand betaalde 2,4 miljoen voor deze Ferrari 550",
+      "link": "https://www.autoblog.nl/nieuws/waanzin-iemand-betaalde-2-4-miljoen-voor-deze-ferrari-550",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla voegt twijfelachtige functie toe aan superchargen",
+      "link": "https://www.autoblog.nl/nieuws/tesla-supercharger-hoef-je-niet-meer-te-ontkoppelen-maar-niet-zonder-gevolgen",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Eindelijk: BMW bevestigt het einde van het lelijkste model",
+      "link": "https://www.autoblog.nl/nieuws/officieel-bmw-stopt-met-het-lelijkste-bmw-model",
+      "details": {
+        "ev": [
+          "bev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit is het bestverkochte merk en model van 2026 tot nu toe",
+      "link": "https://www.autoblog.nl/nieuws/alles-wat-je-moet-weten-over-de-nederlandse-autoverkopen-in-2026",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "verkoopcijfers"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "F1 is terug in Maleisië! Dit is hoe laat de F1-race dit weekend is",
+      "link": "https://www.autoblog.nl/nieuws/f1-bahrein-in-maleisie-vroege-f1-tijden-en-alles-wat-je-moet-weten",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -316,79 +390,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "De benzinemotor krijgt misschien een onverwachte reddingsboei",
       "link": "https://www.autoblog.nl/nieuws/europa-lijkt-de-deur-voor-benzine-weer-op-een-kier-te-zetten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit is wanneer de nieuwe BMW 3 Serie Touring komt",
-      "link": "https://www.autoblog.nl/nieuws/dit-is-wanneer-de-nieuwe-bmw-3-serie-touring-komt",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Blijf weg van de Volkswagen Tiguan!! Ik herhaal: blijf maar gewoon weg",
-      "link": "https://www.autoblog.nl/nieuws/deze-populaire-volkswagen-is-de-minst-betrouwbare-auto",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "BMW bevestigt: dit is wanneer de elektrische BMW i1 Neue Klasse komt",
-      "link": "https://www.autoblog.nl/nieuws/bmw-bevestigt-dit-is-wanneer-de-elektrische-bmw-i1-neue-klasse-komt",
-      "details": {
-        "ev": [
-          "bev",
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "BMW 3 Serie configurator is live: dit kost een dikke uitvoering",
-      "link": "https://www.autoblog.nl/nieuws/bmw-3-serie-configurator-is-live-dit-kost-een-dikke-uitvoering",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Aston Martin DBX GT is de luxeversie van een super-SUV",
-      "link": "https://www.autoblog.nl/nieuws/aston-martin-dbx-gt-727-pk-en-vooral-super-veel-luxe",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze praktische Porsche is bizar duur",
-      "link": "https://www.autoblog.nl/nieuws/deze-praktische-porsche-is-bizar-duur",
       "details": {
         "feature": [],
         "tags": [],
@@ -742,6 +743,13 @@
       "source": "PistonHeads Shed of the Week",
       "keep": true,
       "reason": "Shed of the Week",
+      "title": "Lexus IS250 | Shed of the Week",
+      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/lexus-is250--shed-of-the-week/51741"
+    },
+    {
+      "source": "PistonHeads Shed of the Week",
+      "keep": true,
+      "reason": "Shed of the Week",
       "title": "Mercedes GL350 (X164) | Shed of the Week",
       "link": "https://www.pistonheads.com/regulars/ph-features-sheds/mercedes-gl350-x164--shed-of-the-week/51714"
     },
@@ -835,13 +843,6 @@
       "reason": "Shed of the Week",
       "title": "Ford StreetKa | Shed of the Week",
       "link": "https://www.pistonheads.com/regulars/ph-features-sheds/ford-streetka--shed-of-the-week/51355"
-    },
-    {
-      "source": "PistonHeads Shed of the Week",
-      "keep": true,
-      "reason": "Shed of the Week",
-      "title": "Alfa Romeo 159 Sportwagon | Shed of the Week",
-      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/alfa-romeo-159-sportwagon--shed-of-the-week/51326"
     },
     {
       "source": "PistonHeads Spotted",
@@ -1137,6 +1138,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 76,
+  "output_items": 76
 }

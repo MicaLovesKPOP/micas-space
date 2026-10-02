@@ -1,14 +1,119 @@
 {
-  "generated_at": "2026-10-02T08:27:39.942702+00:00",
+  "generated_at": "2026-10-02T14:57:37.376993+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Volvo heeft last van China en stelt verwachting omlaag bij",
+      "title": "Volkswagen ID Polo kan zelfs geslaagde Renault 5 de baas",
+      "link": "https://www.autoweek.nl/autotests/artikel/volkswagen-id-polo-kan-zelfs-geslaagde-renault-5-de-baas/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Leaserijder steeds duurder uit en is in acht jaar 35 procent meer bijtelling gaan betalen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/leaserijder-steeds-duurder-uit-en-is-in-acht-jaar-35-procent-meer-bijtelling-gaan-betalen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "bijtelling",
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stoere bestellers: Volkswagen Transporter en ID Buzz Cargo Signature Edition",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stoere-bestellers-volkswagen-transporter-en-id-buzz-cargo-signature-edition/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Lynk & Co 02 is nu al heel grondig vernieuwd",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-lynk-co-02-is-nu-al-heel-grondig-vernieuwd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Vernieuwde Renault Megane E-Tech Electric: in elk opzicht beter en toch goedkoper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-renault-megane-e-tech-electric-in-elk-opzicht-beter-en-toch-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "electric"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper",
+          "duurder"
+        ],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Peugeot 208 en 2008 vanaf nu ook als Envy: bijna aan de top",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-208-en-2008-vanaf-nu-ook-als-envy-bijna-aan-de-top/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Populaire Volkswagen ID Polo wordt duurder en zit dichter op ID Cross",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/populaire-volkswagen-id-polo-wordt-duurder-en-kruipt-dichterbij-id-cross/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volvo heeft last van China",
       "link": "https://www.autoweek.nl/autonieuws/artikel/volvo-heeft-last-van-china-en-stelt-verwachting-omlaag-bij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -35,12 +140,14 @@
       }
     },
     {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze nieuwe Hyundai Tucson is zowel langer als korter",
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Hyundai Tucson: als hybride en PHEV met groter EV-bereik",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-nieuwe-hyundai-tucson-is-zowel-langer-als-korter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
-        "ev": [],
+        "ev": [
+          "ev"
+        ],
         "major": [],
         "exceptional": [],
         "boring": [],
@@ -259,97 +366,6 @@
       "reason": "non-EV car news",
       "title": "Volkswagen zegt arbeidsovereenkomsten op, bonden boos",
       "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-zegt-arbeidsovereenkomsten-op-bonden-boos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Aston Martin DBX GT is even luxueus als beestachtig",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/aston-martin-dbx-gt-degradeert-vorige-topversie-tot-instapper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "BMW wil 20 procent van managementbanen schrappen, AI neemt werk over",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-wil-20-procent-van-managementbanen-schrappen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mercedes-Benz biedt Duitse werknemers vrijwillige vertrekregeling aan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mercedes-benz-biedt-duitse-werknemers-vrijwillige-vertrekregeling-aan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met deze Jaguar XJ lach je door je tranen heen bij de pomp - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-jaguar-xj-lach-je-door-je-tranen-heen-bij-de-pomp-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Genesis komt met beresterke cabrioversie van G90'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/genesis-komt-met-beresterke-cabrioversie-van-g90/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Porsche brengt nieuw infotainment naar meer 'oude' modellen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/porsche-brengt-nieuw-infotainment-naar-meer-oude-modellen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Opel STX Concept wordt sportief gelijnde stationwagon",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/opel-stx-concept-wordt-sportief-gelijnde-stationwagen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

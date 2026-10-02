@@ -1,10 +1,42 @@
 {
-  "generated_at": "2026-10-02T14:57:37.376993+00:00",
+  "generated_at": "2026-10-02T19:55:15.180648+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 20,
   "dropped_items": 5,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Op deze BMW i4 en Polestar 2 zijn duizenden euro's meer afgeschreven dan op even oude Model 3",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zoek-je-een-lage-snelle-gebruikte-ev-op-deze-bmw-i4-en-polestar-2-zijn-duizenden-euros-meer-afge/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "i4",
+          "polestar"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "range",
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ook Skoda roept bijna 2 miljoen auto's terug door stuurprobleem",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-skoda-roept-bijna-2-miljoen-autos-terug-door-stuurprobleem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -338,36 +370,6 @@
           "bmw ix",
           "ix3"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Voordelige Leapmotor C10 vernieuwd: groter rijbereik, sneller laden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/voordelige-leapmotor-c10-vernieuwd-groter-rijbereik-sneller-laden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "leapmotor"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen zegt arbeidsovereenkomsten op, bonden boos",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-zegt-arbeidsovereenkomsten-op-bonden-boos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

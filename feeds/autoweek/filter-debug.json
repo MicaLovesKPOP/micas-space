@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-10-03T05:11:17.124641+00:00",
+  "generated_at": "2026-10-03T10:23:32.799503+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Bovensiepen 05 Touring staat voor oldskool Alpina nog best dichtbij karakter M5",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-bovensiepen-b05-touring-voelt-voor-oldskool-alpina-niet-eens-zo-heel-anders-dan-m5/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De goedkoopste Mercedes-AMG GT 4-door heeft unieke bumpers – Back to basics",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-goedkoopste-mercedes-amg-gt-4-door-heeft-unieke-bumpers-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Ik zie anderen altijd erg hard over drempels rijden, daarmee slopen ze toch het onderstel?'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/anderen-kunnen-veel-harder-over-drempels-dan-ik-in-mijn-smart-slopen-ze-daarmee-hun-onderstel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
@@ -327,52 +366,6 @@
         "boring": [
           "duurder"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze gebruikte, vroege Volkswagen ID3 en late e-Golf kosten hetzelfde, welke zou jij kiezen?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-gebruikte-vroege-volkswagen-id3-en-late-e-golf-kosten-hetzelfde-welke-zou-jij-kiezen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Nissan Juke: wild gevouwen EV is klaar voor Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-nissan-juke-wild-gevouwen-ev-is-klaar-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "BMW iX3 biedt nu vierwielaandrijving voor duizenden euro's minder",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-ix3-nu-ook-met-vierwielaandrijving-minder-vermogen-en-lagere-prijs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bmw ix",
-          "ix3"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T05:11:22.983845+00:00",
+  "generated_at": "2026-10-03T10:23:38.274840+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 20
+      "items": 21
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,85 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Kogel is door de kerk: F1 bevestigt locatie van laatste twee races",
+      "link": "https://www.autoblog.nl/nieuws/kogel-is-door-de-kerk-f1-bevestigt-locatie-van-laatste-twee-races",
+      "details": {
+        "ev": [
+          "bev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Motorrijder daagt Ferrari uit, maar vergeet te remmen",
+      "link": "https://www.autoblog.nl/video/motorrijder-daagt-ferrari-uit-maar-vergeet-te-remmen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "BREEK: Max Verstappen pakt eerste pole van het seizoen op Sepang",
+      "link": "https://www.autoblog.nl/nieuws/breek-max-verstappen-pakt-eerste-pole-van-het-seizoen-op-sepang",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "BMW gaat op een slimme manier kosten besparen waar jij niets van merkt",
+      "link": "https://www.autoblog.nl/nieuws/bmw-gaat-op-een-slimme-manier-kosten-besparen-waar-jij-niets-van-merkt",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Aston Martin doet iets waar andere autofabrikanten en alleen van durven dromen",
+      "link": "https://www.autoblog.nl/nieuws/aston-martin-doet-iets-wat-andere-autofabrikanten-en-alleen-van-durven-dromen",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze autofabrikant luister wél naar klanten en stopt met dit irritante materiaal",
+      "link": "https://www.autoblog.nl/nieuws/nisssan-luistert-wel-naar-klanten-en-belooft-dit-materiaal-niet-meer-te-gebruiken",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog mijn auto",
+      "title": "Leesvoer: Erwin wilde deze Porsche eigenlijk helemaal niet",
+      "link": "https://www.autoblog.nl/nieuws/leesvoer-mis-je-de-twee-cilinders-bij-de-goedkoopste-718-boxster-van-nederland"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -308,92 +387,6 @@
         "ev": [
           "tesla"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Waanzin: iemand betaalde 2,4 miljoen voor deze Ferrari 550",
-      "link": "https://www.autoblog.nl/nieuws/waanzin-iemand-betaalde-2-4-miljoen-voor-deze-ferrari-550",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla voegt twijfelachtige functie toe aan superchargen",
-      "link": "https://www.autoblog.nl/nieuws/tesla-supercharger-hoef-je-niet-meer-te-ontkoppelen-maar-niet-zonder-gevolgen",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Eindelijk: BMW bevestigt het einde van het lelijkste model",
-      "link": "https://www.autoblog.nl/nieuws/officieel-bmw-stopt-met-het-lelijkste-bmw-model",
-      "details": {
-        "ev": [
-          "bev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit is het bestverkochte merk en model van 2026 tot nu toe",
-      "link": "https://www.autoblog.nl/nieuws/alles-wat-je-moet-weten-over-de-nederlandse-autoverkopen-in-2026",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "verkoopcijfers"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "F1 is terug in Maleisië! Dit is hoe laat de F1-race dit weekend is",
-      "link": "https://www.autoblog.nl/nieuws/f1-bahrein-in-maleisie-vroege-f1-tijden-en-alles-wat-je-moet-weten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Na Nederland haalt nu ook België een mijlpaal in de EV-verkopen",
-      "link": "https://www.autoblog.nl/nieuws/na-nederland-haalt-nu-ook-belgie-een-mijlpaal-in-de-ev-verkopen",
-      "details": {
-        "ev": [
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Van deze AMG bij Domeinen worden we wél hebberig",
-      "link": "https://www.autoblog.nl/nieuws/van-deze-amg-bij-domeinen-worden-we-wel-hebberig",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1138,6 +1131,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 77,
+  "output_items": 77
 }

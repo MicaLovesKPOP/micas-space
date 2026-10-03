@@ -1,10 +1,64 @@
 {
-  "generated_at": "2026-10-03T10:23:32.799503+00:00",
+  "generated_at": "2026-10-03T14:53:07.250771+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze iconische coupés kwam 50 jaar geleden uit en imponeren nu nog met looks en rij-eigenschappen",
+      "link": "https://www.autoweek.nl/autotests/artikel/deze-iconische-coupes-kwam-50-jaar-geleden-uit-en-imponeren-nu-nog-met-looks-en-rij-eigenschappen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Label bumperbalk verraadt kennis verkoper over schadeverleden: koper krijgt €24.500 terug",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/label-bumperbalk-verraadt-verkoper-van-ex-schadeauto-koper-krijgt-e24-500-terug-van-particuliere-verkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nuvolari is indrukwekkend snel maar vertoont typische Audi-kenmerken zoals lichte besturing",
+      "link": "https://www.autoweek.nl/autotests/artikel/nuvolari-is-indrukwekkend-snel-maar-vertoont-typische-audi-kenmerken-zoals-lichte-besturing/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "stopzet"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zijpijpen: hartstikke stoer maar ze zaten er ook om andere redenen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zijpijpen-hartstikke-stoer-maar-ze-zaten-er-ook-om-andere-redenen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -304,68 +358,6 @@
         ],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Lexus TZ: grote elektrische SUV is duizenden euro's goedkoper dan de RX",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/lexus-tz-groter-maar-duizenden-euros-goedkoper-dan-de-rx/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Fiat Multiplay: Multipla is terug als kruising van SUV en pick-up, met ribbel!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-multiplay-multipla-is-terug-als-kruising-van-suv-en-pick-up-met-ribbel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Tesla Model 3 en Model Y gaan weer keihard, maar Tesla verslaat Toyota niet",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-model-3-en-model-y-gaan-weer-keihard-maar-tesla-verslaat-toyota-niet/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [
-          "verkoopcijfers"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De sterkste BMW X3 is voortaan nóg sterker, maar daar betaal je wel voor",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-sterkste-bmw-x3-is-voortaan-nog-sterker-maar-daar-betaal-je-wel-voor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
         "routine_product": []
       }
     }

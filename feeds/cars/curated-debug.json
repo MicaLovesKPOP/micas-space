@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T10:23:38.274840+00:00",
+  "generated_at": "2026-10-03T14:53:11.822998+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 21
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Porsche 991 met 255.000 kilometer is niet het koopje dat je hoopt",
+      "link": "https://www.autoblog.nl/nieuws/porsche-991-met-255-000-kilometer-is-niet-het-koopje-dat-je-hoopt",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Was de Rimac Nevera een flop? Dit zijn de harde cijfers",
+      "link": "https://www.autoblog.nl/nieuws/was-de-rimac-nevera-een-flop-dit-zijn-de-harde-cijfers",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "BMW i3 vs. 3 Serie: zoek de verschillen",
+      "link": "https://www.autoblog.nl/nieuws/bmw-3-serie-vs-i3-zoek-de-verschillen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Nieuw leasen of drie jaar oud kopen: wat is slimmer?",
+      "link": "https://www.autoblog.nl/nieuws/nieuw-leasen-of-3-jaar-oud-kopen-wat-is-slimmer",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -338,55 +386,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Jeep verliest het van een lantaarnpaal",
-      "link": "https://www.autoblog.nl/video/jeep-verliest-het-van-een-lantaarnpaal",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Zo ziet het eruit als je met een Tesla Model S Plaid crasht met 300km/u",
-      "link": "https://www.autoblog.nl/video/dit-gebeurt-er-als-je-met-een-tesla-model-s-een-klapband-krijgt-met-300-km-u",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Polestar over nieuwe Polestar 2: ''We gaan de BMW i3 verslaan''",
-      "link": "https://www.autoblog.nl/nieuws/polestar-over-nieuw-model-we-gaan-de-bmw-3-serie-verslaan",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "polestar"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "De Tesla Roadster gaat er heel anders uitzien dan je denkt",
-      "link": "https://www.autoblog.nl/nieuws/dit-is-je-eerste-goede-kijk-op-de-tesla-roadster",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
       }
     },
     {
@@ -1131,6 +1130,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 78,
+  "output_items": 78
 }

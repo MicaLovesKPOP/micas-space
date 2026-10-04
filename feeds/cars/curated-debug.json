@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:33:37.483776+00:00",
+  "generated_at": "2026-10-04T06:19:25.820428+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,13 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog #mijnauto",
+      "title": "Anastasia liet een F-Type en Cayman staan voor deze Audi TTS #MijnAuto",
+      "link": "https://www.autoblog.nl/video/anastasia-liet-een-f-type-en-cayman-staan-voor-deze-audi-tts-mijnauto"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -370,18 +377,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Bij deze tankstations kost een liter benzine maximaal twee euro",
       "link": "https://www.autoblog.nl/nieuws/bij-deze-tankstations-betaal-je-maximaal-2-euro-voor-een-liter-benzine",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Bugatti-baas Mate Rimac weet hoe automakers het van de Chinezen kunnen winnen",
-      "link": "https://www.autoblog.nl/nieuws/bugatti-baas-mate-rimac-weet-hoe-automakers-het-van-de-chinezen-kunnen-winnen",
       "details": {
         "feature": [],
         "tags": [],
@@ -1130,6 +1125,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 79,
+  "output_items": 79
 }

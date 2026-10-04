@@ -1,10 +1,41 @@
 {
-  "generated_at": "2026-10-04T12:49:56.847294+00:00",
+  "generated_at": "2026-10-04T17:33:29.402157+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ruben komt met zijn Audi A6 3.0 TDI BiTurbo naar de rollenbank: 'Met 350 pk ben ik al tevreden'",
+      "link": "https://www.autoweek.nl/autotests/artikel/ruben-komt-met-zijn-audi-a6-3-0-tdi-biturbo-naar-de-rollenbank-met-350-pk-ben-ik-al-tevreden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Zo ver komt de Kia EV3 in de praktijk",
+      "link": "https://www.autoweek.nl/autotests/artikel/zo-ver-komt-de-kia-ev3-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev3"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "review",
+          "actieradius"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -21,7 +52,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Met de nieuwe Subaru E-Outback-duurester gingen we meteen naar Frankrijk en Italië",
+      "title": "Met de nieuwe Subaru E-Outback-duurtester gingen we meteen naar Frankrijk en Italië",
       "link": "https://www.autoweek.nl/autotests/artikel/met-de-nieuwe-subaru-e-outback-duurester-gingen-we-meteen-naar-frankrijk-en-italie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -331,36 +362,6 @@
           "nieuwe ",
           "in nederland"
         ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Hyundai Tucson: als hybride en PHEV met groter EV-bereik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-nieuwe-hyundai-tucson-is-zowel-langer-als-korter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Opel Vectra is geweldig in al zijn onopvallendheid - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-opel-vectra-is-geweldig-in-al-zijn-onopvallendheid-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

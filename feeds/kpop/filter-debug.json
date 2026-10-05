@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-05T01:58:14.055514+00:00",
+  "generated_at": "2026-10-05T08:59:31.425508+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -35,8 +35,32 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "BTS launches South American leg of ‘Arirang’ tour in Colombia",
+      "link": "https://www.koreaherald.com/article/10893372",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Stray Kids Bang Chan donates W300m on birthday",
+      "link": "https://www.koreaherald.com/article/10893366",
+      "keep": false,
+      "category": null,
+      "reason": "celebrity/lifestyle noise: donates, birthday"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Stray Kids join BTS in skipping Grammy submissions",
       "link": "https://www.koreaherald.com/article/10892439",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Nana, T.O.P. confirm relationship",
+      "link": "https://www.koreaherald.com/article/10891792",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -787,7 +811,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: Xdinary Heroes Poses In Teaser Images For “IMPULSE” Comeback",
+      "title": "Update: Xdinary Heroes Drops New Teaser For “IMPULSE” Comeback",
       "link": "https://www.soompi.com/article/1871957wpp/watch-xdinary-heroes-announces-comeback-date-with-cinematic-mood-film-for-impulse",
       "keep": false,
       "category": null,
@@ -808,6 +832,38 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "October Advertisement Model Brand Reputation Rankings Announced",
+      "link": "https://www.soompi.com/article/1875478wpp/october-advertisement-model-brand-reputation-rankings-announced-4",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: brand reputation"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "AND2BLE’s Agency Warns Against Impersonation Fraud",
+      "link": "https://www.soompi.com/article/1875471wpp/and2bles-agency-warns-against-impersonation-fraud",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "VIVIZ Signs With New Agency; May Have To Change Group Name",
+      "link": "https://www.soompi.com/article/1875465wpp/viviz-signs-with-new-agency-may-have-to-promote-under-new-group-name",
+      "keep": true,
+      "category": "Contract / agency",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "Yoo Hae Jin’s Agency Issues Warning Against Violation Of Actor’s Rights And Safety",
+      "link": "https://www.soompi.com/article/1875460wpp/yoo-hae-jins-agency-issues-warning-against-violation-of-actors-rights-and-safety",
+      "keep": false,
+      "category": null,
+      "reason": "Soompi Celeb: acting/non-music item"
     },
     {
       "source": "Soompi Celeb",
@@ -1258,38 +1314,6 @@
       "reason": "celebrity/lifestyle noise: donates"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "September Girl Group Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1870022wpp/september-girl-group-brand-reputation-rankings-announced-8",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "NMIXX’s Haewon Sits Out “Music Bank In Barcelona” Due To Health",
-      "link": "https://www.soompi.com/article/1870023wpp/nmixxs-haewon-sits-out-music-bank-in-barcelona-due-to-health",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "SEVENTEEN’s Hoshi Revealed To Have Torn His ACL During Military Service",
-      "link": "https://www.soompi.com/article/1869882wpp/seventeens-hoshi-revealed-to-have-torn-his-acl-during-military-service",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "September Boy Group Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1869879wpp/september-boy-group-brand-reputation-rankings-announced-10",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "T.O.P, Nana confirm romantic relationship",
       "link": "https://en.yna.co.kr/view/AEN20261002005000315?section=culture/k-pop",
@@ -1487,6 +1511,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 26,
-  "final_items": 21
+  "candidate_items": 27,
+  "final_items": 22
 }

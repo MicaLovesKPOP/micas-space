@@ -1,10 +1,85 @@
 {
-  "generated_at": "2026-10-05T02:22:45.408280+00:00",
+  "generated_at": "2026-10-05T09:35:13.009450+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nederlanders vinden het merk van hun nieuwe auto steeds minder belangrijk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nederlanders-vinden-het-merk-van-hun-nieuwe-auto-steeds-minder-belangrijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze SUV is er al als Renault en als Volga en komt nu ook naar Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-suv-is-er-al-als-renault-en-als-volga-en-komt-nu-ook-naar-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Skoda Octavia krijgt nieuwe hybride aandrijflijnen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-octavia-krijgt-nieuwe-hybride-aandrijflijnen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Citroën 2CV: retro, elektrisch en spotgoedkoop",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-citroen-2cv-retro-elektrisch-en-spotgoedkoop/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla Model 3 en Y zijn razend populair: heeft Tesla nog iets anders nodig?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-model-3-en-model-y-zijn-goed-voor-ruim-98-procent-van-de-tesla-verkopen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -283,85 +358,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Vernieuwde Renault Megane E-Tech Electric: in elk opzicht beter en toch goedkoper",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-renault-megane-e-tech-electric-in-elk-opzicht-beter-en-toch-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "electric"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper",
-          "duurder"
-        ],
-        "routine_product": [
-          "vernieuwde "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Peugeot 208 en 2008 vanaf nu ook als Envy: bijna aan de top",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-208-en-2008-vanaf-nu-ook-als-envy-bijna-aan-de-top/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Populaire Volkswagen ID Polo wordt duurder en zit dichter op ID Cross",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/populaire-volkswagen-id-polo-wordt-duurder-en-kruipt-dichterbij-id-cross/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volvo heeft last van China",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volvo-heeft-last-van-china-en-stelt-verwachting-omlaag-bij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Citroën 2CV: niet in Parijs, later wel in Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-citroen-2cv-nog-niet-in-parijs-later-wel-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe ",
-          "in nederland"
-        ]
       }
     }
   ]

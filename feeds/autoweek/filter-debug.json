@@ -1,10 +1,108 @@
 {
-  "generated_at": "2026-10-05T09:35:13.009450+00:00",
+  "generated_at": "2026-10-05T18:49:03.915208+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Citroën Ami Break geeft kleur aan de herfst - In het wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-citroen-ami-break-geeft-kleur-aan-de-herfst-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Na 623.000 kilometer keuren we de Suzuki SX4 van Peter (70): 'Geen lijstje, maar een lijst'",
+      "link": "https://www.autoweek.nl/autotests/artikel/na-623-000-kilometer-keuren-we-de-suzuki-sx4-van-peter-70-geen-lijstje-maar-een-lijst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Leapmotor komt met zeszits plug-in hybride met enorm elektrisch rijbereik",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-komt-met-zeszits-plug-in-hybride-met-enorm-elektrisch-rijbereik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch",
+          "leapmotor"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "rijbereik"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stellantis wil kwaliteit verbeteren: 'In 2028 bij beste kwart'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-wil-kwaliteit-verbeteren-in-2028-bij-beste-kwart/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dieselprijs omlaag? EU besluit deze week over noodvoorraad",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dieselprijs-omlaag-eu-besluit-deze-week-over-noodvoorraad/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Fiat Grande Panda: andere naam en minder verwijzingen naar Panda",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-fiat-argo-x-fiat-grande-panda-maar-dan-anders/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Op naar de elektrische BMW M3!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/op-naar-de-eerste-elektrische-bmw-m3/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -252,106 +350,6 @@
       "reason": "non-EV car news",
       "title": "De goedkoopste Mercedes-AMG GT 4-door heeft unieke bumpers – Back to basics",
       "link": "https://www.autoweek.nl/autonieuws/artikel/de-goedkoopste-mercedes-amg-gt-4-door-heeft-unieke-bumpers-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Ik zie anderen altijd erg hard over drempels rijden, daarmee slopen ze toch het onderstel?'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/anderen-kunnen-veel-harder-over-drempels-dan-ik-in-mijn-smart-slopen-ze-daarmee-hun-onderstel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Op deze BMW i4 en Polestar 2 zijn duizenden euro's meer afgeschreven dan op even oude Model 3",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zoek-je-een-lage-snelle-gebruikte-ev-op-deze-bmw-i4-en-polestar-2-zijn-duizenden-euros-meer-afge/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "i4",
-          "polestar"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range",
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ook Skoda roept bijna 2 miljoen auto's terug door stuurprobleem",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-skoda-roept-bijna-2-miljoen-autos-terug-door-stuurprobleem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen ID Polo kan zelfs geslaagde Renault 5 de baas",
-      "link": "https://www.autoweek.nl/autotests/artikel/volkswagen-id-polo-kan-zelfs-geslaagde-renault-5-de-baas/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Leaserijder steeds duurder uit en is in acht jaar 35 procent meer bijtelling gaan betalen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/leaserijder-steeds-duurder-uit-en-is-in-acht-jaar-35-procent-meer-bijtelling-gaan-betalen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "bijtelling",
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Stoere bestellers: Volkswagen Transporter en ID Buzz Cargo Signature Edition",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/stoere-bestellers-volkswagen-transporter-en-id-buzz-cargo-signature-edition/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Lynk & Co 02 is nu al heel grondig vernieuwd",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-lynk-co-02-is-nu-al-heel-grondig-vernieuwd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

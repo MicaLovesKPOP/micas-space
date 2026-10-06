@@ -1,10 +1,27 @@
 {
-  "generated_at": "2026-10-06T14:27:00.465365+00:00",
+  "generated_at": "2026-10-06T19:48:00.492235+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 21,
   "dropped_items": 4,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Dit is de nieuwe BMW iX4, ruim voordat BMW wil dat je hem ziet",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-nieuwe-bmw-ix4-ruim-voordat-bmw-wil-dat-je-hem-ziet/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bmw ix"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -139,7 +156,7 @@
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
-      "title": "Suzuki e Sky: goedkope en praktische elektrische Suzuki staat te trappelen om naar Europa te komen",
+      "title": "Suzuki e Sky: goedkope elektrische Suzuki 'van €15.000'",
       "link": "https://www.autoweek.nl/autonieuws/artikel/suzuki-e-sky-goedkope-maar-heel-praktische-elektrische-suzuki-klaar-voor-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [
@@ -351,24 +368,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Zo ver komt de Kia EV3 in de praktijk",
-      "link": "https://www.autoweek.nl/autotests/artikel/zo-ver-komt-de-kia-ev3-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev3"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "review",
-          "actieradius"
-        ],
         "routine_product": []
       }
     }

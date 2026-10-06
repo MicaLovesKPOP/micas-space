@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-10-06T19:48:00.492235+00:00",
+  "generated_at": "2026-10-06T23:45:46.950344+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 21,
   "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Prettig rijdende elektrische Hyundai Ioniq 3 mist fijn infotainmentsysteem",
+      "link": "https://www.autoweek.nl/autotests/artikel/prettig-rijdende-elektrische-hyundai-ioniq-3-mist-fijn-infotainmentsysteem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV product/update coverage",
@@ -352,19 +367,6 @@
         "ev": [
           "tesla"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ruben komt met zijn Audi A6 3.0 TDI BiTurbo naar de rollenbank: 'Met 350 pk ben ik al tevreden'",
-      "link": "https://www.autoweek.nl/autotests/artikel/ruben-komt-met-zijn-audi-a6-3-0-tdi-biturbo-naar-de-rollenbank-met-350-pk-ben-ik-al-tevreden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

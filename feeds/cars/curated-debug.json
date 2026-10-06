@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-06T00:46:04.869146+00:00",
+  "generated_at": "2026-10-06T07:30:27.170761+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 22
+      "items": 21
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Gelekt: dit is de nieuwe Jaguar Type 01",
+      "link": "https://www.autoblog.nl/nieuws/gelekt-dit-is-de-nieuwe-jaguar-type-01",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze onveilige kinderzitjes lanceren kinderen bij een ongeluk, meldt ANWB",
+      "link": "https://www.autoblog.nl/nieuws/deze-onveilige-kinderzitjes-lanceren-kinderen-lanceren-bij-een-ongeluk-meldt-anwb",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -372,30 +396,6 @@
         "ev": [
           "tesla"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze Chinees ziet er Europeser uit dan alle Europese auto's",
-      "link": "https://www.autoblog.nl/nieuws/volvo-xc40-krijgt-er-een-nieuw-broertje-bij-in-europa",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Waarom vielen zoveel F1-auto's stil in Maleisië?",
-      "link": "https://www.autoblog.nl/nieuws/f1-blunder-uitgelegd-hoe-een-softwarefout-f1-veranderde-in-huurkarts",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -850,6 +850,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Honda Civic Type R Sport Line (FK8) | Spotted",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/honda-civic-type-r-sport-line-fk8--spotted/51753"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Rover SD1 | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/rover-sd1--spotted/51750"
     },
@@ -950,13 +957,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Performance Link MX-5 (ND) for sale",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/performance-link-mx-5-nd-for-sale/51701"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Cor - there's a manual Jaguar XJR for sale",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/cor--theres-a-manual-jaguar-xjr-for-sale/51696"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1140,6 +1140,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 76,
+  "output_items": 76
 }

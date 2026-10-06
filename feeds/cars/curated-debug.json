@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:49:16.056653+00:00",
+  "generated_at": "2026-10-06T00:46:04.869146+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze weggebruikers krijgen straks nóg meer verplichtingen",
+      "link": "https://www.autoblog.nl/nieuws/deze-weggebruikers-krijgen-straks-nog-meer-verplichtingen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -380,18 +392,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Waarom vielen zoveel F1-auto's stil in Maleisië?",
       "link": "https://www.autoblog.nl/nieuws/f1-blunder-uitgelegd-hoe-een-softwarefout-f1-veranderde-in-huurkarts",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze Porsche is 95% afgeschreven in 3 jaar tijd",
-      "link": "https://www.autoblog.nl/nieuws/porsche-stopt-met-dit-gefaalde-project",
       "details": {
         "feature": [],
         "tags": [],
@@ -960,6 +960,13 @@
     },
     {
       "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
+      "title": "The Ford GT70 Is a Mid-Engine Rally Hero That Never Quite Made the Podium",
+      "link": "https://www.hagerty.com/media/automotive-history/the-ford-gt70-is-a-mid-engine-rally-hero-that-never-quite-made-the-podium/"
+    },
+    {
+      "source": "Hagerty Automotive History",
       "keep": false,
       "reason": "EV-extra",
       "title": "After Flying the U-2 and SR-71, Tony Bevacqua Got His Kicks in Corvettes",
@@ -990,13 +997,6 @@
       "reason": "automotive history",
       "title": "The 2006–09 Mitsubishi Raider Proves History Repeats Itself",
       "link": "https://www.hagerty.com/media/automotive-history/the-2006-09-mitsubishi-raider-proves-history-repeats-itself/"
-    },
-    {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "The Tricks to Keeping a 100-Year-Old Aston Martin on Track and in the Family",
-      "link": "https://www.hagerty.com/media/automotive-history/the-tricks-to-keeping-a-100-year-old-aston-martin-on-track-and-in-the-family/"
     },
     {
       "source": "Hagerty Maintenance & Tech",

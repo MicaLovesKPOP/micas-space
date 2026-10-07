@@ -1,10 +1,28 @@
 {
-  "generated_at": "2026-10-07T19:30:43.271826+00:00",
+  "generated_at": "2026-10-07T23:47:18.732556+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe BMW iX4: wat de iX3 kan, kan de iX4 ook (en zelfs beter!)",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-bmw-ix4-wat-de-ix3-kan-kan-de-ix4-ook-en-zelfs-beter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bmw ix",
+          "ix3"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -354,21 +372,6 @@
         "exceptional": [],
         "boring": [
           "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nooit meer stoppen om te laden? Honda werkt aan opladen tijdens het rijden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nooit-meer-stoppen-om-te-laden-honda-werkt-aan-opladen-tijdens-het-rijden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik"
         ],
         "routine_product": []
       }

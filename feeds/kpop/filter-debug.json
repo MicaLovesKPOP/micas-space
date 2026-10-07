@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07T02:23:35.119215+00:00",
+  "generated_at": "2026-10-07T09:15:18.848790+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 29
+      "items": 34
     },
     {
       "name": "Music Business Worldwide",
@@ -35,11 +35,19 @@
   "decisions": [
     {
       "source": "Korea Herald",
-      "title": "Katseye's 'Animal' charts 10th week on Billboard’s Hot 100",
-      "link": "https://www.koreaherald.com/article/10895279",
+      "title": "FT Island to host Christmas Eve concert in Japan",
+      "link": "https://www.koreaherald.com/article/10895568",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: billboard"
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "TWS to drop 2nd single in November",
+      "link": "https://www.koreaherald.com/article/10895552",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
@@ -48,6 +56,14 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "And2ble to release 2nd EP later this month",
+      "link": "https://www.koreaherald.com/article/10894173",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
@@ -67,6 +83,14 @@
     },
     {
       "source": "Korea Herald",
+      "title": "Blackpink’s 'Boombayah' music video logs 1.9b views",
+      "link": "https://www.koreaherald.com/article/10893913",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Eric Nam to release fourth LP on Oct. 16",
       "link": "https://www.koreaherald.com/article/10893441",
       "keep": false,
@@ -77,6 +101,22 @@
       "source": "Korea Herald",
       "title": "BTS launches South American leg of ‘Arirang’ tour in Colombia",
       "link": "https://www.koreaherald.com/article/10893372",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Stray Kids Bang Chan donates W300m on birthday",
+      "link": "https://www.koreaherald.com/article/10893366",
+      "keep": false,
+      "category": null,
+      "reason": "celebrity/lifestyle noise: donates, birthday"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "&Team caps biggest Asia tour with milestone Kspo Dome show",
+      "link": "https://www.koreaherald.com/article/10893329",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -267,6 +307,14 @@
     },
     {
       "source": "Music Business Worldwide",
+      "title": "Michael Smith, man behind $8M AI song and bot streaming fraud, sentenced to 18 months in prison",
+      "link": "https://www.musicbusinessworldwide.com/man-behind-8m-ai-song-and-bot-streaming-fraud-is-sentenced-to-18-months-in-prison/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
       "title": "Google picks Base for Music for its Gemini Startup Forum – as $1.7M-backed French company says it uses AI to predict music marketing ROI",
       "link": "https://www.musicbusinessworldwide.com/google-picks-base-for-music-for-its-gemini-startup-forum-as-1-7m-backed-french-company-says-it-uses-ai-to-predict-music-marketing-roi/",
       "keep": false,
@@ -338,12 +386,20 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Warner Music MENA names Ahmed Nureni MD, brings in Ahmad Alghawanmeh from Sony Music as GM",
-      "link": "https://www.musicbusinessworldwide.com/warner-music-mena-names-ahmed-nureni-md-brings-in-ahmad-alghawanmeh-from-sony-music-as-gm/",
+      "source": "Soompi Music",
+      "title": "Watch: Hwang Minhyun Honestly Conveys His Feelings In Sleek MV For “OUR”",
+      "link": "https://www.soompi.com/article/1876035wpp/watch-hwang-minhyun-honestly-conveys-his-feelings-in-sleek-mv-for-our",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: Onew And Zico Play A Game Of “Tic Tac Toe” In New Collab",
+      "link": "https://www.soompi.com/article/1876029wpp/watch-onew-and-zico-play-a-game-of-tic-tac-toe-in-new-collab",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -787,7 +843,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ZEROBASEONE’s Sung Han Bin Poses In Concept Photos For Solo Debut Album “DEAD:ALIVE”",
+      "title": "Update: ZEROBASEONE’s Sung Han Bin Drops Highlight Medley For Solo Debut Album “DEAD:ALIVE”",
       "link": "https://www.soompi.com/article/1872285wpp/zerobaseones-sung-han-bin-gears-up-for-solo-debut-with-scheduler-for-1st-ep-deadalive",
       "keep": false,
       "category": null,
@@ -808,22 +864,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Soompi’s K-Pop Music Chart 2026, September Week 3",
-      "link": "https://www.soompi.com/article/1872123wpp/soompis-k-pop-music-chart-2026-september-week-3",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: music chart"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Fin.K.L Announces Full-Group Comeback",
-      "link": "https://www.soompi.com/article/1872035wpp/fin-k-l-announces-full-group-comeback",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Celeb",
@@ -1487,8 +1527,22 @@
       "kept": "TXT Announces Comeback Date And Details For Return With “PERFECT STORM”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
+    },
+    {
+      "dropped": "TWS to drop 2nd single in November",
+      "dropped_source": "Korea Herald",
+      "kept": "Watch: TWS Announces Comeback Date With Trailer And Previews For “TO US”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
+      "dropped": "And2ble to release 2nd EP later this month",
+      "dropped_source": "Korea Herald",
+      "kept": "Update: AND2BLE Reveals Promotion Schedule For 1st-Ever Comeback",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
     }
   ],
-  "candidate_items": 24,
-  "final_items": 21
+  "candidate_items": 25,
+  "final_items": 20
 }

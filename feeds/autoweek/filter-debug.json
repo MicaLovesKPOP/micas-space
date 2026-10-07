@@ -1,10 +1,38 @@
 {
-  "generated_at": "2026-10-07T13:14:07.633896+00:00",
+  "generated_at": "2026-10-07T19:30:43.271826+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Bitter SC is misschien wel de spot van het jaar - In het wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-bitter-sc-is-misschien-wel-de-spot-van-het-jaar-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Shell profiteert fors van schaarste aan diesel en benzine",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/shell-profiteert-fors-van-schaarste-aan-diesel-en-benzine/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -342,32 +370,6 @@
         "boring": [
           "rijbereik"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Citroën Ami Break geeft kleur aan de herfst - In het wild",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-citroen-ami-break-geeft-kleur-aan-de-herfst-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Na 623.000 kilometer keuren we de Suzuki SX4 van Peter (70): 'Geen lijstje, maar een lijst'",
-      "link": "https://www.autoweek.nl/autotests/artikel/na-623-000-kilometer-keuren-we-de-suzuki-sx4-van-peter-70-geen-lijstje-maar-een-lijst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

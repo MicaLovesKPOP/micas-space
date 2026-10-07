@@ -1,10 +1,109 @@
 {
-  "generated_at": "2026-10-07T05:49:52.306046+00:00",
+  "generated_at": "2026-10-07T13:14:07.633896+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Aan niets is te zien dat deze Audi A4 richting de 4 ton op de klok gaat - Liefhebber gezocht",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/aan-niets-is-te-zien-dat-deze-audi-a4-richting-de-4-ton-op-de-klok-gaat-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla wil 'zelfrijdende auto's' aanpassen voor Europese goedkeuring",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-wil-zelfrijdende-autos-aanpassen-voor-europese-goedkeuring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Tolkorting voor schonere bussen en vrachtwagens",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tolkorting-voor-schonere-bussen-en-vrachtwagens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen ID Polo GTI krijgt een concurrerend prijskaartje",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id-polo-gti-krijgt-een-concurrerend-prijskaartje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Audi RS5 populairder dan ooit tevoren",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/audi-rs5-populairder-dan-ooit-tevoren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla Cybercab maakt oversteek naar Europa",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-cybercab-maakt-oversteek-naar-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Porsche gooit roer om: terug naar verbrandingsmotoren, nieuwe supersporter en ontslagen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/porsche-slaat-om-terug-naar-verbrandingsmotoren-nieuwe-supersporter-en-ontslagen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "ontslag"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -264,106 +363,6 @@
       "reason": "non-EV car news",
       "title": "Na 623.000 kilometer keuren we de Suzuki SX4 van Peter (70): 'Geen lijstje, maar een lijst'",
       "link": "https://www.autoweek.nl/autotests/artikel/na-623-000-kilometer-keuren-we-de-suzuki-sx4-van-peter-70-geen-lijstje-maar-een-lijst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Leapmotor komt met zeszits plug-in hybride met enorm elektrisch rijbereik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-komt-met-zeszits-plug-in-hybride-met-enorm-elektrisch-rijbereik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "leapmotor"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Stellantis wil kwaliteit verbeteren: 'In 2028 bij beste kwart'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-wil-kwaliteit-verbeteren-in-2028-bij-beste-kwart/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dieselprijs omlaag? EU besluit deze week over noodvoorraad",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dieselprijs-omlaag-eu-besluit-deze-week-over-noodvoorraad/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Fiat Grande Panda: andere naam en minder verwijzingen naar Panda",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-fiat-argo-x-fiat-grande-panda-maar-dan-anders/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Op naar de elektrische BMW M3!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/op-naar-de-eerste-elektrische-bmw-m3/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nederlanders vinden het merk van hun nieuwe auto steeds minder belangrijk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nederlanders-vinden-het-merk-van-hun-nieuwe-auto-steeds-minder-belangrijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze SUV is er al als Renault en als Volga en komt nu ook naar Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-suv-is-er-al-als-renault-en-als-volga-en-komt-nu-ook-naar-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

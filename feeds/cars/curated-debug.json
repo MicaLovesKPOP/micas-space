@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-06T23:45:51.028283+00:00",
+  "generated_at": "2026-10-07T05:49:56.409610+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 21
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Officieel: de Jaguar Type 01 is hier als sterkste en vreemdste Jag ooit!",
+      "link": "https://www.autoblog.nl/nieuws/officieel-de-jaguar-type-01-is-hier-als-sterkste-en-vreemdste-jag-ooit",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -380,18 +392,6 @@
         "ev": [
           "elektrisch"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze onveilige kinderzitjes lanceren kinderen bij een ongeluk, meldt ANWB",
-      "link": "https://www.autoblog.nl/nieuws/deze-onveilige-kinderzitjes-lanceren-kinderen-lanceren-bij-een-ongeluk-meldt-anwb",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -846,6 +846,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "£20k Aston Martin Vantage | Spotted",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/-20k-aston-martin-vantage--spotted/51758"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Honda Civic Type R Sport Line (FK8) | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/honda-civic-type-r-sport-line-fk8--spotted/51753"
     },
@@ -946,13 +953,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Fiat Strada Abarth 130TC | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/fiat-strada-abarth-130tc--spotted/51693"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Performance Link MX-5 (ND) for sale",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/performance-link-mx-5-nd-for-sale/51701"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1129,6 +1129,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

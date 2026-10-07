@@ -1,10 +1,56 @@
 {
-  "generated_at": "2026-10-06T23:45:46.950344+00:00",
+  "generated_at": "2026-10-07T05:49:52.306046+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Mini Countryman Untamed: ruiger maar zonder extra centimeters",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mini-countryman-untamed-edition-avontuurlijker-maar-in-nederland-niet-hoger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Hyundai Staria Electric: Elektrische MPV-vervanger voor minder dan €60.000",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-staria-electric-elektrische-mpv-vervanger-voor-minder-dan-e60-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "electric",
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "exceptional enthusiast/performance EV story",
+      "title": "Jaguar Type 01: extreme vierdeurs GT met 1.030 elektrische pk’s",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/jaguar-type-01-extreme-vierdeurs-gt-met-1-030-elektrische-pks/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [
+          "drift"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -320,53 +366,6 @@
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-suv-is-er-al-als-renault-en-als-volga-en-komt-nu-ook-naar-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Skoda Octavia krijgt nieuwe hybride aandrijflijnen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-octavia-krijgt-nieuwe-hybride-aandrijflijnen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Citroën 2CV: retro, elektrisch en spotgoedkoop",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-citroen-2cv-retro-elektrisch-en-spotgoedkoop/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Tesla Model 3 en Y zijn razend populair: heeft Tesla nog iets anders nodig?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-model-3-en-model-y-zijn-goed-voor-ruim-98-procent-van-de-tesla-verkopen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
         "major": [],
         "exceptional": [],
         "boring": [],

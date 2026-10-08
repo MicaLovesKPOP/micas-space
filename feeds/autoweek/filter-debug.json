@@ -1,10 +1,53 @@
 {
-  "generated_at": "2026-10-08T13:20:41.478821+00:00",
+  "generated_at": "2026-10-08T19:25:01.930015+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 19,
   "dropped_items": 6,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Firefly tijdelijk maar liefst €4.000 goedkoper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/firefly-tijdelijk-maar-liefst-e4-000-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Fiat Uno is een rijdend museumstuk - Liefhebber gezocht",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-fiat-uno-is-een-rijdend-museumstuk-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De meer dan complete Xpeng L03 is maar moeilijk op fouten te betrappen",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-meer-dan-complete-xpeng-l03-is-maar-moeilijk-op-fouten-te-betrappen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "xpeng"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
@@ -330,52 +373,6 @@
       "matches": {
         "ev": [
           "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Porsche gooit roer om: terug naar verbrandingsmotoren, nieuwe supersporter en ontslagen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/porsche-slaat-om-terug-naar-verbrandingsmotoren-nieuwe-supersporter-en-ontslagen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "ontslag"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mini Countryman Untamed: ruiger maar zonder extra centimeters",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mini-countryman-untamed-edition-avontuurlijker-maar-in-nederland-niet-hoger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Hyundai Staria Electric: Elektrische MPV-vervanger voor minder dan €60.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-staria-electric-elektrische-mpv-vervanger-voor-minder-dan-e60-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "electric",
-          "elektrisch"
         ],
         "major": [],
         "exceptional": [],

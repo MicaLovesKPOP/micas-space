@@ -1,14 +1,151 @@
 {
-  "generated_at": "2026-10-08T05:55:04.971059+00:00",
+  "generated_at": "2026-10-08T13:20:41.478821+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 19,
+  "dropped_items": 6,
   "decisions": [
     {
       "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "'EV-Achterstand op China verdwijnt als sneeuw voor de zon' - podcast",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ev-achterstand-op-china-verdwijnt-als-sneeuw-voor-de-zon/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "range"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bestuurders filmen een ongeluk, politie schrijft forse boetes uit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bestuurders-filmen-een-ongeluk-politie-schrijft-forse-boetes-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ford laat voor het eerst een heel bijzondere Mustang zien",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ford-laat-voor-het-eerst-een-heel-bijzondere-mustang-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Prijzen nieuwe Dacia Spring bekend: nét onder belangrijke grens",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/prijzen-nieuwe-dacia-spring-bekend-net-onder-belangrijke-grens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Huishoudens besteden minder aan benzine en diesel",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/huishoudens-besteden-minder-aan-benzine-en-diesel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "€400 voor één laadsessie: EV trekt door Europa, laadkosten zijn soms onduidelijk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/e400-voor-een-laadsessie-ev-trekt-door-europa-laadkosten-zijn-soms-onduidelijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Renault 4 verbeterd: groter rijbereik en nieuwe versies",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-4-verbeterd-groter-rijbereik-en-nieuwe-versies/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "rijbereik"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Kantelpunt in benzineprijs: weer op weg naar recordhoogte",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kantelpunt-in-benzineprijs-weer-op-weg-naar-recordhoogte/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Skoda Epiq: goedkoopste elektrische Skoda krijgt nieuw tussenmaatje",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-epiq-goedkoopste-elektrische-skoda-krijgt-nieuw-tussenmaatje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "leverbaar"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
       "reason": "routine EV product/update coverage",
-      "title": "Deze elektrische auto kost in China slechts €10.000 en hij komt naar Nederland",
+      "title": "Deze elektrische auto kost elders slechts €10.000 en hij komt naar Nederland",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-elektrische-auto-kost-in-china-slechts-e10-000-en-hij-komt-naar-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [
@@ -59,17 +196,17 @@
     },
     {
       "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe aandrijflijnen voor BMW X5 en iX5: het begint bij ruim €100.000",
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De eerste BMW iX5 kost minstens ruim €100.000",
       "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-aandrijflijnen-voor-bmw-x5-en-ix5-het-begint-bij-ruim-e100-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
-        "ev": [],
+        "ev": [
+          "bmw ix"
+        ],
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
+        "routine_product": []
       }
     },
     {
@@ -240,139 +377,6 @@
           "electric",
           "elektrisch"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "exceptional enthusiast/performance EV story",
-      "title": "Jaguar Type 01: extreme vierdeurs GT met 1.030 elektrische pk’s",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/jaguar-type-01-extreme-vierdeurs-gt-met-1-030-elektrische-pks/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [
-          "drift"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Prettig rijdende elektrische Hyundai Ioniq 3 mist fijn infotainmentsysteem",
-      "link": "https://www.autoweek.nl/autotests/artikel/prettig-rijdende-elektrische-hyundai-ioniq-3-mist-fijn-infotainmentsysteem/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Dit is de nieuwe BMW iX4, ruim voordat BMW wil dat je hem ziet",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-nieuwe-bmw-ix4-ruim-voordat-bmw-wil-dat-je-hem-ziet/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bmw ix"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Doe eens gek; koop een Lancia Lybra voor een prikkie! - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/doe-eens-gek-koop-een-lancia-lybra-voor-een-prikkie-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mazda CX-60 en CX-80 vernieuwd, verbeterd en goedkoper",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mazda-cx-60-en-cx-80-vernieuwd-verbeterd-en-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "ANWB en Consumentenbond: ernstige gebreken bij twee autostoeltjes",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/anwb-en-consumentenbond-ernstige-gebreken-bij-twee-autostoeltjes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Alpine brengt de klapkoplamp terug op bijzonder studiemodel",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/alpine-brengt-de-klapkoplamp-terug-op-bijzonder-studiemodel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "supercar"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Renault Twingobay levert extra licht op",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-twingobay-zorgt-voor-extra-licht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Renault Espace komt terug: E-Space Concept als vooruitblik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-renault-espace-komt-terug-e-space-concept-als-vooruitblik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07T23:47:23.172969+00:00",
+  "generated_at": "2026-10-08T05:55:09.804466+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 22
+      "items": 20
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,19 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Viercilinder eruit, zes-in-lijn erin: dit is de nieuwe Mercedes GLE 450 e",
+      "link": "https://www.autoblog.nl/video/106-km-elektrisch-en-een-zescilinder-mercedes-gle-450e",
+      "details": {
+        "ev": [
+          "actieradius",
+          "elektrisch"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -380,18 +393,6 @@
           "electric",
           "elektrisch"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit land komt met bizarre alcoholregel voor beginnende bestuurders",
-      "link": "https://www.autoblog.nl/nieuws/dit-land-komt-met-bizarre-alcoholregel-voor-beginnende-bestuurders",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -846,6 +847,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Alfaholics Giulia Super-R for sale",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/alfaholics-giulia-super-r-for-sale/51762"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "£20k Aston Martin Vantage | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/-20k-aston-martin-vantage--spotted/51758"
     },
@@ -946,13 +954,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Audi RS4 (B5) | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/audi-rs4-b5--spotted/51703"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Fiat Strada Abarth 130TC | Spotted",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/fiat-strada-abarth-130tc--spotted/51693"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1129,6 +1130,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 75,
+  "output_items": 75
 }

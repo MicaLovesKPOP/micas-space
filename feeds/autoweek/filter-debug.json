@@ -1,10 +1,54 @@
 {
-  "generated_at": "2026-10-08T23:56:31.978732+00:00",
+  "generated_at": "2026-10-09T06:01:23.303507+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 19,
   "dropped_items": 6,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Vandaag gaat deze ex-Piëch BMW M5 met unieke W10-motor misschien wel €350.000 opbrengen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vandaag-gaat-deze-ex-piech-bmw-m5-met-unieke-w10-motor-misschien-wel-e350-000-opbrengen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "McLaren 750S zwaait in 2027 af",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mclaren-750s-zwaait-in-2027-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De nieuwe Citroën 2CV moet €15.000 kosten, deze échte kost €100.000!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-citroen-2cv-moet-e15-000-kosten-deze-echte-kost-e100-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "kost €",
+          "prijs van"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -333,47 +377,6 @@
       "link": "https://www.autoweek.nl/autonieuws/artikel/tolkorting-voor-schonere-bussen-en-vrachtwagens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen ID Polo GTI krijgt een concurrerend prijskaartje",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id-polo-gti-krijgt-een-concurrerend-prijskaartje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Audi RS5 populairder dan ooit tevoren",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/audi-rs5-populairder-dan-ooit-tevoren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Tesla Cybercab maakt oversteek naar Europa",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-cybercab-maakt-oversteek-naar-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
         "major": [],
         "exceptional": [],
         "boring": [],

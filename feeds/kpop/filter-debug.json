@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T07:21:57.495890+00:00",
+  "generated_at": "2026-10-09T14:39:59.498823+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 29
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "K-pop architect Lee Soo-man returns with double debut",
+      "link": "https://www.koreaherald.com/article/10897924",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
     {
       "source": "Korea Herald",
       "title": "Hybe’s K-pop fest to hit India",
@@ -267,6 +275,22 @@
     },
     {
       "source": "Music Business Worldwide",
+      "title": "Meta bans TikTok parent ByteDance from advertising on its apps in the US and six other countries",
+      "link": "https://www.musicbusinessworldwide.com/meta-bans-tiktok-parent-bytedance-from-advertising-on-its-apps-in-the-us-and-six-other-countries/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Spotify renews multi-year licensing deal with Joe Rogan. His last one was reportedly worth $250M.",
+      "link": "https://www.musicbusinessworldwide.com/spotify-renews-multi-year-licensing-deal-with-joe-rogan-his-last-one-was-reportedly-worth-250m/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
       "title": "Suno hires Ticketmaster’s Michael Chua to lead its live music team, including Songkick",
       "link": "https://www.musicbusinessworldwide.com/suno-hires-ticketmasters-michael-chua-to-lead-its-live-music-team-including-songkick/",
       "keep": false,
@@ -330,20 +354,12 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "HYBE’s Weverse Con Festival to make its international debut in India in 2027",
-      "link": "https://www.musicbusinessworldwide.com/hybes-weverse-con-festival-to-make-its-international-debut-in-india-in-2027/",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "EMPIRE Publishing hires Rimas Publishing’s Emilio Morales as SVP, Business Development for Latin America",
-      "link": "https://www.musicbusinessworldwide.com/empire-publishing-hires-rimas-publishings-emilio-morales-as-svp-business-development-for-latin-america/",
+      "source": "Soompi Music",
+      "title": "Watch: CLOSE YOUR EYES Takes 1st Win For “Drop That!” On “Music Bank”; Performances By KO1KEYZ, TUIDE, And More",
+      "link": "https://www.soompi.com/article/1876617wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more-2",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: takes 1st win"
     },
     {
       "source": "Soompi Music",
@@ -707,11 +723,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: IVE Unveils Concept Photos Of An Yu Jin, Rei, And Gaeul For New Album “Looks Can Kill”",
+      "title": "Update: IVE Stuns In New Group Photos For New Album “Looks Can Kill”",
       "link": "https://www.soompi.com/article/1873360wpp/ive-announces-comeback-date-for-new-ep-looks-can-kill",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "celebrity/lifestyle noise: stuns in"
     },
     {
       "source": "Soompi Music",
@@ -816,14 +832,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "&TEAM, Lim Young Woong, RESCENE, ILLIT, And More Top Circle Weekly Charts",
-      "link": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: weekly chart"
     },
     {
       "source": "Soompi Celeb",

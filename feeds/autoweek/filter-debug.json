@@ -1,10 +1,85 @@
 {
-  "generated_at": "2026-10-09T13:09:04.876437+00:00",
+  "generated_at": "2026-10-09T18:47:04.405581+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Deze lage, gestroomlijnde gebruikte EV's zijn zuinig en leveren meer dan genoeg vermogen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-lage-gestroomlijnde-gebruikte-evs-zijn-zuinig-en-leveren-meer-dan-genoeg-vermogen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Tot voor kort was er bij Jaguar wél wat te kiezen: deze exemplaren zijn nu (relatief) voordelig",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tot-voor-kort-was-er-bij-jaguar-wel-wat-te-kiezen-deze-exemplaren-zijn-nu-relatief-voordelig/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "EU akkoord met China over exportbeperking hybride auto's",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/eu-akkoord-met-china-over-exportbeperking-hybride-autos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "europese unie"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "'Elektrische auto op lange termijn betrouwbaarder dan benzineauto'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-auto-op-lange-termijn-betrouwbaarder-dan-benzineauto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Elektrische Renault Kangoo verbeterd: sterker, meer rijbereik, sneller laden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-renault-kangoo-verbeterd-sterker-meer-rijbereik-sneller-laden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "rijbereik"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -300,90 +375,6 @@
         "boring": [
           "duurder"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Skoda Epiq: goedkoopste elektrische Skoda krijgt nieuw tussenmaatje",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-epiq-goedkoopste-elektrische-skoda-krijgt-nieuw-tussenmaatje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Deze elektrische auto kost elders slechts €10.000 en hij komt naar Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-elektrische-auto-kost-in-china-slechts-e10-000-en-hij-komt-naar-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "komt naar nederland"
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Meerderheid EV-rijders hoeft nooit meer onderweg te laden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/meerderheid-ev-rijders-hoeft-nooit-meer-onderweg-te-laden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "actieradius"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "BMW iX3 M60 xDrive: beresterk en bloedsnel en toch ruim 750 kilometer bereik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-ix3-m60-xdrive-beresterk-bloedsnel-en-groot-bereik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bmw ix",
-          "ix3"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De eerste BMW iX5 kost minstens ruim €100.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-aandrijflijnen-voor-bmw-x5-en-ix5-het-begint-bij-ruim-e100-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bmw ix"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

@@ -1,10 +1,101 @@
 {
-  "generated_at": "2026-10-09T06:01:23.303507+00:00",
+  "generated_at": "2026-10-09T13:09:04.876437+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 19,
-  "dropped_items": 6,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Lancia Gamma voorlopig op de prijslijst vanaf meer dan €50.000",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/lancia-gamma-voorlopig-op-de-prijslijst-vanaf-meer-dan-e50-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Volkswagen ID Tiguan moet de ID4 en ID5 doen vergeten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id-tiguan-moet-de-id4-en-id5-doen-vergeten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "actieradius"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Weblog Joas - Jouw 'slimme' auto zet ons in de file",
+      "link": "https://www.autoweek.nl/columns/artikel/weblog-joas-jouw-slimme-auto-zet-ons-in-de-file/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs hard op weg naar nieuw record",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-hard-op-weg-naar-nieuw-record/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "record"
+        ],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Alpine A290 krijgt nieuwe uitvoering, ook meer aankleding voor A390",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/alpine-a290-krijgt-nieuwe-uitvoering-ook-meer-aankleding-voor-a390/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe ",
+          "uitvoering"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De oude Honda NSX is weer helemaal bij de tijd",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-oude-honda-nsx-is-weer-helemaal-bij-de-tijd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "supercar"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -290,93 +381,6 @@
         "ev": [
           "bmw ix"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe BMW iX4: wat de iX3 kan, kan de iX4 ook (en zelfs beter!)",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-bmw-ix4-wat-de-ix3-kan-kan-de-ix4-ook-en-zelfs-beter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bmw ix",
-          "ix3"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Bitter SC is misschien wel de spot van het jaar - In het wild",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-bitter-sc-is-misschien-wel-de-spot-van-het-jaar-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Shell profiteert fors van schaarste aan diesel en benzine",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/shell-profiteert-fors-van-schaarste-aan-diesel-en-benzine/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Aan niets is te zien dat deze Audi A4 richting de 4 ton op de klok gaat - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/aan-niets-is-te-zien-dat-deze-audi-a4-richting-de-4-ton-op-de-klok-gaat-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Tesla wil 'zelfrijdende auto's' aanpassen voor Europese goedkeuring",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-wil-zelfrijdende-autos-aanpassen-voor-europese-goedkeuring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Tolkorting voor schonere bussen en vrachtwagens",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tolkorting-voor-schonere-bussen-en-vrachtwagens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

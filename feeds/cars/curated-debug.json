@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:47:10.093081+00:00",
+  "generated_at": "2026-10-09T23:12:28.662510+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Radicaal-rechtse Duitse politicus wordt geweigerd door BMW, vraagt nu Tesla",
+      "link": "https://www.autoblog.nl/nieuws/radicaal-rechtse-duitse-politicus-wil-een-tesla-van-elon-musk",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -378,18 +390,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "FIA reageert op softwaregate: F1-auto’s kunnen gewoon rijden in de regen",
       "link": "https://www.autoblog.nl/nieuws/fia-belooft-f1-auto-s-gaan-niet-meer-uitvallen-in-de-regen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Shell casht op schaarste: Oliegigant pakt recordwinst",
-      "link": "https://www.autoblog.nl/nieuws/shell-casht-op-schaarste-oliegigant-pakt-recordwinst",
       "details": {
         "feature": [],
         "tags": [],
@@ -960,6 +960,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "The Legendary Run of the Duramax Diesel, from LB7 to Mongoose",
+      "link": "https://www.hagerty.com/media/automotive-history/the-legendary-run-of-the-duramax-diesel-from-lb7-to-mongoose/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "Why Detroit Stopped Making Affordable Sedans, and Probably Won’t Again",
       "link": "https://www.hagerty.com/media/automotive-history/why-detroit-stopped-making-affordable-sedans-and-probably-wont-again/"
     },
@@ -976,18 +983,6 @@
       "reason": "automotive history",
       "title": "The Ford GT70 Is a Mid-Engine Rally Hero That Never Quite Made the Podium",
       "link": "https://www.hagerty.com/media/automotive-history/the-ford-gt70-is-a-mid-engine-rally-hero-that-never-quite-made-the-podium/"
-    },
-    {
-      "source": "Hagerty Automotive History",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "After Flying the U-2 and SR-71, Tony Bevacqua Got His Kicks in Corvettes",
-      "link": "https://www.hagerty.com/media/automotive-history/after-flying-the-u-2-and-sr-71-tony-bevacqua-got-his-kicks-in-corvettes/",
-      "details": {
-        "ev": [
-          "bev"
-        ]
-      }
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1007,15 +1002,22 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Six Lessons I’ve Learned While Teaching Myself 3D Modeling",
-      "link": "https://www.hagerty.com/media/lists/six-lessons-ive-learned-while-teaching-myself-3d-modeling/"
+      "title": "4 Traps First-Time Vintage-Car Buyers Should Be Wary Of",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/4-traps-first-time-vintage-car-buyers-should-be-wary-of/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Brandan Gillogly",
-      "link": "https://www.hagerty.com/media/author/brandan-gillogly/"
+      "title": "Kyle Smith",
+      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Maintenance and Tech",
+      "link": "https://www.hagerty.com/media/tags/maintenance-and-tech/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1030,13 +1032,6 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "Automotive Technology",
       "link": "https://www.hagerty.com/media/tags/automotive-technology/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Maintenance and Tech",
-      "link": "https://www.hagerty.com/media/tags/maintenance-and-tech/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1061,17 +1056,17 @@
     },
     {
       "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Engineering",
-      "link": "https://www.hagerty.com/media/tags/engineering/"
+      "keep": true,
+      "reason": "maintenance & tech",
+      "title": "Six Lessons I’ve Learned While Teaching Myself 3D Modeling",
+      "link": "https://www.hagerty.com/media/lists/six-lessons-ive-learned-while-teaching-myself-3d-modeling/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
-      "keep": true,
-      "reason": "maintenance & tech",
-      "title": "How Oil Filters Work (and Don’t Work)",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/how-oil-filters-work-and-dont-work/"
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Brandan Gillogly",
+      "link": "https://www.hagerty.com/media/author/brandan-gillogly/"
     },
     {
       "source": "Hagerty Buyer's Guides",
@@ -1131,6 +1126,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

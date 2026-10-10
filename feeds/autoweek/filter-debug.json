@@ -1,10 +1,109 @@
 {
-  "generated_at": "2026-10-10T08:57:15.833102+00:00",
+  "generated_at": "2026-10-10T15:18:43.805732+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Rob (67) liet zijn 300 pk sterke Cupra Ateca tunen door ABT: 'Ik wilde iets meer fun'",
+      "link": "https://www.autoweek.nl/autotests/artikel/rob-67-liet-zijn-300-pk-sterke-cupra-ateca-tunen-door-abt-ik-wilde-iets-meer-fun/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "drift"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla 'Full Self Driving' heet voortaan 'Tesla Assisted Driving' na kritiek op naam",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-full-self-driving-heet-voortaan-tesla-assisted-driving-na-kritiek-op-naam/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Autoverkoop in China daalt fors door zwakke marktomstandigheden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/autoverkoop-in-china-daalt-fors-door-zwakke-marktomstandigheden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Dit zijn de beste elektrische auto's",
+      "link": "https://www.autoweek.nl/koopgids/dit-zijn-de-beste-elektrische-autos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "range"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze jaren 90-GTI's zijn niet zo legendarisch als hun jaren 80-voorgangers, toch stijgen prijzen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-jarennegentig-gtis-zijn-niet-zo-legendarisch-als-hun-jarentachtig-voorgangers-toch-stijgen-z/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Als magazijnmedewerker zag Arjan Hyundai serieus merk worden, nu verzamelt hij vooral Scoupés",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/omdat-arjan-als-magazijnmedewerker-hyundai-zag-uitgroeien-tot-serieus-merk-verzamelt-hij-modellen-uit-die-tijd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Alfa Romeo 90 is nóg zeldzamer dan je zou vermoeden - In het wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-alfa-romeo-90-is-nog-zeldzamer-dan-je-zou-vermoeden-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -268,105 +367,6 @@
         "boring": [
           "goedkoper"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Fiat Uno is een rijdend museumstuk - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-fiat-uno-is-een-rijdend-museumstuk-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De meer dan complete Xpeng L03 is maar moeilijk op fouten te betrappen",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-meer-dan-complete-xpeng-l03-is-maar-moeilijk-op-fouten-te-betrappen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "xpeng"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "'EV-Achterstand op China verdwijnt als sneeuw voor de zon' - podcast",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ev-achterstand-op-china-verdwijnt-als-sneeuw-voor-de-zon/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bestuurders filmen een ongeluk, politie schrijft forse boetes uit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bestuurders-filmen-een-ongeluk-politie-schrijft-forse-boetes-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ford laat voor het eerst een heel bijzondere Mustang zien",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ford-laat-voor-het-eerst-een-heel-bijzondere-mustang-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Prijzen nieuwe Dacia Spring bekend: nét onder belangrijke grens",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/prijzen-nieuwe-dacia-spring-bekend-net-onder-belangrijke-grens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Huishoudens besteden minder aan benzine en diesel",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/huishoudens-besteden-minder-aan-benzine-en-diesel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

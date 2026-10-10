@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-10T02:19:19.581212+00:00",
+  "generated_at": "2026-10-10T08:57:15.833102+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De BMW i3 'dwingt' ook particulieren in een EV – Back to basics",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-bmw-i3-dwingt-ook-particulieren-in-een-ev-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is waarom je rond Amsterdam VinFasts op de weg gaat zien",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-je-rond-amsterdam-vinfasts-op-de-weg-gaat-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Hoe oud mogen banden zijn? Is dat in Duitsland echt maar 6 jaar?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hoe-oud-mogen-banden-zijn-en-hoe-zit-dat-in-duitsland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -326,55 +367,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "€400 voor één laadsessie: EV trekt door Europa, laadkosten zijn soms onduidelijk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/e400-voor-een-laadsessie-ev-trekt-door-europa-laadkosten-zijn-soms-onduidelijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Renault 4 verbeterd: groter rijbereik en nieuwe versies",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-4-verbeterd-groter-rijbereik-en-nieuwe-versies/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Kantelpunt in benzineprijs: weer op weg naar recordhoogte",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kantelpunt-in-benzineprijs-weer-op-weg-naar-recordhoogte/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [
-          "duurder"
-        ],
         "routine_product": []
       }
     }

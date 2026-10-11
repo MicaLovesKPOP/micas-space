@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:49:35.035327+00:00",
+  "generated_at": "2026-10-11T08:43:36.800353+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,39 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Als je geen cent verdient aan autoverkoop, ga je datacenters bouwen, denkt Rimac",
+      "link": "https://www.autoblog.nl/nieuws/verkopen-van-hyper-ev-s-is-zo-moeilijk-dat-rimac-zich-maar-op-ai-gaat-richten",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Audi heeft heel vreemde plannen om een EV meer op een benzineauto te laten lijken",
+      "link": "https://www.autoblog.nl/nieuws/audi-heeft-heel-vreemde-plannen-om-een-ev-meer-op-een-benzineauto-te-laten-lijken",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog #mijnauto",
+      "title": "Deze 997 is de Porsche 911 waar Alfred vroeger van droomde #MijnAuto",
+      "link": "https://www.autoblog.nl/video/na-11-5-jaar-996-stapte-alfred-over-op-een-porsche-997-mijnauto"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -348,44 +381,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Max Verstappen pakt pole voor de sprintrace, maar start mogelijk niet vooraan",
       "link": "https://www.autoblog.nl/nieuws/max-verstappen-pakt-pole-voor-de-sprintrace-maar-start-mogelijk-niet-vooraan",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze peperdure MPV laat je op het slechtste moment in de steek",
-      "link": "https://www.autoblog.nl/nieuws/deze-peperdure-chinees-heeft-een-levensgevaarlijk-probleem",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze auto is in Nederland twee keer zo duur als in thuisland Italië",
-      "link": "https://www.autoblog.nl/nieuws/deze-auto-is-in-nederland-twee-keer-zo-duur-als-in-thuisland-italie",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "belasting"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze 9 private lease valkuilen kosten je geld",
-      "link": "https://www.autoblog.nl/nieuws/deze-9-private-lease-valkuilen-kosten-je-geld",
       "details": {
         "feature": [],
         "tags": [],
@@ -1122,6 +1117,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 79,
+  "output_items": 79
 }

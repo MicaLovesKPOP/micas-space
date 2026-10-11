@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-10-11T01:49:29.259013+00:00",
+  "generated_at": "2026-10-11T08:43:31.449092+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De goedkope Geely E2 is de populairste van de klas, maar niet de beste",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-goedkope-geely-e2-is-het-populairste-van-de-klas-maar-niet-de-beste/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Na rijden met deze €14.000 kostende limo valt rit met vrijwel elke andere auto tegen",
+      "link": "https://www.autoweek.nl/autotests/artikel/na-een-rit-met-deze-e14-000-kostende-limo-valt-rit-met-vrijwel-elke-andere-auto-tegen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -334,39 +360,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De nieuwe Citroën 2CV moet €15.000 kosten, deze échte kost €100.000!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-citroen-2cv-moet-e15-000-kosten-deze-echte-kost-e100-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "kost €",
-          "prijs van"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Firefly tijdelijk maar liefst €4.000 goedkoper",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/firefly-tijdelijk-maar-liefst-e4-000-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
         "routine_product": []
       }
     }

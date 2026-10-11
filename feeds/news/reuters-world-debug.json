@@ -1,43 +1,47 @@
 {
-  "generated_at": "2026-10-11T15:49:09.504293+00:00",
+  "generated_at": "2026-10-11T20:23:56.180109+00:00",
   "source": "https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml",
   "policy_version": 2,
   "feed_hours": 72,
   "selection_basis": "headline_metadata_only",
   "daily_quota": null,
-  "child_sitemaps_found": 5,
+  "child_sitemaps_found": 4,
   "child_sitemaps_checked": [
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml",
-      "world_items": 13
+      "world_items": 11
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=100",
-      "world_items": 9
+      "world_items": 10
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=200",
-      "world_items": 17
+      "world_items": 8
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=300",
-      "world_items": 9
-    },
-    {
-      "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=400",
-      "world_items": 8
+      "world_items": 13
     }
   ],
-  "candidates": 56,
-  "final_items": 5,
-  "kept_decisions": 17,
+  "candidates": 42,
+  "final_items": 6,
+  "kept_decisions": 18,
   "rejected_reasons": {
-    "no_clear_major_development_in_headline": 45,
-    "reaction_commentary_or_promise": 3,
-    "outside_recency_window": 2,
-    "routine_market_angle_even_if_war_or_ai_is_mentioned": 3
+    "no_clear_major_development_in_headline": 36,
+    "proposal_or_speculation_not_implementation": 1,
+    "reaction_commentary_or_promise": 2
   },
   "items": [
+    {
+      "title": "Glucksmann wins centre-left ticket for France's presidential election",
+      "url": "https://www.reuters.com/world/glucksmann-wins-centre-left-ticket-frances-presidential-election-2026-10-11/",
+      "region": "World",
+      "topic": "election.result",
+      "reason": "national_election_result_or_material_count",
+      "priority": 90,
+      "published": "2026-10-11T17:22:59.575000+00:00"
+    },
     {
       "title": "Trump says Russia and Ukraine reached 'energy ceasefire'",
       "url": "https://www.reuters.com/world/europe/trump-says-russia-ukraine-reached-energy-ceasefire-2026-10-11/",
@@ -57,6 +61,15 @@
       "published": "2026-10-11T13:58:53.342000+00:00"
     },
     {
+      "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy",
+      "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/",
+      "region": "Europe",
+      "topic": "peace.agreement",
+      "reason": "new_peace_agreement",
+      "priority": 95,
+      "published": "2026-10-11T09:47:09.015000+00:00"
+    },
+    {
       "title": "US lifts sanctions on daughter of Myanmar military-linked businessman",
       "url": "https://www.reuters.com/world/asia-pacific/us-lifts-sanctions-daughter-myanmar-military-linked-businessman-2026-10-09/",
       "region": "Asia Pacific",
@@ -73,25 +86,9 @@
       "reason": "new_sanctions_or_trade_policy_not_routine_renewal",
       "priority": 80,
       "published": "2026-10-09T14:02:30.698000+00:00"
-    },
-    {
-      "title": "US imposes fresh sanctions on Iran's shadow fleet",
-      "url": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/",
-      "region": "Middle East",
-      "topic": "policy.trade.impose",
-      "reason": "new_sanctions_or_trade_policy_not_routine_renewal",
-      "priority": 80,
-      "published": "2026-10-08T16:58:49.513000+00:00"
     }
   ],
   "decisions": [
-    {
-      "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
-      "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/",
-      "kept": true,
-      "reason": "existing_guid_maintained",
-      "topic": "conflict.major"
-    },
     {
       "title": "Georgia block party shooting kills two, injures dozens",
       "url": "https://www.reuters.com/world/us/georgia-block-party-shooting-kills-two-injures-dozens-2026-10-05/",
@@ -191,57 +188,50 @@
       "topic": "policy.trade.lift"
     },
     {
-      "title": "Trump says Russia and Ukraine reach energy ceasefire 'effective immediately'",
-      "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
+      "title": "Ukraine's Zelenskiy tells ABC he will organize elections if Russia agrees to 60-day ceasefire",
+      "url": "https://www.reuters.com/world/europe/ukraines-zelenskiy-tells-abc-he-will-organize-elections-if-russia-agrees-60-day-2026-10-11/",
+      "kept": true,
+      "reason": "existing_guid_maintained",
+      "topic": "peace.agreement"
     },
     {
-      "title": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12",
+      "title": "Trump says Russia and Ukraine reached 'energy ceasefire'",
+      "url": "https://www.reuters.com/world/europe/trump-says-russia-ukraine-reached-energy-ceasefire-2026-10-11/",
+      "kept": true,
+      "reason": "existing_guid_maintained",
+      "topic": "peace.agreement"
+    },
+    {
+      "title": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13",
       "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-2026-10-11/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
-      "url": "https://www.reuters.com/world/china/middle-east-war-high-debt-levels-dominate-imf-world-bank-meetings-bangkok-2026-10-11/",
+      "title": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says",
+      "url": "https://www.reuters.com/world/africa/least-72-sudanese-artisanal-miners-killed-strike-saturday-rights-monitor-says-2026-10-11/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "At least 139 migrants dead, including some children, after boat from Djibouti to Yemen capsizes, UN agency says",
-      "url": "https://www.reuters.com/world/africa/109-migrants-including-15-children-dead-after-boat-djibouti-yemen-capsizes-un-2026-10-11/",
+      "title": "Russian attacks kill six people in two Ukrainian cities",
+      "url": "https://www.reuters.com/world/russian-attacks-kill-six-people-two-ukrainian-cities-2026-10-11/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Polish police detain man after threat to PM",
+      "title": "Rallying in Sao Paulo, presidential candidates seek votes and political support",
+      "url": "https://www.reuters.com/world/americas/rallying-sao-paulo-presidential-candidates-seek-votes-political-support-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Polish police detain man over threat to PM and defence minister",
       "url": "https://www.reuters.com/world/europe/poland-says-police-got-information-about-possible-attack-pm-defence-minister-2026-10-11/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Anthropic discloses fake tip to police among new rogue AI incidents",
-      "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Protesters seeking India election chief's ouster detained, as 'cockroach' leaders released",
-      "url": "https://www.reuters.com/world/asia-pacific/indian-capital-braces-second-day-protests-against-poll-chief-2026-10-11/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says",
-      "url": "https://www.reuters.com/world/middle-east/strike-reported-yemeni-sanaa-airport-houthi-run-tv-says-2026-10-11/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -254,190 +244,218 @@
       "topic": ""
     },
     {
-      "title": "Most Gulf stocks in red after attack on Riyadh airport",
-      "url": "https://www.reuters.com/world/middle-east/saudi-stocks-slide-after-attack-riyadh-airport-2026-10-11/",
+      "title": "US threatens to block arms for Ukraine over refinery attacks, FT reports",
+      "url": "https://www.reuters.com/world/europe/us-threatens-block-arms-ukraine-over-refinery-attacks-ft-reports-2026-10-11/",
+      "kept": false,
+      "reason": "proposal_or_speculation_not_implementation",
+      "topic": ""
+    },
+    {
+      "title": "Ukraine awaits details of ceasefire proposals from US, Russia maintains attacks, Zelenskiy says",
+      "url": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Germany backs Ukraine's Zelenskiy after Trump's call for his removal",
-      "url": "https://www.reuters.com/world/germany-backs-ukraines-zelenskiy-after-trumps-call-his-removal-2026-10-11/",
+      "title": "At least 139 migrants dead, including some children, after boat from Djibouti to Yemen capsizes, UN agency says",
+      "url": "https://www.reuters.com/world/africa/109-migrants-including-15-children-dead-after-boat-djibouti-yemen-capsizes-un-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "From theatre to streets, Gen Z protester Neha Bora a new face of India's youth unrest",
+      "url": "https://www.reuters.com/world/asia-pacific/theatre-streets-gen-z-protester-neha-bora-new-face-indias-youth-unrest-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Erik Prince's forces suffer battlefield loss in Congo, former UFC fighter among wounded, sources say",
+      "url": "https://www.reuters.com/world/africa/erik-princes-forces-suffer-battlefield-loss-congo-former-ufc-fighter-among-2026-10-09/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Russia's Yandex says data centre in Vladimir area shut down after drone attack",
+      "url": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports",
+      "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-airlines-travellers-against-using-saudi-airports-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "All 22 Indian crew rescued and safe after incident off UAE coast, consulate says",
+      "url": "https://www.reuters.com/world/india/all-22-indian-crew-rescued-safe-after-incident-off-uae-coast-consulate-says-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "India's 'cockroach' movement leader released from detention, lawyer says",
+      "url": "https://www.reuters.com/world/asia-pacific/indias-cockroach-movement-leader-released-detention-lawyer-says-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "India unveils steel policy aiming for 604 million tons capacity by 2047",
+      "url": "https://www.reuters.com/world/india/india-unveils-steel-policy-aiming-604-million-tons-capacity-by-2047-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Houthi strike on Saudi airport kills 12, worst attack on kingdom in a decade",
+      "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Chinese Apple supplier Luxshare sees little negative impact from US patent infringement probe",
+      "url": "https://www.reuters.com/world/asia-pacific/chinese-apple-supplier-luxshare-sees-little-negative-impact-us-patent-2026-10-11/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "From 'cockroach' post to protest leader: India's Dipke tests Modi government",
+      "url": "https://www.reuters.com/world/asia-pacific/cockroach-post-protest-leader-indias-dipke-tests-modi-government-2026-10-10/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Pope Leo condemns death penalty as Trump mulls livestreamed execution",
+      "url": "https://www.reuters.com/world/us/pope-leo-condemns-death-penalty-trump-mulls-livestreamed-execution-2026-10-10/",
       "kept": false,
       "reason": "reaction_commentary_or_promise",
       "topic": ""
     },
     {
-      "title": "US military says it disabled cargo vessel trying to run Iran blockade",
-      "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/",
+      "title": "Israeli strikes kill five people in Gaza, medics say",
+      "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-five-people-gaza-medics-say-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "India detains thousands, locks down Delhi to foil election chief protest",
-      "url": "https://www.reuters.com/world/india/delhi-sealed-off-ahead-youth-protest-against-indian-election-chief-2026-10-10/",
+      "title": "Eritrea asks UN to intervene in standoff with Ethiopia",
+      "url": "https://www.reuters.com/world/africa/ethiopian-forces-regain-control-border-city-after-reported-eritrean-incursion-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "South Korea completes Arctic-Europe commercial voyage, eyes regular service despite risks",
-      "url": "https://www.reuters.com/world/china/south-korea-completes-arctic-europe-commercial-voyage-eyes-regular-service-2026-10-11/",
+      "title": "Three injured in Poland's third youth stabbing attack in four days",
+      "url": "https://www.reuters.com/world/europe/three-injured-polands-third-youth-stabbing-attack-four-days-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Ukraine hits second major tech site, expanding range of targets inside Russia",
-      "url": "https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/",
+      "title": "Merz 'outraged' that German former Chancellor Schroeder attended Putin's birthday",
+      "url": "https://www.reuters.com/world/merz-outraged-that-german-former-chancellor-schroeder-attended-putins-birthday-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Erie, Pennsylvania shooter killed 8 people, then himself, police say",
-      "url": "https://www.reuters.com/world/us/nine-dead-erie-pennsylvania-mass-shooting-2026-10-10/",
+      "title": "Moroccan king says migration cooperation model with Spain hit limit",
+      "url": "https://www.reuters.com/world/europe/moroccan-king-says-migration-cooperation-model-with-spain-hit-limit-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Rubio pledges US cooperation in Okinawa murder case",
-      "url": "https://www.reuters.com/world/asia-pacific/rubio-pledges-us-cooperation-okinawa-murder-case-2026-10-10/",
+      "title": "Neither Putin nor Trump wanted to hang up first, Kremlin aide says after 'very friendly' call",
+      "url": "https://www.reuters.com/world/neither-putin-nor-trump-wanted-hang-up-first-kremlin-aide-says-after-very-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Man dies after entering tiger enclosure at British zoo",
-      "url": "https://www.reuters.com/world/uk/uk-zoo-reports-serious-incident-tiger-enclosure-2026-10-10/",
+      "title": "China adds 10.52 million urban jobs in Jan-Sept, to roll out services jobs policy",
+      "url": "https://www.reuters.com/world/asia-pacific/china-adds-1052-million-urban-jobs-jan-sept-roll-out-services-jobs-policy-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Spanish lawyer Gonzalez Durantez launches centrist party for November election",
-      "url": "https://www.reuters.com/world/spanish-lawyer-gonzalez-durantez-launches-centrist-party-november-election-2026-10-10/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "India's Infosys does not expect material impact from US PERM suspension",
-      "url": "https://www.reuters.com/world/us/indias-infosys-does-not-expect-material-impact-us-perm-suspension-2026-10-10/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "The midterm strategy driving Democrats deep into Trump country",
-      "url": "https://www.reuters.com/world/us/midterm-strategy-driving-democrats-deep-into-trump-country-2026-10-10/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Trump says Norway has 'indelible stain' for not awarding him Nobel Peace Prize",
-      "url": "https://www.reuters.com/world/europe/trump-says-norway-has-indelible-stain-not-awarding-him-nobel-peace-prize-2026-10-10/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Mali troops re-enter strategic northern town after separatists withdraw",
-      "url": "https://www.reuters.com/world/mali-separatists-announce-withdrawal-strategic-northern-mali-town-2026-10-06/",
-      "kept": false,
-      "reason": "outside_recency_window",
-      "topic": ""
-    },
-    {
-      "title": "China proposes stricter car design, testing rules, including ban on fully hidden door handles",
-      "url": "https://www.reuters.com/world/asia-pacific/china-proposes-stricter-car-design-testing-rules-including-ban-fully-hidden-door-2026-10-10/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Germany sticks to Russia sanctions after Trump announcement on diesel",
-      "url": "https://www.reuters.com/world/germany-sticks-russia-sanctions-after-trump-announcement-diesel-2026-10-10/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Taiwan won't give up freedom, Lai says; Beijing slams 'ulterior motives'",
-      "url": "https://www.reuters.com/world/china/taiwan-cherishes-peace-will-not-give-up-its-freedom-president-says-2026-10-10/",
+      "title": "North Korea criticizes US human rights report, KCNA says",
+      "url": "https://www.reuters.com/world/asia-pacific/north-korea-criticizes-us-human-rights-report-kcna-says-2026-10-09/",
       "kept": false,
       "reason": "reaction_commentary_or_promise",
       "topic": ""
     },
     {
-      "title": "Thailand prepares to host IMF-World Bank meetings",
-      "url": "https://www.reuters.com/world/asia-pacific/thailand-prepares-host-imf-world-bank-meetings-2026-10-10/",
+      "title": "Former ICC judge Navi Pillay wins 2026 Nobel Peace Prize",
+      "url": "https://www.reuters.com/world/navanethem-navi-pillay-wins-2026-nobel-peace-prize-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "French policing under scrutiny as student protest injuries mount",
-      "url": "https://www.reuters.com/world/french-policing-under-scrutiny-student-protest-injuries-mount-2026-10-10/",
+      "title": "Libya's military seizes narcotics after firefight with smugglers",
+      "url": "https://www.reuters.com/world/africa/libyas-military-seizes-narcotics-after-firefight-with-smugglers-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Five shot dead at residence in Georgia's Douglas, police says",
-      "url": "https://www.reuters.com/world/us/five-shot-dead-residence-georgias-douglas-police-says-2026-10-10/",
+      "title": "US says Chinese actions off Taiwan are 'deeply destabilising'",
+      "url": "https://www.reuters.com/world/china/us-says-chinese-actions-off-taiwan-are-deeply-destabilising-2026-10-10/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "India unveils tough curbs on dollar demand to defend rupee",
-      "url": "https://www.reuters.com/world/india/india-central-bank-takes-steps-support-rupee-opens-dollar-window-oil-companies-2026-10-10/",
+      "title": "India's TCS senior staff will miss out on variable pay for September quarter, memo shows",
+      "url": "https://www.reuters.com/world/india/indias-tcs-senior-staff-will-miss-out-variable-pay-september-quarter-memo-shows-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Germany's firewall against the far-right AfD feels the heat",
-      "url": "https://www.reuters.com/world/europe/germanys-firewall-against-far-right-afd-feels-heat-2026-10-10/",
+      "title": "Trump takes suit against Hillary Clinton over 2016 election to Supreme Court",
+      "url": "https://www.reuters.com/world/trump-takes-suit-against-hillary-clinton-over-2016-election-supreme-court-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Indian police detain 'cockroach' movement founder Abhijeet Dipke",
-      "url": "https://www.reuters.com/world/india/indian-police-detain-cockroach-movement-founder-abhijeet-dipke-2026-10-10/",
+      "title": "UAW President Shawn Fain declares victory in race for second term",
+      "url": "https://www.reuters.com/world/uaw-president-shawn-fain-declares-victory-race-second-term-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Pressure mounts on India poll chief Gyanesh Kumar over voter list changes",
-      "url": "https://www.reuters.com/world/india/india-poll-chief-gyanesh-kumar-under-pressure-over-alleged-manipulation-2026-09-28/",
-      "kept": false,
-      "reason": "outside_recency_window",
-      "topic": ""
-    },
-    {
-      "title": "China, EU strike deal to halve Chinese hybrid exports",
-      "url": "https://www.reuters.com/world/china/china-eu-reach-hybrid-vehicle-trade-understanding-keep-talks-alive-ev-dispute-2026-10-09/",
+      "title": "Queen Camilla on the joy of reading despite king's laughter and her tears",
+      "url": "https://www.reuters.com/world/uk/queen-camilla-joy-reading-despite-kings-laughter-her-tears-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "US-Ukraine-European negotiators meet in Miami as Trump announces diesel deal with Russia",
-      "url": "https://www.reuters.com/world/europe/us-ukraine-european-negotiators-meet-miami-trump-announces-diesel-deal-with-2026-10-10/",
+      "title": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption",
+      "url": "https://www.reuters.com/world/europe/kremlin-says-putin-phone-call-with-trump-downplays-immediate-ukraine-talks-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Republican opposition widens to livestreamed execution; Trump still weighing it",
-      "url": "https://www.reuters.com/world/us/vance-says-he-does-not-know-if-pentagon-will-proceed-with-livestream-fort-hood-2026-10-09/",
+      "title": "Trump selects Katie Zacharia as White House press secretary",
+      "url": "https://www.reuters.com/world/us/katie-zacharia-picked-white-house-press-secretary-nyt-reports-2026-10-09/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -457,123 +475,18 @@
       "topic": ""
     },
     {
-      "title": "Trump says US will not attack Iran before midterm elections in November",
-      "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
-      "url": "https://www.reuters.com/world/middle-east/uae-says-omani-flydubai-co-pilot-planned-suicide-attack-tel-aviv-flight-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
-      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-09/",
-      "kept": false,
-      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
-      "topic": ""
-    },
-    {
-      "title": "Trump cancels trip to Alabama football game amid looming hurricane",
-      "url": "https://www.reuters.com/world/us/trump-cancels-trip-alabama-football-game-amid-looming-hurricane-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Vance says he won't watch livestream of execution; Trump remains silent",
-      "url": "https://www.reuters.com/world/us/trump-silent-pentagon-plan-livestream-execution-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "US judge rules Justice Department use of voter rolls unlawful",
-      "url": "https://www.reuters.com/world/us-judge-rules-justice-department-use-voter-rolls-unlawful-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Gold hits one-week high, heads for weekly gain on bargain-hunting",
-      "url": "https://www.reuters.com/world/india/gold-rises-softer-dollar-easing-yields-fed-outlook-focus-2026-10-09/",
-      "kept": false,
-      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
-      "topic": ""
-    },
-    {
-      "title": "Reactions to US imposing sanctions on International Criminal Court",
-      "url": "https://www.reuters.com/world/reactions-us-imposing-sanctions-international-criminal-court-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Iveco, Tata Motors raises offer price to €14.40 per share",
-      "url": "https://www.reuters.com/world/india/iveco-tata-motors-raises-offer-price-1440-per-share-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Polish police seek to reassure schools after rumours of more attacks",
-      "url": "https://www.reuters.com/world/europe/polish-police-arrest-multiple-teens-over-bloody-friday-school-attack-threats-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Zambia secures IMF staff-level backing for new $1.5 billion programme",
-      "url": "https://www.reuters.com/world/africa/imf-reaches-staff-level-agreement-with-zambia-new-credit-facility-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "UN human rights office welcomes Nobel Prize winner Pillay as staunch defender of human rights",
-      "url": "https://www.reuters.com/world/africa/un-human-rights-office-welcomes-nobel-prize-winner-pillay-staunch-defender-human-2026-10-09/",
-      "kept": false,
-      "reason": "reaction_commentary_or_promise",
-      "topic": ""
-    },
-    {
-      "title": "EU tech chief says bloc 'well equipped' to fend off rogue AI risk",
-      "url": "https://www.reuters.com/world/eu-tech-chief-says-bloc-well-equipped-fend-off-rogue-ai-risk-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall",
-      "url": "https://www.reuters.com/world/uk/london-stocks-set-weekly-gains-oil-gilt-yields-retreat-2026-10-09/",
-      "kept": false,
-      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
-      "topic": ""
-    },
-    {
-      "title": "US Treasury's Bessent to skip IMF-World Bank meetings in Bangkok",
-      "url": "https://www.reuters.com/world/asia-pacific/us-treasurys-bessent-skip-imf-world-bank-meetings-bangkok-2026-10-09/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Trump says Russia and Ukraine reached 'energy ceasefire'",
-      "url": "https://www.reuters.com/world/europe/trump-says-russia-ukraine-reached-energy-ceasefire-2026-10-11/",
+      "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy",
+      "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/",
       "kept": true,
       "topic": "peace.agreement",
       "reason": "new_peace_agreement"
     },
     {
-      "title": "Ukraine's Zelenskiy tells ABC he will organize elections if Russia agrees to 60-day ceasefire",
-      "url": "https://www.reuters.com/world/europe/ukraines-zelenskiy-tells-abc-he-will-organize-elections-if-russia-agrees-60-day-2026-10-11/",
+      "title": "Glucksmann wins centre-left ticket for France's presidential election",
+      "url": "https://www.reuters.com/world/glucksmann-wins-centre-left-ticket-frances-presidential-election-2026-10-11/",
       "kept": true,
-      "topic": "peace.agreement",
-      "reason": "new_peace_agreement"
+      "topic": "election.result",
+      "reason": "national_election_result_or_material_count"
     }
   ]
 }

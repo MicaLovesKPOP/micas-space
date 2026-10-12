@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-12T02:21:58.798549+00:00",
+  "generated_at": "2026-10-12T09:45:00.070468+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 30
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -35,16 +35,48 @@
   "decisions": [
     {
       "source": "Korea Herald",
-      "title": "NCT Wish drops 4th EP, announces tour",
-      "link": "https://www.koreaherald.com/article/10899379",
+      "title": "Surprise duet between Charlie Puth and Twice's Nayeon sparks buzz",
+      "link": "https://www.koreaherald.com/article/10900005",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS draws 150,000 in Peru, concerts projected to generate $58.4m",
+      "link": "https://www.koreaherald.com/article/10899758",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Le Sserafim racks up 200m plays on Spotify with ‘Hot’",
+      "link": "https://www.koreaherald.com/article/10899563",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "After 20 years, T.O.P's longest-running fan site shuts down",
+      "link": "https://www.koreaherald.com/article/10898564",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "K-pop architect Lee Soo-man returns with double debut",
+      "link": "https://www.koreaherald.com/article/10897924",
       "keep": true,
-      "category": "Comeback / release",
+      "category": "Debut / new group",
       "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
-      "title": "Le Sserafim tops Oricon chart again with 2nd single",
-      "link": "https://www.koreaherald.com/article/10899275",
+      "title": "RM urges fans to stop gathering outside hotels during world tour",
+      "link": "https://www.koreaherald.com/article/10897772",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -53,6 +85,14 @@
       "source": "Korea Herald",
       "title": "Stray Kids to livestream Tokyo Dome gig worldwide",
       "link": "https://www.koreaherald.com/article/10896877",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Hybe’s K-pop fest to hit India",
+      "link": "https://www.koreaherald.com/article/10896834",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -355,6 +395,14 @@
     },
     {
       "source": "Soompi Music",
+      "title": "Soompi’s K-Pop Music Chart 2026, October Week 2",
+      "link": "https://www.soompi.com/article/1877265wpp/soompis-k-pop-music-chart-2026-october-week-2",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: music chart"
+    },
+    {
+      "source": "Soompi Music",
       "title": "BABYMONSTER’s “CHOOM” Becomes Their 7th MV To Hit 200 Million Views",
       "link": "https://www.soompi.com/article/1877124wpp/babymonsters-choom-becomes-their-7th-mv-to-hit-200-million-views",
       "keep": false,
@@ -419,7 +467,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Hearts2Hearts Unveils “Next Chapter” Concept Photos For Arena Of Valor Collaboration",
+      "title": "Update: Hearts2Hearts Unveils More “Next Chapter” Concept Photos For Arena Of Valor Collaboration",
       "link": "https://www.soompi.com/article/1876947wpp/hearts2hearts-unveils-next-chapter-concept-photos-for-arena-of-valor-collaboration",
       "keep": false,
       "category": null,
@@ -691,11 +739,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: MEOVV Previews New Music With “GO HARD” Track Sampler",
+      "title": "Watch: MEOVV Breaks Free In MV For “GO HARD” Comeback",
       "link": "https://www.soompi.com/article/1874791wpp/update-meovv-stars-in-teasers-for-new-single-album-go-hard",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -824,14 +872,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Update: IVE Drops New “HERO COMICS” Concept Teasers For “Looks Can Kill” Comeback",
-      "link": "https://www.soompi.com/article/1873360wpp/ive-announces-comeback-date-for-new-ep-looks-can-kill",
-      "keep": false,
-      "category": null,
-      "reason": "teaser/rollout post"
     },
     {
       "source": "Soompi Celeb",
@@ -1511,6 +1551,6 @@
       "category": "Comeback / release"
     }
   ],
-  "candidate_items": 24,
-  "final_items": 19
+  "candidate_items": 25,
+  "final_items": 20
 }

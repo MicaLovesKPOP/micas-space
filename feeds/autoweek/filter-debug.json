@@ -1,14 +1,169 @@
 {
-  "generated_at": "2026-10-12T02:20:34.820308+00:00",
+  "generated_at": "2026-10-12T09:43:30.162016+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Leapmotor B03: groter dan ID Polo voor de prijs van een Twingo",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-b03-groter-dan-id-polo-voor-de-prijs-van-een-twingo/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "leapmotor"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van",
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Xpeng G9L is enorm groot en enorm luxe",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-xpeng-g9l-is-enorm-groot-en-enorm-luxe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "xpeng"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Volkswagen Groep: ‘politiek moet verantwoordelijkheid voor auto-industrie nemen’",
+      "title": "Citroën 2CV Fourgonette: bestelversie van de nieuwe Lelijke Eend",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/citroen-2cv-fourgonette-bestelversie-van-de-nieuwe-lelijke-eend/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Alpine A310 is terug als elektrische retrocoupé",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-alpine-a310-is-terug-als-elektrische-22/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De kleine Smart is terug: Smart #2 is goedkope elektrische tweezitter",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-kleine-smart-is-terug-smart-2-is-goedkope-elektrische-tweezitter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Zeekr 9X is bepaald niet goedkoop en dat zie je eraan af",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-zeekr-9x-is-bepaald-niet-goedkoop-en-dat-zie-je-eraan-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "zeekr"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Renault E-Space: grote elektrische MPV vol retro-elementen!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-e-space-mpv-als-symbool-voor-de-renaults-van-de-toekomst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe Citroën 2CV mogelijk ook als bestelversie Fourgonnette",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-citroen-2cv-mogelijk-ook-als-bestelversie-fourgonnette/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Zeekr 7X nu al flink vernieuwd: meer van alles en ander uiterlijk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zeekr-7x-nu-al-grondig-vernieuwd-meer-van-alles-en-ander-uiterlijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "zeekr"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Li 6 is nieuwe luxueuze elektrische SUV voor Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/li-6-is-nieuwe-luxueuze-elektrische-suv-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen Group: ‘Politiek moet verantwoordelijkheid voor auto-industrie nemen’",
       "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-groep-politiek-moet-verantwoordelijkheid-voor-auto-industrie-nemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -204,146 +359,6 @@
       "reason": "non-EV car news",
       "title": "De goedkope Geely E2 is de populairste van de klas, maar niet de beste",
       "link": "https://www.autoweek.nl/autotests/artikel/de-goedkope-geely-e2-is-het-populairste-van-de-klas-maar-niet-de-beste/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Na rijden met deze €14.000 kostende limo valt rit met vrijwel elke andere auto tegen",
-      "link": "https://www.autoweek.nl/autotests/artikel/na-een-rit-met-deze-e14-000-kostende-limo-valt-rit-met-vrijwel-elke-andere-auto-tegen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Rob (67) liet zijn 300 pk sterke Cupra Ateca tunen door ABT: 'Ik wilde iets meer fun'",
-      "link": "https://www.autoweek.nl/autotests/artikel/rob-67-liet-zijn-300-pk-sterke-cupra-ateca-tunen-door-abt-ik-wilde-iets-meer-fun/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "drift"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Tesla 'Full Self Driving' heet voortaan 'Tesla Assisted Driving' na kritiek op naam",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-full-self-driving-heet-voortaan-tesla-assisted-driving-na-kritiek-op-naam/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Autoverkoop in China daalt fors door zwakke marktomstandigheden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/autoverkoop-in-china-daalt-fors-door-zwakke-marktomstandigheden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Dit zijn de beste elektrische auto's",
-      "link": "https://www.autoweek.nl/koopgids/dit-zijn-de-beste-elektrische-autos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze jaren 90-GTI's zijn niet zo legendarisch als hun jaren 80-voorgangers, toch stijgen prijzen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-jarennegentig-gtis-zijn-niet-zo-legendarisch-als-hun-jarentachtig-voorgangers-toch-stijgen-z/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Als magazijnmedewerker zag Arjan Hyundai serieus merk worden, nu verzamelt hij vooral Scoupés",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/omdat-arjan-als-magazijnmedewerker-hyundai-zag-uitgroeien-tot-serieus-merk-verzamelt-hij-modellen-uit-die-tijd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Alfa Romeo 90 is nóg zeldzamer dan je zou vermoeden - In het wild",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-alfa-romeo-90-is-nog-zeldzamer-dan-je-zou-vermoeden-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De BMW i3 'dwingt' ook particulieren in een EV – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-bmw-i3-dwingt-ook-particulieren-in-een-ev-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is waarom je rond Amsterdam VinFasts op de weg gaat zien",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-je-rond-amsterdam-vinfasts-op-de-weg-gaat-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

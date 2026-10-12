@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-11T23:09:18.382709+00:00",
+  "generated_at": "2026-10-12T02:21:58.798549+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,22 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "NCT Wish drops 4th EP, announces tour",
+      "link": "https://www.koreaherald.com/article/10899379",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Le Sserafim tops Oricon chart again with 2nd single",
+      "link": "https://www.koreaherald.com/article/10899275",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Stray Kids to livestream Tokyo Dome gig worldwide",
@@ -336,6 +352,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "BABYMONSTER’s “CHOOM” Becomes Their 7th MV To Hit 200 Million Views",
+      "link": "https://www.soompi.com/article/1877124wpp/babymonsters-choom-becomes-their-7th-mv-to-hit-200-million-views",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Music",
@@ -808,14 +832,6 @@
       "keep": false,
       "category": null,
       "reason": "teaser/rollout post"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Soompi’s K-Pop Music Chart 2026, September Week 4",
-      "link": "https://www.soompi.com/article/1873323wpp/soompis-k-pop-music-chart-2026-september-week-4",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: music chart"
     },
     {
       "source": "Soompi Celeb",
@@ -1495,6 +1511,6 @@
       "category": "Comeback / release"
     }
   ],
-  "candidate_items": 23,
-  "final_items": 18
+  "candidate_items": 24,
+  "final_items": 19
 }

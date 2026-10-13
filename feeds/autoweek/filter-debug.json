@@ -1,10 +1,154 @@
 {
-  "generated_at": "2026-10-13T01:59:12.801880+00:00",
+  "generated_at": "2026-10-13T09:20:15.937738+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Chery Q: ruime en goedkope EV in 2027 in Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/chery-q-ruime-en-goedkope-ev-in-2027-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Fiat Multiplina is klaar om groepen scholieren te vervoeren",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-multiplina-is-klaar-om-groepen-scholieren-te-vervoeren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Geely Project KO11: ‘Cruiser 700’ voor Europa",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-project-ko11-cruiser-700-voor-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "‘Dodge brengt de V8 terug bij de Charger’",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dodge-brengt-de-v8-terug-bij-de-charger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Bevrijdingsicoon Willys komt terug als compacte Jeep",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bevrijdingsicoon-willys-komt-terug-als-compacte-jeep/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe BYD Dolphin Surf is eigenlijk een grote zeemeeuw",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-byd-dolphin-surf-is-eigenlijk-een-grote-zeemeeuw/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "‘Sportline’ betekent bij de Skoda Epiq veel meer dan bij de Peaq",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/sportline-betekent-bij-de-skoda-epiq-veel-meer-dan-bij-de-peaq/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Invoerheffingen kunnen het prijsgat tussen Europese en Chinese auto’s niet dichten'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/invoerheffingen-kunnen-het-prijsgat-tussen-europese-en-chinese-autos-niet-dichten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "invoerheffing"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "AfD vraagt Tesla om hulp na weigering BMW",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/afd-vraagt-tesla-om-hulp-na-weigering-bmw/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Veiligheidsinstituut Euro NCAP kraakt auto's zonder fysieke knoppen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/veiligheidsinstituut-euro-ncap-kraakt-autos-zonder-fysieke-knoppen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -221,148 +365,6 @@
       "reason": "non-EV car news",
       "title": "Volkswagen Group: ‘Politiek moet verantwoordelijkheid voor auto-industrie nemen’",
       "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-groep-politiek-moet-verantwoordelijkheid-voor-auto-industrie-nemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Alfa Romeo Cuorerosso: spectaculaire nieuwe Alfa Romeo Giulia",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/alfa-romeo-cuorerosso-spectaculaire-hint-naar-de-nieuwe-alfa-romeo-giulia/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Citroën 2CV is terug! Nieuwe Eend is elektrisch en kost straks zo'n €15.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/citroen-2cv-is-terug-nieuwe-eend-is-elektrisch-en-kost-straks-zon-e15-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Fiat Multipla(y) is extreem praktische gezinsauto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-fiat-multipla-van-de-toekomst-dit-is-de-fiat-multiplay/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is de Opel van de toekomst: Opel zweert trouw aan de stationwagon",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-opel-van-de-toekomst-opel-zweert-trouw-aan-de-stationwagon/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Peugeot RCZ is terug: 500 pk en een solid-state accu",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-peugeot-rzc-is-terug-500-pk-en-solid-state-accu-in-retrocoupe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "solid-state"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Peugeot E-T16 Concept: beresterk, retro en extreem relevant",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-e-t16-concept-wilde-vooruitblik-op-de-nieuwe-peugeot-208/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "DS F3ver Concept: volgende DS 3 gaat terug naar het begin",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ds-f3ver-volgende-ds-3-gaat-terug-naar-het-begin/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Zowel de Volvo EX90 als de Xpeng G9 is verbeterd, toch blijft de Xpeng de betere auto",
-      "link": "https://www.autoweek.nl/autotests/artikel/zowel-de-volvo-ex90-als-de-xpeng-g9-zijn-verbeterd-toch-blijft-de-xpeng-de-beter-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "xpeng"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zoveel benzine verbruikt de Opel Crossland in de praktijk",
-      "link": "https://www.autoweek.nl/autotests/artikel/zoveel-benzine-verbruikt-de-opel-crossland-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Alleen als een vroege Toyota Yaris er aftands uitziet is hij minder dan €1.500 waard",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/alleen-als-een-vroege-toyota-yaris-er-aftands-uitziet-is-hij-minder-dan-e1-500-waard/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

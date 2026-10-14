@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T10:36:20.950823+00:00",
+  "generated_at": "2026-10-14T15:29:27.168764+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 34
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "AI-assisted song climbs Korean charts as copyright rules struggle to keep pace",
+      "link": "https://www.koreaherald.com/article/10902847",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "A2O Lite member Aijing’s parents face wage nonpayment allegations in China",
@@ -307,6 +315,14 @@
     },
     {
       "source": "Music Business Worldwide",
+      "title": "Summer Walker sues LVRN for fraud, asks court to void 2017 deal as Interscope pursues $50M+ claim against her (report)",
+      "link": "https://www.musicbusinessworldwide.com/summer-walker-sues-lvrn-for-fraud-asks-court-to-void-2017-deal-as-interscope-pursues-50m-claim-against-her-report/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
       "title": "BTS’s ARIRANG passes 5 billion Spotify streams – around 2 billion more than any other album released in 2026, says BigHit Music",
       "link": "https://www.musicbusinessworldwide.com/btss-arirang-passes-5-billion-spotify-streams-around-2-billion-more-than-any-other-album-released-in-2026-says-bighit-music/",
       "keep": false,
@@ -378,12 +394,28 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Rebecca Allen to exit UMG UK Chief Artist and Strategy Officer role after 27 years at Universal",
-      "link": "https://www.musicbusinessworldwide.com/rebecca-allen-to-exits-umg-uk-chief-artist-and-strategy-officer-role-after-27-years-at-universal/",
+      "source": "Soompi Music",
+      "title": "Lee Soo Man’s New Group A2O LITE Hits No. 1 On Melon Top 100 Just One Day After Debut",
+      "link": "https://www.soompi.com/article/1878286wpp/lee-soo-mans-new-group-a2o-lite-hits-no-1-on-melon-top-100-just-one-day-after-debut",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "BOYNEXTDOOR’s “HOME” Re-Enters Billboard 200 + Becomes Their 1st Album To Chart For Multiple Weeks",
+      "link": "https://www.soompi.com/article/1878270wpp/boynextdoors-home-re-enters-billboard-200-becomes-their-1st-album-to-chart-for-multiple-weeks",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "routine PR/fandom noise: billboard"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: KickFlip Takes 1st Win For “Kick Off The Wall” On “Show Champion”; Performances By KO1KEYZ, N.Flying, And More",
+      "link": "https://www.soompi.com/article/1878235wpp/watch-kickflip-takes-1st-win-for-kick-off-the-wall-on-show-champion-performances-by-ko1keyz-n-flying-and-more",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: takes 1st win"
     },
     {
       "source": "Soompi Music",
@@ -451,7 +483,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "BLACKPINK’s Lisa Unveils Track List For Solo EP “PRESS PLAY”",
+      "title": "Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino”",
       "link": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
       "keep": false,
       "category": null,
@@ -668,7 +700,7 @@
     {
       "source": "Soompi Music",
       "title": "Watch: NiziU Takes 1st Win For “Sour Grapes” On “Show Champion”; Performances By CLOSE YOUR EYES, CRAVITY, And More",
-      "link": "https://www.soompi.com/article/1876055wpp/watch-evan-takes-2nd-win-on-show-champion-with-death-of-me-performances-by-verivery-tunexx-and-more-2",
+      "link": "https://www.soompi.com/article/1876055wpp/watch-niziu-takes-1st-win-for-sour-grapes-on-show-champion-performances-by-close-your-eyes-cravity-and-more",
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: takes 1st win"
@@ -837,30 +869,6 @@
       "source": "Soompi Music",
       "title": "2026 SBS Gayo Daejeon Announces Date And Venue",
       "link": "https://www.soompi.com/article/1874676wpp/2026-sbs-gayo-daejeon-announces-date-and-venue",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: MEOVV Breaks Free In MV For “GO HARD” Comeback",
-      "link": "https://www.soompi.com/article/1874791wpp/update-meovv-stars-in-teasers-for-new-single-album-go-hard",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "KATSEYE To Perform At 2026 Victoria’s Secret Fashion Show",
-      "link": "https://www.soompi.com/article/1874526wpp/katseye-to-perform-at-2026-victorias-secret-fashion-show",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "i-dle’s Soyeon Returns To League Of Legends’ Virtual Group True Damage For 2026 Worlds Anthem",
-      "link": "https://www.soompi.com/article/1874264wpp/i-dles-soyeon-returns-to-league-of-legends-virtual-group-true-damage-for-2026-worlds-anthem",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"

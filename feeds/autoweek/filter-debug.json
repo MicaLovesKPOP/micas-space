@@ -1,10 +1,45 @@
 {
-  "generated_at": "2026-10-14T01:11:01.949850+00:00",
+  "generated_at": "2026-10-14T06:07:26.429557+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Geely Monjaro EM-i komt tot 116 kilometer ver op stroom",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-monjaro-em-i-komt-tot-116-kilometer-ver-op-stroom/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Elektrische BMW i3 en nieuwe 3-serie drukken i4 en 4-serie Gran Coupé de markt uit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-bmw-i3-en-nieuwe-3-serie-drukken-i4-en-4-serie-gran-coupe-de-markt-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch",
+          "i4"
+        ],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [
+          "leverbaar"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -337,34 +372,6 @@
       "reason": "non-EV car news",
       "title": "De Hyundai Bayon is nu een SUV en een hybride",
       "link": "https://www.autoweek.nl/autonieuws/artikel/de-hyundai-bayon-is-nu-een-suv-en-een-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ook in de nieuwe BMW 7-serie kun je straks veilig door oorlogsgebied",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-in-de-nieuwe-bmw-7-serie-kun-je-straks-veilig-door-oorlogsgebied/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Avatr: nieuw automerk voor Europa vindt luxe naar eigen zeggen opnieuw uit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuw-automerk-voor-europa-avtr-het-maakt-precies-wat-je-denkt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

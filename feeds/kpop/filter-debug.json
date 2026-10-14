@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-13T21:32:57.435699+00:00",
+  "generated_at": "2026-10-14T00:36:44.055468+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 26
+      "items": 27
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Son Ho-young wonders if K-pop idols have become ‘too perfect’",
+      "link": "https://www.koreaherald.com/article/10901122",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Le Sserafim adds seats to sold-out London show",
@@ -243,6 +251,14 @@
     },
     {
       "source": "Music Business Worldwide",
+      "title": "Raye says ticket scalpers used AI bots to create ‘hundreds of thousands of fake registrations’ as 1.8M sign up for 5,000 Royal Albert Hall seats",
+      "link": "https://www.musicbusinessworldwide.com/raye-says-scalpers-used-ai-bots-to-create-hundreds-of-thousands-of-fake-registrations-as-1-8m-sign-up-for-5000-royal-albert-hall-seats/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
       "title": "Primary Wave partners with Brian Vander Ark, frontman of The Verve Pipe, covering his publishing and recorded music catalogs",
       "link": "https://www.musicbusinessworldwide.com/primary-wave-partners-with-brian-vander-ark-frontman-of-the-verve-pipe-covering-his-publishing-and-recorded-music-catalogs/",
       "keep": false,
@@ -314,12 +330,20 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Catalog Is Surging On Spotify – Making Frontline Hits An Even Harder Game",
-      "link": "https://www.musicbusinessworldwide.com/catalog-surging-on-spotify-making-frontline-hits-an-even-harder-game/",
+      "source": "Soompi Music",
+      "title": "KickFlip Breaks Their 1st-Week Sales Record With “KICK OFF THE WALL Pt. 1”",
+      "link": "https://www.soompi.com/article/1877878wpp/kickflip-breaks-their-1st-week-sales-record-with-kick-off-the-wall-pt-1",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: sales record"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "BTS’s “Hooligan” Becomes Their 3rd MV From “ARIRANG” To Hit 100 Million Views",
+      "link": "https://www.soompi.com/article/1877879wpp/btss-hooligan-becomes-their-3rd-mv-from-arirang-to-hit-100-million-views",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Music",
@@ -427,7 +451,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: LNGSHOT Gears Up For Comeback With “S.W.I.S.H.” Teasers",
+      "title": "Update: LNGSHOT Drops New Teasers For “S.W.I.S.H.” Comeback",
       "link": "https://www.soompi.com/article/1877024wpp/watch-lngshot-announces-november-comeback-date-with-trailer-for-s-w-i-s-h",
       "keep": false,
       "category": null,
@@ -786,20 +810,12 @@
       "reason": "whitelisted event"
     },
     {
-      "source": "Soompi Music",
-      "title": "SHINee’s Taemin Postpones North American Stops Of “LiMiNaL” World Tour",
-      "link": "https://www.soompi.com/article/1873899wpp/shinees-taemin-postpones-north-american-stops-of-liminal-world-tour",
+      "source": "Soompi Celeb",
+      "title": "October Idol Group Brand Reputation Rankings Announced",
+      "link": "https://www.soompi.com/article/1877893wpp/october-idol-group-brand-reputation-rankings-announced-5",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "SEVENTEEN Unit JxJ (Jeonghan X Joshua) Announces Stops For Tour “Journey Into ‘DREAMING’”",
-      "link": "https://www.soompi.com/article/1873646wpp/seventeen-unit-jxj-jeonghan-x-joshua-announces-stops-for-tour-journey-into-dreaming",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "routine PR/fandom noise: brand reputation"
     },
     {
       "source": "Soompi Celeb",
@@ -1272,14 +1288,6 @@
       "keep": false,
       "category": null,
       "reason": "legal story unrelated to contracts/agency business/artist rights"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "Chungha To Miss University Festival Performance After Being Rushed To ER Due To Health Issue",
-      "link": "https://www.soompi.com/article/1871669wpp/chungha-to-miss-university-festival-performance-after-being-rushed-to-er-due-to-health-issue",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Yonhap K-pop",

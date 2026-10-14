@@ -1,10 +1,91 @@
 {
-  "generated_at": "2026-10-14T06:07:26.429557+00:00",
+  "generated_at": "2026-10-14T11:44:25.042131+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 19,
+  "dropped_items": 6,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe Peugeot RCZ, maar de oude kun je misschien beter laten staan",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-peugeot-rcz-op-komst-maar-de-oude-kun-je-misschien-beter-laten-staan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Smart #2 is bijna de goedkoopste nieuwe elektrische auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-smart-2-is-bijna-de-goedkoopste-nieuwe-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "De ultra-luxe Xpeng G9L is in Nederland niet eens zo duur",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-ultra-luxe-xpeng-g9l-is-in-nederland-niet-eens-zo-duur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "xpeng"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "‘Chinese merken profiteren van populariteit ID Polo en Renault 5’",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-merken-profiteren-van-populariteit-id-polo-en-renault-5/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Vernieuwde Tesla Model 3: meer voor dezelfde prijs",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-tesla-model-3-meer-voor-dezelfde-prijs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -301,77 +382,6 @@
       "reason": "non-EV car news",
       "title": "‘Sportline’ betekent bij de Skoda Epiq veel meer dan bij de Peaq",
       "link": "https://www.autoweek.nl/autonieuws/artikel/sportline-betekent-bij-de-skoda-epiq-veel-meer-dan-bij-de-peaq/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Invoerheffingen kunnen het prijsgat tussen Europese en Chinese auto’s niet dichten'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/invoerheffingen-kunnen-het-prijsgat-tussen-europese-en-chinese-autos-niet-dichten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "invoerheffing"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "AfD vraagt Tesla om hulp na weigering BMW",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/afd-vraagt-tesla-om-hulp-na-weigering-bmw/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Veiligheidsinstituut Euro NCAP kraakt auto's zonder fysieke knoppen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/veiligheidsinstituut-euro-ncap-kraakt-autos-zonder-fysieke-knoppen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De nieuwe Renault Trafic is een eindeloos veel betere deal dan de oude",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-renault-trafic-is-een-eindeloos-veel-betere-deal-dan-de-oude/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Hyundai Bayon is nu een SUV en een hybride",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-hyundai-bayon-is-nu-een-suv-en-een-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

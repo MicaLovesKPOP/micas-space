@@ -1,10 +1,66 @@
 {
-  "generated_at": "2026-10-15T12:50:56.978534+00:00",
+  "generated_at": "2026-10-15T17:44:42.209273+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Renault zet rem op retro: 'Nu moeten we even een pauze nemen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-zet-rem-op-retro-nu-moeten-we-even-een-pauze-nemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Skoda-ontwerper 'geschokt' door AI: 'Ontwerpers moeten oppassen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-ontwerper-geschokt-door-ai-ontwerpers-moeten-oppassen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Dit is de oudste Eend ter wereld, en die bevindt zich nog in Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-oudste-eend-ter-wereld-en-die-bevindt-zich-nog-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Lancia Gamma doet het netjes maar voegt niets toe",
+      "link": "https://www.autoweek.nl/autotests/artikel/lancia-gamma-doet-het-netjes-maar-voegt-niets-toe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -36,7 +92,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Toyota Mirai is extreem afschrijfkanon: van €77.000 naar €16.000 in vier jaar",
+      "title": "Toyota Mirai: waterstofauto van €77.000 naar €16.000 in vier jaar",
       "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-mirai-is-extreem-afschrijfkanon-van-e77-000-naar-e16-000-in-vier-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -311,73 +367,6 @@
         ],
         "routine_product": [
           "vernieuwde "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Geely Monjaro EM-i komt tot 116 kilometer ver op stroom",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-monjaro-em-i-komt-tot-116-kilometer-ver-op-stroom/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Elektrische BMW i3 en nieuwe 3-serie drukken i4 en 4-serie Gran Coupé de markt uit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-bmw-i3-en-nieuwe-3-serie-drukken-i4-en-4-serie-gran-coupe-de-markt-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "i4"
-        ],
-        "major": [
-          "verbod"
-        ],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De BYD Dolphin Surf is ineens ideaal voor uitzendbureaus",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-byd-dolphin-surf-is-ineens-ideaal-voor-uitzendbureaus/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Denza Z loopt nu al tegen de lamp in Nederland: ongeldig kenteken!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/denza-z-loopt-nu-al-tegen-de-lamp-in-nederland-ongeldig-kenteken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "prototype"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
         ]
       }
     }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T17:44:47.959603+00:00",
+  "generated_at": "2026-10-15T21:18:34.701628+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 20
+      "items": 21
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Officieel: Porsche Mission S is ultieme supercar zonder onzin",
+      "link": "https://www.autoblog.nl/nieuws/officieel-porsche-mission-s-is-ultieme-supercar-zonder-onzin",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Autoblog Podcast #S301: Wouter kapot, Volvo kapot: de podcast is terug",
+      "link": "https://www.autoblog.nl/video/autoblog-podcast-s301-wouter-kapot-volvo-kapot-de-podcast-is-terug",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Subsidie voor EV-occasions kan verkopers rijker maken",
+      "link": "https://www.autoblog.nl/nieuws/waarom-subsidie-voor-tweedehands-ev-s-een-slecht-plan-is",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Koop deze veel te dikke AMG van een F1-kampioen",
+      "link": "https://www.autoblog.nl/nieuws/koop-deze-veel-te-dikke-amg-van-een-f1-kampioen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -341,54 +389,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Max Verstappen neemt het op tegen de allerbeste ooit!",
       "link": "https://www.autoblog.nl/nieuws/max-verstappen-neemt-het-op-tegen-de-allerbeste-ooit",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit Amsterdamse huis van 20 miljoen heeft een probleem in de garage",
-      "link": "https://www.autoblog.nl/nieuws/dit-amsterdamse-huis-van-20-miljoen-heeft-een-probleem-in-de-garage",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit rare verkeersbord kan je je motor kosten",
-      "link": "https://www.autoblog.nl/nieuws/dit-britse-verkeersbord-kan-je-je-motor-kosten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Levensgevaarlijke airbags zitten ook in 200.000+ Mercedes-bussen!",
-      "link": "https://www.autoblog.nl/nieuws/pas-op-200-000-mercedes-bussen-hebben-levensgevaarlijke-airbags",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "ANWB officieel in verzet tegen Belgisch wegenvignet",
-      "link": "https://www.autoblog.nl/nieuws/nederlanders-kwaad-om-belgische-tolheffing",
       "details": {
         "feature": [],
         "tags": [],
@@ -959,6 +959,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "Cars Owned by Dictators: Almost Everything You’d Ever Want to Know",
+      "link": "https://www.hagerty.com/media/automotive-history/cars-owned-by-dictators-almost-everything-youd-ever-want-to-know/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "If You Like F1 History, Check Out Senna vs. Brundle–The Season Before Formula 1",
       "link": "https://www.hagerty.com/media/automotive-history/if-you-like-f1-history-check-out-senna-vs-brundle-the-season-before-formula-1/"
     },
@@ -975,13 +982,6 @@
       "reason": "automotive history",
       "title": "Why Detroit Stopped Making Affordable Sedans, and Probably Won’t Again",
       "link": "https://www.hagerty.com/media/automotive-history/why-detroit-stopped-making-affordable-sedans-and-probably-wont-again/"
-    },
-    {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "Witkar Was Amsterdam’s Car Share Before There Was Car Share",
-      "link": "https://www.hagerty.com/media/automotive-history/witkar-was-amsterdams-car-share-before-there-was-car-share/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1050,7 +1050,7 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "4 Traps First-Time Vintage-Car Buyers Should Be Wary Of",
+      "title": "4 Traps First-Time Vintage Car Buyers Should Be Wary Of",
       "link": "https://www.hagerty.com/media/maintenance-and-tech/4-traps-first-time-vintage-car-buyers-should-be-wary-of/"
     },
     {
@@ -1125,6 +1125,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 76,
+  "output_items": 76
 }

@@ -1,10 +1,38 @@
 {
-  "generated_at": "2026-10-15T17:44:42.209273+00:00",
+  "generated_at": "2026-10-15T21:18:29.436346+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Frankrijk en Duitsland sluiten deal over auto-industrie",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/frankrijk-en-duitsland-sluiten-deal-over-auto-industrie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo zou een nieuwe super-Porsche eruit kunnen zien, volgens Porsche zelf",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-zou-een-nieuwe-super-porsche-eruit-kunnen-zien-volgens-porsche-zelf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -335,38 +363,6 @@
         "boring": [],
         "routine_product": [
           "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "‘Chinese merken profiteren van populariteit ID Polo en Renault 5’",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-merken-profiteren-van-populariteit-id-polo-en-renault-5/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Vernieuwde Tesla Model 3: meer voor dezelfde prijs",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-tesla-model-3-meer-voor-dezelfde-prijs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": [
-          "vernieuwde "
         ]
       }
     }

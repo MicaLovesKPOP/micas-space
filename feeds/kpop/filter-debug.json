@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:37:18.654417+00:00",
+  "generated_at": "2026-10-15T00:52:16.202515+00:00",
   "sources": [
     {
       "name": "Korea Herald",
@@ -251,6 +251,14 @@
     },
     {
       "source": "Music Business Worldwide",
+      "title": "Ben Katovsky joins Matt Spetzler’s Pipeline as CEO",
+      "link": "https://www.musicbusinessworldwide.com/ben-katovsky-joins-matt-spetzlers-pipeline-as-ceo/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
       "title": "Here’s exactly what Amazon, Spotify, Apple and other streaming services want to pay songwriters for 2028–2032",
       "link": "https://www.musicbusinessworldwide.com/heres-exactly-what-amazon-spotify-apple-and-other-streaming-services-want-to-pay-songwriters-for-2028-2032/",
       "keep": false,
@@ -322,12 +330,12 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Viktoria Siniavskaia appointed President EMEA at Believe",
-      "link": "https://www.musicbusinessworldwide.com/viktoria-siniavskaia-appointed-president-emea-at-believe/",
+      "source": "Soompi Music",
+      "title": "N.Flying Breaks 1st-Week Sales Record With “Still”",
+      "link": "https://www.soompi.com/article/1878439wpp/n-flying-breaks-1st-week-sales-record-with-still",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: sales record"
     },
     {
       "source": "Soompi Music",
@@ -800,14 +808,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: i-dle’s Soyeon Takes 1st Win For “I’m gonna TOESA” On “M Countdown”; Performances By CRAVITY, BOYNEXTDOOR, And More",
-      "link": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: takes 1st win"
     },
     {
       "source": "Soompi Celeb",
@@ -1291,6 +1291,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "Lee Soo-man's new girl group A2O Lite tops Melon chart",
+      "link": "https://en.yna.co.kr/view/AEN20261015001400315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "Rose to perform at LACMA's 2026 Art+Film Gala",
       "link": "https://en.yna.co.kr/view/AEN20261014005800315?section=culture/k-pop",
       "keep": false,
@@ -1440,17 +1448,16 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "(LEAD) BTS sweeps 3 categories at MTV VMAs; BLACKPINK's Lisa wins Best Pop",
-      "link": "https://en.yna.co.kr/view/AEN20260928005451315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
+    {
+      "dropped": "Lee Soo-man's new girl group A2O Lite tops Melon chart",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "Lee Soo Man’s New Group A2O LITE Hits No. 1 On Melon Top 100 Just One Day After Debut",
+      "kept_source": "Soompi Music",
+      "category": "Debut / new group"
+    },
     {
       "dropped": "Babymonster to return with new single 'Deserve' this month",
       "dropped_source": "Yonhap K-pop",
@@ -1459,6 +1466,6 @@
       "category": "Comeback / release"
     }
   ],
-  "candidate_items": 16,
+  "candidate_items": 17,
   "final_items": 15
 }

@@ -1,10 +1,55 @@
 {
-  "generated_at": "2026-10-15T01:48:21.660114+00:00",
+  "generated_at": "2026-10-15T07:21:26.126977+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 20,
   "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Fastned voert bouwtempo nieuwe laadstations op",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/fastned-voert-bouwtempo-nieuwe-laadstations-op/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Alfa Romeo Giulia: elektrisch, maar ook met hybride V6!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dromen-van-alfa-romeo-giulia-elektrisch-maar-ook-met-hybride-v6/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ook je Cupra Raval kun je nu bij Cupra met Abt-opsmuk krijgen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-je-cupra-raval-kun-je-nu-bij-cupra-met-abt-opsmuk-krijgen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -340,49 +385,6 @@
           "goedkoper",
           "duurder"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Chery Q: ruime en goedkope EV in 2027 in Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/chery-q-ruime-en-goedkope-ev-in-2027-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Fiat Multiplina is klaar om groepen scholieren te vervoeren",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-multiplina-is-klaar-om-groepen-scholieren-te-vervoeren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Geely Project KO11: ‘Cruiser 700’ voor Europa",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-project-ko11-cruiser-700-voor-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-10-15T23:49:23.730728+00:00",
+  "generated_at": "2026-10-16T04:24:00.822111+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Tesla Roadster is vrijwel zeker de meest bezopen auto die je ooit hebt gezien",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-tesla-roadster-is-vrijwel-zeker-de-meest-bezopen-auto-die-je-ooit-hebt-gezien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -346,23 +361,6 @@
         "boring": [],
         "routine_product": [
           "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "De ultra-luxe Xpeng G9L is in Nederland niet eens zo duur",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-ultra-luxe-xpeng-g9l-is-in-nederland-niet-eens-zo-duur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "xpeng"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
         ]
       }
     }

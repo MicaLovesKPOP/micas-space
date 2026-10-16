@@ -1,10 +1,113 @@
 {
-  "generated_at": "2026-10-16T09:16:19.449133+00:00",
+  "generated_at": "2026-10-16T14:12:40.514975+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ruurd (71) reed zijn BMW 730d naar 1.000.000 kilometer: 'Inmiddels voor € 65.000 aan onderhoud'",
+      "link": "https://www.autoweek.nl/autotests/artikel/ruurd-71-reed-zijn-bmw-730d-naar-1-000-000-kilometer-inmiddels-voor-e-65-000-aan-onderhoud/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Skoda kiest bewust niet voor 'boze' neus: 'auto als goede vriend'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-kiest-bewust-niet-voor-boze-neus-auto-als-goede-vriend/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo leeft de Peugeot 205 T16 voort in de E-T16",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-peugeot-205-t16-voort-in-de-e-t16/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "rally"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze goedkope Opel Astra komt de Astra in Nederland niet redden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-goedkope-opel-astra-komt-de-astra-in-nederland-niet-redden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "In Dubai rijdt de politie geen Ford, maar een Lamborghini met 920 pk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/in-dubai-rijdt-de-politie-geen-ford-kuga-maar-een-lamborghini-met-920-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "supercar"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Honda stopt met hybride e:HEV en kiest voor duidelijkheid",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-stopt-met-hybride-ehev-en-kiest-voor-duidelijkheid/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "stopt met"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Elektrische Skoda’s hebben in Engeland een grotere draaicirkel dan bij ons",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-volkswagens-en-skodas-hebben-in-engeland-een-grotere-draaicirkel-dan-bij-ons/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -260,109 +363,6 @@
         "exceptional": [
           "nürburgring"
         ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Renault: 'Europese regels maken een nieuwe auto €6.000 duurder'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-europese-regels-maken-een-nieuwe-auto-e6-000-duurder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "europese unie"
-        ],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Changan verdubbelt Europese aanbod met Nevo Q05 en Nevo Q06",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/changan-verdubbelt-europese-aanbod-met-nevo-q05-en-nevo-q06/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Fastned voert bouwtempo nieuwe laadstations op",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/fastned-voert-bouwtempo-nieuwe-laadstations-op/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Alfa Romeo Giulia: elektrisch, maar ook met hybride V6!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dromen-van-alfa-romeo-giulia-elektrisch-maar-ook-met-hybride-v6/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ook je Cupra Raval kun je nu bij Cupra met Abt-opsmuk krijgen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-je-cupra-raval-kun-je-nu-bij-cupra-met-abt-opsmuk-krijgen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Volgende Audi A8 komt uit Leipzig en krijgt Panamera-basis'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volgende-audi-a8-komt-uit-leipzig-en-krijgt-panamera-basis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Suzuki Across is net zo fijn als de RAV4, met een belangrijke troef",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-suzuki-across-is-net-zo-fijn-als-de-rav4-met-een-belangrijke-troef/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
         "boring": [],
         "routine_product": []
       }

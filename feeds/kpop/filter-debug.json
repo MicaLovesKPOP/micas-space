@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T05:04:12.453524+00:00",
+  "generated_at": "2026-10-16T09:45:49.902359+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 32
+      "items": 34
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,22 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Aespa, Ateez lead MMAs lineup, as BTS, Blackpink earn nominations",
+      "link": "https://www.koreaherald.com/article/10905485",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Winner's Mino to return to military after guilty verdict",
+      "link": "https://www.koreaherald.com/article/10905484",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "A2O groups debut with young, multinational lineup and old-school K-pop formula",
@@ -387,7 +403,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Watch: Crush Drops Teaser For Digital Single “seesaw” Featuring IU",
+      "title": "Update: Crush And IU Drop New Concept Photos For Digital Single “seesaw”",
       "link": "https://www.soompi.com/article/1878623wpp/watch-crush-drops-teaser-for-digital-single-seesaw-featuring-iu",
       "keep": false,
       "category": null,
@@ -587,11 +603,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: LNGSHOT Drops Teaser Images For “S.W.I.S.H.” Comeback",
+      "title": "Update: LNGSHOT Drops 1st Teaser For New Track “Masterpiece”",
       "link": "https://www.soompi.com/article/1877024wpp/watch-lngshot-announces-november-comeback-date-with-trailer-for-s-w-i-s-h",
       "keep": false,
       "category": null,
-      "reason": "teaser/rollout post"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -603,11 +619,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: WOODZ Drops Performance Teaser For New Single “Come into my world!”",
+      "title": "Update: WOODZ Drops New Photos For Upcoming Single “Come into my world!”",
       "link": "https://www.soompi.com/article/1877012wpp/woodz-announces-return-with-new-single-come-into-my-world",
-      "keep": false,
-      "category": null,
-      "reason": "teaser/rollout post"
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -619,7 +635,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: Hearts2Hearts Unveils MV Teaser For Arena Of Valor Collaboration “Next Chapter”",
+      "title": "Watch: Hearts2Hearts Enters A Fantasy World In “Next Chapter” MV For Arena Of Valor Collab",
       "link": "https://www.soompi.com/article/1876947wpp/hearts2hearts-unveils-next-chapter-concept-photos-for-arena-of-valor-collaboration",
       "keep": false,
       "category": null,
@@ -1513,6 +1529,6 @@
       "category": "Debut / new group"
     }
   ],
-  "candidate_items": 21,
-  "final_items": 18
+  "candidate_items": 22,
+  "final_items": 19
 }

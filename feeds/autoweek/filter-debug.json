@@ -1,10 +1,42 @@
 {
-  "generated_at": "2026-10-17T13:54:33.610411+00:00",
+  "generated_at": "2026-10-17T17:05:38.744457+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Mercedes-AMG GT SUV: elektrische hyper-SUV van AMG dreunt met V8-sound",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hyper-suv-van-amg-dreunt-met-v8-sound-ook-al-is-het-een-ev/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "kwh"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Hybridepionier Toyota troeft met de RAV4 de Volkswagen Tiguan en Kia Sportage af",
+      "link": "https://www.autoweek.nl/autotests/artikel/hybridepionier-toyota-troeft-met-de-rav4-de-volkswagen-tiguan-en-kia-sportage-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "tarief"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -333,36 +365,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Skoda-ontwerper 'geschokt' door AI: 'Ontwerpers moeten oppassen'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-ontwerper-geschokt-door-ai-ontwerpers-moeten-oppassen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Dit is de oudste Eend ter wereld, en die bevindt zich nog in Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-oudste-eend-ter-wereld-en-die-bevindt-zich-nog-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "bev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
       }
     }
   ]

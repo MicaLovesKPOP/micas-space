@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-17T05:42:28.600663+00:00",
+  "generated_at": "2026-10-17T10:58:01.215573+00:00",
   "source": "https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml",
   "policy_version": 2,
   "feed_hours": 72,
   "selection_basis": "headline_metadata_only",
   "daily_quota": null,
-  "child_sitemaps_found": 15,
+  "child_sitemaps_found": 14,
   "child_sitemaps_checked": [
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml",
-      "world_items": 21
+      "world_items": 20
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=100",
-      "world_items": 9
+      "world_items": 11
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=200",
-      "world_items": 6
+      "world_items": 7
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=300",
@@ -25,19 +25,19 @@
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=400",
-      "world_items": 9
+      "world_items": 12
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=500",
-      "world_items": 11
+      "world_items": 16
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=600",
-      "world_items": 8
+      "world_items": 15
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=700",
-      "world_items": 10
+      "world_items": 16
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=800",
@@ -45,11 +45,11 @@
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=900",
-      "world_items": 9
+      "world_items": 8
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=1000",
-      "world_items": 15
+      "world_items": 9
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=1100",
@@ -57,26 +57,23 @@
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=1200",
-      "world_items": 12
+      "world_items": 0
     },
     {
       "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=1300",
-      "world_items": 3
-    },
-    {
-      "url": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml&from=1400",
       "world_items": 0
     }
   ],
-  "candidates": 138,
-  "final_items": 4,
+  "candidates": 139,
+  "final_items": 3,
   "kept_decisions": 15,
   "rejected_reasons": {
-    "no_clear_major_development_in_headline": 127,
-    "routine_market_angle_even_if_war_or_ai_is_mentioned": 5,
-    "outside_recency_window": 2,
+    "no_clear_major_development_in_headline": 125,
+    "company_deal_or_routine_economic_data": 5,
     "reaction_commentary_or_promise": 2,
-    "proposal_or_speculation_not_implementation": 1,
+    "routine_market_angle_even_if_war_or_ai_is_mentioned": 3,
+    "feature_or_retrospective": 2,
+    "outside_recency_window": 1,
     "preview_poll_or_administrative_step": 1
   },
   "items": [
@@ -106,15 +103,6 @@
       "reason": "material_diplomatic_change",
       "priority": 85,
       "published": "2026-10-14T11:05:06.482000+00:00"
-    },
-    {
-      "title": "European countries, Vietnam to sign free trade deal on Sunday, officials say",
-      "url": "https://www.reuters.com/world/asia-pacific/switzerland-norway-vietnam-sign-free-trade-deal-sunday-officials-say-2026-10-14/",
-      "region": "Asia Pacific",
-      "topic": "diplomacy.agreement",
-      "reason": "international_agreement_or_recognition",
-      "priority": 80,
-      "published": "2026-10-14T08:23:30.566000+00:00"
     }
   ],
   "decisions": [
@@ -224,71 +212,64 @@
       "topic": "conflict.escalation"
     },
     {
-      "title": "Trump threatens California officials with imprisonment over stance on mail ballots",
-      "url": "https://www.reuters.com/world/us/trump-threatens-california-officials-with-imprisonment-over-stance-mail-ballots-2026-10-17/",
+      "title": "Russian strikes and winter hardship may drive more Ukrainians from homes, UN agency warns",
+      "url": "https://www.reuters.com/world/russian-strikes-winter-hardship-may-drive-more-ukrainians-homes-un-agency-warns-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Delegates walked out of IMF steering committee meeting when Russian official spoke, sources say",
-      "url": "https://www.reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/",
+      "title": "Trump-Zelenskiy rift threatens vital support for Kyiv",
+      "url": "https://www.reuters.com/world/europe/trump-zelenskiy-rift-threatens-vital-support-kyiv-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "German minister seeks debt-brake exemption to sustain Ukraine aid",
-      "url": "https://www.reuters.com/world/german-minister-seeks-debt-brake-exemption-sustain-ukraine-aid-2026-10-17/",
+      "title": "Egypt's Sisi says his presidency will end in 2030",
+      "url": "https://www.reuters.com/world/africa/egypts-sisi-says-his-presidency-will-end-2030-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Students, trade unions and Yellow Vests set to protest across France",
+      "title": "Pope Leo to leave hospital on Saturday, four days after lung cancer surgery",
+      "url": "https://www.reuters.com/world/europe/pope-leo-be-discharged-hospital-vatican-2026-10-17/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "India's ICICI Bank Q2 profit rises 20.1%, beats estimates",
+      "url": "https://www.reuters.com/world/india/indias-icici-bank-q2-profit-rises-201-beats-estimates-2026-10-17/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Trump faults aides as Republican midterm prospects dim",
+      "url": "https://www.reuters.com/world/us/trump-faults-aides-republican-midterm-prospects-dim-2026-10-17/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "French protesters take to streets over rising prices and social strain",
       "url": "https://www.reuters.com/world/students-trade-unions-yellow-vests-set-protest-across-france-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Mongolia becomes new donor to World Bank's fund for poorest countries",
-      "url": "https://www.reuters.com/world/asia-pacific/mongolia-becomes-new-donor-world-banks-fund-poorest-countries-2026-10-17/",
+      "title": "IMFC chair says global economy resilient; delegates walk out on Russian official",
+      "url": "https://www.reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
-      "url": "https://www.reuters.com/world/asia-pacific/boj-may-need-tighten-faster-if-inflation-beats-forecast-imf-says-2026-10-17/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "India's 'cockroach' movement founder arrested after detention, media reports say",
-      "url": "https://www.reuters.com/world/india/indias-cockroach-movement-founder-arrested-media-reports-say-2026-10-17/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
-      "url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Major development banks step up support for critical minerals value chains",
-      "url": "https://www.reuters.com/world/asia-pacific/major-development-banks-step-up-support-critical-minerals-value-chains-2026-10-17/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Trump mocks popularity of the name Mohammad, common among Muslims",
-      "url": "https://www.reuters.com/world/us/trump-mocks-popularity-name-mohammad-common-among-muslims-2026-10-16/",
+      "title": "Anthropic's Clark says AI's impact accelerating quickly and could vastly boost US GDP",
+      "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -301,13 +282,6 @@
       "topic": ""
     },
     {
-      "title": "Teacher and armed parent teamed up to stop Oregon school shooter, police say",
-      "url": "https://www.reuters.com/world/us/police-seek-answers-after-children-killed-oregon-school-shooting-2026-10-16/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
       "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
       "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/",
       "kept": false,
@@ -315,57 +289,113 @@
       "topic": ""
     },
     {
-      "title": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
-      "url": "https://www.reuters.com/world/americas/mexican-judge-gives-three-men-158-years-australian-us-surfers-murders-2026-10-17/",
+      "title": "India's HDFC Bank quarterly profit rises 4.7%, narrowly misses estimates as treasury income slumps",
+      "url": "https://www.reuters.com/world/india/indias-hdfc-bank-quarterly-profit-rises-47-narrowly-misses-estimates-treasury-2026-10-17/",
+      "kept": false,
+      "reason": "company_deal_or_routine_economic_data",
+      "topic": ""
+    },
+    {
+      "title": "'Our land, our Albania': young lawmaker demands new future as protests rage",
+      "url": "https://www.reuters.com/world/europe/our-land-our-albania-young-lawmaker-demands-new-future-protests-rage-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Bangladesh is battling measles. It's a 'real warning' to other nations",
-      "url": "https://www.reuters.com/world/bangladesh-is-battling-measles-its-real-warning-other-nations-2026-10-17/",
+      "title": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says",
+      "url": "https://www.reuters.com/world/middle-east/tanker-struck-by-unknown-projectile-off-saudi-arabia-friday-ukmto-says-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Thousands march in Albanian capital as anti-government protests spread",
-      "url": "https://www.reuters.com/world/europe/thousands-march-albanian-capital-as-anti-government-protests-spread-2026-10-16/",
+      "title": "Russian defence ministry says it hit Ukrainian steel plants, power infrastructure overnight",
+      "url": "https://www.reuters.com/world/russian-defence-ministry-says-it-hit-ukrainian-steel-plants-power-infrastructure-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say",
-      "url": "https://www.reuters.com/world/asia-pacific/us-holds-more-secret-talks-with-myanmars-military-backed-rulers-tokyo-sources-2026-10-16/",
+      "title": "India's Axis Bank quarterly profit rises 37.6%, but misses estimates on higher costs",
+      "url": "https://www.reuters.com/world/india/indias-axis-bank-quarterly-profit-rises-376-misses-estimates-higher-costs-2026-10-17/",
+      "kept": false,
+      "reason": "company_deal_or_routine_economic_data",
+      "topic": ""
+    },
+    {
+      "title": "Teacher and armed parent teamed up to stop Oregon school shooter, police say",
+      "url": "https://www.reuters.com/world/us/police-seek-answers-after-children-killed-oregon-school-shooting-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Hacker gets data on millions of California students, state education department says",
-      "url": "https://www.reuters.com/world/us/hacker-gets-data-millions-california-students-state-education-department-says-2026-10-17/",
+      "title": "Trump threatens California officials with imprisonment over stance on mail ballots",
+      "url": "https://www.reuters.com/world/us/trump-threatens-california-officials-with-imprisonment-over-stance-mail-ballots-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Brazil's Flavio Bolsonaro pledges fiscal adjustment, rejects cuts to social spending",
-      "url": "https://www.reuters.com/world/americas/brazils-flavio-bolsonaro-pledges-fiscal-adjustment-rejects-cuts-social-spending-2026-10-17/",
+      "title": "German minister seeks debt-brake exemption to sustain Ukraine aid",
+      "url": "https://www.reuters.com/world/german-minister-seeks-debt-brake-exemption-sustain-ukraine-aid-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
-      "url": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/",
+      "title": "Mongolia becomes new donor to World Bank's fund for poorest countries",
+      "url": "https://www.reuters.com/world/asia-pacific/mongolia-becomes-new-donor-world-banks-fund-poorest-countries-2026-10-17/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "What redistricting means for Tennessee voters",
-      "url": "https://www.reuters.com/world/us/what-redistricting-means-tennessee-voters-2026-10-17/",
+      "title": "Grynspan holds lead for next UN chief as race enters decisive stage",
+      "url": "https://www.reuters.com/world/americas/grynspan-holds-lead-next-un-chief-race-enters-decisive-stage-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "North Korea tests new AI-equipped torpedo, KCNA says",
+      "url": "https://www.reuters.com/world/asia-pacific/north-korea-tests-new-ai-equipped-torpedo-kcna-says-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Moldova condemns Russia after five drones crash on its territory",
+      "url": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/",
+      "kept": false,
+      "reason": "reaction_commentary_or_promise",
+      "topic": ""
+    },
+    {
+      "title": "Actor Selma Blair did not intend harm on flight, spokesperson says",
+      "url": "https://www.reuters.com/world/us/actor-selma-blair-did-not-intend-harm-flight-spokesperson-says-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Panzani, Cerealis in talks to create €1.8 billion European food group",
+      "url": "https://www.reuters.com/world/panzani-cerealis-talks-create-18-billion-european-food-group-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "UK finance minister says Heathrow expansion would boost growth",
+      "url": "https://www.reuters.com/world/uk/uk-finance-minister-says-heathrow-expansion-would-boost-growth-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Brazil may offer credit lines to ease impact of tax, labor reforms, minister says",
+      "url": "https://www.reuters.com/world/americas/brazil-may-offer-credit-lines-ease-impact-tax-labor-reforms-minister-says-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -399,36 +429,43 @@
       "topic": ""
     },
     {
-      "title": "Why is the battle for Yemen's Taiz so important?",
-      "url": "https://www.reuters.com/world/why-is-battle-yemens-taiz-so-important-2026-10-16/",
+      "title": "Gold set for a weekly drop as traders assess Fed signals",
+      "url": "https://www.reuters.com/world/india/gold-set-weekly-drop-traders-assess-fed-signals-2026-10-16/",
+      "kept": false,
+      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
+      "topic": ""
+    },
+    {
+      "title": "Trump says neither he nor Musk responsible for Ukraine loss of Starlink access",
+      "url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Israeli settlers attack Palestinians during West Bank olive harvest",
-      "url": "https://www.reuters.com/world/life-ukraines-front-line-worse-than-hell-russia-advances-clone-2025-12-23/",
-      "kept": false,
-      "reason": "outside_recency_window",
-      "topic": ""
-    },
-    {
-      "title": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
-      "url": "https://www.reuters.com/world/middle-east/israeli-settlers-burn-olive-trees-injure-journalist-west-bank-attack-2026-10-16/",
+      "title": "EU to propose import curbs on other Chinese sectors, says EU chief",
+      "url": "https://www.reuters.com/world/china/eu-propose-import-curbs-other-chinese-sectors-says-eu-chief-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
-      "url": "https://www.reuters.com/world/ukraines-zelenskiy-blasts-us-russian-diesel-deal-welcomes-bigger-european-role-2026-10-16/",
+      "title": "Putin agrees to cooperate with Pope Leo's plea for aid for Ukrainian town",
+      "url": "https://www.reuters.com/world/pope-leo-urges-putin-allow-aid-occupied-ukrainian-town-2026-10-16/",
       "kept": false,
-      "reason": "reaction_commentary_or_promise",
+      "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Trump move to restart direct US flights with Lebanon hits roadblock",
-      "url": "https://www.reuters.com/world/middle-east/trump-move-restart-direct-us-flights-with-lebanon-hits-roadblock-2026-10-16/",
+      "title": "Putin says Russia is building non-negotiable 'security zone' in Ukraine along border",
+      "url": "https://www.reuters.com/world/putin-says-russia-is-building-non-negotiable-security-zone-ukraine-along-border-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "UK's FCA lifts bans on four former traders after benchmark-rigging convictions quashed",
+      "url": "https://www.reuters.com/world/uk/uks-fca-lifts-bans-four-former-traders-after-benchmark-rigging-convictions-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -441,36 +478,36 @@
       "topic": ""
     },
     {
-      "title": "Indonesia faces rare MSCI exclusion that could cut it off from global capital",
-      "url": "https://www.reuters.com/world/asia-pacific/indonesia-faces-rare-msci-exclusion-that-could-cut-it-off-global-capital-2026-10-16/",
+      "title": "Zelenskiy blasts Trump's diesel deal and calls Russian peace moves a 'parody'",
+      "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Hedge funds bet Japan reforms have further to run at Sohn Tokyo",
-      "url": "https://www.reuters.com/world/asia-pacific/hedge-funds-bet-japan-reforms-have-further-run-sohn-tokyo-2026-10-16/",
+      "title": "South Africa to open payments system to retailers, telecoms, fintechs in 2027",
+      "url": "https://www.reuters.com/world/africa/south-africa-open-payments-system-retailers-telecoms-fintechs-2027-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "UK water regulator finds Severn Trent unit breached wastewater obligations",
-      "url": "https://www.reuters.com/world/uk/uk-water-regulator-finds-severn-trent-unit-breached-wastewater-obligations-2026-10-16/",
+      "title": "Devastated families mourn children killed by Pakistan school roof collapse",
+      "url": "https://www.reuters.com/world/asia-pacific/devastated-families-mourn-children-killed-by-pakistan-school-roof-collapse-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Putin told Pope Leo he backs Vatican idea to help civilians in Oleshky, Kremlin says",
-      "url": "https://www.reuters.com/world/europe/kremlin-says-putin-told-pope-leo-he-backs-vatican-idea-help-civilians-in-oleshky-2026-10-16/",
+      "title": "Indian police detain 'cockroach' founder, student leaders ahead of Delhi rally",
+      "url": "https://www.reuters.com/world/india/security-stepped-up-indias-capital-cockroach-movement-rally-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "China's central bank to further open its financial markets to foreigners, chief says",
-      "url": "https://www.reuters.com/world/asia-pacific/chinas-central-bank-further-open-up-chinese-financial-markets-foreigners-2026-10-16/",
+      "title": "Families wait for answers after Nigerian military plane crash",
+      "url": "https://www.reuters.com/world/africa/families-wait-answers-after-nigerian-military-plane-crash-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -497,36 +534,57 @@
       "topic": ""
     },
     {
-      "title": "Pope Leo to make Sunday appearance as first images released since cancer surgery",
-      "url": "https://www.reuters.com/world/pope-leo-showing-steady-improvement-after-lung-cancer-surgery-vatican-says-2026-10-16/",
+      "title": "Will a new leader and a new name boost the rebellion in eastern Congo?",
+      "url": "https://www.reuters.com/world/africa/will-new-leader-new-name-boost-rebellion-eastern-congo-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Turkish stocks drop more than 3% after MSCI freezes certain index changes",
-      "url": "https://www.reuters.com/world/middle-east/turkish-stocks-drop-more-than-3-after-msci-freezes-certain-index-changes-2026-10-16/",
+      "title": "Hegseth's TV instincts backfire as Trump rejects execution livestream",
+      "url": "https://www.reuters.com/world/hegseths-tv-instincts-backfire-trump-rejects-execution-livestream-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Indian fitness firm Cult.fit gets regulatory nod for IPO",
-      "url": "https://www.reuters.com/world/india/indian-fitness-firm-cultfit-gets-regulatory-nod-ipo-2026-10-16/",
+      "title": "Trump says US may need to strike Iran's Pickaxe Mountain",
+      "url": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Canadian home sales fall in September as mortgage rates increase, CREA says",
-      "url": "https://www.reuters.com/world/americas/canadian-home-sales-fall-september-mortgage-rates-increase-crea-says-2026-10-16/",
+      "title": "Russia says strategic bombers made planned flight over Baltic Sea, Interfax reports",
+      "url": "https://www.reuters.com/world/russia-says-strategic-bombers-made-planned-flight-over-baltic-sea-interfax-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Germany, Portugal reaffirm 'unwavering' support for Ukraine",
-      "url": "https://www.reuters.com/world/germany-portugal-reaffirm-unwavering-support-ukraine-2026-10-16/",
+      "title": "Kenya's economy grows 5.1% year-on-year in second quarter of 2026",
+      "url": "https://www.reuters.com/world/africa/kenyas-economy-grows-51-year-on-year-second-quarter-2026-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "UAE stocks track global shares higher",
+      "url": "https://www.reuters.com/world/middle-east/uae-stocks-track-global-shares-higher-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Indian IT firm LTM beats second-quarter revenue view",
+      "url": "https://www.reuters.com/world/india/indias-ltm-reports-marginal-fall-second-quarter-profit-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Brazil economic activity up 0.3% in August, matching forecasts",
+      "url": "https://www.reuters.com/world/americas/brazil-economic-activity-up-03-august-matching-forecasts-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -560,36 +618,71 @@
       "topic": ""
     },
     {
-      "title": "Raising bank tax is not best choice for UK budget, IMF says",
-      "url": "https://www.reuters.com/world/uk/raising-bank-tax-is-not-best-choice-uk-budget-imf-says-2026-10-16/",
+      "title": "Germany to unveil Nvidia AI agreement next week, government sources say",
+      "url": "https://www.reuters.com/world/europe/germany-unveil-nvidia-ai-agreement-next-week-government-sources-say-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "On the campaign trail, JB Pritzker courts farmers like he's running for president",
-      "url": "https://www.reuters.com/world/us/campaign-trail-jb-pritzker-courts-farmers-like-hes-running-president-2026-10-16/",
+      "title": "India's Bajaj Housing Finance posts quarterly profit rise on strong loan growth",
+      "url": "https://www.reuters.com/world/india/indias-bajaj-housing-finance-posts-quarterly-profit-rise-strong-loan-growth-2026-10-16/",
+      "kept": false,
+      "reason": "company_deal_or_routine_economic_data",
+      "topic": ""
+    },
+    {
+      "title": "TSMC 'prudent' going into 2027 after posting sixth straight quarter of record profit",
+      "url": "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Indian foreign minister and Rubio to hold talks on October 20, ministry says",
-      "url": "https://www.reuters.com/world/india/indian-foreign-minister-rubio-hold-talks-october-20-ministry-says-2026-10-16/",
+      "title": "China state buyers snap up more US soybeans in latest post-summit purchases",
+      "url": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Romania resumes search for seven missing sailors from drone-hit ship",
-      "url": "https://www.reuters.com/world/romania-resumes-search-seven-missing-sailors-drone-hit-ship-2026-10-16/",
+      "title": "Catholics in Africa outnumber those in Europe, Vatican says",
+      "url": "https://www.reuters.com/world/catholics-africa-outnumber-those-europe-vatican-says-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "About 200 people rescued from unregistered South African rehab centre, police say",
-      "url": "https://www.reuters.com/world/africa/about-200-people-rescued-unregistered-south-african-rehab-centre-police-say-2026-10-16/",
+      "title": "India's Tech Mahindra jumps most in over six years as deal wins fuel growth optimism",
+      "url": "https://www.reuters.com/world/india/indias-tech-mahindra-jumps-over-6-strong-deal-wins-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks",
+      "url": "https://www.reuters.com/world/asia-pacific/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say-2026-10-14/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro",
+      "url": "https://www.reuters.com/world/americas/brazils-incoming-right-wing-congress-takes-aim-judge-who-jailed-bolsonaro-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Russia builds major new drone attack base in six weeks, satellite images show",
+      "url": "https://www.reuters.com/world/ukraine-russia-war/russia-builds-major-new-drone-attack-base-six-weeks-satellite-images-show-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "India's Shoppers Stop same-store sales growth slows on delayed festive season",
+      "url": "https://www.reuters.com/world/india/indias-shoppers-stop-swings-quarterly-profit-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -637,36 +730,78 @@
       "topic": ""
     },
     {
-      "title": "Asian bonds record biggest monthly foreign outflow since March 2020",
-      "url": "https://www.reuters.com/world/asia-pacific/asian-bonds-record-biggest-monthly-foreign-outflow-since-march-2020-2026-10-16/",
+      "title": "MSCI, its classifications and what they mean",
+      "url": "https://www.reuters.com/world/asia-pacific/msci-its-classifications-what-they-mean-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Indonesia gets 'wake-up call' as MSCI prepares to expel it from global indexes",
-      "url": "https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/",
+      "title": "India's battered IT stocks head for best week in 18 years on earnings boost",
+      "url": "https://www.reuters.com/world/india/indias-battered-it-stocks-head-best-week-18-years-earnings-boost-2026-10-16/",
+      "kept": false,
+      "reason": "feature_or_retrospective",
+      "topic": ""
+    },
+    {
+      "title": "Indonesia president's approval rating slides further to 44.5%, survey shows",
+      "url": "https://www.reuters.com/world/asia-pacific/indonesia-presidents-approval-rating-slides-further-445-survey-shows-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Sterling set for third weekly rise against euro, hits 3-week high vs dollar",
-      "url": "https://www.reuters.com/world/uk/sterling-set-third-weekly-rise-against-euro-hits-3-week-high-vs-dollar-2026-10-16/",
+      "title": "Vehicles from Geely brands to come with Google built-in services outside China",
+      "url": "https://www.reuters.com/world/china/vehicles-geely-brands-come-with-google-built-in-services-outside-china-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Ukraine hits Russian refinery as Zelenskiy says 'we're done' with Trump's energy truce",
+      "url": "https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "India's Persistent Systems plans debut rupee debt sale to fund acquisition, bankers say",
+      "url": "https://www.reuters.com/world/india/indias-persistent-systems-plans-debut-rupee-debt-sale-fund-acquisition-bankers-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "South African rand edges up as focus turns to next week's medium-term budget",
+      "url": "https://www.reuters.com/world/africa/south-african-rand-edges-up-focus-turns-next-weeks-medium-term-budget-2026-10-16/",
       "kept": false,
       "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
       "topic": ""
     },
     {
-      "title": "India's frequent FX rule changes raise concerns over policy predictability, Allianz exec says",
-      "url": "https://www.reuters.com/world/india/indias-frequent-fx-rule-changes-raise-concerns-over-policy-predictability-2026-10-16/",
+      "title": "BOJ chief flags inflation overshoot risk, stresses importance of 2% anchor",
+      "url": "https://www.reuters.com/world/asia-pacific/boj-chief-flags-inflation-overshoot-risk-stresses-importance-2-anchor-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Mideast war alters global bunker buying patterns, industry execs say",
-      "url": "https://www.reuters.com/world/asia-pacific/mideast-war-alters-global-bunker-buying-patterns-industry-execs-say-2026-10-16/",
+      "title": "Philippines hits back at Chinese envoy over 'thinly veiled threat' of force",
+      "url": "https://www.reuters.com/world/china/philippines-hits-back-chinese-envoy-over-thinly-veiled-threat-force-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "South African president reinstates suspended police chief",
+      "url": "https://www.reuters.com/world/africa/south-african-president-reinstates-suspended-police-chief-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "China ready to cooperate with EU in tackling global imbalances",
+      "url": "https://www.reuters.com/world/china/china-ready-cooperate-with-eu-tackling-global-imbalances-2026-10-16/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -700,29 +835,85 @@
       "topic": ""
     },
     {
-      "title": "Trump shuts down Hegseth plan to livestream military execution",
-      "url": "https://www.reuters.com/world/us/trump-says-military-execution-ewill-not-be-livestreamed-2026-10-15/",
-      "kept": false,
-      "reason": "proposal_or_speculation_not_implementation",
-      "topic": ""
-    },
-    {
-      "title": "G7 to launch exercises to guard against AI cyber attacks",
-      "url": "https://www.reuters.com/world/asia-pacific/g7-launch-exercises-guard-against-ai-cyber-attacks-2026-10-16/",
+      "title": "India's Reliance, Airtel rally as Jio Platforms IPO recasts valuations",
+      "url": "https://www.reuters.com/world/india/indias-reliance-industries-jumps-after-unit-jio-platforms-sets-price-band-ipo-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Germany will contribute €50 million to Ukraine, finance minister says",
-      "url": "https://www.reuters.com/world/germany-will-contribute-50-million-ukraine-finance-minister-says-2026-10-16/",
+      "title": "Brazil candidates focus fiscal plans on voter-friendly measures before runoff",
+      "url": "https://www.reuters.com/world/americas/brazil-candidates-focus-fiscal-plans-voter-friendly-measures-before-runoff-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "China targets practical action from global governance forum next week",
-      "url": "https://www.reuters.com/world/china/china-targets-practical-action-global-governance-forum-next-week-2026-10-16/",
+      "title": "Lula defends cutting Brazil's criminal responsibility age to 16 for heinous crimes",
+      "url": "https://www.reuters.com/world/americas/lula-defends-cutting-brazils-criminal-responsibility-age-16-heinous-crimes-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "India markets regulator partly reverses derivative settlement rules after pushback",
+      "url": "https://www.reuters.com/world/india/india-markets-regulator-partly-reverses-derivative-settlement-rules-after-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "This Chinese export boom really has legs – and wings",
+      "url": "https://www.reuters.com/world/china/this-chinese-export-boom-really-has-legs-wings-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Indian mutual funds stop bulk subscriptions to gold ETFs ahead of festive season",
+      "url": "https://www.reuters.com/world/india/indian-mutual-funds-stop-bulk-subscriptions-gold-etfs-ahead-festive-season-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Trump says he is talking to Russia and China about denuclearization",
+      "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Singapore's September exports rise 68.4% on year",
+      "url": "https://www.reuters.com/world/asia-pacific/singapores-september-exports-rise-684-year-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "North Korea missile chief questions South Korea hypersonic glide vehicle test",
+      "url": "https://www.reuters.com/world/asia-pacific/north-korea-missile-chief-questions-south-korea-hypersonic-glide-vehicle-test-2026-10-16/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero",
+      "url": "https://www.reuters.com/world/china/taiwan-tells-its-people-shun-chinese-anniversary-events-revolutionary-hero-2026-10-16/",
+      "kept": false,
+      "reason": "feature_or_retrospective",
+      "topic": ""
+    },
+    {
+      "title": "Japan to sidestep 3.5% defence spending target despite US pressure, Asahi reports",
+      "url": "https://www.reuters.com/world/asia-pacific/japan-sidestep-35-defence-spending-target-despite-us-pressure-asahi-reports-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "FBI, US Postal Service investigate suspicious mailings to election officials, lawmakers",
+      "url": "https://www.reuters.com/world/us/us-postal-service-outlines-plans-handle-millions-ballots-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -756,45 +947,45 @@
       "topic": ""
     },
     {
-      "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, Datafolha poll shows",
-      "url": "https://www.reuters.com/world/americas/flavio-bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-datafolha-poll-2026-10-15/",
-      "kept": false,
-      "reason": "preview_poll_or_administrative_step",
-      "topic": ""
-    },
-    {
-      "title": "UN chief frontrunner Rebeca Grynspan says UN has 'become too risk-averse'",
-      "url": "https://www.reuters.com/world/americas/un-chief-frontrunner-rebeca-grynspan-says-un-has-become-too-risk-averse-2026-10-15/",
+      "title": "Nineteen hurt after minibus hits train at French channel tunnel terminal",
+      "url": "https://www.reuters.com/world/bus-train-collision-channel-tunnel-leaves-19-injured-french-authorities-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "North Korea says opening ceremony was held for new bridge to China",
-      "url": "https://www.reuters.com/world/china/north-korea-says-opening-ceremony-was-held-new-bridge-china-2026-10-15/",
+      "title": "Iraq parliament approves remaining cabinet posts, PM deputies",
+      "url": "https://www.reuters.com/world/middle-east/iraq-parliament-approves-remaining-cabinet-posts-pm-deputies-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Chip startup Bolt Graphics seeking to raise $100 million at about a $700 million valuation, sources say",
-      "url": "https://www.reuters.com/world/chip-startup-bolt-graphics-seeking-raise-100-million-about-700-million-valuation-2026-10-15/",
+      "title": "Albania's leader defies calls to resign as student protesters rampage in capital",
+      "url": "https://www.reuters.com/world/europe/albanias-rama-says-he-will-not-resign-over-protests-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "The week in pictures",
-      "url": "https://www.reuters.com/world/life-ukraines-front-line-worse-than-hell-russia-advances-2024-06-14/",
+      "title": "US Justice Dept sues California to block votes from alleged noncitizens",
+      "url": "https://www.reuters.com/world/doj-sues-california-to-block-votes-alleged-non-citizens-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Georgia on my mind: Scenes from the battleground state as midterm voting begins",
+      "url": "https://www.reuters.com/world/blue-paint-meets-green-algae-lincoln-memorial-reflecting-pool-clone-2026-06-18/",
       "kept": false,
       "reason": "outside_recency_window",
       "topic": ""
     },
     {
-      "title": "Global stocks flat as AI and rate fears hit tech",
-      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-15/",
+      "title": "It’s the economy. But what’s Trump’s answer?",
+      "url": "https://www.reuters.com/world/us/its-economy-whats-trumps-answer-2026-10-15/",
       "kept": false,
-      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
+      "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
@@ -805,43 +996,43 @@
       "topic": ""
     },
     {
-      "title": "Gold rebounds on weaker dollar, yield drop; October Fed hike bets subdued",
-      "url": "https://www.reuters.com/world/india/gold-rebounds-one-week-low-dollar-slips-2026-10-15/",
-      "kept": false,
-      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
-      "topic": ""
-    },
-    {
-      "title": "Trump says he wants death penalty for anyone who kills a firefighter",
-      "url": "https://www.reuters.com/world/us/trump-says-he-wants-death-penalty-anyone-who-kills-firefighter-2026-10-15/",
+      "title": "Afghan UN mission reports arbitrary detentions, ill-treatment by Taliban",
+      "url": "https://www.reuters.com/world/asia-pacific/afghan-un-mission-reports-arbitrary-detentions-ill-treatment-by-taliban-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "India's top court voids Yes Bank's $880 million AT-1 bond write-off",
-      "url": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/",
+      "title": "US issues fresh Iran-related sanctions, Treasury website shows",
+      "url": "https://www.reuters.com/world/middle-east/us-issues-fresh-iran-related-sanctions-treasury-website-shows-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Somalia says it will hold a presidential election in May 2027",
-      "url": "https://www.reuters.com/world/africa/somalia-says-it-will-hold-presidential-election-may-2027-2026-10-15/",
+      "title": "Northern Ireland's Donaldson sentenced to 15 years in jail for child sex offences",
+      "url": "https://www.reuters.com/world/uk/northern-irelands-donaldson-jailed-15-years-child-sex-offences-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Hezbollah says it owned confiscated explosives, meant to attack Israel",
-      "url": "https://www.reuters.com/world/middle-east/hezbollah-says-it-owned-confiscated-explosives-meant-attack-israel-2026-10-15/",
+      "title": "Pennsylvania secures $4 billion in investments, governor says",
+      "url": "https://www.reuters.com/world/us/pennsylvania-secures-4-billion-investments-governor-says-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
-      "url": "https://www.reuters.com/world/middle-east/how-houthis-are-helping-iran-turn-saudi-arabia-into-pressure-point-2026-10-15/",
+      "title": "Spain's electoral board opens proceedings against PM Sanchez",
+      "url": "https://www.reuters.com/world/spains-electoral-board-opens-proceedings-against-pm-sanchez-2026-10-15/",
+      "kept": false,
+      "reason": "no_clear_major_development_in_headline",
+      "topic": ""
+    },
+    {
+      "title": "Israel says commercial goods no longer entering Gaza after merchants suspend coordination",
+      "url": "https://www.reuters.com/world/middle-east/israel-says-commercial-goods-no-longer-entering-gaza-after-merchants-suspend-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -861,50 +1052,22 @@
       "topic": ""
     },
     {
-      "title": "Seven sailors missing after drones hit two ships near Romania",
-      "url": "https://www.reuters.com/world/two-ships-ablaze-romanian-black-sea-waters-8-sailors-missing-2026-10-15/",
+      "title": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV",
+      "url": "https://www.reuters.com/world/asia-pacific/china-investigates-reported-brake-pedal-bracket-fracture-huawei-backed-maextro-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "US Treasury pushes global partners to rename AI as 'super intelligence'",
-      "url": "https://www.reuters.com/world/us-treasury-pushes-global-partners-rename-ai-super-intelligence-2026-10-15/",
+      "title": "Turkey floats earlier 2028 vote that would clear way for Erdogan to run again",
+      "url": "https://www.reuters.com/world/middle-east/turkey-floats-earlier-2028-vote-that-would-clear-way-erdogan-run-again-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Houthis attack presidential palace complex in Yemen's Aden, PM unharmed, officials say",
-      "url": "https://www.reuters.com/world/middle-east/houthis-fire-missiles-presidential-palace-yemens-aden-officials-say-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Gold Fields CEO plays down prospect of raising its offer for Northern Star",
-      "url": "https://www.reuters.com/world/africa/gold-fields-ceo-plays-down-prospect-higher-northern-star-offer-2026-10-15/",
-      "kept": false,
-      "reason": "routine_market_angle_even_if_war_or_ai_is_mentioned",
-      "topic": ""
-    },
-    {
-      "title": "UK comedian Russell Brand's accuser tells jurors: 'I know he raped me'",
-      "url": "https://www.reuters.com/world/europe/uk-comedian-russell-brands-accuser-told-police-she-blamed-herself-alleged-rape-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Setback for TikTok as EU court adviser backs gatekeeper label",
-      "url": "https://www.reuters.com/world/china/eu-court-adviser-sides-with-eu-regulators-against-tiktok-fight-over-tech-label-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Thames Water seeks £2.4 billion more emergency funding",
-      "url": "https://www.reuters.com/world/uk/thames-water-seeks-24-billion-more-emergency-funding-2026-10-15/",
+      "title": "India's Jio Financial posts higher adjusted profit on lending growth",
+      "url": "https://www.reuters.com/world/india/indias-jio-financial-posts-drop-quarterly-profit-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -952,64 +1115,50 @@
       "topic": ""
     },
     {
-      "title": "France sees risk of violence in weekend protests, PM says",
-      "url": "https://www.reuters.com/world/france-sees-risk-violence-weekend-protests-pm-says-2026-10-15/",
+      "title": "US weekly jobless claims rise marginally amid low layoffs",
+      "url": "https://www.reuters.com/world/us/us-weekly-jobless-claims-rise-marginally-amid-low-layoffs-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Japan tells G20 must watch FX moves with high sense of urgency",
-      "url": "https://www.reuters.com/world/asia-pacific/japan-tells-g20-must-watch-fx-moves-with-high-sense-urgency-2026-10-15/",
+      "title": "HDFC Life's quarterly profit rises as sales via India's HDFC Bank recover",
+      "url": "https://www.reuters.com/world/india/indias-hdfc-life-posts-quarterly-profit-rise-higher-premium-income-2026-10-15/",
+      "kept": false,
+      "reason": "company_deal_or_routine_economic_data",
+      "topic": ""
+    },
+    {
+      "title": "Indian brokerage Angel One posts higher quarterly profit as customer numbers climb",
+      "url": "https://www.reuters.com/world/india/indian-brokerage-angel-one-posts-higher-quarterly-profit-customer-numbers-climb-2026-10-15/",
+      "kept": false,
+      "reason": "company_deal_or_routine_economic_data",
+      "topic": ""
+    },
+    {
+      "title": "Swedish parliament votes against Social Democrats leader as PM, as expected",
+      "url": "https://www.reuters.com/world/europe/swedish-parliament-votes-against-social-democrats-leader-pm-expected-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "What is the 'hospital of the popes' where Leo is recovering from surgery?",
-      "url": "https://www.reuters.com/world/what-is-hospital-popes-where-leo-is-recovering-surgery-2026-10-15/",
+      "title": "UK's Healey should rebuild fiscal headroom to about £15-16 billion, Reuters poll shows",
+      "url": "https://www.reuters.com/world/uk/uks-healey-should-rebuild-fiscal-headroom-about-15-16-billion-reuters-poll-shows-2026-10-15/",
+      "kept": false,
+      "reason": "preview_poll_or_administrative_step",
+      "topic": ""
+    },
+    {
+      "title": "POLL BoE to raise rates to 4% in November, but economists narrowly expect hold from there",
+      "url": "https://www.reuters.com/world/uk/boe-raise-rates-4-november-economists-narrowly-expect-hold-there-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
     },
     {
-      "title": "Indian central bank issues clarifications on FX hedging curbs",
-      "url": "https://www.reuters.com/world/india/indian-central-bank-issues-clarifications-fx-hedging-curbs-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "India's August balance of payments surplus swings to $45.4 billion",
-      "url": "https://www.reuters.com/world/india/indias-august-balance-payments-surplus-swings-454-billion-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Germany warns against bringing Russia back into G20 fold",
-      "url": "https://www.reuters.com/world/asia-pacific/germanys-klingbeil-says-support-ukraine-comes-with-reform-expectations-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Canada's farmers, crop quality assessors confront damage after wet harvest",
-      "url": "https://www.reuters.com/world/canadas-farmers-crop-quality-assessors-confront-damage-after-wet-harvest-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Pope Leo recovering as planned after lung cancer surgery, doctors say",
-      "url": "https://www.reuters.com/world/pope-leo-had-good-night-hospital-vatican-says-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "UK government says it is minded to intervene in Sky-ITV deal",
-      "url": "https://www.reuters.com/world/uk/uk-government-likely-intervene-sky-itv-tie-up-2026-10-15/",
+      "title": "Nestle India flags food, commodity inflation after profit surges 36%",
+      "url": "https://www.reuters.com/world/india/nestle-indias-quarterly-profit-rises-demand-packaged-foods-stays-firm-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""
@@ -1031,160 +1180,6 @@
     {
       "title": "India says first phase of US trade deal nearly done, insists on edge over rivals",
       "url": "https://www.reuters.com/world/india/india-says-first-phase-us-trade-deal-finalised-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Pernod Ricard first quarter sales fall less-than-expected, cautious optimism on China",
-      "url": "https://www.reuters.com/world/china/pernod-ricard-first-quarter-sales-fall-less-than-expected-cautious-optimism-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "US wants Senegal debt restructuring wrapped up in less than a year",
-      "url": "https://www.reuters.com/world/africa/us-wants-senegal-debt-restructuring-wrapped-up-less-than-year-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "India's goods trade deficit widens; focus turns to trade pacts to narrow gap",
-      "url": "https://www.reuters.com/world/india/indias-september-merchandise-trade-deficit-3021-billion-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "India's September unemployment rate at 5 %",
-      "url": "https://www.reuters.com/world/india/indias-september-unemployment-rate-5-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Russia's Rosatom says truce in place for Zaporizhzhia power supply repairs",
-      "url": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "EU and Gulf states postpone summit due in Saudi Arabia",
-      "url": "https://www.reuters.com/world/middle-east/eu-gulf-states-postpone-summit-due-saudi-arabia-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Japan economy minister stresses BOJ independence, rejects reflationist label",
-      "url": "https://www.reuters.com/world/asia-pacific/japan-economy-minister-says-nation-no-longer-deflation-seeks-investor-rethink-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Africa's economic resilience masks rising inflation threat and fragile buffers, IMF warns",
-      "url": "https://www.reuters.com/world/africa/africas-economic-resilience-masks-rising-inflation-threat-fragile-buffers-imf-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach",
-      "url": "https://www.reuters.com/world/china/china-q3-growth-set-pick-up-stimulus-keeping-2026-goal-within-reach-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Islamist fighters kill 10 soldiers in attack on northeast Nigeria army base",
-      "url": "https://www.reuters.com/world/africa/islamist-fighters-kill-10-soldiers-attack-northeast-nigeria-army-base-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Hormuz shipping disruption is starting to hit harvests, UN agency says",
-      "url": "https://www.reuters.com/world/middle-east/hormuz-shipping-disruption-is-starting-hit-harvests-un-agency-says-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Russia arrests Swedish man it says planned 'terrorist acts' for Ukraine",
-      "url": "https://www.reuters.com/world/europe/russia-arrests-swedish-man-it-says-planned-terrorist-acts-ukraine-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "China, North Korea open long-delayed border bridge to boost trade",
-      "url": "https://www.reuters.com/world/asia-pacific/trucks-line-up-long-delayed-china-north-korea-bridge-officially-opens-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Bank of England's Breeden says cost-cutting by firms helping central bank",
-      "url": "https://www.reuters.com/world/uk/bank-englands-breeden-says-cost-cutting-by-firms-helping-central-bank-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "India's RBI has spent half of $140 billion FX capital haul in rupee defence, bankers estimate",
-      "url": "https://www.reuters.com/world/india/indias-rbi-has-spent-half-140-billion-fx-capital-haul-rupee-defence-bankers-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Chinese automaker Chery to launch new EV model in UK in early 2027",
-      "url": "https://www.reuters.com/world/china/chinese-automaker-chery-launch-new-ev-model-uk-early-2027-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Eight US states sue OpenAI, claiming ChatGPT harms young users",
-      "url": "https://www.reuters.com/world/eight-us-states-sue-openai-claiming-chatgpt-harms-children-2026-10-14/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "AI-boosted UK economy beats forecasts, giving Healey pre-budget lift",
-      "url": "https://www.reuters.com/world/uk/uk-economy-beats-forecasts-grow-by-01-august-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Indonesia president replaces disaster agency chief",
-      "url": "https://www.reuters.com/world/asia-pacific/indonesia-president-replaces-disaster-agency-chief-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says",
-      "url": "https://www.reuters.com/world/asia-pacific/prolonged-war-renewed-disruptions-pose-biggest-risk-middle-east-region-imf-says-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "LMEWEEK Copper squeeze breathes new life into old mines",
-      "url": "https://www.reuters.com/world/asia-pacific/lmeweek-copper-squeeze-breathes-new-life-into-old-mines-2026-10-15/",
-      "kept": false,
-      "reason": "no_clear_major_development_in_headline",
-      "topic": ""
-    },
-    {
-      "title": "Morning Bid: Market picks CoreWeave as AI rout deepens",
-      "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-15/",
       "kept": false,
       "reason": "no_clear_major_development_in_headline",
       "topic": ""

@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-17T10:34:34.420032+00:00",
+  "generated_at": "2026-10-17T13:54:33.610411+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Update! Dit zijn de beste elektrische auto’s tot €65.000",
+      "link": "https://www.autoweek.nl/koopgids/dit-zijn-de-beste-elektrische-autos-tot-65-000-euro/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Piet neemt retro voor zijn Renault 4 extra serieus en maakte er zelf Parisienne van",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/piet-neemt-retro-voor-zijn-renault-4-extra-serieus-en-maakte-er-zelf-parisienne-van/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De eerste BMW M3 Cabriolet is een paradox op wielen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-eerste-bmw-m3-cabriolet-is-een-paradox-op-wielen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -322,47 +363,6 @@
         "routine_product": [
           "in nederland"
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Lancia Gamma doet het netjes maar voegt niets toe",
-      "link": "https://www.autoweek.nl/autotests/artikel/lancia-gamma-doet-het-netjes-maar-voegt-niets-toe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Hoe je in acht jaar tijd een YouTube-kanaal met 200.000 abonnees optuigt - podcast",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hoe-je-in-acht-jaar-tijd-een-youtube-kanaal-met-200-000-abonnees-optuigt-podcast/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "review"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo leeft de originele Alpine A310 voort in de A310 Vision",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-originele-alpine-a310-voort-in-de-a310-vision/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

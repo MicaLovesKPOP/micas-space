@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T01:30:19.530058+00:00",
+  "generated_at": "2026-10-18T06:34:07.842233+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,13 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog #mijnauto",
+      "title": "Albert maakte een beest van zijn BMW 535i GT #MijnAuto",
+      "link": "https://www.autoblog.nl/video/albert-maakte-een-beest-van-zijn-bmw-535i-gt-mijnauto"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -382,21 +389,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nederlandse gemeente zet sloopsubsidie door terwijl niemand er iets mee doet",
-      "link": "https://www.autoblog.nl/nieuws/nederlandse-gemeente-zet-sloopsubsidie-door-terwijl-niemand-er-iets-mee-doet",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "regeling",
-          "subsidie"
-        ]
       }
     },
     {
@@ -851,6 +843,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Ever wondered how a V8 1M Convertible might look?",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/ever-wondered-how-a-v8-1m-convertible-might-look/51798"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Nissan GT-R (R35) | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/nissan-gt-r-r35--spotted/51788"
     },
@@ -951,13 +950,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Drop everything: Holy Grail Porsche 959 for sale",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/drop-everything-holy-grail-porsche-959-for-sale/51717"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Toyota GR Supra manual | Spotted",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/toyota-gr-supra-manual--spotted/51712"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1129,6 +1121,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 79,
+  "output_items": 79
 }

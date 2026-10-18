@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-10-18T01:30:14.631059+00:00",
+  "generated_at": "2026-10-18T06:34:03.080433+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Als dit exemplaar een handbak zou hebben was het de lekkerste BMW M3 ooit",
+      "link": "https://www.autoweek.nl/autotests/artikel/als-dit-exemplaar-een-handbak-zou-hebben-was-het-de-lekkerste-bmw-m3-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
@@ -352,19 +365,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Renault zet rem op retro: 'Nu moeten we even een pauze nemen'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/renault-zet-rem-op-retro-nu-moeten-we-even-een-pauze-nemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

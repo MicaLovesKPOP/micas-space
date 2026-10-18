@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T11:40:28.543092+00:00",
+  "generated_at": "2026-10-18T14:48:44.114374+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,42 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Koop deze bizar uitgevoerde Ferrari op Marktplaats",
+      "link": "https://www.autoblog.nl/nieuws/koop-deze-bizar-uitgevoerde-ferrari-op-marktplaats",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Oud vs. nieuw: Tesla Roadster",
+      "link": "https://www.autoblog.nl/nieuws/oud-vs-nieuw-tesla-roadster",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Eindelijk een Nederlander die lef heeft bij het samenstellen van een BMW M5!",
+      "link": "https://www.autoblog.nl/nieuws/eindelijk-een-nederlander-die-lef-heeft-bij-het-samenstellen-van-een-bmw-m5",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -350,44 +386,6 @@
       "details": {
         "ev": [
           "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Dieven stelen Ferrari Purosangue en niemand had het door",
-      "link": "https://www.autoblog.nl/nieuws/ferrari-purosangue-mysterieus-gestolen-met-takelwagen",
-      "details": {
-        "ev": [
-          "bev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "'Nieuwe F1-race in Rwanda moet bloedvergieten van regering doen vergeten'",
-      "link": "https://www.autoblog.nl/nieuws/formule-1-op-de-vingers-getikt-door-amnesty-international-om-rwanda",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Officieel: het 18 miljard euro pleister-plak-plan van minister Karremans",
-      "link": "https://www.autoblog.nl/nieuws/18-miljard-voor-infrastructuur-deze-wegen-gaan-niet-door",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "kabinet"
         ]
       }
     },
@@ -1121,6 +1119,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 79,
-  "output_items": 79
+  "input_items": 80,
+  "output_items": 80
 }

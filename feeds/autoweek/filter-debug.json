@@ -1,10 +1,38 @@
 {
-  "generated_at": "2026-10-18T11:40:25.015725+00:00",
+  "generated_at": "2026-10-18T14:48:38.863522+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Yrin (21) deelt zijn Nissan GT-R met klanten: 'Ik vind dat mensen vaak te voorzichtig zijn'",
+      "link": "https://www.autoweek.nl/autotests/artikel/yrin-21-deelt-zijn-nissan-gt-r-met-klanten-ik-vind-dat-mensen-vaak-te-voorzichtig-zijn/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Gebruikers vinden de Audi A5 snel, loven het onderstel, maar kampen ook met storingen",
+      "link": "https://www.autoweek.nl/autotests/artikel/gebruikers-vinden-de-audi-a5-snel-loven-het-onderstel-maar-kampen-ook-met-storingen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "review"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -327,38 +355,6 @@
           "goedkoper"
         ],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Toyota vreest het ergste: 'Toyota is ook een Europese autobouwer'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-pleit-voor-made-with-europe-in-plaats-van-made-in-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "europese unie"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "In de nieuwe Tesla Model 3 en Tesla Model Y kun je niet meer zelf sturen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-tesla-roadster-is-de-laatste-nieuwe-tesla-die-je-zelf-kunt-besturen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

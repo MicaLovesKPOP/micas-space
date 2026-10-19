@@ -1,10 +1,152 @@
 {
-  "generated_at": "2026-10-19T05:16:56.842469+00:00",
+  "generated_at": "2026-10-19T11:13:35.930998+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe BYD Tang: bekende naam leidt tot verwarring",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-byd-tang-bekende-naam-zorgt-voor-verwarring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De grootste SUV van Lynk & Co is nu nóg groter!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-grootste-suv-van-lynk-co-is-nu-nog-groter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stellantis-topman biedt excuses aan voor problemen met 1.2 PureTech-motoren",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-topman-zegt-sorry-voor-gedoe-met-1-2-puretech-motoren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Changan Deepal S07 biedt nu wat zijn Mazda-broertje niet heeft: PHEV!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-changan-deepal-s07-biedt-nu-wat-zijn-mazda-broertje-niet-heeft-phev/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Volkswagen Aura L5: nieuwste elektrische Volkswagen is lage Passat-achtige",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-aura-l5-nieuwste-elektrische-volkswagen-is-lage-passat-achtige/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ongecamoufleerd: vernieuwde Porsche Panamera!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ongecamoufleerd-vernieuwde-porsche-panamera/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Mercedes-AMG GT SUV is tienduizenden euro's goedkoper dan EQS SUV",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mercedes-amg-gt-suv-is-tienduizenden-euros-goedkoper-dan-de-duurste-eqe-suv/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "eqs"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe dure tolweg gaat volgende maand open in Frankrijk: dit ga je betalen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-dure-tolweg-gaat-volgende-maand-open-dit-ga-je-betalen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Nieuwe Tesla Roadster in Nederland: voor alleen al de raketten betaal je €200.000 extra",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-roadster-is-nu-al-te-reserveren-in-nederland-tot-wel-e250-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "bestellen"
+        ],
+        "routine_product": [
+          "nieuwe ",
+          "in nederland"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -222,138 +364,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Weblog Jan - Flashback",
-      "link": "https://www.autoweek.nl/columns/artikel/weblog-jan-flashback/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ruurd (71) reed zijn BMW 730d naar 1.000.000 kilometer: 'Inmiddels voor € 65.000 aan onderhoud'",
-      "link": "https://www.autoweek.nl/autotests/artikel/ruurd-71-reed-zijn-bmw-730d-naar-1-000-000-kilometer-inmiddels-voor-e-65-000-aan-onderhoud/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Skoda kiest bewust niet voor 'boze' neus: 'auto als goede vriend'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-kiest-bewust-niet-voor-boze-neus-auto-als-goede-vriend/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo leeft de Peugeot 205 T16 voort in de E-T16",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-peugeot-205-t16-voort-in-de-e-t16/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze goedkope Opel Astra komt de Astra in Nederland niet redden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-goedkope-opel-astra-komt-de-astra-in-nederland-niet-redden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "In Dubai rijdt de politie geen Ford, maar een Lamborghini met 920 pk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/in-dubai-rijdt-de-politie-geen-ford-kuga-maar-een-lamborghini-met-920-pk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "supercar"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Honda stopt met hybride e:HEV en kiest voor duidelijkheid",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-stopt-met-hybride-ehev-en-kiest-voor-duidelijkheid/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "stopt met"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Elektrische Skoda’s hebben in Engeland een grotere draaicirkel dan bij ons",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-volkswagens-en-skodas-hebben-in-engeland-een-grotere-draaicirkel-dan-bij-ons/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs daalt hard, maar is nog altijd torenhoog",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-benzineprijs-daalt-flink-maar-is-nog-altijd-torenhoog/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van",
-          "goedkoper"
-        ],
         "routine_product": []
       }
     }

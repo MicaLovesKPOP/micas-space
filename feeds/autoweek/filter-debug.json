@@ -1,10 +1,66 @@
 {
-  "generated_at": "2026-10-19T11:13:35.930998+00:00",
+  "generated_at": "2026-10-19T17:45:14.285555+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Weblog Jan: Eend versus Roadster",
+      "link": "https://www.autoweek.nl/columns/artikel/weblog-jan-eend-versus-roadster/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Boy (26) kocht de beste Maserati Quattroporte die hij kon vinden: 'Restaureren kost een fortuin'",
+      "link": "https://www.autoweek.nl/autotests/artikel/boy-26-kocht-de-beste-maserati-quattroporte-die-hij-kon-vinden-restaureren-kost-een-fortuin/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo leeft de Renault Espace voort in de E-Space",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-renault-espace-voort-in-de-e-space/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Werkpaard Isuzu D-Max is er als EV, maar krijgt ook gewoon een nieuwe dieselmotor",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/werkpaard-isuzu-d-max-is-er-als-ev-maar-krijgt-ook-gewoon-een-nieuwe-dieselmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV product/update coverage",
@@ -305,60 +361,6 @@
       "reason": "non-EV car news",
       "title": "De eerste BMW M3 Cabriolet is een paradox op wielen",
       "link": "https://www.autoweek.nl/autonieuws/artikel/de-eerste-bmw-m3-cabriolet-is-een-paradox-op-wielen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Beginnende, jonge automobilisten die auto verzekeren op naam ouders lopen risico",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/beginnende-jonge-automobilisten-die-auto-verzekeren-op-naam-ouders-lopen-risico/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De basisversie van de Hyundai Nexo schrijft vast iets minder hard af – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-basisversie-van-de-hyundai-nexo-schrijft-vast-iets-minder-hard-af-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Als ik heel veel recupereer met mijn Skoda Enyaq zou ik toch accupercentage moeten zien stijgen?'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/als-ik-heel-veel-recupereer-met-mijn-skoda-enyaq-zou-ik-toch-accupercentage-moeten-zien-stijgen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "actieradius"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Stel, deze jong gebruikte Skoda Elroq is alweer verkocht: dan hebben we twee alternatieven voor je",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/stel-deze-jong-gebruikte-skoda-elroq-is-alweer-verkocht-dan-hebben-we-twee-alternatieven-voor-je/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:45:18.186721+00:00",
+  "generated_at": "2026-10-19T22:18:07.185245+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze nette Porsche 911 kost geen drol",
+      "link": "https://www.autoblog.nl/nieuws/deze-nette-porsche-911-kost-geen-drol",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "We staan donderdag weer massaal in de file. Dit is waarom",
+      "link": "https://www.autoblog.nl/nieuws/hierom-staan-we-donderdag-weer-massaal-in-de-file",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -364,30 +388,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Renault wil na de 5 Turbo 3E nog een speeltje bouwen",
       "link": "https://www.autoblog.nl/nieuws/gaat-renault-deze-toffe-concept-dan-echt-bouwen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla Roadster ook al in Nederland te reserveren: doe het niet",
-      "link": "https://www.autoblog.nl/nieuws/tesla-roadster-ook-al-in-nederland-te-reserveren-dit-ben-je-kwijt",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Het nieuwe lelijke eendje krijgt een Italiaanse broer!",
-      "link": "https://www.autoblog.nl/nieuws/de-nieuwe-citroen-2cv-is-nog-niet-op-de-markt-maar-krijgt-nu-al-een-broertje",
       "details": {
         "feature": [],
         "tags": [],
@@ -958,6 +958,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "Ride Along in a Group C Jaguar That Stormed Le Mans",
+      "link": "https://www.hagerty.com/media/automotive-history/ride-along-in-a-group-c-jaguar-that-stormed-le-mans/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "Cars Owned by Dictators: Almost Everything You’d Ever Want to Know",
       "link": "https://www.hagerty.com/media/automotive-history/cars-owned-by-dictators-almost-everything-youd-ever-want-to-know/"
     },
@@ -974,13 +981,6 @@
       "reason": "automotive history",
       "title": "The Legendary Run of the Duramax Diesel, from LB7 to Mongoose",
       "link": "https://www.hagerty.com/media/automotive-history/the-legendary-run-of-the-duramax-diesel-from-lb7-to-mongoose/"
-    },
-    {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "Why Detroit Stopped Making Affordable Sedans, and Probably Won’t Again",
-      "link": "https://www.hagerty.com/media/automotive-history/why-detroit-stopped-making-affordable-sedans-and-probably-wont-again/"
     },
     {
       "source": "Hagerty Maintenance & Tech",

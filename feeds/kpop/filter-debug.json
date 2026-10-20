@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T00:40:44.001363+00:00",
+  "generated_at": "2026-10-20T05:17:22.282336+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 29
+      "items": 34
     },
     {
       "name": "Music Business Worldwide",
@@ -35,8 +35,48 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "Riot Games' virtual girl group K/DA returns",
+      "link": "https://www.koreaherald.com/article/10908654",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "'Golden' singer EJae marries songwriter Samuel Kim in Seoul",
+      "link": "https://www.koreaherald.com/article/10908629",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Hybe bets on King, TXT and festival format to win over Indian music fans",
       "link": "https://www.koreaherald.com/article/10907734",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Riize to release acoustic pop single ‘Insomnia’ on Oct. 26",
+      "link": "https://www.koreaherald.com/article/10907444",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit could be down to three members for comeback after Iroha's injury",
+      "link": "https://www.koreaherald.com/article/10907410",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS picks Singapore for citywide project",
+      "link": "https://www.koreaherald.com/article/10907117",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -341,6 +381,14 @@
       "source": "Music Business Worldwide",
       "title": "UK politicians press CMA to investigate Live Nation’s market power before the end of 2026",
       "link": "https://www.musicbusinessworldwide.com/uk-mps-press-cma-to-investigate-live-nations-market-power-before-the-end-of-2026/",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Sung Si Kyung And Mun Ka Young Confirmed To Host 41st Golden Disc Awards",
+      "link": "https://www.soompi.com/article/1879857wpp/sung-si-kyung-and-mun-ka-young-confirmed-to-host-41st-golden-disc-awards",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -818,12 +866,12 @@
       "reason": "whitelisted event"
     },
     {
-      "source": "Soompi Music",
-      "title": "XG Announces Cancellation Of Dallas And Mexico City Concerts",
-      "link": "https://www.soompi.com/article/1876086wpp/xg-announces-cancellation-of-dallas-and-mexico-city-concerts",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "source": "Soompi Celeb",
+      "title": "TEMPEST Announces Disbandment",
+      "link": "https://www.soompi.com/article/1879908wpp/tempest-announces-disbandment",
+      "keep": true,
+      "category": "Group / member status",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Celeb",
@@ -1298,12 +1346,20 @@
       "reason": "legal story unrelated to contracts/agency business/artist rights"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "New Signs With New Agency + Poses For Profile Photos",
-      "link": "https://www.soompi.com/article/1873645wpp/new-signs-with-new-agency-poses-for-profile-photos",
+      "source": "Yonhap K-pop",
+      "title": "Illit's 'Magnetic' becomes fastest debut song by K-pop group to reach 900 mln streams",
+      "link": "https://en.yna.co.kr/view/AEN20261020005900315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "'KPop Demon Hunters' singer-songwriter Ejae ties knot with producer Sam Kim",
+      "link": "https://en.yna.co.kr/view/AEN20261020002800315?section=culture/k-pop",
       "keep": false,
       "category": null,
-      "reason": "Soompi Celeb: acting/non-music item"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Yonhap K-pop",
@@ -1448,22 +1504,6 @@
       "keep": false,
       "category": null,
       "reason": "celebrity/lifestyle noise: donates"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Boy group Close Your Eyes embraces jazz funk in bid to broaden musical horizons",
-      "link": "https://en.yna.co.kr/view/AEN20260930007400315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "'Dracula' featuring Jennie in Hot 100's top 10 for 18th week",
-      "link": "https://en.yna.co.kr/view/AEN20260930003200315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
@@ -1496,6 +1536,6 @@
       "category": "Debut / new group"
     }
   ],
-  "candidate_items": 25,
-  "final_items": 21
+  "candidate_items": 29,
+  "final_items": 25
 }

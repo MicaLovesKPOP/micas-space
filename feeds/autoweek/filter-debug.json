@@ -1,10 +1,28 @@
 {
-  "generated_at": "2026-10-20T20:32:51.165790+00:00",
+  "generated_at": "2026-10-20T23:22:38.494174+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 19,
+  "dropped_items": 6,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "De Range Rover is misschien wel op zijn best met elektrische aandrijving",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-range-rover-is-misschien-wel-op-zijn-best-met-elektrische-aandrijving/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "range",
+          "leverbaar"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -360,19 +378,6 @@
         "boring": [
           "review"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze auto's hadden geen grille en dat was toen bijzonderder dan nu",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-autos-hadden-geen-grille-en-dat-was-toen-bijzonderder-dan-nu/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-10-20T12:07:11.587802+00:00",
+  "generated_at": "2026-10-20T16:55:15.827573+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 20,
   "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo leeft de Peugeot RCZ Vision voort in de RCZ",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-peugeot-rcz-vision-voort-in-de-rcz/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -355,19 +368,6 @@
       "reason": "non-EV car news",
       "title": "Deze auto's hadden geen grille en dat was toen bijzonderder dan nu",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-autos-hadden-geen-grille-en-dat-was-toen-bijzonderder-dan-nu/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Het had niet veel gescheeld of de eerste Espace was een Peugeot geweest",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/het-had-niet-veel-gescheeld-of-de-eerste-espace-was-een-peugeot-geweest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T01:14:43.401510+00:00",
+  "generated_at": "2026-10-20T06:34:06.500269+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 20
+      "items": 19
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,19 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Je kunt de nieuwe elektrische Mercedes-AMG GT SUV upgraden naar een V8",
+      "link": "https://www.autoblog.nl/nieuws/je-kunt-de-nieuwe-elektrische-mercedes-amg-gt-suv-upgraden-naar-een-v8",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -380,18 +393,6 @@
         "ev": [
           "ev"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Renault wil na de 5 Turbo 3E nog een speeltje bouwen",
-      "link": "https://www.autoblog.nl/nieuws/gaat-renault-deze-toffe-concept-dan-echt-bouwen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -846,6 +847,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Citroen CX Prestige Turbo 2 | Spotted",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/citroen-cx-prestige-turbo-2--spotted/51806"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Who needs an XR2? Buy a 2.0 Fiesta Popular Plus",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/who-needs-an-xr2-buy-a-2-0-fiesta-popular-plus/51797"
     },
@@ -946,13 +954,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Skoda Superb 3.6 | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/skoda-superb-3-6--spotted/51720"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Gallardo Superleggera Edizione Tecnica | Spotted",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/gallardo-superleggera-edizione-tecnica--spotted/51722"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1124,6 +1125,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 74,
+  "output_items": 74
 }

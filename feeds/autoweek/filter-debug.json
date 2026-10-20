@@ -1,10 +1,58 @@
 {
-  "generated_at": "2026-10-20T01:14:39.124498+00:00",
+  "generated_at": "2026-10-20T06:34:01.359102+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 19,
+  "dropped_items": 6,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Leapmotor B05: goedkope elektrische hatchback is straks minder Chinees",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-b05-goedkope-elektrische-hatchback-is-straks-minder-chinees/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch",
+          "leapmotor"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Wie de Volkswagen T-Roc liever groter dan een Tiguan heeft, moet naar China verhuizen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/wie-de-volkswagen-t-roc-liever-groter-dan-een-tiguan-heeft-moet-naar-china-verhuizen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Vernieuwde Renault 4 E-Tech Electric is beter en goedkoper!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-renault-4-e-tech-electric-is-beter-en-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "electric"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -323,47 +371,6 @@
         "major": [
           "tarief"
         ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Update! Dit zijn de beste elektrische auto’s tot €65.000",
-      "link": "https://www.autoweek.nl/koopgids/dit-zijn-de-beste-elektrische-autos-tot-65-000-euro/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Piet neemt retro voor zijn Renault 4 extra serieus en maakte er zelf Parisienne van",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/piet-neemt-retro-voor-zijn-renault-4-extra-serieus-en-maakte-er-zelf-parisienne-van/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De eerste BMW M3 Cabriolet is een paradox op wielen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-eerste-bmw-m3-cabriolet-is-een-paradox-op-wielen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
         "exceptional": [],
         "boring": [],
         "routine_product": []

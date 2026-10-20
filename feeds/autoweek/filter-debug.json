@@ -1,10 +1,81 @@
 {
-  "generated_at": "2026-10-20T06:34:01.359102+00:00",
+  "generated_at": "2026-10-20T12:07:11.587802+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 19,
-  "dropped_items": 6,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Lancia Gamma HF Integrale: elektrische topversie blijft onder de 60 mille",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/lancia-gamma-hf-integrale-elektrische-topversie-blijft-onder-de-60-mille/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Europa: meer Tesla Model Y's dan Opels verkocht in september",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-tesla-model-y-en-tesla-model-3-waren-de-populairste-autos-van-europa-in-september/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs blijft hard dalen: zelfde niveau als twee maanden geleden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-blijft-stevig-dalen-zelfde-niveau-als-twee-maanden-geleden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "‘Nieuwe’ Ferrari F50 wordt waarschijnlijk de duurste ooit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-ferrari-f50-wordt-waarschijnlijk-de-duurste-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Chinese Land Cruiser- en Defender-look-alike komt naar Europa",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-chinese-land-cruiser-en-defender-look-alike-komt-naar-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -24,7 +95,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Wie de Volkswagen T-Roc liever groter dan een Tiguan heeft, moet naar China verhuizen",
+      "title": "Dit is de oplossing voor wie een Volkswagen T-Roc wil maar zelfs een Tiguan te klein vindt",
       "link": "https://www.autoweek.nl/autonieuws/artikel/wie-de-volkswagen-t-roc-liever-groter-dan-een-tiguan-heeft-moet-naar-china-verhuizen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -300,77 +371,6 @@
       "matches": {
         "ev": [],
         "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Hoewel Arjaan twee BMW's 3-serie heeft gehad bestempelt hij zijn Renault 5 tot 'leukste ooit'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hoewel-arjaan-twee-keer-een-bmw-3-serie-heeft-gehad-bestempelt-hij-zijn-renault-5-tot-zijn-leukste-auto-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Als fabrieksarbeiders beter hadden gewerkt was het wellicht Alfasud- in plaats van Golf-klasse",
-      "link": "https://www.autoweek.nl/autotests/artikel/als-de-fabrieksarbeiders-beter-hun-best-hadden-gedaan-was-het-misschien-wel-alfasud-in-plaats-van-golf-klasse/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Als dit exemplaar een handbak zou hebben was het de lekkerste BMW M3 ooit",
-      "link": "https://www.autoweek.nl/autotests/artikel/als-dit-exemplaar-een-handbak-zou-hebben-was-het-de-lekkerste-bmw-m3-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Mercedes-AMG GT SUV: elektrische hyper-SUV van AMG dreunt met V8-sound",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hyper-suv-van-amg-dreunt-met-v8-sound-ook-al-is-het-een-ev/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "kwh"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Hybridepionier Toyota troeft met de RAV4 de Volkswagen Tiguan en Kia Sportage af",
-      "link": "https://www.autoweek.nl/autotests/artikel/hybridepionier-toyota-troeft-met-de-rav4-de-volkswagen-tiguan-en-kia-sportage-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "tarief"
-        ],
         "exceptional": [],
         "boring": [],
         "routine_product": []

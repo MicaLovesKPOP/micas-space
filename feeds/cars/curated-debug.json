@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T01:59:30.965829+00:00",
+  "generated_at": "2026-10-21T07:30:59.260207+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 19
+      "items": 20
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Deze Chinese EV is pas twee jaar oud en nu al een megahit",
+      "link": "https://www.autoblog.nl/nieuws/deze-chinese-ev-is-pas-twee-jaar-oud-en-nu-al-een-megahit",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Vergeet GTA 6, BeamNG.drive is hier om al je auto's te slopen",
+      "link": "https://www.autoblog.nl/nieuws/vergeet-gta-6-beamng-drive-is-hier-om-al-je-auto-s-te-slopen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -366,31 +390,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Als je niet ontslagen wordt bij Volkswagen, is het ook geen pretje om te blijven",
       "link": "https://www.autoblog.nl/nieuws/volkswagen-gaat-overblijvend-personeel-ook-hard-aanpakken-tot-2030",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Je kunt de nieuwe elektrische Mercedes-AMG GT SUV upgraden naar een V8",
-      "link": "https://www.autoblog.nl/nieuws/je-kunt-de-nieuwe-elektrische-mercedes-amg-gt-suv-upgraden-naar-een-v8",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze nette Porsche 911 kost geen drol",
-      "link": "https://www.autoblog.nl/nieuws/deze-nette-porsche-911-kost-geen-drol",
       "details": {
         "feature": [],
         "tags": [],
@@ -847,6 +846,18 @@
     },
     {
       "source": "PistonHeads Spotted",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Last Tesla Roadster built at Hethel for sale",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/last-tesla-roadster-built-at-hethel-for-sale/51811",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
       "title": "Alfa Romeo 166 V6 | Last Chance Saloon",
@@ -1127,6 +1138,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 74,
-  "output_items": 74
+  "input_items": 75,
+  "output_items": 75
 }

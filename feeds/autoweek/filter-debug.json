@@ -1,10 +1,56 @@
 {
-  "generated_at": "2026-10-21T01:59:24.417774+00:00",
+  "generated_at": "2026-10-21T07:30:54.291098+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 19,
-  "dropped_items": 6,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Volkswagen grijpt in bij elektrische auto’s: laden boven 80 procent niet mogelijk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-grijpt-in-bij-elektrische-autos-laden-boven-80-procent-niet-mogelijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [
+          "terugroep",
+          "batterijbrand"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Zijn Tesla en SpaceX straks één bedrijf? Elon Musk ziet het wel zitten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/teslas-elon-musk-ziet-fusie-tussen-tesla-en-spacex-zitten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Geely E2 gaat als een speer: al één miljoen exemplaren in twee jaar",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-e2-gaat-als-een-speer-al-een-miljoen-exemplaren-in-twee-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
@@ -331,54 +377,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Nieuwe Tesla Roadster in Nederland: voor alleen al de raketten betaal je €200.000 extra",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-roadster-is-nu-al-te-reserveren-in-nederland-tot-wel-e250-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "bestellen"
-        ],
-        "routine_product": [
-          "nieuwe ",
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Yrin (21) deelt zijn Nissan GT-R met klanten: 'Ik vind dat mensen vaak te voorzichtig zijn'",
-      "link": "https://www.autoweek.nl/autotests/artikel/yrin-21-deelt-zijn-nissan-gt-r-met-klanten-ik-vind-dat-mensen-vaak-te-voorzichtig-zijn/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Gebruikers vinden de Audi A5 snel, loven het onderstel, maar kampen ook met storingen",
-      "link": "https://www.autoweek.nl/autotests/artikel/gebruikers-vinden-de-audi-a5-snel-loven-het-onderstel-maar-kampen-ook-met-storingen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "review"
-        ],
-        "routine_product": []
       }
     }
   ]

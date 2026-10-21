@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:01:42.410830+00:00",
+  "generated_at": "2026-10-21T21:36:07.162768+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hierdoor kunnen ze je auto in beslag nemen",
+      "link": "https://www.autoblog.nl/nieuws/als-je-dit-doet-mag-je-je-auto-inleveren",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -381,18 +393,6 @@
           "ev",
           "polestar"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "FIA maakt het leven van F1-teams zuur met regelwijziging",
-      "link": "https://www.autoblog.nl/nieuws/fia-stuurt-f1-teams-van-kastje-naar-de-muur-met-vreemde-regelwijziging",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {

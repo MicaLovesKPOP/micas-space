@@ -1,10 +1,96 @@
 {
-  "generated_at": "2026-10-22T09:36:51.031070+00:00",
+  "generated_at": "2026-10-22T14:38:29.369799+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Prognose Bovag en RAI: volgend jaar worden er weer minder auto's verkocht",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/prognose-bovag-en-rai-volgend-jaar-worden-er-weer-minder-autos-verkocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Sander vond deze Maserati GranCabrio (met 46.000 mijl) in Texas: 'Ze zijn daar stukken goedkoper'",
+      "link": "https://www.autoweek.nl/autotests/artikel/sander-vond-deze-maserati-grancabrio-met-46-000-mijl-in-texas-ze-zijn-daar-stukken-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Letterlijk alle opties: zo duur kan de nieuwe Mercedes-Benz GLA zijn",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/letterlijk-alle-opties-zo-duur-kan-de-nieuwe-mercedes-benz-gla-zijn/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Chery Tiggo 7 wordt al vervangen voordat hij er is",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/chery-tiggo-7-wordt-al-vervangen-voordat-hij-er-is/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Vergeet-mij-nietje: ‘oude’ Renault Trafic uitgebreid vernieuwd",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vergeet-mij-nietje-oude-renault-trafic-uitgebreid-vernieuwd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Fiat Koala is net als de Citroën 2CV een spotgoedkope elektrische auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-koala-is-net-als-de-citroen-2cv-een-nieuwe-spotgoedkope-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -285,93 +371,6 @@
         "boring": [
           "prijs van"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "‘Nieuwe’ Ferrari F50 wordt waarschijnlijk de duurste ooit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-ferrari-f50-wordt-waarschijnlijk-de-duurste-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Chinese Land Cruiser- en Defender-look-alike komt naar Europa",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-chinese-land-cruiser-en-defender-look-alike-komt-naar-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Leapmotor B05: goedkope elektrische hatchback is straks minder Chinees",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-b05-goedkope-elektrische-hatchback-is-straks-minder-chinees/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "leapmotor"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is de oplossing voor wie een Volkswagen T-Roc wil maar zelfs een Tiguan te klein vindt",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/wie-de-volkswagen-t-roc-liever-groter-dan-een-tiguan-heeft-moet-naar-china-verhuizen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Vernieuwde Renault 4 E-Tech Electric is beter en goedkoper!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vernieuwde-renault-4-e-tech-electric-is-beter-en-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "electric"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": [
-          "vernieuwde "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Weblog Jan: Eend versus Roadster",
-      "link": "https://www.autoweek.nl/columns/artikel/weblog-jan-eend-versus-roadster/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

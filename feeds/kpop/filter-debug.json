@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T23:16:33.607896+00:00",
+  "generated_at": "2026-10-22T01:33:00.640701+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 29
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "BTS ‘Swim’ music video cinches nomination from int’l film festival",
+      "link": "https://www.koreaherald.com/article/10911037",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "[Exclusive] Twice's Nayeon to return with new solo album in November",
@@ -336,6 +344,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "2026 MAMA AWARDS Announces Star-Studded Presenter Lineup",
+      "link": "https://www.soompi.com/article/1880562wpp/2026-mama-awards-announces-star-studded-presenter-lineup",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -808,14 +824,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "NCT WISH Announces Stops For 2nd Concert Tour “INTO THE WISH : Face Our WISH”",
-      "link": "https://www.soompi.com/article/1876986wpp/nct-wish-announces-stops-for-2nd-concert-tour-into-the-wish-face-our-wish",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: concert tour"
     },
     {
       "source": "Soompi Celeb",
@@ -1299,6 +1307,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "Lee Soo-man-produced boy group to release debut album 'Superstar' next month",
+      "link": "https://en.yna.co.kr/view/AEN20261022002900315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "TWICE's Jihyo leaves JYP after 21 yrs to launch own agency",
       "link": "https://en.yna.co.kr/view/AEN20261021006300315?section=culture/k-pop",
       "keep": true,
@@ -1448,14 +1464,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS becomes 1st pop group to surpass US$500 mln in tour ticket sales",
-      "link": "https://en.yna.co.kr/view/AEN20261001012900315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
@@ -1509,6 +1517,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 36,
-  "final_items": 29
+  "candidate_items": 37,
+  "final_items": 30
 }

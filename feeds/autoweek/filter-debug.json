@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-10-22T00:10:56.637995+00:00",
+  "generated_at": "2026-10-22T04:38:39.302771+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Citroën legt nieuwe en oude modelnamen vast, waaronder BX en Xantia",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/citroen-legt-nieuwe-modelnamen-vast-en-oude-opnieuw-waaronder-bx-en-xantia/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -347,23 +362,6 @@
       "matches": {
         "ev": [
           "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe BYD Tang: bekende naam leidt tot verwarring",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-byd-tang-bekende-naam-zorgt-voor-verwarring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
         ],
         "major": [],
         "exceptional": [],

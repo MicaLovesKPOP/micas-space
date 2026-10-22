@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T00:11:01.934102+00:00",
+  "generated_at": "2026-10-22T04:38:43.534919+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 21
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "612 pk en een V8 zonder stekkers: Mercedes-AMG GLE 63 S",
+      "link": "https://www.autoblog.nl/nieuws/612-pk-en-een-v8-zonder-stekkers-mercedes-amg-gle-63-s",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -379,19 +391,6 @@
       "details": {
         "ev": [
           "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Vergeet pk's: Polestar drukt rijplezier uit in punten (en krijgt verrassing)",
-      "link": "https://www.autoblog.nl/nieuws/polestar-bewijst-dat-rijplezier-meetbaar-is-maar-krijgt-een-verrassing",
-      "details": {
-        "ev": [
-          "ev",
-          "polestar"
         ]
       }
     },
@@ -1137,6 +1136,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

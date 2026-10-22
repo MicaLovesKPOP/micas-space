@@ -1,10 +1,57 @@
 {
-  "generated_at": "2026-10-22T04:38:39.302771+00:00",
+  "generated_at": "2026-10-22T09:36:51.031070+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "In de Omoda X kun je zingend door stad en land",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/omoda-x-zoekt-de-grenzen-van-de-hoeken-op/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs daalt verder en sneller, maar is nog altijd torenhoog",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-daalt-verder-en-sneller-maar-is-nog-altijd-torenhoog/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Bijna een kwart van alle nieuwe auto's is een elektrische auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/het-gaat-hard-bijna-een-kwart-van-alle-nieuwe-autos-is-een-elektrische/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [
+          "marktaandeel"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -326,49 +373,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Boy (26) kocht de beste Maserati Quattroporte die hij kon vinden: 'Restaureren kost een fortuin'",
-      "link": "https://www.autoweek.nl/autotests/artikel/boy-26-kocht-de-beste-maserati-quattroporte-die-hij-kon-vinden-restaureren-kost-een-fortuin/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo leeft de Renault Espace voort in de E-Space",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-renault-espace-voort-in-de-e-space/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Werkpaard Isuzu D-Max is er als EV, maar krijgt ook gewoon een nieuwe dieselmotor",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/werkpaard-isuzu-d-max-is-er-als-ev-maar-krijgt-ook-gewoon-een-nieuwe-dieselmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

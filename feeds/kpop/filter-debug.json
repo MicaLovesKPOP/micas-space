@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T01:33:00.640701+00:00",
+  "generated_at": "2026-10-22T06:34:24.661859+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 29
+      "items": 33
     },
     {
       "name": "Music Business Worldwide",
@@ -35,8 +35,8 @@
   "decisions": [
     {
       "source": "Korea Herald",
-      "title": "BTS ‘Swim’ music video cinches nomination from int’l film festival",
-      "link": "https://www.koreaherald.com/article/10911037",
+      "title": "From K-pop to community, Ian Eastwood reconnects with Korea's dance scene",
+      "link": "https://www.koreaherald.com/article/10911297",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -51,11 +51,43 @@
     },
     {
       "source": "Korea Herald",
+      "title": "Blackpink’s Lisa, Thai actor spark renewed dating rumors after Bangkok sighting",
+      "link": "https://www.koreaherald.com/article/10910397",
+      "keep": false,
+      "category": null,
+      "reason": "celebrity/lifestyle noise: dating, dating rumor"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Twice’s Jihyo leaves JYP Entertainment, launches own agency Emithaus",
+      "link": "https://www.koreaherald.com/article/10910245",
+      "keep": true,
+      "category": "Contract / agency",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
       "title": "NewJeans members are resurfacing. So when is the comeback?",
       "link": "https://www.koreaherald.com/article/10910209",
       "keep": true,
       "category": "Comeback / release",
       "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "MAMAs to feature 360-degree stage, largest-ever single-city artist lineup",
+      "link": "https://www.koreaherald.com/article/10910150",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS regains on Billboard 200 in 30th frame",
+      "link": "https://www.koreaherald.com/article/10909935",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard"
     },
     {
       "source": "Korea Herald",
@@ -344,6 +376,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "UNCHILD Announces New Comeback Plans",
+      "link": "https://www.soompi.com/article/1880609wpp/unchild-announces-new-comeback-plans",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -816,14 +856,6 @@
       "keep": true,
       "category": "Comeback / release",
       "reason": "whitelisted event"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: WOODZ Is Ready To Rock Your Worries Away In “Come into my world!” MV",
-      "link": "https://www.soompi.com/article/1877012wpp/woodz-announces-return-with-new-single-come-into-my-world",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Celeb",
@@ -1468,6 +1500,13 @@
   ],
   "duplicates": [
     {
+      "dropped": "Twice’s Jihyo leaves JYP Entertainment, launches own agency Emithaus",
+      "dropped_source": "Korea Herald",
+      "kept": "TWICE's Jihyo leaves JYP after 21 yrs to launch own agency",
+      "kept_source": "Yonhap K-pop",
+      "category": "Contract / agency"
+    },
+    {
       "dropped": "Watch: LNGSHOT Paints A “Masterpiece” In New MV For Pre-Release Single",
       "dropped_source": "Soompi Music",
       "kept": "Watch: Lee Soo Man’s New 15-Member Boy Group A2O SOUL Wants To Be Your “SUPERSTAR” In Pre-Release Single MV",
@@ -1517,6 +1556,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 37,
-  "final_items": 30
+  "candidate_items": 39,
+  "final_items": 31
 }

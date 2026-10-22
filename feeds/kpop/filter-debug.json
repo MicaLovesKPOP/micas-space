@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T06:34:24.661859+00:00",
+  "generated_at": "2026-10-22T12:25:28.502959+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 33
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,22 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Aoora headlines music festival finale in India",
+      "link": "https://www.koreaherald.com/article/10911885",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "A2O Soul to release debut album ‘Superstar’ in November",
+      "link": "https://www.koreaherald.com/article/10911740",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
     {
       "source": "Korea Herald",
       "title": "From K-pop to community, Ian Eastwood reconnects with Korea's dance scene",
@@ -299,6 +315,22 @@
     },
     {
       "source": "Music Business Worldwide",
+      "title": "Reservoir sues Suno for copying 1,050 songs, alleging AI firm’s business model was to ‘infringe now’ and ‘settle on the cheap later’",
+      "link": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Spotify is on course for $3.3B annual operating profit in 2026 – after adding 6M subscribers in Q3",
+      "link": "https://www.musicbusinessworldwide.com/spotify-is-on-course-for-a-3-3b-annual-operating-profit-in-2026-after-adding-6m-subscribers-in-q3/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
       "title": "Universal Music Group signs Thai artist Jeff Satur, aiming to make him ‘T-Pop’s first global superstar’",
       "link": "https://www.musicbusinessworldwide.com/universal-music-group-signs-thai-artist-jeff-satur-aiming-to-make-him-t-pops-first-global-superstar/",
       "keep": false,
@@ -360,22 +392,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "SoundExchange’s $3.4M lawsuit against Sonos put on hold until appeals court rules on its right to sue over unpaid royalties",
-      "link": "https://www.musicbusinessworldwide.com/soundexchanges-3-4m-lawsuit-against-sonos-put-on-hold-until-appeals-court-rules-on-its-right-to-sue-over-unpaid-royalties/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Reservoir acquires rights to ‘Feliz Navidad’ star José Feliciano’s recorded music catalog",
-      "link": "https://www.musicbusinessworldwide.com/reservoir-acquires-rights-to-feliz-navidad-star-jose-felicianos-recorded-music-catalog/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
       "source": "Soompi Music",
@@ -859,6 +875,22 @@
     },
     {
       "source": "Soompi Celeb",
+      "title": "TWICE’s Jihyo Poses For Beautiful Profile Photos",
+      "link": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "TXT’s Agency Warns Of Strong Legal Action Against False Rumors And Malicious Posts",
+      "link": "https://www.soompi.com/article/1880735wpp/txts-agency-warns-of-strong-legal-action-against-false-rumors-and-malicious-posts",
+      "keep": false,
+      "category": null,
+      "reason": "legal story unrelated to contracts/agency business/artist rights"
+    },
+    {
+      "source": "Soompi Celeb",
       "title": "Watch: NCT Units Come Together For Their Own Version Of ISAC (Idol Star Athletics Championships)",
       "link": "https://www.soompi.com/article/1880527wpp/watch-nct-units-come-together-for-their-own-version-of-isac-idol-star-athletics-championships",
       "keep": false,
@@ -1322,22 +1354,6 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "September Rising Star Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1874275wpp/september-rising-star-brand-reputation-rankings-announced",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "aespa’s Winter Diagnosed With Shingles; To Sit Out Today’s Concert In Dallas",
-      "link": "https://www.soompi.com/article/1874176wpp/aespas-winter-diagnosed-with-shingles-to-sit-out-todays-concert-in-dallas",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "Lee Soo-man-produced boy group to release debut album 'Superstar' next month",
       "link": "https://en.yna.co.kr/view/AEN20261022002900315?section=culture/k-pop",
@@ -1521,6 +1537,13 @@
       "category": "Debut / new group"
     },
     {
+      "dropped": "A2O Soul to release debut album ‘Superstar’ in November",
+      "dropped_source": "Korea Herald",
+      "kept": "Lee Soo-man-produced boy group to release debut album 'Superstar' next month",
+      "kept_source": "Yonhap K-pop",
+      "category": "Debut / new group"
+    },
+    {
       "dropped": "[Exclusive] Twice's Nayeon to return with new solo album in November",
       "dropped_source": "Korea Herald",
       "kept": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
@@ -1556,6 +1579,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 39,
+  "candidate_items": 40,
   "final_items": 31
 }

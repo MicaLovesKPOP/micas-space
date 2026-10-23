@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T11:31:19.816939+00:00",
+  "generated_at": "2026-10-23T15:54:10.188487+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 25
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,67 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Je verzekeringspremie schiet omhoog als je achterop een Audi Q9 botst",
+      "link": "https://www.autoblog.nl/nieuws/audi-q9-krijgt-gebogen-oled-achterlichten-dure-schade",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Zo wil de Formule 1 de auto's lichter en de motoren groter maken",
+      "link": "https://www.autoblog.nl/nieuws/dit-zijn-de-plannen-van-de-formule-1-om-de-auto-s-lichter-te-maken",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Ford heeft dit goed afgekeken bij Audi",
+      "link": "https://www.autoblog.nl/nieuws/ford-mustang-mach-e-trail-elektrische-suv-voor-avontuur",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Rimac legt vinger op zere plek: 'dit is waarom liefhebbers geen EV willen'",
+      "link": "https://www.autoblog.nl/nieuws/rimac-legt-vinger-op-zere-plek-dit-is-waarom-liefhebbers-geen-ev-willen",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Tijd is geld en dat snappen ze bij Bentley heel goed",
+      "link": "https://www.autoblog.nl/nieuws/bentley-torcal-first-edition-888-pk-en-volop-luxe",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -332,66 +393,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze BMW 540i Touring is de natte droom van iedere petrolhead",
-      "link": "https://www.autoblog.nl/nieuws/de-perfecte-bmw-bestaat-misschien-toch-en-staat-op-marktplaats",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Zo bizar veel flitsboetes worden er per dag gereden in Nederland",
-      "link": "https://www.autoblog.nl/nieuws/de-flitsboetes-stijgen-flink-in-nederland-maar-een-overtreding-springt-eruit",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Chinees EV-merk verslaat al deze bekende merken in Europa",
-      "link": "https://www.autoblog.nl/nieuws/chinees-ev-merk-verslaat-al-deze-bekende-merken-in-europa",
-      "details": {
-        "ev": [
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Moet je parkeergeld betalen als de parkeerautomaat kapot is?",
-      "link": "https://www.autoblog.nl/nieuws/is-de-parkeerautomaat-kapot-dan-mag-je-hier-gratis-parkeren",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Deze Mercedes met 900 pk is langzamer dan een Volvo EX30",
-      "link": "https://www.autoblog.nl/nieuws/deze-mercedes-met-900-pk-is-langzamer-dan-een-volvo-ex30",
-      "details": {
-        "ev": [
-          "ex30"
-        ]
       }
     },
     {
@@ -846,6 +847,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Honda NSX-R | Spotted",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/honda-nsx-r--spotted/51821"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Collector-grade Vauxhall Nova Sport for sale",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/collector-grade-vauxhall-nova-sport-for-sale/51816"
     },
@@ -958,13 +966,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Vauxhall Astra VXR | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/vauxhall-astra-vxr--spotted/51740"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Jaguar XE S | Spotted",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/jaguar-xe-s--spotted/51734"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1129,6 +1130,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 79,
-  "output_items": 79
+  "input_items": 78,
+  "output_items": 78
 }

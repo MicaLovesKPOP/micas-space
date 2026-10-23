@@ -1,10 +1,110 @@
 {
-  "generated_at": "2026-10-23T11:31:15.715960+00:00",
+  "generated_at": "2026-10-23T15:54:05.631177+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 25,
-  "dropped_items": 0,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "De Audi Q6 e-tron is nauwelijks duurder dan een A6: welke moet je hebben?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-audi-q6-e-tron-is-nauwelijks-duurder-dan-een-a6-welke-moet-je-hebben/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "e-tron",
+          "q6 e-tron"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Lars (30) vond een zeldzame Subaru Vivio RX-SS: 'De supercharger maakt deze kei-car uniek'",
+      "link": "https://www.autoweek.nl/autotests/artikel/lars-30-vond-een-zeldzame-subaru-vivio-rx-ss-de-supercharger-maakt-deze-kei-car-uniek/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "'Nep AMG V8-geluid op de EV? Slecht idee, het gaat vast werken' -podcast",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nep-amg-v8-geluid-op-de-ev-slecht-idee-het-gaat-vast-werken-podcast/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stellantis denkt dat je straks weer veilig – en autonoom – door Parijs kunt rijden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-denkt-dat-je-straks-weer-veilig-en-autonoom-door-parijs-kunt-rijden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Een Europese, Japanse of Amerikaanse kentekenplaat? In deze landen mag je zelf kiezen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/een-europese-japanse-of-amerikaanse-kentekenplaat-in-deze-landen-mag-je-zelf-kiezen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Xiaomi SU7 Ultra Extreme nog sneller dankzij minder stickers",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/xiaomi-su7-ultra-extreme-nog-sneller-dankzij-minder-stickers/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Tegenvallers voor Volvo: 2.500 banen weg, meeste in Europa",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tegenvallers-voor-volvo-2-500-banen-weg-meeste-in-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "ontslag"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -259,110 +359,6 @@
       "reason": "non-EV car news",
       "title": "Alfa Romeo Giulia wordt agressieve open tweezitter",
       "link": "https://www.autoweek.nl/autonieuws/artikel/alfa-romeo-giulia-wordt-agressieve-open-tweezitter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Volkswagen ID Polo GTI is de goedkoopste GTI in jaren",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id-polo-gti-is-de-goedkoopste-gti-in-jaren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "BYD Han: groot, gladjes en in chaotisch gamma",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/byd-han-groot-gladjes-en-in-chaotisch-gamma/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Peugeot legt nieuwe modelnamen vast: van 1008 tot 6008",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-legt-nieuwe-modelnamen-vast-van-1008-tot-6008/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Kia Sportage is groter en voor Kia van levensbelang",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-kia-sportage-is-groter-en-voor-kia-van-levensbelang/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Volkswagen grijpt in bij elektrische auto’s: laden boven 80 procent niet mogelijk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-grijpt-in-bij-elektrische-autos-laden-boven-80-procent-niet-mogelijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [
-          "terugroep",
-          "batterijbrand"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Zijn Tesla en SpaceX straks één bedrijf? Elon Musk ziet het wel zitten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/teslas-elon-musk-ziet-fusie-tussen-tesla-en-spacex-zitten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Geely E2 gaat als een speer: al één miljoen exemplaren in twee jaar",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-e2-gaat-als-een-speer-al-een-miljoen-exemplaren-in-twee-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

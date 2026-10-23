@@ -1,10 +1,83 @@
 {
-  "generated_at": "2026-10-23T05:59:45.407306+00:00",
+  "generated_at": "2026-10-23T11:31:15.715960+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 25,
+  "dropped_items": 0,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Audi Q3 heeft nu minder vermogen voor meer geld",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-audi-q3-heeft-nu-minder-vermogen-voor-meer-geld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Voor het eerst in 30 jaar staat er weer ‘Autobianchi’ op een nieuwe auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-het-eerst-in-30-jaar-staat-er-weer-autobianchi-op-een-nieuwe-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Land Rover weet zelf kennelijk ook niet wat er aan de Range Rover moet veranderen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/land-rover-weet-zelf-kennelijk-ook-niet-wat-er-aan-de-range-rover-moet-veranderen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "range"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Afzwakking Europese 2035-eisen: mogelijk naar 87,5 procent met compensatie",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/afzwakking-europese-2035-eisen-mogelijk-naar-875-procent-met-compensatie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ford Mustang Mach-E Trial: Rally zonder de GT-pk’s",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ford-mustang-mach-e-trial-rally-zonder-de-gt-pks/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "rally"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -295,82 +368,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "De Range Rover is misschien wel op zijn best met elektrische aandrijving",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-range-rover-is-misschien-wel-op-zijn-best-met-elektrische-aandrijving/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range",
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo leeft de Peugeot RCZ voort in de RCZ Vision",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-leeft-de-peugeot-rcz-vision-voort-in-de-rcz/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Lancia Gamma HF Integrale: elektrische topversie blijft onder de 60 mille",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/lancia-gamma-hf-integrale-elektrische-topversie-blijft-onder-de-60-mille/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Europa: meer Tesla Model Y's dan Opels verkocht in september",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-tesla-model-y-en-tesla-model-3-waren-de-populairste-autos-van-europa-in-september/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs blijft hard dalen: zelfde niveau als twee maanden geleden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-blijft-stevig-dalen-zelfde-niveau-als-twee-maanden-geleden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van"
-        ],
         "routine_product": []
       }
     }

@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-24T11:35:13.430017+00:00",
+  "generated_at": "2026-10-24T14:51:22.022417+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze tweedehands hybride SUV's zijn behalve praktisch ook verrassend vlot",
+      "link": "https://www.autoweek.nl/autotests/artikel/deze-tweedehands-suvs-zijn-behalve-praktisch-ook-verrassend-vlot/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zoek je een klassieke zescilinder dan gaat er niets boven een BMW, maar deze Rover doet aardig mee",
+      "link": "https://www.autoweek.nl/autotests/artikel/zoek-je-een-klassieke-zescilinder-dan-gaat-er-niets-boven-een-bmw-maar-de-rover-doet-aardig-mee/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De volgende stap in accudiagnose EV is een CT-scan, deze Nederlandse start-up komt ermee",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volgende-stap-in-accudiagnose-ev-is-een-ct-scan-deze-nederlandse-start-up-komt-ermee/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
@@ -323,49 +364,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Fiat Koala is net als de Citroën 2CV een spotgoedkope elektrische auto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-koala-is-net-als-de-citroen-2cv-een-nieuwe-spotgoedkope-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "In de Omoda X kun je zingend door stad en land",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/omoda-x-zoekt-de-grenzen-van-de-hoeken-op/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs daalt verder en sneller, maar is nog altijd torenhoog",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-daalt-verder-en-sneller-maar-is-nog-altijd-torenhoog/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
         "routine_product": []
       }
     }

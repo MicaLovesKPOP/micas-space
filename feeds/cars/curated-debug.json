@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T06:25:53.008238+00:00",
+  "generated_at": "2026-10-24T11:35:18.579410+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 24
+      "items": 23
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,66 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dronken bestuurders rijden veiliger dan lui die door een scherm afgeleid zijn",
+      "link": "https://www.autoblog.nl/nieuws/bewijs-schermen-in-auto-s-zorgen-voor-meer-afleiding-en-ongelukken",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Inhalen via de berm loopt compleet verkeerd af",
+      "link": "https://www.autoblog.nl/video/inhalen-via-de-berm-loopt-compleet-verkeerd-af",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Als je leuke auto's wilt, hoef je niet meer bij Renault aan te kloppen",
+      "link": "https://www.autoblog.nl/nieuws/renault-stopt-met-al-dat-retro-gedoe-gaat-weer-saaie-auto-s-maken",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Ferrari van bijna half miljoen crasht tegen verkeersbord",
+      "link": "https://www.autoblog.nl/nieuws/ferrari-van-bijna-half-miljoen-crasht-tegen-verkeersbord",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Ford wil Verstappen verleiden ook buiten de Formule 1 in een Ford te rijden",
+      "link": "https://www.autoblog.nl/nieuws/ford-wil-verstappen-verleiden-ook-buiten-de-formule-1-in-een-ford-te-rijden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": true,
@@ -325,67 +385,6 @@
       "link": "https://www.autoblog.nl/nieuws/we-zijn-zo-afgeleid-door-roadster-dat-musk-met-een-belangrijkere-belofte-wegkomt",
       "details": {
         "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "KNMI adviseert specifieke groep automobilisten tijdens storm: blijf weg!",
-      "link": "https://www.autoblog.nl/nieuws/code-geel-door-storm-austen-dit-moet-je-wel-en-niet-doen-met-je-auto",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Code rood bij Volvo na ruim 500 miljoen euro verlies!",
-      "link": "https://www.autoblog.nl/nieuws/crisis-bij-volvo-het-bedrijf-draait-ruim-500-miljoen-euro-verlies",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Max Verstappen kan binnenkort met een Belgische F1-motor rijden",
-      "link": "https://www.autoblog.nl/nieuws/f1-auto-van-verstappen-kan-over-een-paar-jaar-een-belgische-motor-hebben",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Makers van deze moderne 190E blazen nieuw leven in nog een iconische AMG",
-      "link": "https://www.autoblog.nl/nieuws/makers-van-deze-moderne-190e-blazen-nieuw-leven-in-iconische-amg",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla kan eindelijk stroom leveren, maar er zit een addertje onder het gras",
-      "link": "https://www.autoblog.nl/nieuws/tesla-kan-eindelijk-stroom-leveren-maar-er-zit-een-addertje-onder-het-gras",
-      "details": {
-        "ev": [
-          "elektrisch",
           "tesla"
         ]
       }
@@ -1125,6 +1124,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 81,
-  "output_items": 81
+  "input_items": 80,
+  "output_items": 80
 }

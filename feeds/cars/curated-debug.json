@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T01:32:01.464018+00:00",
+  "generated_at": "2026-10-24T06:25:53.008238+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,25 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog mijn auto",
+      "title": "Leesvoer: waarom zou je een Audi RS3 kopen als deze Cupra bestaat?",
+      "link": "https://www.autoblog.nl/nieuws/leesvoer-deze-cupra-is-het-bijzondere-en-goedkopere-alternatief-voor-de-audi-rs3"
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hoe laat start de F1 in de VS? Tijden en alles wat je moet weten",
+      "link": "https://www.autoblog.nl/nieuws/hoe-laat-start-de-f1-in-de-vs-tijden-en-alles-wat-je-moet-weten",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -369,31 +388,6 @@
           "elektrisch",
           "tesla"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Daar gaan we: Europa ontdekt goedkope occasions in China",
-      "link": "https://www.autoblog.nl/nieuws/chinese-ev-s-worden-massaal-tweedehands-naar-europa-gehaald",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nieuwe auto's worden nóg minder populair in Nederland",
-      "link": "https://www.autoblog.nl/nieuws/bovag-voorspelt-gevolgen-pseudo-eindheffing-voor-autoverkoop",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1131,6 +1125,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 80,
-  "output_items": 80
+  "input_items": 81,
+  "output_items": 81
 }

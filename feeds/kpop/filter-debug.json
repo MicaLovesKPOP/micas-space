@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T04:31:56.499684+00:00",
+  "generated_at": "2026-10-24T09:07:03.492595+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -35,24 +35,40 @@
   "decisions": [
     {
       "source": "Korea Herald",
-      "title": "Blackpink's Lisa releases new EP 'Press Play'",
-      "link": "https://www.koreaherald.com/article/10913443",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "BTS' 'Swim' surpasses 1 billion Spotify streams, first 2026 release to hit milestone",
-      "link": "https://www.koreaherald.com/article/10913433",
+      "title": "Santos Bravos to mark first anniversary with new release",
+      "link": "https://www.koreaherald.com/article/10913019",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
     },
     {
       "source": "Korea Herald",
-      "title": "Santos Bravos to mark first anniversary with new release",
-      "link": "https://www.koreaherald.com/article/10913019",
+      "title": "TWS to ‘light up’ fans with 2nd single",
+      "link": "https://www.koreaherald.com/article/10912763",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "I-dle’s Minnie teases solo EP",
+      "link": "https://www.koreaherald.com/article/10912728",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit’s upcoming album logs half a million Spotify ‘pre-saves’",
+      "link": "https://www.koreaherald.com/article/10912383",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS amasses 200m views with ‘2.0’ music video",
+      "link": "https://www.koreaherald.com/article/10912312",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -336,6 +352,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED”",
+      "link": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
+      "keep": false,
+      "category": null,
+      "reason": "teaser/rollout post"
     },
     {
       "source": "Soompi Music",
@@ -810,12 +834,20 @@
       "reason": "whitelisted event"
     },
     {
-      "source": "Soompi Music",
-      "title": "Update: 2026 MAMA AWARDS Announces Second Lineup",
-      "link": "https://www.soompi.com/article/1877509wpp/2026-mama-awards-announces-first-lineup",
+      "source": "Soompi Celeb",
+      "title": "RESCENE Reveals New Version Of Official Light Stick",
+      "link": "https://www.soompi.com/article/1881090wpp/rescene-reveals-new-version-of-official-light-stick",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "routine PR/fandom noise: light stick"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "CRAVITY’s Beijing Fan Meeting Cancelled On The Day Of",
+      "link": "https://www.soompi.com/article/1881087wpp/cravitys-beijing-fan-meeting-cancelled-on-the-day-of",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: fan meeting"
     },
     {
       "source": "Soompi Celeb",
@@ -1282,22 +1314,6 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "Stray Kids’ Bang Chan Makes 3 Separate Donations For His Birthday",
-      "link": "https://www.soompi.com/article/1875206wpp/stray-kids-bang-chan-makes-3-separate-donations-for-his-birthday",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: donation, birthday"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "RIIZE’s Anton Officially Named Brand Ambassador For Saint Laurent",
-      "link": "https://www.soompi.com/article/1874920wpp/riizes-anton-officially-named-brand-ambassador-for-saint-laurent",
-      "keep": false,
-      "category": null,
-      "reason": "celebrity/lifestyle noise: brand ambassador"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "Justin Bieber makes surprise visit to S. Korea after 13 years",
       "link": "https://en.yna.co.kr/view/AEN20261023008000315?section=culture/k-pop",
@@ -1474,13 +1490,6 @@
       "category": "Debut / new group"
     },
     {
-      "dropped": "Blackpink's Lisa releases new EP 'Press Play'",
-      "dropped_source": "Korea Herald",
-      "kept": "BLACKPINK's Lisa drops 1st solo EP 'Press Play'",
-      "kept_source": "Yonhap K-pop",
-      "category": "Comeback / release"
-    },
-    {
       "dropped": "A2O Soul to release debut album ‘Superstar’ in November",
       "dropped_source": "Korea Herald",
       "kept": "Lee Soo-man-produced boy group to release debut album 'Superstar' next month",
@@ -1509,6 +1518,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 35,
+  "candidate_items": 34,
   "final_items": 28
 }

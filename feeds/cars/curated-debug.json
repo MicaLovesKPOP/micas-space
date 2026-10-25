@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T21:12:57.497738+00:00",
+  "generated_at": "2026-10-25T23:16:13.758827+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "F1 verandert in 3D-schaken tijdens de GP van VS 2026: wie wint op COTA?",
+      "link": "https://www.autoblog.nl/nieuws/f1-in-de-vs-2026-is-antonelli-al-de-f1-wereldkampioen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -378,13 +390,6 @@
         "tags": [],
         "news": []
       }
-    },
-    {
-      "source": "Autoblog",
-      "keep": true,
-      "reason": "Autoblog mijn auto",
-      "title": "Leesvoer: waarom zou je een Audi RS3 kopen als deze Cupra bestaat?",
-      "link": "https://www.autoblog.nl/nieuws/leesvoer-deze-cupra-is-het-bijzondere-en-goedkopere-alternatief-voor-de-audi-rs3"
     },
     {
       "source": "PistonHeads PH Heroes",
@@ -1114,6 +1119,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 79,
-  "output_items": 79
+  "input_items": 78,
+  "output_items": 78
 }

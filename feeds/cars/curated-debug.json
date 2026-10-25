@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T11:17:16.755043+00:00",
+  "generated_at": "2026-10-25T15:02:30.739797+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Audi CEO doet Elon Muskje, speecht tijdens verkiezingsbijeenkomst Trump",
+      "link": "https://www.autoblog.nl/nieuws/audi-ceo-doet-elon-muskje-speecht-tijdens-verkiezingsbijeenkomst-trump",
+      "details": {
+        "ev": [
+          "bev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Op welke Porsche 911 breng jij een bod uit?",
+      "link": "https://www.autoblog.nl/nieuws/op-welke-porsche-911-breng-jij-een-bod-uit",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Spotter komt extreem zeldzame Lamborghini Reventón tegen",
+      "link": "https://www.autoblog.nl/nieuws/spotter-komt-extreem-zeldzame-lamborghini-reventon-tegen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "BREEK: Domeinen RZ staat in de fik!",
+      "link": "https://www.autoblog.nl/nieuws/breek-domeinen-rz-staat-in-de-fik",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -337,54 +385,6 @@
           "bmw ix",
           "ix3"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Gaat de nieuwe 2CV er echt komen?",
-      "link": "https://www.autoblog.nl/video/gaat-de-nieuwe-2cv-er-echt-komen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Wat Alfa Romeo betreft is dit de toekomst van interieurs: zonder iPad!",
-      "link": "https://www.autoblog.nl/nieuws/wat-alfa-romeo-betreft-is-dit-de-toekomst-van-interieurs-zonder-ipad",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Grappenmaker Pieter Valley koopt Ferrari Amalfi op zijn 31ste",
-      "link": "https://www.autoblog.nl/nieuws/grappenmaker-pieter-valley-koopt-ferrari-amalfi-op-zijn-31ste",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Eigenaar verkoopt prachtige BMW-collectie op Marktplaats",
-      "link": "https://www.autoblog.nl/nieuws/eigenaar-verkoopt-prachtige-bmw-collectie-op-marktplaats",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -974,13 +974,6 @@
       "link": "https://www.hagerty.com/media/automotive-history/cars-owned-by-dictators-almost-everything-youd-ever-want-to-know/"
     },
     {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "If You Like F1 History, Check Out Senna vs. Brundle–The Season Before Formula 1",
-      "link": "https://www.hagerty.com/media/automotive-history/if-you-like-f1-history-check-out-senna-vs-brundle-the-season-before-formula-1/"
-    },
-    {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
@@ -1122,6 +1115,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 81,
-  "output_items": 81
+  "input_items": 79,
+  "output_items": 79
 }

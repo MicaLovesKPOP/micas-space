@@ -1,10 +1,56 @@
 {
-  "generated_at": "2026-10-25T11:17:12.505265+00:00",
+  "generated_at": "2026-10-25T15:02:24.667191+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "De speelse Cupra Raval is gewoon een heel goede EV die de MG 4 Urban en Leapmotor B05 verslaat",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-speelse-cupra-raval-is-ook-gewoon-een-hele-goede-ev-die-de-mg-4-urban-en-leapmotor-b05-verslaat/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev",
+          "leapmotor"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Onderhandelen over een occasion: wat je wel en niet moet doen om tot een goede deal te komen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/onderhandelen-over-een-occasion-wat-je-wel-en-niet-moet-doen-om-tot-een-goede-deal-te-komen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Skoda Superb-rijders waarderen de ruimte, maar balen van overijverige rijhulpsystemen",
+      "link": "https://www.autoweek.nl/autotests/artikel/skoda-superb-rijders-waarderen-de-ruimte-maar-balen-van-overijverige-rijhulpsystemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "review"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -313,49 +359,6 @@
         ],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Audi Q3 heeft nu minder vermogen voor meer geld",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-audi-q3-heeft-nu-minder-vermogen-voor-meer-geld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Voor het eerst in 30 jaar staat er weer ‘Autobianchi’ op een nieuwe auto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-het-eerst-in-30-jaar-staat-er-weer-autobianchi-op-een-nieuwe-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Land Rover weet zelf kennelijk ook niet wat er aan de Range Rover moet veranderen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/land-rover-weet-zelf-kennelijk-ook-niet-wat-er-aan-de-range-rover-moet-veranderen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
         "routine_product": []
       }
     }

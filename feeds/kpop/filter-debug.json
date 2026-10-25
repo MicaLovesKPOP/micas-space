@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T05:18:08.144415+00:00",
+  "generated_at": "2026-10-25T10:08:18.507790+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 28
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Hanroro to hold first arena concerts in January",
+      "link": "https://www.koreaherald.com/article/10913973",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Santos Bravos to mark first anniversary with new release",
@@ -331,6 +339,14 @@
     },
     {
       "source": "Soompi Music",
+      "title": "Red Velvet’s “Russian Roulette” Becomes Their 3rd MV To Hit 300 Million Views",
+      "link": "https://www.soompi.com/article/1881252wpp/red-velvets-russian-roulette-becomes-their-3rd-mv-to-hit-300-million-views",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: million views"
+    },
+    {
+      "source": "Soompi Music",
       "title": "Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More",
       "link": "https://www.soompi.com/article/1881220wpp/watch-plave-takes-1st-win-for-star-trace-on-music-core-performances-by-ive-babymonster-and-more",
       "keep": false,
@@ -339,11 +355,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED”",
+      "title": "Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED”",
       "link": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "keep": false,
       "category": null,
-      "reason": "teaser/rollout post"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -800,14 +816,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: Lee Soo Man’s New 15-Member Boy Group A2O SOUL Wants To Be Your “SUPERSTAR” In Pre-Release Single MV",
-      "link": "https://www.soompi.com/article/1877926wpp/watch-lee-soo-mans-new-15-member-boy-group-a2o-soul-wants-to-be-your-superstar-in-pre-release-single-mv",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Celeb",
@@ -1487,6 +1495,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 31,
-  "final_items": 26
+  "candidate_items": 30,
+  "final_items": 25
 }

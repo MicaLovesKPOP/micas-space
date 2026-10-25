@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-10-25T15:02:24.667191+00:00",
+  "generated_at": "2026-10-25T18:22:07.277563+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Keuring onthult nare verrassing bij Björns (46) Peugeot J5 camper: 'Jaren op onderhoud bezuinigd'",
+      "link": "https://www.autoweek.nl/autotests/artikel/keuring-onthult-nare-verrassing-bij-bjorns-46-peugeot-j5-camper-jaren-op-onderhoud-bezuinigd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
@@ -342,21 +355,6 @@
       "matches": {
         "ev": [],
         "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Tegenvallers voor Volvo: 2.500 banen weg, meeste in Europa",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tegenvallers-voor-volvo-2-500-banen-weg-meeste-in-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "ontslag"
-        ],
         "exceptional": [],
         "boring": [],
         "routine_product": []

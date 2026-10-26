@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-10-26T19:54:41.850896+00:00",
+  "generated_at": "2026-10-26T23:49:17.690452+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Mercedes C-klasse op benzine na facelift nog altijd fijne kilometervreter",
+      "link": "https://www.autoweek.nl/autotests/artikel/mercedes-c-klasse-op-benzine-na-facelift-nog-altijd-fijne-kilometervreter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "facelift"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -337,23 +352,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Een gebruikte Mini en twee actuele stads-EV's als occasion",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/een-gebruikte-mini-en-twee-actuele-stads-evs-als-occasion/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
         "routine_product": []
       }
     }

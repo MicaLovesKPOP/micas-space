@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T19:54:46.450734+00:00",
+  "generated_at": "2026-10-26T23:49:23.589869+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 21
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,18 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze grote naam wil terugkeren in de Formule 1",
+      "link": "https://www.autoblog.nl/nieuws/deze-grote-naam-wil-terugkeren-in-de-formule-1",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -387,18 +399,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "De bijtelling op de EV van de zaak verandert in 2027",
-      "link": "https://www.autoblog.nl/nieuws/dit-verandert-er-met-de-bijtelling-op-een-ev-van-de-zaak-in-2027-en-2028",
-      "details": {
-        "ev": [
-          "ev"
-        ]
       }
     },
     {
@@ -853,6 +853,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Half-price Lister LFT-666; twice the charm?",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/half-price-lister-lft-666-twice-the-charm/51829"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Kay-car Suzuki 'Espresso' Cappuccino for sale",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/kay-car-suzuki-espresso-cappuccino-for-sale/51827"
     },
@@ -965,13 +972,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Rover SD1 | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/rover-sd1--spotted/51750"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Want a manual Ferrari? Can't beat the real thing",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/want-a-manual-ferrari-cant-beat-the-real-thing/51744"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1129,6 +1129,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 77,
+  "output_items": 77
 }

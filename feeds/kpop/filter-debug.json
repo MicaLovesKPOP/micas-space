@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T06:09:09.350704+00:00",
+  "generated_at": "2026-10-26T12:55:35.329975+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 34
+      "items": 36
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,22 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Illit returns with 'Break Even,' turning heartbreak into defiance",
+      "link": "https://www.koreaherald.com/article/10915318",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Alpha Drive One’s Geonwoo seeks court ruling on contract with WakeOne",
+      "link": "https://www.koreaherald.com/article/10915232",
+      "keep": true,
+      "category": "Legal / dispute",
+      "reason": "whitelisted event"
+    },
     {
       "source": "Korea Herald",
       "title": "Virtual K-pop group Plave continues steady rise",
@@ -387,6 +403,14 @@
     },
     {
       "source": "Soompi Music",
+      "title": "Watch: A2O LITE Takes 5th Win For “NEON” On New Music Show “SHOW K-POP”",
+      "link": "https://www.soompi.com/article/1881623wpp/watch-a2o-lite-takes-5th-win-for-neon-on-new-music-show-show-k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
       "title": "A2O LITE’s “NEON” Achieves Perfect All-Kill Within 2 Weeks Of Their Debut",
       "link": "https://www.soompi.com/article/1881423wpp/a2o-lites-neon-achieves-perfect-all-kill-within-2-weeks-of-their-debut",
       "keep": true,
@@ -451,11 +475,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED”",
+      "title": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
       "link": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -675,7 +699,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Watch: NCT’s Xiaojun Unveils Intro Film For Solo Debut Album “Hey, Somebody”",
+      "title": "Watch: NCT’s Xiaojun Conveys Heartfelt Message In Solo Debut MV For “Hey, Somebody”",
       "link": "https://www.soompi.com/article/1879382wpp/watch-ncts-xiaojun-unveils-intro-film-for-solo-debut-album-hey-somebody",
       "keep": true,
       "category": "Debut / new group",
@@ -856,14 +880,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "YG Updates Fans On Debut Plans For New Boy Group And Girl Group",
-      "link": "https://www.soompi.com/article/1877875wpp/yg-updates-fans-on-debut-plans-for-new-boy-group-and-girl-group",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Celeb",
@@ -1515,6 +1531,13 @@
       "category": "Contract / agency"
     },
     {
+      "dropped": "Update: ZEROBASEONE EMP Announces Comeback Schedule For “OFF script” And Pre-Release Single “RUN”",
+      "dropped_source": "Soompi Music",
+      "kept": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "Enhypen to release new EP 'The Sin: Parallel World' in Nov.",
       "dropped_source": "Yonhap K-pop",
       "kept": "ENHYPEN Announces November Comeback With Spinoff Single “THE SIN : PARALLEL WORLD”",
@@ -1529,6 +1552,13 @@
       "category": "Comeback / release"
     },
     {
+      "dropped": "BLACKPINK's Lisa drops 1st solo EP 'Press Play'",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "Lee Soo-man's new girl group A2O Lite tops Melon chart",
       "dropped_source": "Yonhap K-pop",
       "kept": "Lee Soo Man’s New Group A2O LITE Hits No. 1 On Melon Top 100 Just One Day After Debut",
@@ -1538,8 +1568,8 @@
     {
       "dropped": "Blackpink's Lisa releases new EP 'Press Play'",
       "dropped_source": "Korea Herald",
-      "kept": "BLACKPINK's Lisa drops 1st solo EP 'Press Play'",
-      "kept_source": "Yonhap K-pop",
+      "kept": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
+      "kept_source": "Soompi Music",
       "category": "Comeback / release"
     },
     {
@@ -1564,6 +1594,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 32,
-  "final_items": 24
+  "candidate_items": 33,
+  "final_items": 23
 }

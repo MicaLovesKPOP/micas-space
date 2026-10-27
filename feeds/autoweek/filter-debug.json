@@ -1,10 +1,109 @@
 {
-  "generated_at": "2026-10-27T04:56:03.179451+00:00",
+  "generated_at": "2026-10-27T10:28:57.953242+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Grote gezinsauto van Ford is nu plug-in hybride met ruig randje",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/grote-gezinsauto-van-ford-is-nu-plug-in-hybride-met-ruig-randje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Audi haalt Audi en AUDI uit elkaar",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/audi-zet-haalt-audi-en-audi-uit-elkaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Amerikaanse leger verbiedt BYD's op legerbasis in Japan: 'Die vormen een veiligheidsrisico'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/amerikaanse-leger-weert-byds-van-legerbasis-in-japan-die-vormen-een-veiligheidsrisico/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Polestar 4 SUV rijdt beter en is lekker breed inzetbaar",
+      "link": "https://www.autoweek.nl/autotests/artikel/polestar-4-suv-rijdt-beter-en-is-lekker-breed-inzetbaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "polestar"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Honda Elevate is goedkope cross-over van €11.000",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-elevate-is-goedkope-cross-over-van-e11-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Verkeersboete minder omhoog bij niet-betalen, vinden PRO en CDA",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/verkeersboete-minder-omhoog-bij-niet-betalen-vinden-pro-en-cda/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze brandstof is opeens bijna de helft goedkoper in Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-brandstof-is-in-opeens-bijna-de-helft-goedkoper-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -254,101 +353,6 @@
       "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-koplampen-vervangen-zo-duur-geworden-is/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Trump kondigt Audi-fabriek in Georgia aan, 4.500 banen gecreëerd",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/trump-kondigt-audi-fabriek-in-georgia-aan-4-500-banen-gecreeerd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze occasions zouden de AutoWeek-redacteuren kopen voor €10.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-occasions-zouden-de-autoweek-redacteuren-kopen-voor-e10-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bij dit Nederlandse tankstation kon je vandaag voor €1 per liter tanken",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-dit-nederlandse-tankstation-kon-je-vandaag-voor-e1-per-liter-tanken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Vannacht gaat wintertijd in: komende week grootste kans op een auto-ongeluk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vannacht-gaat-wintertijd-in-komende-week-grootste-kans-op-een-auto-ongeluk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze tweedehands hybride SUV's zijn behalve praktisch ook verrassend vlot",
-      "link": "https://www.autoweek.nl/autotests/artikel/deze-tweedehands-suvs-zijn-behalve-praktisch-ook-verrassend-vlot/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zoek je een klassieke zescilinder dan gaat er niets boven een BMW, maar deze Rover doet aardig mee",
-      "link": "https://www.autoweek.nl/autotests/artikel/zoek-je-een-klassieke-zescilinder-dan-gaat-er-niets-boven-een-bmw-maar-de-rover-doet-aardig-mee/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De volgende stap in accudiagnose EV is een CT-scan, deze Nederlandse start-up komt ermee",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volgende-stap-in-accudiagnose-ev-is-een-ct-scan-deze-nederlandse-start-up-komt-ermee/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
         "major": [],
         "exceptional": [],
         "boring": [],

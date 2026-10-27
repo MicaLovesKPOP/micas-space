@@ -1,10 +1,39 @@
 {
-  "generated_at": "2026-10-27T16:00:03.770344+00:00",
+  "generated_at": "2026-10-27T20:39:10.953564+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Drukste spits van het jaar: 1100 kilometer file",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/drukste-spits-van-het-jaar-1100-kilometer-file/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Porsche niet van plan auto's in VS te produceren",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/porsche-niet-van-plan-autos-in-vs-te-produceren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "europese unie",
+          "importheffing"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -330,32 +359,6 @@
         "boring": [
           "review"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ga je voor het onderhoud aan je oudere auto naar merkdealer, universele garage of ‘een mannetje’",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ga-je-voor-het-onderhoud-aan-je-oudere-auto-naar-merkdealer-universele-garage-of-een-mannetje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Sam kocht begin dit jaar deze Opel Corsa uit 1997 voor €950 en reed zonder pech door 22 landen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/sam-kocht-begin-dit-jaar-deze-opel-corsa-uit-97-voor-e950-en-reed-er-zonder-pech-mee-door-22-landen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T23:08:34.308926+00:00",
+  "generated_at": "2026-10-27T02:02:52.148143+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 29
     },
     {
       "name": "Music Business Worldwide",
@@ -35,27 +35,35 @@
   "decisions": [
     {
       "source": "Korea Herald",
-      "title": "Illit returns with 'Break Even,' turning heartbreak into defiance",
-      "link": "https://www.koreaherald.com/article/10915318",
+      "title": "Blackpink’s Jisoo to drop 2nd prerelease from 1st solo LP",
+      "link": "https://www.koreaherald.com/article/10915845",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
     },
     {
       "source": "Korea Herald",
-      "title": "Alpha Drive One’s Geonwoo seeks court ruling on contract with WakeOne",
-      "link": "https://www.koreaherald.com/article/10915232",
+      "title": "ZB1’s hip-hop subunit to drop 1st single",
+      "link": "https://www.koreaherald.com/article/10914794",
       "keep": true,
-      "category": "Legal / dispute",
+      "category": "Comeback / release",
       "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
-      "title": "Virtual K-pop group Plave continues steady rise",
-      "link": "https://www.koreaherald.com/article/10914583",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "title": "Twice’s Nayeon sets solo comeback date",
+      "link": "https://www.koreaherald.com/article/10914701",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Enhypen to drop single next month",
+      "link": "https://www.koreaherald.com/article/10914590",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
@@ -336,6 +344,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "ILLIT’s “It’s Me” Becomes Their 2nd MV To Hit 200 Million Views",
+      "link": "https://www.soompi.com/article/1881669wpp/illits-its-me-becomes-their-2nd-mv-to-hit-200-million-views",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Music",
@@ -808,14 +824,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: sales record"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "BTS’s “Hooligan” Becomes Their 3rd MV From “ARIRANG” To Hit 100 Million Views",
-      "link": "https://www.soompi.com/article/1877879wpp/btss-hooligan-becomes-their-3rd-mv-from-arirang-to-hit-100-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Celeb",
@@ -1299,6 +1307,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "BLACKPINK's Jisoo to release 2nd prerelease single 'Addicted'",
+      "link": "https://en.yna.co.kr/view/AEN20261027001900315?section=culture/k-pop",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "Enhypen to release new EP 'The Sin: Parallel World' in Nov.",
       "link": "https://en.yna.co.kr/view/AEN20261026005700315?section=culture/k-pop",
       "keep": true,
@@ -1448,14 +1464,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS' 'Arirang' hits 5 bln Spotify streams, topping 2026 releases",
-      "link": "https://en.yna.co.kr/view/AEN20261014002400315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
@@ -1465,6 +1473,13 @@
       "kept": "TWICE's Jihyo leaves JYP after 21 yrs to launch own agency",
       "kept_source": "Yonhap K-pop",
       "category": "Contract / agency"
+    },
+    {
+      "dropped": "BLACKPINK's Jisoo to release 2nd prerelease single 'Addicted'",
+      "dropped_source": "Yonhap K-pop",
+      "kept": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
     },
     {
       "dropped": "Enhypen to release new EP 'The Sin: Parallel World' in Nov.",
@@ -1495,6 +1510,20 @@
       "category": "Debut / new group"
     },
     {
+      "dropped": "Twice’s Nayeon sets solo comeback date",
+      "dropped_source": "Korea Herald",
+      "kept": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
+      "dropped": "Enhypen to drop single next month",
+      "dropped_source": "Korea Herald",
+      "kept": "ENHYPEN Announces November Comeback With Spinoff Single “THE SIN : PARALLEL WORLD”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "Blackpink's Lisa releases new EP 'Press Play'",
       "dropped_source": "Korea Herald",
       "kept": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
@@ -1523,6 +1552,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 31,
+  "candidate_items": 34,
   "final_items": 22
 }

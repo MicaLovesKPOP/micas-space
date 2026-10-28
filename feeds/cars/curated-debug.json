@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:21:13.089364+00:00",
+  "generated_at": "2026-10-28T21:53:36.586774+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,43 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Koop de auto van Willem-Alexander",
+      "link": "https://www.autoblog.nl/nieuws/koop-de-auto-van-willem-alexander",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Deze EV schrijft pas écht hard af",
+      "link": "https://www.autoblog.nl/nieuws/als-je-dacht-dat-jouw-ev-hard-afschrijft",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze Kia zit expres onder de modder",
+      "link": "https://www.autoblog.nl/nieuws/deze-kia-zit-expres-onder-de-modder",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -360,42 +397,6 @@
           "elektrisch",
           "ev"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Benzine is in de afgelopen maanden niet zo goedkoop geweest als nu!",
-      "link": "https://www.autoblog.nl/nieuws/benzine-is-in-de-afgelopen-maanden-niet-zo-goedkoop-geweest-als-nu",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Blijf weg uit Amsterdam: parkeren wordt NOG duurder!",
-      "link": "https://www.autoblog.nl/nieuws/waanzin-gemeente-amsterdam-verdubbelt-hier-de-parkeerkosten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Politici willen verkeersboetesysteem COMPLEET veranderen: \"hufter'' betaalt",
-      "link": "https://www.autoblog.nl/nieuws/eindelijk-er-ligt-een-plan-om-het-nederlandse-boetestelsel-compleet-te-veranderen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -995,8 +996,22 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Clutch in or Out? What’s Best for Your Car at a Stoplight",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/clutch-in-or-out-whats-best-for-your-car-at-a-stoplight/"
+      "title": "6 Ways to Get a Deal on Restoration Parts",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-ways-to-get-a-deal-on-restoration-parts/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Kyle Smith",
+      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Project Car",
+      "link": "https://www.hagerty.com/media/tags/project-car/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1016,13 +1031,6 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Project Car",
-      "link": "https://www.hagerty.com/media/tags/project-car/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
       "title": "Corvette",
       "link": "https://www.hagerty.com/media/tags/corvette/"
     },
@@ -1030,15 +1038,15 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "6 Simple Winter Projects for Every Vintage Car",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-simple-winter-projects-for-every-vintage-car/"
+      "title": "Clutch in or Out? What’s Best for Your Car at a Stoplight",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/clutch-in-or-out-whats-best-for-your-car-at-a-stoplight/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Kyle Smith",
-      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+      "keep": true,
+      "reason": "maintenance & tech",
+      "title": "6 Simple Winter Projects for Every Vintage Car",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-simple-winter-projects-for-every-vintage-car/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1053,13 +1061,6 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "Benjamin Hunting",
       "link": "https://www.hagerty.com/media/author/bhunting/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": true,
-      "reason": "maintenance & tech",
-      "title": "3 Small Parts that Helped Me Trust My Untested Corvette",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/3-small-parts-that-helped-me-trust-my-untested-corvette/"
     },
     {
       "source": "Hagerty Buyer's Guides",

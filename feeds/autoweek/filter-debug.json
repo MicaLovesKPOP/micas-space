@@ -1,10 +1,96 @@
 {
-  "generated_at": "2026-10-28T05:31:03.816832+00:00",
+  "generated_at": "2026-10-28T11:36:14.752619+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe hybride auto's van Toyota worden nog veel zuiniger",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hybride-autos-van-toyota-worden-ruim-15-procent-zuiniger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Elektrische Fiat Grande Panda komt voortaan een kwart verder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-fiat-grande-panda-komt-voortaan-een-kwart-verder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De benzineprijs daalt verder: benzine veel goedkoper dan diesel",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-benzineprijs-blijft-dalen-benzine-veel-goedkoper-dan-diesel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Je koopt een Alfa Romeo Giulia al voor €15.000, maar het is verleidelijk om door te sparen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/een-alfa-romeo-giulia-koop-je-al-voor-e15-000-maar-het-is-verleidelijk-om-door-te-sparen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "leverbaar"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bij deze auto zijn koperdieven je grootste nachtmerrie",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/heb-je-deze-auto-in-bezit-dan-is-het-je-nachtmerrie-als-koperdieven-hem-vinden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Peugeot-rijders woest over haperende My Peugeot-app",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-rijders-woest-over-haperende-my-peugeot-app/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -36,7 +122,7 @@
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
-      "title": "De Range Rover Sport Electric is indrukwekkend, maar of het genoeg is...",
+      "title": "De Range Rover Sport Electric is indrukwekkend, maar of het genoeg is ...",
       "link": "https://www.autoweek.nl/autotests/artikel/de-range-rover-sport-electric-is-indrukwekkend-maar-of-het-genoeg-is/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [
@@ -265,94 +351,6 @@
       "reason": "non-EV car news",
       "title": "Felle kritiek op optreden Audi-topman bij Trump-bijeenkomst",
       "link": "https://www.autoweek.nl/autonieuws/artikel/felle-kritiek-op-optreden-audi-topman-bij-trump-bijeenkomst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Nissan Micra komt voor hetzelfde geld voortaan verder",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nissan-micra-komt-voor-hetzelfde-geld-voortaan-verder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Dacia Striker is €10.000 goedkoper dan een Peugeot 308 SW",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dacia-striker-nieuwe-betaalbare-gezinsauto-is-goedkoper-dacia-bigster/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Deze elektrische Mercedes-Benz weegt op een haar na 3.000 kilo",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-grootste-ruimste-en-zwaarste-elektrische-mercedes-benz-is-sterker-dan-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Chinese auto’s zijn niet aan te slepen; Duitsers en Fransen hebben het nakijken",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-autos-zijn-niet-aan-te-slepen-duitsers-en-fransen-hebben-het-nakijken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Goedkope elektrische auto's zoals de nieuwe Citroën 2CV: M1E en de stand van zaken",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/goedkope-elektrische-autos-uit-europa-m1e-en-de-stand-van-zaken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Keuring onthult nare verrassing bij Björns (46) Peugeot J5 camper: 'Jaren op onderhoud bezuinigd'",
-      "link": "https://www.autoweek.nl/autotests/artikel/keuring-onthult-nare-verrassing-bij-bjorns-46-peugeot-j5-camper-jaren-op-onderhoud-bezuinigd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

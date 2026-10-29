@@ -1,10 +1,133 @@
 {
-  "generated_at": "2026-10-29T08:23:33.665626+00:00",
+  "generated_at": "2026-10-29T15:31:17.774705+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bentley Continental GTC Supersports laat definitieve vorm zien",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bentley-continental-gtc-supersports-laat-definitieve-vorm-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "nürburgring"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Nissan heeft 300 pk en een handbak!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-nissan-heeft-300-pk-en-een-handbak/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Het lijkt alsof Nederlanders meer genieten van old- en youngtimers dan Belgen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/het-lijkt-alsof-nederlanders-meer-genieten-van-old-en-youngtimers-dan-belgen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Eerste kennismaking BMW iX4: lager dak, meer actieradius",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/eerste-kennismaking-bmw-ix4-lager-dak-meer-actieradius/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bmw ix"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "actieradius"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Audi RS5 Avant is als RS5-R een 720 pk sterke plug-in hybride",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-audi-rs5-avant-is-als-rs5-r-een-720-pk-sterke-plug-in-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Geen fiscale eisen, wel N1-eisen: dit geldt als bedrijfswagen in 2027!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/geen-fiscale-eisen-wel-europese-dit-is-een-n1-bedrijfswagen-in-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Mazda smelt twee SUV's samen tot één: vaarwel Mazda CX-70",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mazda-smelt-twee-suvs-samen-tot-een-vaarwel-mazda-cx-70/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Miljardenverlies Volkswagen door Porsche-afschrijving en China",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/miljardenverlies-volkswagen-door-porsche-afschrijving-en-china/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "VVD komt terug op opmerking rekeningrijden: 'slaat ook op tol'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vvd-komt-terug-op-opmerking-rekeningrijden-slaat-ook-op-tol/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -234,133 +357,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Het eerste studiemodel van deze autobouwer is een shooting brake",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/het-eerste-studiemodel-van-deze-autobouwer-is-een-shooting-brake/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Grote gezinsauto van Ford is nu plug-in hybride met ruig randje",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/grote-gezinsauto-van-ford-is-nu-plug-in-hybride-met-ruig-randje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Audi haalt Audi en AUDI uit elkaar",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/audi-zet-haalt-audi-en-audi-uit-elkaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Amerikaanse leger verbiedt BYD's op legerbasis in Japan: 'Die vormen een veiligheidsrisico'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/amerikaanse-leger-weert-byds-van-legerbasis-in-japan-die-vormen-een-veiligheidsrisico/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Polestar 4 SUV rijdt beter en is lekker breed inzetbaar",
-      "link": "https://www.autoweek.nl/autotests/artikel/polestar-4-suv-rijdt-beter-en-is-lekker-breed-inzetbaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "polestar"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Honda Elevate is goedkope cross-over van €11.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-elevate-is-goedkope-cross-over-van-e11-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Verkeersboete minder omhoog bij niet-betalen, vinden PRO en CDA",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/verkeersboete-minder-omhoog-bij-niet-betalen-vinden-pro-en-cda/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze brandstof is opeens bijna de helft goedkoper in Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-brandstof-is-in-opeens-bijna-de-helft-goedkoper-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mercedes C-klasse op benzine na facelift nog altijd fijne kilometervreter",
-      "link": "https://www.autoweek.nl/autotests/artikel/mercedes-c-klasse-op-benzine-na-facelift-nog-altijd-fijne-kilometervreter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "facelift"
-        ]
       }
     }
   ]

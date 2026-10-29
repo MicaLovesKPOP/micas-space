@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:45:58.902202+00:00",
+  "generated_at": "2026-10-29T08:23:38.330174+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze spoiler zit niet op de auto die je denkt",
+      "link": "https://www.autoblog.nl/nieuws/deze-spoiler-zit-niet-op-de-auto-die-je-denkt",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Dit zijn de meeste waardevolle automerken ter wereld: Tesla grote verliezer",
+      "link": "https://www.autoblog.nl/nieuws/dit-zijn-de-meeste-waardevolle-automerken-ter-wereld",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -372,31 +396,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze absurde supercar haalt nu ook zonder dak 350 km/u",
-      "link": "https://www.autoblog.nl/nieuws/deze-absurde-supercar-haalt-nu-ook-zonder-dak-350-km-u",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Elektrische auto private leasen: slim nu de wegenbelasting verandert?",
-      "link": "https://www.autoblog.nl/nieuws/elektrische-auto-private-leasen-slim-nu-de-wegenbelasting-verandert",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
       }
     },
     {

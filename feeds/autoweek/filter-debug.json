@@ -1,10 +1,40 @@
 {
-  "generated_at": "2026-10-29T01:45:53.406246+00:00",
+  "generated_at": "2026-10-29T08:23:33.665626+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Nederland loopt voorop: ruim vier op de vijf bedrijfswagens is een EV of PHEV",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nederland-loopt-voorop-ruim-vijf-op-de-zes-bedrijfswagens-is-een-ev-of-phev/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Toyota en Tesla zijn de waardevolste automerken ter wereld",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-en-tesla-zijn-de-meest-waardevolle-automerken-ter-wereld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -331,32 +361,6 @@
         "routine_product": [
           "facelift"
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Laurens (35) kocht deze Volkswagen Golf 1.4 met 360.000 km op de klok, maar hij had een plan",
-      "link": "https://www.autoweek.nl/autotests/artikel/laurens-35-kocht-deze-volkswagen-golf-1-4-met-360-000-km-op-de-klok-maar-hij-had-een-plan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Na maar liefst 22 jaar mag deze Hyundai eindelijk met pensioen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/na-22-jaar-mag-deze-hyundai-eindelijk-met-pensioen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

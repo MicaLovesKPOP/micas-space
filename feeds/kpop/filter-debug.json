@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T23:16:56.243380+00:00",
+  "generated_at": "2026-10-30T02:38:17.553030+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Mamamoo’s Solar to drop solo single",
+      "link": "https://www.koreaherald.com/article/10920291",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Blackpink receives highest Korean culture merit, 1st for K-pop girl group",
+      "link": "https://www.koreaherald.com/article/10920234",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "NewJeans generates 100m streams with ‘Zero’",
+      "link": "https://www.koreaherald.com/article/10920189",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Katseye to hold first solo concert in Korea",
@@ -467,11 +491,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: BLACKPINK’s Jisoo Drops Stunning D-1 Teaser For Upcoming Single “ADDICTED”",
+      "title": "Watch: BLACKPINK’s Jisoo Will Have You “ADDICTED” To Her Stunning New MV",
       "link": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "keep": false,
       "category": null,
-      "reason": "teaser/rollout post"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -1494,6 +1518,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 28,
-  "final_items": 22
+  "candidate_items": 29,
+  "final_items": 23
 }

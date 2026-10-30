@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-10-29T20:33:24.956273+00:00",
+  "generated_at": "2026-10-30T00:18:32.585998+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De elektrische BMW i3 overtuigt op alle vlakken: 'Pseudo-eindheffing doet ineens stuk minder pijn'",
+      "link": "https://www.autoweek.nl/autotests/artikel/elektrische-bmw-i3-overtuigt-op-alle-vlakken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -338,22 +353,6 @@
       "matches": {
         "ev": [],
         "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Porsche niet van plan auto's in VS te produceren",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/porsche-niet-van-plan-autos-in-vs-te-produceren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "europese unie",
-          "importheffing"
-        ],
         "exceptional": [],
         "boring": [],
         "routine_product": []

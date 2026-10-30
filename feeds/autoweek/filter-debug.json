@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-30T13:29:49.643244+00:00",
+  "generated_at": "2026-10-30T18:49:24.923240+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is braafste V10 die je kunt kopen, maar hij kost dan ook slechts €7.490",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-braafste-v10-die-je-kunt-kopen-maar-hij-kost-dan-ook-maar-e7-490/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Deze originele Tesla Roadster kost net iets meer dan de aanbetaling voor de nieuwe",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-originele-tesla-roadster-kost-net-iets-meer-dan-de-aanbetaling-voor-de-nieuwe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Je zou het niet zeggen, maar dit is geen Ram 1500!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/je-zou-het-niet-zeggen-maar-dit-is-geen-ram-1500/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -312,47 +353,6 @@
         "ev": [
           "ev"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Toyota en Tesla zijn de waardevolste automerken ter wereld",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-en-tesla-zijn-de-meest-waardevolle-automerken-ter-wereld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze ‘sleeper’ Opel Astra heeft de wilde C20XE-motor - Liefhebber gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-sleeper-opel-astra-heeft-de-wilde-c20xe-motor-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "VVD sluit steun rekeningrijden niet uit: 'Geen heilige huisjes'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vvd-sluit-steun-rekeningrijden-niet-uit-geen-heilige-huisjes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

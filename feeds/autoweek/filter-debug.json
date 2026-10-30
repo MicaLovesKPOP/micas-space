@@ -1,10 +1,157 @@
 {
-  "generated_at": "2026-10-30T06:24:31.663298+00:00",
+  "generated_at": "2026-10-30T13:29:49.643244+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Chinese auto zakt vreselijk door het ijs tijdens botsproef: 'Belediging voor consumenten'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-chinese-auto-zakt-vreselijk-door-het-ijs-tijdens-botsproef-belediging-voor-consumenten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe elektrische Toyota is voorlopig een verbouwde Corolla Cross",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-elektrische-toyota-is-voorlopig-een-verbouwde-corolla-cross/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen legt ontwikkeling Volkswagen ID Golf stil",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-legt-ontwikkeling-volkswagen-id-golf-stil-grote-financiele-problemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "exceptional enthusiast/performance EV story",
+      "title": "Vanuit China naar de Nürburgring rijden met een EV? Het kan, bewijst de AUDI E5",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vanuit-china-naar-de-nurburgring-rijden-met-een-ev-het-kan-bewijst-de-audi-e5/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [
+          "nürburgring"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Winst Audi keldert bijna 90 procent",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/winst-audi-keldert-bijna-90-procent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen ziet de Tiguan liever groen dan rood",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-ziet-de-tiguan-liever-groen-dan-rood/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Welke van deze auto's wordt Auto van het Jaar 2027?",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/welke-van-deze-autos-wordt-auto-van-het-jaar-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen schrapt mild-hybride versies van de Golf",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-schrapt-mild-hybride-versies-van-de-golf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "schrapt",
+          "geschrapt"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Rusland verlengt exportverbod diesel, met uitzonderingen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/rusland-verlengt-exportverbod-diesel-met-uitzonderingen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Stellantis geeft ‘heel veel’ elektrische modellen goedkopere accu’s",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-geeft-heel-veel-elektrische-modellen-goedkopere-accus/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -107,7 +254,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Geen fiscale eisen, wel N1-eisen: dit geldt als bedrijfswagen in 2027!",
+      "title": "Dit zijn de nieuwe, soepele grijs kenteken-eisen voor 2027",
       "link": "https://www.autoweek.nl/autonieuws/artikel/geen-fiscale-eisen-wel-europese-dit-is-een-n1-bedrijfswagen-in-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -189,7 +336,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Deze ‘sleeper’ Opel Astra heeft de wilde C20XE-motor - Liefhebber Gezocht",
+      "title": "Deze ‘sleeper’ Opel Astra heeft de wilde C20XE-motor - Liefhebber gezocht",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-sleeper-opel-astra-heeft-de-wilde-c20xe-motor-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -209,152 +356,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De opvolger van de Audi TT (en R8) wordt een EV met Porsche-basis",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-opvolger-van-de-audi-tt-wordt-een-ev-met-porsche-basis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe hybride Toyota's worden nog veel zuiniger",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-hybride-autos-van-toyota-worden-ruim-15-procent-zuiniger/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Voor slechts €1.000 komt de elektrische Fiat Grande Panda een kwart verder",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-fiat-grande-panda-komt-voortaan-een-kwart-verder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De benzineprijs daalt verder: benzine veel goedkoper dan diesel",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-benzineprijs-blijft-dalen-benzine-veel-goedkoper-dan-diesel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Je koopt een Alfa Romeo Giulia al voor €15.000, maar het is verleidelijk om door te sparen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/een-alfa-romeo-giulia-koop-je-al-voor-e15-000-maar-het-is-verleidelijk-om-door-te-sparen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bij deze auto zijn koperdieven je grootste nachtmerrie",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/heb-je-deze-auto-in-bezit-dan-is-het-je-nachtmerrie-als-koperdieven-hem-vinden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Peugeot-rijders woest over haperende My Peugeot-app",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-rijders-woest-over-haperende-my-peugeot-app/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Bentley Torcal is de goedkoopste Bentley, maar kost net zoveel als twee Porsches Cayenne",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-elektrische-bentley-torcal-is-ontzettend-duur-maar-is-toch-de-goedkoopste-bentley/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Aston Martin Valhalla Spider: na twee jaar knippen is het dak eraf",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/aston-martin-valhalla-spider-na-twee-jaar-knippen-is-het-dak-eraf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "De Range Rover Sport Electric is indrukwekkend, maar of het genoeg is ...",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-range-rover-sport-electric-is-indrukwekkend-maar-of-het-genoeg-is/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "electric"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
         "routine_product": []
       }
     }

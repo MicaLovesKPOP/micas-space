@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T06:24:37.891069+00:00",
+  "generated_at": "2026-10-30T13:29:55.333980+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,134 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog lijstje ",
+      "title": "Op de rem voor deze kentekens! Autoblog onderzoekt onherkenbare politieauto's",
+      "link": "https://www.autoblog.nl/nieuws/op-de-rem-voor-deze-kentekens-autoblog-onderzoekt-onherkenbare-politieauto-s"
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Zo werkt de ‘Drift Moment’-modus op de nieuwe BMW M350 xDrive",
+      "link": "https://www.autoblog.nl/nieuws/zo-werkt-de-drift-moment-modus-op-de-nieuwe-bmw-m350-xdrive",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Unicum in 63 jaar Car of the Year verkiezing!",
+      "link": "https://www.autoblog.nl/nieuws/primeur-in-63-jaar-car-of-the-year-verkiezing",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Max Verstappen kan dit seizoen tweede worden, maar wordt liever derde",
+      "link": "https://www.autoblog.nl/nieuws/max-verstappen-kan-dit-seizoen-tweede-worden-maar-wordt-liever-derde",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Skoda laat zien: blijf weg van China!",
+      "link": "https://www.autoblog.nl/nieuws/skoda-verkoopt-99-procent-minder-auto-s-in-china-maar-viert-toch-feest",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Rijden zonder banden is nooit een goed idee",
+      "link": "https://www.autoblog.nl/video/rijden-zonder-banden-is-nooit-een-goed-idee",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "BREEK: Volkswagen zet ontwikkeling ID. Golf stil",
+      "link": "https://www.autoblog.nl/nieuws/breek-volkswagen-zet-ontwikkeling-id-golf-stil",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Stellantis gaat bijna alle EV's uitrusten met goedkoopste accutechnologie",
+      "link": "https://www.autoblog.nl/nieuws/stellantis-gaat-bijna-alle-ev-s-uitrusten-met-goedkoopste-accutechnologie",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Audacious IV is bijna klaar! Ur-Quattro-looks met een 10.000 tpm V8!",
+      "link": "https://www.autoblog.nl/nieuws/deze-moderne-audi-quattro-is-een-rs4-met-750-pk-en-10-000-tpm",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Zo kun je 50 procent brandstof besparen met een PHEV",
+      "link": "https://www.autoblog.nl/nieuws/rij-zuinig-in-een-phev-en-bespaar-50-procent-brandstof",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze Honda heeft een 1.300+ pk sterke hybride twinturbo-V6!",
+      "link": "https://www.autoblog.nl/nieuws/honda-bouwt-dikke-twinturbo-v6-offroader-met-1-300-pk",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -264,142 +392,6 @@
         "news": [
           "belasting",
           "wegenbelasting"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Wat gebeurt er met benzineauto's na 2035?",
-      "link": "https://www.autoblog.nl/video/wat-gebeurt-er-met-benzineauto-s-na-2035",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Nederlandse EV-rijders kunnen nu netbewust thuisladen: dit houdt het in",
-      "link": "https://www.autoblog.nl/nieuws/nederlandse-ev-rijders-kunnen-nu-netbewust-thuisladen-dit-houdt-het-in",
-      "details": {
-        "ev": [
-          "ev",
-          "thuisladen"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Dit zijn de EV's met de hoogste kilometerstand op Marktplaats",
-      "link": "https://www.autoblog.nl/nieuws/dit-zijn-de-ev-s-met-de-hoogste-kilometerstand-op-marktplaats",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev",
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Je kunt nu twee ton stukslaan op een Audi RS5",
-      "link": "https://www.autoblog.nl/nieuws/je-kunt-nu-twee-ton-stukslaan-op-een-audi-rs5",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "De Formule 1 is zo saai dat fans met een eigen hilarische oplossing komen",
-      "link": "https://www.autoblog.nl/nieuws/de-formule-1-is-zo-saai-dat-fans-met-een-eigen-hilarische-oplossing-komen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "De Volkswagen Groep zit in zwaar weer: 99 procent minder winst!",
-      "link": "https://www.autoblog.nl/nieuws/de-volkswagen-groep-zit-in-zwaar-weer-99-procent-minder-winst",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Redditor onderzoekt Chinese autoradio en vindt bizarre software",
-      "link": "https://www.autoblog.nl/nieuws/redditor-onderzoekt-chinese-autoradio-en-vindt-bizarre-software",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Auto probeert BMW M3 bij te houden, crasht",
-      "link": "https://www.autoblog.nl/video/auto-probeert-bmw-m3-bij-te-houden-crasht",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Iedereen betaalt zich blauw aan de pomp, Shell verdubbelt de winst",
-      "link": "https://www.autoblog.nl/nieuws/iedereen-betaalt-zich-blauw-aan-de-pomp-shell-verdubbelt-de-winst",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Hier gaan Max Verstappen en Daniel Ricciardo misschien weer als team racen",
-      "link": "https://www.autoblog.nl/nieuws/hier-gaan-max-verstappen-en-daniel-ricciardo-misschien-weer-als-team-racen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Dit zijn de snelste elektrische auto’s die je nu kunt kopen",
-      "link": "https://www.autoblog.nl/nieuws/dit-zijn-de-snelste-elektrische-auto-s-die-je-nu-kunt-kopen",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
         ]
       }
     },
@@ -855,6 +847,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Vauxhall Omega 3.0 Elite | Spotted",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/vauxhall-omega-3-0-elite--spotted/51848"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "Sold! The best used Jaguars you missed out on",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/sold-the-best-used-jaguars-you-missed-out-on/51844"
     },
@@ -967,13 +966,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Nissan GT-R (R35) | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/nissan-gt-r-r35--spotted/51788"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Peugeot RCZ R | Spotted",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/peugeot-rcz-r--spotted/51785"
     },
     {
       "source": "Hagerty Automotive History",

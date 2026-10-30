@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:49:29.644913+00:00",
+  "generated_at": "2026-10-30T22:56:21.532521+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Ferrari Daytona SP3 van Max Verstappen gespot",
+      "link": "https://www.autoblog.nl/nieuws/ferrari-daytona-sp3-van-max-verstappen-gespot",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Dit is de coolste Japanse auto die je vandaag gaat zien",
+      "link": "https://www.autoblog.nl/nieuws/dit-is-de-coolste-japanse-auto-die-je-vandaag-gaat-zien",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -365,30 +389,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Blijf weg uit Den Haag, ik herhaal, blijf weg!!",
-      "link": "https://www.autoblog.nl/nieuws/blijf-weg-uit-den-haag-ik-herhaal-blijf-weg",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "NCAP haalt uit naar Chinees autoconcern na 0-sterren crashtest",
-      "link": "https://www.autoblog.nl/nieuws/deze-chinese-crossover-haalt-0-sterren-bij-de-ncap-crashtest",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
       }
     },
     {
@@ -964,13 +964,6 @@
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/nissan-gt-r-r35--spotted/51788"
     },
     {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "Ride Along in a Group C Jaguar That Stormed Le Mans",
-      "link": "https://www.hagerty.com/media/automotive-history/ride-along-in-a-group-c-jaguar-that-stormed-le-mans/"
-    },
-    {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
@@ -1112,6 +1105,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 75,
+  "output_items": 75
 }

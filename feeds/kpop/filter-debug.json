@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:13:54.321417+00:00",
+  "generated_at": "2026-10-31T16:05:37.912863+00:00",
   "sources": [
     {
       "name": "Korea Herald",
@@ -339,6 +339,14 @@
     },
     {
       "source": "Soompi Music",
+      "title": "Watch: AMPERS&ONE Announces Comeback Date With Main Sequence For “PATHFINDER”",
+      "link": "https://www.soompi.com/article/1883212wpp/watch-ampersone-announces-comeback-date-with-main-sequence-for-pathfinder",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Soompi Music",
       "title": "BTS’s j-hope’s “MONA LISA” MV Surpasses 100 Million Views",
       "link": "https://www.soompi.com/article/1883083wpp/btss-j-hopes-mona-lisa-mv-surpasses-100-million-views",
       "keep": false,
@@ -475,11 +483,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ENHYPEN Reveals Comeback Schedule For Spinoff Single “THE SIN : PARALLEL WORLD”",
+      "title": "Update: ENHYPEN Drops Tracklist For Spinoff Single “THE SIN : PARALLEL WORLD”",
       "link": "https://www.soompi.com/article/1881313wpp/enhypen-announces-november-comeback-with-spinoff-single-the-sin-parallel-world",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
+      "keep": false,
+      "category": null,
+      "reason": "teaser/rollout post"
     },
     {
       "source": "Soompi Music",
@@ -805,14 +813,6 @@
       "source": "Soompi Music",
       "title": "6 K-Pop Tracks From Solo Acts To Add To Your Playlist This Fall",
       "link": "https://www.soompi.com/article/1876702wpp/6-k-pop-tracks-from-solo-acts-to-add-to-your-playlist-this-fall",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "HYBE Announces Lineup For Weverse Con Festival India",
-      "link": "https://www.soompi.com/article/1879106wpp/hybe-announces-lineup-for-weverse-con-festival-india",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1460,13 +1460,6 @@
   ],
   "duplicates": [
     {
-      "dropped": "Enhypen to release new EP 'The Sin: Parallel World' in Nov.",
-      "dropped_source": "Yonhap K-pop",
-      "kept": "Update: ENHYPEN Reveals Comeback Schedule For Spinoff Single “THE SIN : PARALLEL WORLD”",
-      "kept_source": "Soompi Music",
-      "category": "Comeback / release"
-    },
-    {
       "dropped": "TWICE's Nayeon to drop new solo album 'NA-sty'",
       "dropped_source": "Yonhap K-pop",
       "kept": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
@@ -1483,8 +1476,8 @@
     {
       "dropped": "Enhypen to drop single next month",
       "dropped_source": "Korea Herald",
-      "kept": "Update: ENHYPEN Reveals Comeback Schedule For Spinoff Single “THE SIN : PARALLEL WORLD”",
-      "kept_source": "Soompi Music",
+      "kept": "Enhypen to release new EP 'The Sin: Parallel World' in Nov.",
+      "kept_source": "Yonhap K-pop",
       "category": "Comeback / release"
     },
     {
@@ -1496,5 +1489,5 @@
     }
   ],
   "candidate_items": 28,
-  "final_items": 23
+  "final_items": 24
 }

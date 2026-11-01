@@ -1,10 +1,109 @@
 {
-  "generated_at": "2026-11-01T09:08:20.582712+00:00",
+  "generated_at": "2026-11-01T15:58:18.487777+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Rijdend met de Westfield 11 vergeet je bijna waarom je stuurbekrachtiging nodig hebt",
+      "link": "https://www.autoweek.nl/autotests/artikel/rijdend-met-de-westfield-11-vergeet-je-bijna-waarom-je-stuurbekrachtiging-nodig-hebt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Elektrische C-klasse van Mercedes kan zelfs Audi A6 e-tron de baas",
+      "link": "https://www.autoweek.nl/autotests/artikel/test-elektrische-c-klasse-van-mercedes-kan-zelfs-a6-e-tron-de-baas/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "a6 e-tron",
+          "e-tron",
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Tsjechisch bedrijf verkoopt Chinese auto’s met enorme korting: ‘Na 6.000 kilometer al occasion'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tsjechisch-bedrijf-verkoopt-chinese-autos-met-40-procent-korting-na-6-000-kilometer-al-gezien-als-tweedehands/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo zuinig is de Mazda CX-30 in de praktijk",
+      "link": "https://www.autoweek.nl/autotests/artikel/zo-zuinig-is-de-mazda-cx-30-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Audi Q3-elektronica met een eigen willetje hield ons hele roadtrip bezig",
+      "link": "https://www.autoweek.nl/autotests/artikel/audi-q3-elektronica-met-een-eigen-willetje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Amerikanen keken hun ogen uit: Max verscheepte zijn Trabant naar de VS en reed daar 25.000 kilometer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/amerikan-wisten-niet-wat-het-was-max-verscheepte-zijn-trabant-naar-de-vs-en-reed-daar-25-000-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Skoda Elroq is niet aan te slepen, maar mede dankzij EV2 is Kia het populairste merk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-elroq-is-niet-aan-te-slepen-maar-mede-dankzij-ev2-is-kia-het-populairste-merk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev2"
+        ],
+        "major": [
+          "verkoopcijfers"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -251,110 +350,6 @@
         "ev": [],
         "major": [],
         "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Welke van deze auto's wordt Auto van het Jaar 2027?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/welke-van-deze-autos-wordt-auto-van-het-jaar-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen schrapt mild-hybride versies van de Golf",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-schrapt-mild-hybride-versies-van-de-golf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "schrapt",
-          "geschrapt"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Rusland verlengt exportverbod diesel, met uitzonderingen'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/rusland-verlengt-exportverbod-diesel-met-uitzonderingen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "verbod"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Stellantis geeft ‘heel veel’ elektrische modellen goedkopere accu’s",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-geeft-heel-veel-elektrische-modellen-goedkopere-accus/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Commissarissen Audi extra bijeen over optreden topman bij Trump",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/commissarissen-audi-extra-bijeen-over-optreden-topman-bij-trump/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De elektrische BMW i3 overtuigt op alle vlakken: 'Pseudo-eindheffing doet ineens stuk minder pijn'",
-      "link": "https://www.autoweek.nl/autotests/artikel/elektrische-bmw-i3-overtuigt-op-alle-vlakken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bentley Continental GTC Supersports laat definitieve vorm zien",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bentley-continental-gtc-supersports-laat-definitieve-vorm-zien/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "nürburgring"
-        ],
         "boring": [],
         "routine_product": []
       }

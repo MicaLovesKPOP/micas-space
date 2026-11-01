@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:08:24.663733+00:00",
+  "generated_at": "2026-11-01T09:08:26.194285+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,54 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "SUV pakt wereldrecordverkoop: dit is de populairste SUV ter wereld",
+      "link": "https://www.autoblog.nl/nieuws/suv-pakt-wereldrecordverkoop-dit-is-de-populairste-suv-ter-wereld",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze heerlijke vierzitter is de sterkste PHEV ter wereld!",
+      "link": "https://www.autoblog.nl/nieuws/deze-heerlijke-karma-eximius-1-is-de-sterkste-phev-ter-wereld",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "F1-waanzin: Vervanging na VT2, bizarre diskwalificatie en Alonso weigert te rijden",
+      "link": "https://www.autoblog.nl/nieuws/f1-waanzin-vervanging-na-vt2-bizarre-diskwalificatie-en-alonso-weigert-te-rijden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Met een paar aanpassingen is de Golf GTE van Tom top #MijnAuto",
+      "link": "https://www.autoblog.nl/video/met-een-paar-aanpassingen-is-de-golf-gte-van-tom-top-mijnauto",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -350,49 +398,6 @@
           "elektrisch",
           "ev"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": true,
-      "reason": "Autoblog lijstje ",
-      "title": "Deze onherkenbare politieauto's mag je niet inhalen van ChatGPT",
-      "link": "https://www.autoblog.nl/nieuws/op-de-rem-voor-deze-kentekens-autoblog-onderzoekt-onherkenbare-politieauto-s"
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Zo werkt de ‘Drift Moment’-modus op de nieuwe BMW M350 xDrive",
-      "link": "https://www.autoblog.nl/nieuws/zo-werkt-de-drift-moment-modus-op-de-nieuwe-bmw-m350-xdrive",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Unicum in 63 jaar Car of the Year verkiezing!",
-      "link": "https://www.autoblog.nl/nieuws/primeur-in-63-jaar-car-of-the-year-verkiezing",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Max Verstappen kan dit seizoen tweede worden, maar wordt liever derde",
-      "link": "https://www.autoblog.nl/nieuws/max-verstappen-kan-dit-seizoen-tweede-worden-maar-wordt-liever-derde",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1109,6 +1114,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 76,
-  "output_items": 76
+  "input_items": 75,
+  "output_items": 75
 }

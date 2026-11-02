@@ -1,10 +1,174 @@
 {
-  "generated_at": "2026-11-02T05:54:17.666393+00:00",
+  "generated_at": "2026-11-02T15:39:36.788141+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Test: nieuwe BMW 3-serie op benzine nog altijd leuker dan EV, maar ...",
+      "link": "https://www.autoweek.nl/autotests/artikel/bmw-3-serie-op-benzine-nog-altijd-leuker-dan-ev-maar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "test:"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Vijf modellen van Toyota krijgen een nieuwe uitvoering",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vijf-modellen-van-toyota-krijgen-een-nieuwe-uitvoering/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe ",
+          "uitvoering"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Het doek valt voor de populairste Polestar van Nederland: Polestar 2 uit productie",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/het-doek-valt-voor-de-belangrijkste-polestar-van-nederland-polestar-2-uit-productie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "polestar"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ook de nieuwe designbaas van Citroën en DS heeft ervaring bij Renault",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-de-nieuwe-designbaas-van-citroen-en-ds-heeft-ervaring-bij-renault/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Rafael Nadal mag zijn nieuwe Kia niet wassen en mag er ook niet mee rijden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/een-kia-voor-rafael-nadal-maar-hij-kan-er-niet-mee-rijden-en-mag-hem-ook-niet-wassen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Elektrische Fiat 500 wordt duizenden euro's goedkoper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-fiat-500-wordt-duizenden-euros-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "AutoWeek Forum is tijdelijk niet bereikbaar",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/autoweek-forum-is-tijdelijk-niet-bereikbaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Toyota bZ4X mag straks ook in Europa zonder bestuurder rijden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-bz4x-wordt-zelfstandig-autonome-deelauto-klaar-voor-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Voor minder dan €10.000 rijd je een ruime elektrische gezinsauto met minder dan 25.000 kilometer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-minder-dan-e10-000-rijd-je-een-ruime-elektrische-gezinsauto-met-minder-dan-25-000-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Plug-in hybride Fisker Karma is als Karma Revero Eximius heftiger dan ooit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/plug-in-hybride-fisker-karma-is-als-karma-revero-eximus-heftiger-dan-ooit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Lamborghini Gallardo is terug met V10 en kost minstens een miljoen euro",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-lamborghini-gallardo-is-terug-en-met-v10-kost-minstens-een-miljoen-euro/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -191,161 +355,6 @@
       "reason": "non-EV car news",
       "title": "De Maserati Grecale is nog steeds lekker, maar vrijwel onbereikbaar",
       "link": "https://www.autoweek.nl/autotests/artikel/de-maserati-grecale-is-nog-steeds-lekker-maar-vrijwel-onbereikbaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bij de goedkoopste Skoda Epiq zijn koplampen en achterlichten minder T-vormig – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-de-goedkoopste-skoda-epiq-zijn-koplampen-en-achterlichten-heel-wat-minder-t-vormig-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "'Ik ben in de markt voor een EV maar dat tot 80 procent ladenadvies vind ik maar raar'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ik-ben-in-de-markt-voor-een-ev-maar-dat-tot-80-ladenadvies-vind-ik-maar-raar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is braafste V10 die je kunt kopen, maar hij kost dan ook slechts €7.490",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-braafste-v10-die-je-kunt-kopen-maar-hij-kost-dan-ook-maar-e7-490/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Deze originele Tesla Roadster kost net iets meer dan de aanbetaling voor de nieuwe",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-originele-tesla-roadster-kost-net-iets-meer-dan-de-aanbetaling-voor-de-nieuwe/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Je zou het niet zeggen, maar dit is geen Ram 1500!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/je-zou-het-niet-zeggen-maar-dit-is-geen-ram-1500/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Chinese auto zakt vreselijk door het ijs tijdens botsproef: 'Belediging voor consumenten'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-chinese-auto-zakt-vreselijk-door-het-ijs-tijdens-botsproef-belediging-voor-consumenten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe elektrische Toyota is voorlopig een verbouwde Corolla Cross",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-elektrische-toyota-is-voorlopig-een-verbouwde-corolla-cross/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen legt ontwikkeling Volkswagen ID Golf stil",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-legt-ontwikkeling-volkswagen-id-golf-stil-grote-financiele-problemen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "exceptional enthusiast/performance EV story",
-      "title": "Vanuit China naar de Nürburgring rijden met een EV? Het kan, bewijst de AUDI E5",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vanuit-china-naar-de-nurburgring-rijden-met-een-ev-het-kan-bewijst-de-audi-e5/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [
-          "nürburgring"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Winst Audi keldert bijna 90 procent",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/winst-audi-keldert-bijna-90-procent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen ziet de Tiguan liever groen dan rood",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-ziet-de-tiguan-liever-groen-dan-rood/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

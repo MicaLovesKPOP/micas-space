@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-02T00:40:30.209776+00:00",
+  "generated_at": "2026-11-02T06:49:34.683085+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 29
+      "items": 34
     },
     {
       "name": "Music Business Worldwide",
@@ -35,8 +35,32 @@
   "decisions": [
     {
       "source": "Korea Herald",
-      "title": "Tws returns with uplifting anthem for youth's trial and error",
-      "link": "https://www.koreaherald.com/article/10922199",
+      "title": "BTS charms 853,000 fans on Latin American tour",
+      "link": "https://www.koreaherald.com/article/10922940",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS wraps sold-out South America tour with 853,000 attendees",
+      "link": "https://www.koreaherald.com/article/10922929",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Exo’s Kai & Sehun to debut as subunit next month: report",
+      "link": "https://www.koreaherald.com/article/10922523",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS' J-Hope clocks 100m views with ‘Mona Lisa’ music video",
+      "link": "https://www.koreaherald.com/article/10922418",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -48,6 +72,22 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Ive teams up with Tiger JK for ‘Looks Can Kill’ remix",
+      "link": "https://www.koreaherald.com/article/10920493",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Mamamoo’s Solar to drop solo single",
+      "link": "https://www.koreaherald.com/article/10920291",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
@@ -827,6 +867,22 @@
     },
     {
       "source": "Soompi Celeb",
+      "title": "ifeye Announces Change In Management",
+      "link": "https://www.soompi.com/article/1883441wpp/ifeye-announces-change-in-management",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Celeb",
+      "title": "Former T-ara Member Soyeon Announces Pregnancy",
+      "link": "https://www.soompi.com/article/1883451wpp/former-t-ara-member-soyeon-announces-pregnancy",
+      "keep": false,
+      "category": null,
+      "reason": "celebrity/lifestyle noise: pregnancy"
+    },
+    {
+      "source": "Soompi Celeb",
       "title": "Rising Singer Brand Reputation Rankings Announced",
       "link": "https://www.soompi.com/article/1883224wpp/rising-singer-brand-reputation-rankings-announced-3",
       "keep": false,
@@ -1290,20 +1346,12 @@
       "reason": "celebrity/lifestyle noise: marriage"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "October Idol Group Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1877893wpp/october-idol-group-brand-reputation-rankings-announced-5",
+      "source": "Yonhap K-pop",
+      "title": "BTS charms 853,000 fans on Latin American tour",
+      "link": "https://en.yna.co.kr/view/AEN20261102004100315?section=culture/k-pop",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
-    },
-    {
-      "source": "Soompi Celeb",
-      "title": "October Drama Actor Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1877857wpp/october-drama-actor-brand-reputation-rankings-announced-6",
-      "keep": false,
-      "category": null,
-      "reason": "Soompi Celeb: acting/non-music item"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Yonhap K-pop",
@@ -1456,14 +1504,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Lee Soo-man's new girl group A2O Lite tops Melon chart",
-      "link": "https://en.yna.co.kr/view/AEN20261015001400315?section=culture/k-pop",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
@@ -1496,6 +1536,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 26,
-  "final_items": 22
+  "candidate_items": 27,
+  "final_items": 23
 }

@@ -1,10 +1,69 @@
 {
-  "generated_at": "2026-11-03T11:51:30.112914+00:00",
+  "generated_at": "2026-11-03T19:27:30.512002+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Gerke (69) gaat zijn Opel Insignia inruilen: 'Tesla geeft er maar €150 voor, dat maakt me boos'",
+      "link": "https://www.autoweek.nl/autotests/artikel/gerke-69-gaat-zijn-opel-insignia-inruilen-tesla-geeft-er-maar-e150-voor-dat-maakt-me-boos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze cross-over avant la lettre-Golf stijgt ver boven andere versies uit en staat op Rallye-wielen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-cross-over-avant-la-lettre-golf-die-ver-boven-andere-versies-uitstijgt-staat-op-wielen-van-een-andere-felbegeerde-golf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "rally"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Voor wat er voor deze Ferrari is betaald koop je 856 Dacia's!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-het-bedrag-dat-betaald-is-voor-deze-ferrari-koop-je-856-dacias-spring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "11.000 Opels krijgen per direct rijverbod: Stellantis breidt stop-drive maatregel uit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/11-000-opels-krijgen-per-direct-rijverbod-stellantis-breidt-stop-drive-maatregel-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "terugroep",
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -306,64 +365,6 @@
         "major": [],
         "exceptional": [],
         "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Audi Q3-elektronica met een eigen willetje hield ons hele roadtrip bezig",
-      "link": "https://www.autoweek.nl/autotests/artikel/audi-q3-elektronica-met-een-eigen-willetje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Amerikanen keken hun ogen uit: Max verscheepte zijn Trabant naar de VS en reed daar 25.000 kilometer",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/amerikan-wisten-niet-wat-het-was-max-verscheepte-zijn-trabant-naar-de-vs-en-reed-daar-25-000-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Skoda Elroq is niet aan te slepen, maar mede dankzij EV2 is Kia het populairste merk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/skoda-elroq-is-niet-aan-te-slepen-maar-mede-dankzij-ev2-is-kia-het-populairste-merk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev2"
-        ],
-        "major": [
-          "verkoopcijfers"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwste vierseizoenenbanden scoren uitstekend; maar bij minder budget is er prima B-merkalternatief",
-      "link": "https://www.autoweek.nl/autotests/artikel/nieuwste-vierseizoenenbanden-scoren-uitstekend-bij-een-beperkter-budget-is-de-band-van-laufenn-prima-alternatief/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
         "routine_product": []
       }
     }

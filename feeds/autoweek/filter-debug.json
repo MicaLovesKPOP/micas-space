@@ -1,10 +1,27 @@
 {
-  "generated_at": "2026-11-04T00:11:19.920467+00:00",
+  "generated_at": "2026-11-04T06:13:01.092057+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Voor minder dan de prijs van een nieuwe Citroën 2CV koop je een Eend die zo fris is als een hoentje",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-minder-dan-de-prijs-van-een-nieuwe-citroen-2cv-koop-je-ook-een-heel-mooie-echte-2cv/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -347,19 +364,6 @@
       "reason": "non-EV car news",
       "title": "Tsjechisch bedrijf verkoopt Chinese auto’s met enorme korting: ‘Na 6.000 kilometer al occasion'",
       "link": "https://www.autoweek.nl/autonieuws/artikel/tsjechisch-bedrijf-verkoopt-chinese-autos-met-40-procent-korting-na-6-000-kilometer-al-gezien-als-tweedehands/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo zuinig is de Mazda CX-30 in de praktijk",
-      "link": "https://www.autoweek.nl/autotests/artikel/zo-zuinig-is-de-mazda-cx-30-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

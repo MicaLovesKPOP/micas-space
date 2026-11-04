@@ -1,10 +1,53 @@
 {
-  "generated_at": "2026-11-04T14:30:41.786202+00:00",
+  "generated_at": "2026-11-04T20:55:17.576670+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Na veel sleutelen is de Mazda RX-7 van Branko (33) bijna perfect: 'Motor is al twee keer verhuisd'",
+      "link": "https://www.autoweek.nl/autotests/artikel/na-veel-sleutelen-is-de-mazda-rx-7-van-branko-33-bijna-perfect-motor-is-al-twee-keer-verhuisd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit zijn de twee duurste occasions in ons aanbod en die hebben niet eens een voorruit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-zijn-de-twee-duurste-occasions-in-ons-aanbod-en-die-hebben-niet-eens-een-voorruit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "major EV industry/technology news",
+      "title": "Omoda 4: 'goedkope' elektrische cross-over maakt de Omoda 5 overbodig",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/omoda-4-elektrische-cross-over-is-omodas-nieuwste-instapper-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -334,51 +377,6 @@
         "routine_product": [
           "nieuwe ",
           "uitvoering"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Het doek valt voor de populairste Polestar van Nederland: Polestar 2 uit productie",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/het-doek-valt-voor-de-belangrijkste-polestar-van-nederland-polestar-2-uit-productie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "polestar"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ook de nieuwe designbaas van Citroën en DS heeft ervaring bij Renault",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-de-nieuwe-designbaas-van-citroen-en-ds-heeft-ervaring-bij-renault/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Rafael Nadal mag zijn nieuwe Kia niet wassen en mag er ook niet mee rijden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/een-kia-voor-rafael-nadal-maar-hij-kan-er-niet-mee-rijden-en-mag-hem-ook-niet-wassen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
         ]
       }
     }

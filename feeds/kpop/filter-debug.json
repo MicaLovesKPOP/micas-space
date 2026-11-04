@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-04T07:28:15.233179+00:00",
+  "generated_at": "2026-11-04T15:46:05.035306+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 33
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,22 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Former 4minute member Jeon Ji-yoon to marry on Nov. 22",
+      "link": "https://www.koreaherald.com/article/10926148",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Can Rescene sustain its breakout success with ‘Pulse?'",
+      "link": "https://www.koreaherald.com/article/10926047",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Babymonster tops 100m views with ‘Deserve’ music video",
@@ -299,7 +315,23 @@
     },
     {
       "source": "Music Business Worldwide",
-      "title": "‘Supercharged’ royalties, Downtown’s margins, and cost cuts: What I learned from UMG’s Q3 earnings call",
+      "title": "SM Entertainment’s Q3 revenues fall 9.5% YoY to $205M as album and concert revenue tumbles",
+      "link": "https://www.musicbusinessworldwide.com/sm-entertainments-q3-revenues-fall-9-5-yoy-to-205m-as-album-and-concert-revenue-tumbles/",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Reservoir generated $49.9M in calendar Q3, up 10% YoY, as it raises full-year guidance",
+      "link": "https://www.musicbusinessworldwide.com/reservoir-generated-49-9m-in-calendar-q3-up-10-yoy-as-it-raises-full-year-guidance/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "‘Supercharged’ royalties, Downtown’s margins, and cost cuts: What I learned from UMG’s Q3 earnings",
       "link": "https://www.musicbusinessworldwide.com/supercharged-downtowns-margins-and-more-cost-cuts-what-i-learned-from-umgs-q3-earnings/",
       "keep": false,
       "category": null,
@@ -362,20 +394,12 @@
       "reason": "legal story unrelated to contracts/agency business/artist rights"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Alphabet shareholder sues Sundar Pichai and 12 others over training Google’s AI, including Lyria, on copyrighted works",
-      "link": "https://www.musicbusinessworldwide.com/alphabet-shareholder-sues-sundar-pichai-and-12-others-over-training-googles-ai-including-lyria-on-copyrighted-works/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Live Nation’s Ticketmaster brings festival ticketing subsidiary Front Gate Tickets into CashorTrade face-value resale partnership",
-      "link": "https://www.musicbusinessworldwide.com/live-nations-ticketmaster-brings-festival-ticketing-subsidiary-front-gate-tickets-into-cashortrade-face-value-resale-partnership/",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
+      "source": "Soompi Music",
+      "title": "SM Announces Comeback Lineup For 1st Quarter Of 2027",
+      "link": "https://www.soompi.com/article/1884192wpp/sm-announces-comeback-lineup-for-1st-quarter-of-2027",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -651,7 +675,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ZEROBASEONE Unit EMP Shares Album Sampler For Digital Single “OFF script”",
+      "title": "Watch: ZEROBASEONE’s EMP Goes From Zero To One At Full Speed In “RUN” MV With Dynamicduo",
       "link": "https://www.soompi.com/article/1881061wpp/zerobaseone-unit-emp-announces-digital-single-run-with-dynamicduo",
       "keep": false,
       "category": null,
@@ -848,14 +872,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "NEXZ Announces 2027 Dates And Cities For 1st Asia Tour “SAUCIN’ THE WORLD”",
-      "link": "https://www.soompi.com/article/1879435wpp/nexz-announces-2027-dates-and-cities-for-1st-asia-tour-saucin-the-world",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Celeb",
@@ -1521,6 +1537,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 22,
-  "final_items": 19
+  "candidate_items": 23,
+  "final_items": 20
 }

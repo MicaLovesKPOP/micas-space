@@ -1,10 +1,157 @@
 {
-  "generated_at": "2026-11-05T08:28:37.461658+00:00",
+  "generated_at": "2026-11-05T16:48:20.561177+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 20,
+  "dropped_items": 5,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze drie BMW 3-serie occasions met zescilinder kosten samen iets meer dan de helft van een nieuwe",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-drie-bmw-3-serie-occasions-met-zescilinder-kosten-samen-iets-meer-dan-de-helft-van-een-nieuwe-m/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Uitstellen ID Golf lijkt vooral tactische beslissing ivm 2035'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/uitstellen-id-golf-lijkt-vooral-tactische-beslissing-ivm-2035/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Volvo EX90: Volvo's grootste elektrische SUV als Black Edition",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volvo-ex90-volvos-grootste-elektrische-suv-als-black-edition/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Waarom Ron en andere Toyota- en Lexus-rijders met hoge kilometerstanden zaterdag naar Keulen moeten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/waarom-ron-en-al-die-andere-toyota-en-lexus-rijders-met-hoge-kilometerstanden-zaterdag-naar-keulen-moeten-rijden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nederland lijkt steeds meer te vallen voor Chinese auto's, maar niet elk merk profiteert",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/opmars-van-de-chinese-auto-in-nederland-diverse-giga-groeiers/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Toezichthouder wil dat tankstations verplicht data over brandstofprijs delen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/acm-wil-dat-tankstations-verplicht-data-over-brandstofprijs-delen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Twintig jaar Volvo C30: de eigenwijze Zweed met de glazen achterklep",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/twintig-jaar-volvo-c30-de-eigenwijze-zweed-met-de-glazen-achterklep/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Je elektrische auto thuis opladen met zonnestroom blijkt minder voordelig",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/je-elektrische-auto-thuis-opladen-met-zonnestroom-wordt-minder-voordelig/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "laadpaal",
+          "laden met"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "De elektrische AMG GT 4-Door rijdt geweldig, Mercedes-AMG vindt zich opnieuw uit als performancemerk",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-elektrische-amg-gt-4-door-rijdt-geweldig-mercedes-amg-vindt-zich-opnieuw-uit-als-performancemerk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Omoda 5: nieuwe voorkant maakt elektrische SUV veel langer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/omoda-5-nieuwe-voorkant-maakt-elektrische-suv-veel-langer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -230,151 +377,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Gerke (69) gaat zijn Opel Insignia inruilen: 'Tesla geeft er maar €150 voor, dat maakt me boos'",
-      "link": "https://www.autoweek.nl/autotests/artikel/gerke-69-gaat-zijn-opel-insignia-inruilen-tesla-geeft-er-maar-e150-voor-dat-maakt-me-boos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze cross-over avant la lettre-Golf stijgt ver boven andere versies uit en staat op Rallye-wielen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-cross-over-avant-la-lettre-golf-die-ver-boven-andere-versies-uitstijgt-staat-op-wielen-van-een-andere-felbegeerde-golf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Voor wat er voor deze Ferrari is betaald koop je 856 Dacia's!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-het-bedrag-dat-betaald-is-voor-deze-ferrari-koop-je-856-dacias-spring/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "11.000 Opels krijgen per direct rijverbod: Stellantis breidt stop-drive maatregel uit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/11-000-opels-krijgen-per-direct-rijverbod-stellantis-breidt-stop-drive-maatregel-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "terugroep",
-          "verbod"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dankzij BMW Alpina krijgt de vernieuwde 7-serie wél een V8",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dankzij-bmw-alpina-krijgt-de-vernieuwde-7-serie-wel-een-v8/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "vernieuwde "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Terugroepactie voor Toyota RAV4: aandrijving kan stilvallen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/terugroepactie-voor-toyota-rav4-plug-in-hybride-aandrijving-kan-stilvallen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "terugroep"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen Amarok naar Nederland: pick-up met dikke V6 dieselmotor!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-amarok-naar-nederland-pick-up-met-dikke-v6-dieselmotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs blijft dalen en ligt inmiddels ruim 20 cent onder recordprijs",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-blijft-dalen-al-ruim-20-cent-onder-recordprijs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "record"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Duitse autoleverancier Schaeffler schrapt duizenden banen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/duitse-autoleverancier-schaeffler-schrapt-duizenden-banen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "schrapt"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met deze Toyota's ben je klaar voor elke horrorwinter",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-toyotas-ben-je-klaar-voor-elke-terrorhefst-en-horrorwinter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

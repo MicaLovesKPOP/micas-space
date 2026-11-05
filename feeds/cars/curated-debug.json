@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T01:26:21.826481+00:00",
+  "generated_at": "2026-11-05T08:28:41.898856+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 22
+      "items": 23
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Blijf weg uit de regio Rotterdam (en niet vanwege het verkeer)",
+      "link": "https://www.autoblog.nl/nieuws/opgepast-in-deze-regio-gaan-auto-inbraken-door-het-dak",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Politie plukt dubieuze Porsche van de weg",
+      "link": "https://www.autoblog.nl/nieuws/politie-plukt-dubieuze-porsche-van-de-weg",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -370,32 +394,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Goed nieuws: het gaat fantastisch bij Ferrari!",
-      "link": "https://www.autoblog.nl/nieuws/ferrari-verkoopt-minder-auto-s-maar-pakt-toch-gigantische-winsten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "BMW ziet winst verdampen en neemt grote maatregel",
-      "link": "https://www.autoblog.nl/nieuws/bmw-ziet-winst-verdampen-en-neemt-grote-maatregel",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "verkoopcijfers"
-        ]
       }
     },
     {
@@ -1133,6 +1131,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 78,
+  "output_items": 78
 }

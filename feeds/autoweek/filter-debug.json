@@ -1,10 +1,53 @@
 {
-  "generated_at": "2026-11-05T01:26:16.626483+00:00",
+  "generated_at": "2026-11-05T08:28:37.461658+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Toyota verhoogt winstverwachting door sterke vraag naar hybrides",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-verhoogt-winstverwachting-door-sterke-vraag-naar-hybrides/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs daalt verder en duikt naar laagste niveau in vier maanden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-daalt-verder-en-duikt-naar-laagste-niveau-in-vier-maanden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Benzineauto's rijden bijna zes keer zoveel als elektrische auto's",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/autos-in-nederland-rijden-in-totaal-meer-kilometers-maar-gemiddeld-juist-minder-per-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -332,52 +375,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Eerst wilde niemand een VinFast, nu zijn er opeens honderden geregistreerd",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/eerst-wilde-helemaal-niemand-een-vinfast-nu-verslaat-de-vf6-de-peugeot-2008/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe BMW 3-serie op benzine nog altijd leuker dan EV, maar ...",
-      "link": "https://www.autoweek.nl/autotests/artikel/bmw-3-serie-op-benzine-nog-altijd-leuker-dan-ev-maar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Vijf modellen van Toyota krijgen een nieuwe uitvoering",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vijf-modellen-van-toyota-krijgen-een-nieuwe-uitvoering/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe ",
-          "uitvoering"
-        ]
       }
     }
   ]

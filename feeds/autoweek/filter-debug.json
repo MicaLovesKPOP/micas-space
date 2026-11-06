@@ -1,14 +1,109 @@
 {
-  "generated_at": "2026-11-06T10:45:10.940996+00:00",
+  "generated_at": "2026-11-06T17:55:09.714708+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 21,
-  "dropped_items": 4,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Dit is waarom auto's volgend jaar duurder worden",
+      "title": "Met deze occasions van €1.000 kom je goedkoop de winter door",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-occasions-van-e1-000-kom-je-goedkoop-de-winter-door/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volvo C30: 'Geen grijze muis, maar een betaalbare auto met karakter'",
+      "link": "https://www.autoweek.nl/autotests/artikel/volvo-c30-geen-grijze-muis-maar-een-betaalbare-auto-met-karakter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla stopt al met de productie van de Cybertruck",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-stopt-al-met-de-productie-van-de-cybertruck-in-texas/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo hard wordt de Mercedes-AMG C63 S E Performance afgestraft op de occasionmarkt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-hard-wordt-de-mercedes-amg-c-63-s-e-performance-afgestraft-op-de-occasionmarkt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Subaru heeft nu al zijn beste jaar sinds 2021, en het jaar is nog niet eens voorbij",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/subaru-heeft-nu-al-zijn-beste-jaar-sinds-2021-en-2026-is-nog-niet-eens-voorbij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze grote Toyota is vernieuwd en breekt aan één kant met alles wat je van Toyota kent",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-grote-toyota-is-vernieuwd-en-breekt-aan-een-kant-met-alles-wat-je-van-toyota-kent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Op honderden parkeerplekken kun je gratis parkeren omdat het stroomnet vol is",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/op-honderden-parkeerplekken-kun-je-gratis-parkeren-omdat-het-stroomnet-vol-is/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nieuwe auto's worden volgend jaar nog duurder: dit is waarom",
       "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-autos-volgend-jaar-duurder-worden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -17,7 +112,9 @@
         "boring": [
           "duurder"
         ],
-        "routine_product": []
+        "routine_product": [
+          "nieuwe "
+        ]
       }
     },
     {
@@ -66,7 +163,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "'Uitstellen ID Golf lijkt vooral tactische beslissing ivm 2035'",
+      "title": "'Uitstellen ID Golf lijkt vooral tactische beslissing in verband met 2035'",
       "link": "https://www.autoweek.nl/autonieuws/artikel/uitstellen-id-golf-lijkt-vooral-tactische-beslissing-ivm-2035/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -262,117 +359,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Omoda 4: 'goedkope' elektrische cross-over maakt de Omoda 5 overbodig",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/omoda-4-elektrische-cross-over-is-omodas-nieuwste-instapper-voor-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [
-          "verbod"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Zet je grote licht eens uit': als het aan Mercedes ligt gaan auto's via ruiten communiceren",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zet-je-grote-licht-eens-uit-als-het-aan-mercedes-benz-ligt-gaan-autos-via-achterruiten-communiceren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ondanks tekort aan chauffeurs maakt Uber fors meer winst",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ondanks-tekort-aan-chauffeurs-maakt-uber-fors-meer-winst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mazda stopt in Nederland niet met innovatieve SkyActiv-X motoren",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mazda-stopt-in-nederland-niet-met-innovatieve-skyactiv-x-motoren/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "schrapt"
-        ],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Honda Alpha is nieuwe elektrische SUV met opvallend uiterlijk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-alpha-is-nieuwe-elektrische-suv-met-opvallend-uiterlijk-en-een-grote-maar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Het is straks over en uit voor de Range Rover Evoque en Velar",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/het-is-straks-over-en-uit-voor-de-range-rover-evoque-en-velar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Toyota Celica wordt eerst een monsterlijke rallyauto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-toyota-celica-wordt-eerst-een-monsterlijke-rallyauto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "rally"
-        ],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

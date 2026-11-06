@@ -1,10 +1,53 @@
 {
-  "generated_at": "2026-11-06T02:48:16.784294+00:00",
+  "generated_at": "2026-11-06T10:45:10.940996+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 20,
-  "dropped_items": 5,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is waarom auto's volgend jaar duurder worden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-autos-volgend-jaar-duurder-worden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De snelste auto ter wereld is nu nóg sneller: super-Chinees raast de 500 km/h voorbij",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-snelste-auto-ter-wereld-is-nu-nog-sneller-super-chinees-raast-de-500-km-h-voorbij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "hypercar"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "ZF werkt aan compacte en lichte elektromotor voor de middenklasse",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zf-werkt-aan-compacte-en-lichte-elektromotor-voor-de-middenklasse/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -327,53 +370,6 @@
           "rally"
         ],
         "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "De nieuwe BMW 3-serie is er nu ook in een maat groter: langer dan een i4!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-3-serie-is-er-nu-ook-in-een-maat-groter-lange-dan-een-i4/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "i4"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "BMW verlaagt winstverwachting voor tweede keer dit jaar",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-verlaagt-winstverwachting-voor-tweede-keer-dit-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Eend is goedkoper dan een nieuwe Citroën 2CV en is zo fris als een hoentje",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-minder-dan-de-prijs-van-een-nieuwe-citroen-2cv-koop-je-ook-een-heel-mooie-echte-2cv/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
         "routine_product": [
           "nieuwe "
         ]

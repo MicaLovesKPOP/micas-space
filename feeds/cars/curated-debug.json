@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T02:48:21.921177+00:00",
+  "generated_at": "2026-11-06T10:45:16.739321+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 20
+      "items": 21
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,90 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Vanaf nu rij je met geknepen billen achter Jaecoo's en Omodo's",
+      "link": "https://www.autoblog.nl/nieuws/jaecoo-5-verliest-achterwiel-roept-vragen-op-over-bouwkwaliteit-chinese-auto-s",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Mercedes-AMG geeft gratis speciale SL weg, maar maakt een bijzondere keuze",
+      "link": "https://www.autoblog.nl/nieuws/mercedes-amg-geeft-gratis-speciale-sl-weg-maar-maakt-een-bijzondere-keuze",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "De snelste auto ter wereld breekt officieel door de grens van 500 km/u",
+      "link": "https://www.autoblog.nl/nieuws/de-snelste-auto-ter-wereld-breekt-officieel-door-de-grens-van-500-km-u",
+      "details": {
+        "ev": [
+          "byd"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Nieuw onderzoek: op deze dag van de week staan de meeste files",
+      "link": "https://www.autoblog.nl/nieuws/pas-op-op-deze-dagen-van-de-week-staan-de-meeste-files-in-nederland",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hamilton haalt nog maar een keer uit naar Ferrari-teamgenoot Leclerc",
+      "link": "https://www.autoblog.nl/nieuws/hamilton-haalt-nog-maar-een-keer-uit-naar-ferrari-teamgenoot-leclerc",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Rockstar deelt nieuwe beelden van GTA 6 (met easter egg?)",
+      "link": "https://www.autoblog.nl/nieuws/rockstar-deelt-nieuwe-beelden-van-gta-6-met-easter-egg",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Slecht nieuws voor automobilist: reistijdverlies kan bijna verdubbelen!",
+      "link": "https://www.autoblog.nl/nieuws/onderzoek-nederlandse-automobilisten-gaan-nog-meer-in-de-file-staan",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -313,91 +397,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Onderzoek toont aan dat vooral rijk Nederland overstapt op elektrisch rijden",
-      "link": "https://www.autoblog.nl/nieuws/onderzoek-naar-nederlands-ev-bezit-toont-aan-ev-is-voor-rijke-lui",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Elon Musk heeft niet zijn zin gekregen en Tesla krijgt nu klappen",
-      "link": "https://www.autoblog.nl/nieuws/tesla-en-elon-musk-krijgen-klappen-door-verkiezingsuitslag",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nederlanders leggen samen een absurd aantal kilometers af",
-      "link": "https://www.autoblog.nl/nieuws/nederland-rijdt-meer-dan-ooit-maar-de-gemiddelde-auto-juist-minder",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze auto krijgt al na twee jaar een facelift",
-      "link": "https://www.autoblog.nl/nieuws/deze-auto-krijgt-al-na-twee-jaar-een-facelift",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Blijf weg uit de regio Rotterdam (en niet vanwege het verkeer)",
-      "link": "https://www.autoblog.nl/nieuws/opgepast-in-deze-regio-gaan-auto-inbraken-door-het-dak",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Politie plukt dubieuze Porsche van de weg",
-      "link": "https://www.autoblog.nl/nieuws/politie-plukt-dubieuze-porsche-van-de-weg",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Dit zijn de tien belangrijkste EV’s van 2026",
-      "link": "https://www.autoblog.nl/nieuws/dit-zijn-de-tien-belangrijkste-ev-s-van-2026",
-      "details": {
-        "ev": [
-          "ev"
-        ]
       }
     },
     {
@@ -747,6 +746,13 @@
       "source": "PistonHeads Shed of the Week",
       "keep": true,
       "reason": "Shed of the Week",
+      "title": "Renault Clio 1.2 | Shed of the Week",
+      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/renault-clio-1-2--shed-of-the-week/51873"
+    },
+    {
+      "source": "PistonHeads Shed of the Week",
+      "keep": true,
+      "reason": "Shed of the Week",
       "title": "BMW 525i SE Touring | Shed of the Week",
       "link": "https://www.pistonheads.com/regulars/ph-features-sheds/bmw-525i-se-touring--shed-of-the-week/51845"
     },
@@ -840,13 +846,6 @@
       "reason": "Shed of the Week",
       "title": "Dacia Duster 1.6 | Shed of the Week",
       "link": "https://www.pistonheads.com/regulars/ph-features-sheds/dacia-duster-1-6--shed-of-the-week/51493"
-    },
-    {
-      "source": "PistonHeads Shed of the Week",
-      "keep": true,
-      "reason": "Shed of the Week",
-      "title": "Audi A5 Sport Coupe | Shed of the Week",
-      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/audi-a5-sport-coupe--shed-of-the-week/51462"
     },
     {
       "source": "PistonHeads Spotted",
@@ -1123,6 +1122,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 76,
+  "output_items": 76
 }

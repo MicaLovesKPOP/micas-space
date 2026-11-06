@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T22:51:09.457160+00:00",
+  "generated_at": "2026-11-06T03:24:47.950370+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 32
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,38 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Illit’s ‘jellyous’ music video reaches 100m on YouTube",
+      "link": "https://www.koreaherald.com/article/10928461",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "NCT Dream to unveil new tracks in advance at listening session",
+      "link": "https://www.koreaherald.com/article/10928449",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Blackpink’s Jennie, Jisoo sing animation soundtracks",
+      "link": "https://www.koreaherald.com/article/10928424",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Stray Kids’ LeeKnow to enlist early next year.",
+      "link": "https://www.koreaherald.com/article/10928221",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Katseye’s first arena tour tested by repeated health absences",
@@ -819,6 +851,14 @@
     },
     {
       "source": "Soompi Celeb",
+      "title": "Actor Do Sang Woo And Model Park Ji Hye To Tie The Knot",
+      "link": "https://www.soompi.com/article/1884527wpp/actor-do-sang-woo-and-model-park-ji-hye-to-tie-the-knot",
+      "keep": false,
+      "category": null,
+      "reason": "Soompi Celeb: acting/non-music item"
+    },
+    {
+      "source": "Soompi Celeb",
       "title": "MONSTA X’s Shownu To Sit Out Upcoming Schedules Due To Herniated Disc",
       "link": "https://www.soompi.com/article/1884497wpp/monsta-xs-shownu-to-sit-out-upcoming-schedules-due-to-herniated-disc",
       "keep": false,
@@ -1290,12 +1330,12 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "October Girl Group Member Brand Reputation Rankings Announced",
-      "link": "https://www.soompi.com/article/1879181wpp/october-girl-group-member-brand-reputation-rankings-announced-8",
+      "source": "Yonhap K-pop",
+      "title": "Jennie sings soundtrack for new Netflix animation 'Steps'",
+      "link": "https://en.yna.co.kr/view/AEN20261106003700315?section=culture/k-pop",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: brand reputation"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Yonhap K-pop",
@@ -1448,14 +1488,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Illit's 'Magnetic' becomes fastest debut song by K-pop group to reach 900 mln streams",
-      "link": "https://en.yna.co.kr/view/AEN20261020005900315?section=culture/k-pop",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
@@ -1495,6 +1527,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 23,
-  "final_items": 18
+  "candidate_items": 22,
+  "final_items": 17
 }

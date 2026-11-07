@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T09:58:14.211763+00:00",
+  "generated_at": "2026-11-07T16:22:41.038929+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 22
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,94 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Kopen bij een Nederlands autobedrijf, waarom zou je",
+      "link": "https://www.autoblog.nl/nieuws/auto-importeren-of-kopen-bij-een-nederlands-autobedrijf",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Iedereen is deze luxe afschrijver vergeten, zou jij ’m doen?",
+      "link": "https://www.autoblog.nl/nieuws/koop-dit-vergeten-luxe-afschrijvingskanon-op-marktplaats",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Autoblog Podcast #S3E04: Cybertruck weg + nieuw snelheidsrecord",
+      "link": "https://www.autoblog.nl/video/autoblog-podcast-s3e04-cybertruck-weg-nieuw-snelheidsrecord",
+      "details": {
+        "ev": [
+          "bev",
+          "byd",
+          "elektrisch",
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla’s zijn onbetrouwbare krengen, aldus de Belgische APK",
+      "link": "https://www.autoblog.nl/nieuws/belgische-autokeuring-tesla-scoort-slecht-op-betrouwbaarheid",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Benzineprijs daalt in moordend tempo, nu tanken of wachten?",
+      "link": "https://www.autoblog.nl/nieuws/benzineprijs-daalt-hard-nu-tanken-of-nog-even-wachten",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Zware EV's slopen het wegdek, aldus bouwer van zware EV's",
+      "link": "https://www.autoblog.nl/nieuws/20-procent-zwaardere-ev-s-zorgen-voor-twee-keer-zoveel-schade-aan-wegdek",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "U parkeert op een treinovergang, mag dat?",
+      "link": "https://www.autoblog.nl/video/u-parkeert-op-een-treinovergang-mag-dat",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -298,90 +386,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Trailer met BMW M2 heeft eigen wil",
       "link": "https://www.autoblog.nl/video/trailer-met-bmw-m2-heeft-eigen-wil",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Duitse maatregel voor goedkopere brandstof zet de deur op voor ''afzetterij''",
-      "link": "https://www.autoblog.nl/nieuws/zo-wil-duitsland-de-benzineprijs-vanaf-1-januari-2027-verlagen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Vanaf nu rij je met geknepen billen achter Jaecoo's en Omodo's",
-      "link": "https://www.autoblog.nl/nieuws/jaecoo-5-verliest-achterwiel-roept-vragen-op-over-bouwkwaliteit-chinese-auto-s",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Mercedes-AMG geeft gratis speciale SL weg, maar maakt een bijzondere keuze",
-      "link": "https://www.autoblog.nl/nieuws/mercedes-amg-geeft-gratis-speciale-sl-weg-maar-maakt-een-bijzondere-keuze",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "De snelste auto ter wereld breekt officieel door de grens van 500 km/u",
-      "link": "https://www.autoblog.nl/nieuws/de-snelste-auto-ter-wereld-breekt-officieel-door-de-grens-van-500-km-u",
-      "details": {
-        "ev": [
-          "byd"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nieuw onderzoek: op deze dag van de week staan de meeste files",
-      "link": "https://www.autoblog.nl/nieuws/pas-op-op-deze-dagen-van-de-week-staan-de-meeste-files-in-nederland",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Hamilton haalt nog maar een keer uit naar Ferrari-teamgenoot Leclerc",
-      "link": "https://www.autoblog.nl/nieuws/hamilton-haalt-nog-maar-een-keer-uit-naar-ferrari-teamgenoot-leclerc",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Rockstar deelt nieuwe beelden van GTA 6 (met easter egg?)",
-      "link": "https://www.autoblog.nl/nieuws/rockstar-deelt-nieuwe-beelden-van-gta-6-met-easter-egg",
       "details": {
         "feature": [],
         "tags": [],
@@ -1111,6 +1115,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 79,
+  "output_items": 79
 }

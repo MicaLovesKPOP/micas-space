@@ -1,10 +1,79 @@
 {
-  "generated_at": "2026-11-07T09:58:10.577395+00:00",
+  "generated_at": "2026-11-07T16:22:37.085545+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Mazda luisterde naar kritiek en verbeterde veel, maar niet alles op de 6e",
+      "link": "https://www.autoweek.nl/autotests/artikel/mazda-luisterde-naar-kritiek-en-verbeterde-veel-maar-niet-alles-op-de-6e/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Volkswagen ID Golf: elektrisch en revolutionair conventioneel",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id-golf-elektrisch-en-revolutionair-conventioneel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Er staat ons een zwarte winter te wachten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/er-staat-ons-een-zwarte-winter-te-wachten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zoveel verschillende laadtarieven zien we op reis naar Frankrijk maar op bestemming laden we gratis",
+      "link": "https://www.autoweek.nl/autotests/artikel/zoveel-verschillende-laadtarieven-zien-we-op-reis-naar-frankrijk-maar-op-bestemming-laden-we-gratis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dit is waarom deze restomod-911's 2 miljoen dollar kosten en je er ook nog 2 jaar op moet wachten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-deze-restomod-911s-2-miljoen-dollar-kosten-en-je-er-ook-nog-2-jaar-op-moet-wachten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "restomod"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -283,83 +352,6 @@
           "laadpaal",
           "laden met"
         ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "De elektrische AMG GT 4-Door rijdt geweldig, Mercedes-AMG vindt zich opnieuw uit als performancemerk",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-elektrische-amg-gt-4-door-rijdt-geweldig-mercedes-amg-vindt-zich-opnieuw-uit-als-performancemerk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "performance"
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Omoda 5: nieuwe voorkant maakt elektrische SUV veel langer",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/omoda-5-nieuwe-voorkant-maakt-elektrische-suv-veel-langer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Toyota verhoogt winstverwachting door sterke vraag naar hybrides",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-verhoogt-winstverwachting-door-sterke-vraag-naar-hybrides/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs daalt verder en duikt naar laagste niveau in vier maanden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-daalt-verder-en-duikt-naar-laagste-niveau-in-vier-maanden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Benzineauto's rijden bijna zes keer zoveel als elektrische auto's",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/autos-in-nederland-rijden-in-totaal-meer-kilometers-maar-gemiddeld-juist-minder-per-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
         "routine_product": []
       }
     }

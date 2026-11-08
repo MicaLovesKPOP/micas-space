@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:15:10.381087+00:00",
+  "generated_at": "2026-11-08T18:29:19.074972+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,68 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "George Russell blundert: spint bij het uitkomen van de pits",
+      "link": "https://www.autoblog.nl/nieuws/lol-george-russell-spint-in-de-pitstraat",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Magische Max: Verstappen pakt 14 (!) plekken in eerste 5 ronden",
+      "link": "https://www.autoblog.nl/nieuws/magische-max-verstappen-pakt-14-plekken-in-eerste-5-ronden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Vergeet Rolls-Royce, dit is de Yangwang Altior!",
+      "link": "https://www.autoblog.nl/nieuws/vergeet-rolls-royce-dit-is-de-yangwang-altior",
+      "details": {
+        "ev": [
+          "byd"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze pareltjes zijn in de afgelopen maand op Nederlands kenteken verschenen",
+      "link": "https://www.autoblog.nl/nieuws/er-zijn-vorige-maand-12-auto-s-van-1-000-000-op-nederlands-kenteken-gezet",
+      "details": {
+        "feature": [],
+        "tags": [
+          "oldtimers"
+        ],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "‘Slimme’ truc om boetes te omzeilen pakt totaal verkeerd uit",
+      "link": "https://www.autoblog.nl/nieuws/slimme-truc-om-boetes-te-omzeilen-pakt-totaal-verkeerd-uit",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -333,61 +395,6 @@
         "ev": [
           "actieradius"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": true,
-      "reason": "Autoblog mijn auto",
-      "title": "Leesvoer: Pascal zocht drie jaar en vond zijn handgeschakelde V10-droomauto",
-      "link": "https://www.autoblog.nl/nieuws/leesvoer-deze-bmw-m6-heeft-iets-bijzonders-wat-je-bijna-nooit-tegenkomt"
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "F1 Grand Prix van Brazilië: Hoe laat begint de race en alles wat je moet weten!",
-      "link": "https://www.autoblog.nl/nieuws/f1-grand-prix-van-brazilie-hoe-laat-begint-de-race-en-alles-wat-je-moet-weten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Pijnlijk: deze Black Series is gecrasht met 4.058 km op de klok",
-      "link": "https://www.autoblog.nl/nieuws/pijnlijk-deze-black-series-is-gecrasht-met-4-058-km-op-de-klok",
-      "details": {
-        "ev": [
-          "electric"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Waarom een SUV kopen als je ook dít kan kopen?",
-      "link": "https://www.autoblog.nl/video/waarom-een-suv-kopen-als-je-ook-dit-kan-kopen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Helaas: enige twee Nederlandse Koenigseggs zijn allebei vertrokken",
-      "link": "https://www.autoblog.nl/nieuws/helaas-duurste-auto-van-nederland-is-geexporteerd",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -989,15 +996,29 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Why Is Carbon Fiber So Expensive?",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/why-is-carbon-fiber-so-expensive/"
+      "title": "Piston Slap: ECE-ing Out a Win From Headlight Regulations",
+      "link": "https://www.hagerty.com/media/advice/piston-slap/piston-slap-ece-ing-out-a-win-from-headlight-regulations/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Andrew Newton",
-      "link": "https://www.hagerty.com/media/author/andrew-newton/"
+      "title": "Sajeev Mehta",
+      "link": "https://www.hagerty.com/media/author/sajeev-mehta/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Piston Slap",
+      "link": "https://www.hagerty.com/media/tags/piston-slap/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Headlights",
+      "link": "https://www.hagerty.com/media/tags/headlights/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1029,31 +1050,17 @@
     },
     {
       "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Manual Transmission",
-      "link": "https://www.hagerty.com/media/tags/manual-transmission/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Three Trade-offs I Made Building My 400-horse C4 Corvette",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/three-trade-offs-i-made-building-my-400-horse-c4-corvette/"
+      "title": "Why Is Carbon Fiber So Expensive?",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/why-is-carbon-fiber-so-expensive/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Kyle Smith",
-      "link": "https://www.hagerty.com/media/author/kyle-smith/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": true,
-      "reason": "maintenance & tech",
-      "title": "Watch How Formula 1 Cars Are Serviced Between Races",
-      "link": "https://www.hagerty.com/media/motorsports/watch-how-formula-1-cars-are-serviced-between-races/"
+      "title": "Andrew Newton",
+      "link": "https://www.hagerty.com/media/author/andrew-newton/"
     },
     {
       "source": "Hagerty Buyer's Guides",
@@ -1113,6 +1120,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 81,
-  "output_items": 81
+  "input_items": 79,
+  "output_items": 79
 }

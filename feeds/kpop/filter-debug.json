@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T22:28:36.149817+00:00",
+  "generated_at": "2026-11-09T01:57:57.166822+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 29
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Illit’s ‘Tick-Tack’ music video exceeds 100m YouTube views",
+      "link": "https://www.koreaherald.com/article/10930325",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Hybe defends NewJeans' contracts amid scrutiny over leaked agreements",
@@ -339,6 +347,14 @@
     },
     {
       "source": "Soompi Music",
+      "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
+      "link": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard, world albums chart"
+    },
+    {
+      "source": "Soompi Music",
       "title": "ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN”",
       "link": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even",
       "keep": false,
@@ -376,14 +392,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart",
-      "link": "https://www.soompi.com/article/1885061wpp/plave-stray-kids-cortis-twice-enhypen-illit-bts-boynextdoor-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: billboard, world albums chart"
     },
     {
       "source": "Soompi Music",
@@ -448,6 +456,14 @@
       "keep": false,
       "category": null,
       "reason": "teaser/rollout post"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart",
+      "link": "https://www.soompi.com/article/1885061wpp/plave-stray-kids-cortis-twice-enhypen-illit-bts-boynextdoor-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard, world albums chart"
     },
     {
       "source": "Soompi Music",
@@ -808,14 +824,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: takes 1st win"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Soompi’s K-Pop Music Chart 2026, October Week 4",
-      "link": "https://www.soompi.com/article/1881142wpp/soompis-k-pop-music-chart-2026-october-week-4",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: music chart"
     },
     {
       "source": "Soompi Celeb",
@@ -1299,6 +1307,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "JYP's new K-pop boy band oftheblue to debut next year",
+      "link": "https://en.yna.co.kr/view/AEN20261109002500315?section=culture/k-pop",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "Jennie sings soundtrack for new Netflix animation 'Steps'",
       "link": "https://en.yna.co.kr/view/AEN20261106003700315?section=culture/k-pop",
       "keep": false,
@@ -1448,14 +1464,6 @@
       "keep": true,
       "category": "Contract / agency",
       "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "'Dracula' featuring Jennie ties its peak on Billboard Hot 100",
-      "link": "https://en.yna.co.kr/view/AEN20261021002600315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: billboard"
     }
   ],
   "duplicates": [
@@ -1474,6 +1482,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 19,
-  "final_items": 17
+  "candidate_items": 20,
+  "final_items": 18
 }

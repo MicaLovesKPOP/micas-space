@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T09:44:12.342511+00:00",
+  "generated_at": "2026-11-09T20:07:52.091898+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 36
+      "items": 28
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "K-pop industry group pushes back on NYT report over artist contracts",
+      "link": "https://www.koreaherald.com/article/10931196",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Blackpink’s Jisoo signs with WME for worldwide representation",
@@ -250,73 +258,49 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "Big Bang becomes first K-pop group to headline Sydney’s Accor Stadium",
-      "link": "https://www.koreaherald.com/article/10924315",
+      "source": "Music Business Worldwide",
+      "title": "Billboard changes ‘free’ vs. paid streaming formula on charts – and YouTube is bringing its data back.",
+      "link": "https://www.musicbusinessworldwide.com/billboard-changes-free-vs-paid-streaming-formula-on-charts-and-youtube-is-bringing-its-data-back/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Warner Music France fully acquires Délicieuse Musique, the Bordeaux-based label group with a roster of 1,200+ artists",
+      "link": "https://www.musicbusinessworldwide.com/warner-music-france-invests-in-delicieuse-musique-the-bordeaux-based-label-group-with-a-roster-of-1200-artists/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "SoundExchange’s unpaid royalties lawsuit against Music Choice heads back to court, more than seven years after it was filed",
+      "link": "https://www.musicbusinessworldwide.com/soundexchanges-unpaid-royalties-lawsuit-against-music-choice-heads-back-to-court-more-than-seven-years-after-it-was-filed/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Interscope strikes exclusive distribution and JV deal with Brazil’s Supernova Entertainment, signs rapper BK",
+      "link": "https://www.musicbusinessworldwide.com/interscope-strikes-exclusive-distribution-and-jv-deal-with-brazils-supernova-entertainment-signs-rapper-bk/",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "Shinee's Minho apologizes over marathon controversy",
-      "link": "https://www.koreaherald.com/article/10924241",
+      "source": "Music Business Worldwide",
+      "title": "JYP Entertainment sues distributor OneSync and its CEO, alleging they copied Stray Kids member HAN’s track and uploaded it to streaming services as ‘yungzzz’",
+      "link": "https://www.musicbusinessworldwide.com/jyp-entertainment-sues-distributor-onesync-and-its-ceo-alleging-they-copied-stray-kids-member-hans-track-and-uploaded-it-to-streaming-services-as-yungzzz/",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "legal story unrelated to contracts/agency business/artist rights"
     },
     {
-      "source": "Korea Herald",
-      "title": "And2ble’s 2nd EP logs 800,000 in first-week sales",
-      "link": "https://www.koreaherald.com/article/10924009",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: first-week sales"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Illit returns to Japan's FNS Music Festival for third year",
-      "link": "https://www.koreaherald.com/article/10924001",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Mark to express happiness on upcoming single",
-      "link": "https://www.koreaherald.com/article/10923988",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Seventeen’s Dino drops surprise single",
-      "link": "https://www.koreaherald.com/article/10923860",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Blackpink’s Jisoo tops iTunes charts in 28 regions with solo single",
-      "link": "https://www.koreaherald.com/article/10923759",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: itunes chart"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "BTS concerts in Taiwan, Indonesia to be screened at movie theaters in over 80 countries",
-      "link": "https://www.koreaherald.com/article/10923489",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "K-pop's growing alliance with streaming giants",
-      "link": "https://www.koreaherald.com/article/10923142",
+      "source": "Music Business Worldwide",
+      "title": "HYBE responds to NYT report on NewJeans contracts, says leaked agreements ‘are being used as a means to attack the K-pop industry’",
+      "link": "https://www.musicbusinessworldwide.com/hybe-responds-to-nyt-report-on-newjeans-contracts-says-leaked-agreements-are-being-used-as-a-means-to-attack-the-k-pop-industry/",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -354,52 +338,20 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Enhanced Games owner to acquire 77% of European promoter DEAG in all-stock deal valuing it at $115M",
-      "link": "https://www.musicbusinessworldwide.com/enhanced-games-owner-to-acquire-77-of-european-promoter-deag-in-all-stock-deal-valuing-it-at-115m/",
+      "source": "Soompi Music",
+      "title": "EXO’s Kai And Sehun Gear Up For Unit Debut As EXO-KASE With “Waking Up The City” Teaser",
+      "link": "https://www.soompi.com/article/1885364wpp/exos-kai-and-sehun-gear-up-for-unit-debut-as-exo-kase-with-waking-up-the-city-teaser",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "teaser/rollout post"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Musixmatch and DistroKid renew lyrics distribution partnership under multi-year deal",
-      "link": "https://www.musicbusinessworldwide.com/musixmatch-and-distrokid-renew-lyrics-distribution-partnership-under-multi-year-deal/",
+      "source": "Soompi Music",
+      "title": "Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP”",
+      "link": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Influence Media Partners completes acquisition of Anthem Entertainment’s catalogs in deal valued at over $600M",
-      "link": "https://www.musicbusinessworldwide.com/influence-media-partners-completes-acquisition-of-anthem-entertainments-catalogs-in-deal-valued-at-over-600m/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Kroger asks court to dismiss Sony Music’s social media ads lawsuit, citing Supreme Court’s Cox ruling",
-      "link": "https://www.musicbusinessworldwide.com/kroger-asks-court-to-dismiss-sony-musics-social-media-ads-lawsuit-citing-supreme-courts-cox-ruling/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Joie Manda’s Encore Recordings says it’s betting on the next generation of global stars from Africa and beyond, as Victony’s ‘SLICK’ crosses 130M streams",
-      "link": "https://www.musicbusinessworldwide.com/joie-mandas-encore-recordings-says-its-betting-on-the-next-generation-of-global-stars-from-africa-and-beyond-as-victonys-slick-crosses-130m-streams/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Skiddle secures first external investment in 25 years as Soho Square Capital takes minority stake",
-      "link": "https://www.musicbusinessworldwide.com/skiddle-secures-first-external-investment-in-25-years-as-soho-square-capital-takes-minority-stake/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: takes 2nd win"
     },
     {
       "source": "Soompi Music",
@@ -467,7 +419,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "EXO’s Doh Kyung Soo (D.O.) Announces November Return With 1st Teasers For “Darling”",
+      "title": "Update: Doh Kyung Soo Stars In Concept Photos For New Single “Darling”",
       "link": "https://www.soompi.com/article/1885060wpp/exos-doh-kyung-soo-d-o-announces-november-return-with-1st-teasers-for-darling",
       "keep": false,
       "category": null,
@@ -475,7 +427,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Watch: Girls’ Generation’s Taeyeon Announces Comeback Date With Teaser For “Unspecial”",
+      "title": "Update: Taeyeon Drops Promotion Schedule For Solo Studio Album “Unspecial”",
       "link": "https://www.soompi.com/article/1885057wpp/watch-girls-generations-taeyeon-announces-comeback-date-with-teaser-for-unspecial",
       "keep": true,
       "category": "Comeback / release",
@@ -859,27 +811,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: ENHYPEN Unveils Concept Film Starring Jungwon For “THE SIN : PARALLEL WORLD”",
+      "title": "Update: ENHYPEN Shares Concept Film Of Ni-ki For “THE SIN : PARALLEL WORLD”",
       "link": "https://www.soompi.com/article/1881313wpp/enhypen-announces-november-comeback-with-spinoff-single-the-sin-parallel-world",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: A2O LITE Takes 4th Win For “NEON” On “Inkigayo”; Performances By IVE, BABYMONSTER, NMIXX, And More",
-      "link": "https://www.soompi.com/article/1881316wpp/watch-a2o-lite-takes-4th-win-for-neon-on-inkigayo-performances-by-ive-babymonster-nmixx-and-more",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Red Velvet’s “Russian Roulette” Becomes Their 3rd MV To Hit 300 Million Views",
-      "link": "https://www.soompi.com/article/1881252wpp/red-velvets-russian-roulette-becomes-their-3rd-mv-to-hit-300-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Celeb",
@@ -1531,6 +1467,13 @@
       "category": "Legal / dispute"
     },
     {
+      "dropped": "Update: Taeyeon Drops Promotion Schedule For Solo Studio Album “Unspecial”",
+      "dropped_source": "Soompi Music",
+      "kept": "Red Velvet’s Wendy Announces November Comeback With Schedule For “Gleam Hour”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    },
+    {
       "dropped": "TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS",
       "dropped_source": "Soompi Celeb",
       "kept": "TWICE's Jihyo leaves JYP after 21 yrs to launch own agency",
@@ -1538,6 +1481,6 @@
       "category": "Contract / agency"
     }
   ],
-  "candidate_items": 21,
-  "final_items": 19
+  "candidate_items": 20,
+  "final_items": 17
 }

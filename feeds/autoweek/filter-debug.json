@@ -1,10 +1,81 @@
 {
-  "generated_at": "2026-11-09T01:56:56.306449+00:00",
+  "generated_at": "2026-11-09T09:40:23.969204+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 25,
-  "dropped_items": 0,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Grote zorgen bij Europees Parlement om BYD: 'Kijk of ze ook in EU veiligheidsrisico vormen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/grote-zorgen-bij-europees-parlement-om-byd-kijk-of-ze-ook-in-eu-veiligheidsrisico-vormen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "SGP wil pseudo-eindheffing versoepelen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/sgp-wil-pseudo-eindheffing-versoepelen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Rammetje: Ram Rampage is per 2027 ook voor Nederland interessant",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/rammetje-ram-rampage-is-per-2027-ook-voor-nederland-interessant/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Kantoren van BYD in Nederland binnengevallen om 'kloon' van Land Rover Defender",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kantoren-van-byd-in-nederland-binnengevallen-om-kloon-van-land-rover-defender/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Vrouw met met 'Blank' in kenteken krijgt 40.000 dollar aan boetes",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/vrouw-met-met-blank-in-kenteken-krijgt-40-000-dollar-aan-boetes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -269,77 +340,6 @@
       "reason": "non-EV car news",
       "title": "Subaru heeft nu al zijn beste jaar sinds 2021, en het jaar is nog niet eens voorbij",
       "link": "https://www.autoweek.nl/autonieuws/artikel/subaru-heeft-nu-al-zijn-beste-jaar-sinds-2021-en-2026-is-nog-niet-eens-voorbij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze grote Toyota is vernieuwd en breekt aan één kant met alles wat je van Toyota kent",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-grote-toyota-is-vernieuwd-en-breekt-aan-een-kant-met-alles-wat-je-van-toyota-kent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Op honderden parkeerplekken kun je gratis parkeren omdat het stroomnet vol is",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/op-honderden-parkeerplekken-kun-je-gratis-parkeren-omdat-het-stroomnet-vol-is/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe auto's worden volgend jaar nog duurder: dit is waarom",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-autos-volgend-jaar-duurder-worden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De snelste auto ter wereld is nu nóg sneller: super-Chinees raast de 500 km/h voorbij",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-snelste-auto-ter-wereld-is-nu-nog-sneller-super-chinees-raast-de-500-km-h-voorbij/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "hypercar"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "ZF werkt aan compacte en lichte elektromotor voor de middenklasse",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zf-werkt-aan-compacte-en-lichte-elektromotor-voor-de-middenklasse/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

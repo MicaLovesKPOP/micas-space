@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T01:57:02.642188+00:00",
+  "generated_at": "2026-11-09T09:40:29.332712+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 25
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,51 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Inval bij BYD in Nederland vanwege kopiëren Land Rover",
+      "link": "https://www.autoblog.nl/nieuws/inval-bij-byd-in-nederland-vanwege-kopieren-land-rover",
+      "details": {
+        "ev": [
+          "byd"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla heeft slecht nieuws voor iedereen die een Cybertruck bestelde",
+      "link": "https://www.autoblog.nl/nieuws/tesla-kan-niet-alle-cybertrucks-meer-bouwen-en-moet-geld-teruggeven",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "BMW iX3 maakt gehakt van Mercedes GLC en Volvo EX60",
+      "link": "https://www.autoblog.nl/nieuws/zo-veel-kilometer-rij-je-echt-met-de-bmw-ix3",
+      "details": {
+        "ev": [
+          "bmw ix",
+          "ix3",
+          "laadpaal"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog lijstje ",
+      "title": "Het kan weer! Bij deze tankstations tank je voor minder dan 2 euro per liter",
+      "link": "https://www.autoblog.nl/nieuws/het-kan-weer-bij-deze-tankstations-tank-je-voor-minder-dan-2-euro-per-liter"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -346,55 +391,6 @@
         "ev": [
           "tesla"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Benzineprijs daalt in moordend tempo, nu tanken of wachten?",
-      "link": "https://www.autoblog.nl/nieuws/benzineprijs-daalt-hard-nu-tanken-of-nog-even-wachten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Zware EV's slopen het wegdek, aldus bouwer van zware EV's",
-      "link": "https://www.autoblog.nl/nieuws/20-procent-zwaardere-ev-s-zorgen-voor-twee-keer-zoveel-schade-aan-wegdek",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "U parkeert op een treinovergang, mag dat?",
-      "link": "https://www.autoblog.nl/video/u-parkeert-op-een-treinovergang-mag-dat",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Zoveel meer kost jouw auto per week door de oorlog in Iran",
-      "link": "https://www.autoblog.nl/nieuws/zoveel-meer-kost-jouw-auto-per-week-door-de-oorlog-in-iran",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:13:27.838633+00:00",
+  "generated_at": "2026-11-10T23:41:55.656418+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "De meest krankzinnige Mercedes ooit zoekt een nieuwe eigenaar",
+      "link": "https://www.autoblog.nl/nieuws/de-meest-krankzinnige-mercedes-ooit-zoekt-een-nieuwe-eigenaar",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Rusland heeft een wel heel bijzonder plan met gestolen auto's",
+      "link": "https://www.autoblog.nl/nieuws/rusland-heeft-een-wel-heel-bijzonder-plan-met-gestolen-auto-s",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -369,32 +393,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "De cijfers bewijzen het, we worden écht hard genaaid",
-      "link": "https://www.autoblog.nl/nieuws/de-cijfers-bewijzen-het-we-worden-echt-hard-genaaid",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "belasting"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Deze autocollectie is anders dan alle andere (en te koop!)",
-      "link": "https://www.autoblog.nl/nieuws/geweldige-collectie-met-buitenbeentjes-wordt-geveild",
-      "details": {
-        "ev": [
-          "bev"
-        ]
       }
     },
     {
@@ -961,6 +959,20 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "The Book of Scion, Chapter 1",
+      "link": "https://www.hagerty.com/media/automotive-history/the-book-of-scion-chapter-1/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
+      "title": "The First Motorcycle Ride Took Place 141 Years Ago Today",
+      "link": "https://www.hagerty.com/media/automotive-history/the-first-motorcycle-ride-took-place-141-years-ago-today/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "Not All Toyotas Were the “EZ” Choice",
       "link": "https://www.hagerty.com/media/automotive-history/not-all-toyotas-were-the-ez-choice/"
     },
@@ -970,13 +982,6 @@
       "reason": "automotive history",
       "title": "Memories of a Pump Jockey",
       "link": "https://www.hagerty.com/media/automotive-history/memories-of-a-pump-jockey/"
-    },
-    {
-      "source": "Hagerty Automotive History",
-      "keep": true,
-      "reason": "automotive history",
-      "title": "Humber Super Snipe: 1940–67",
-      "link": "https://www.hagerty.com/media/automotive-history/humber-super-snipe-1940-1967/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -996,22 +1001,22 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "Hydrogen Cars Are Not Dead… Yet",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/hydrogen-cars-are-not-dead-yet/"
+      "title": "6 of Our Favorite New Tools from SEMA 2026",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-of-our-favorite-new-tools-from-sema-2026/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Nik Berg",
-      "link": "https://www.hagerty.com/media/author/nberg/"
+      "title": "Brandan Gillogly",
+      "link": "https://www.hagerty.com/media/author/brandan-gillogly/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Hydrogen",
-      "link": "https://www.hagerty.com/media/tags/hydrogen/"
+      "title": "SEMA 2026",
+      "link": "https://www.hagerty.com/media/tags/sema-2026/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1019,6 +1024,13 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "Mazda RX-8",
       "link": "https://www.hagerty.com/media/tags/mazda-rx-8/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Hydrogen",
+      "link": "https://www.hagerty.com/media/tags/hydrogen/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1054,13 +1066,6 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "Innovation",
       "link": "https://www.hagerty.com/media/tags/innovation/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Project Car",
-      "link": "https://www.hagerty.com/media/tags/project-car/"
     },
     {
       "source": "Hagerty Buyer's Guides",
@@ -1120,6 +1125,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 75,
-  "output_items": 75
+  "input_items": 76,
+  "output_items": 76
 }

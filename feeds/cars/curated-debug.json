@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T02:41:01.349678+00:00",
+  "generated_at": "2026-11-10T10:24:31.116342+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 24
+      "items": 23
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,66 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Het doek is nu definitief gevallen voor de Audi A8",
+      "link": "https://www.autoblog.nl/nieuws/het-doek-is-nu-definitief-gevallen-voor-de-audi-a8",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Echte GTA VI-auto staat te koop! Dit betaal voor je een Grotti Cheetah",
+      "link": "https://www.autoblog.nl/nieuws/echte-gta-vi-auto-staat-te-koop-dit-betaal-voor-je-een-grotti-cheetah",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Het is nu al jammer dat de Polestar Formula 2030 alleen een conceptmodel is",
+      "link": "https://www.autoblog.nl/nieuws/het-is-nu-al-jammer-dat-de-polestar-formula-2030-alleen-een-conceptmodel-is",
+      "details": {
+        "ev": [
+          "polestar"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "BMW gaat overstag en gaat LFP-accu's gebruiken in nieuwste modellen",
+      "link": "https://www.autoblog.nl/nieuws/bmw-gaat-overstag-en-gaat-lfp-accu-s-gebruiken-in-nieuwste-modellen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Vaker in in de file staan is niet jouw schuld, maar van die andere alleenrijder",
+      "link": "https://www.autoblog.nl/nieuws/vaker-in-in-de-file-staan-is-niet-jouw-schuld-maar-van-die-andere-alleenrijder",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -336,69 +396,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Dit wordt het volgende grote probleem voor elektrische auto's",
-      "link": "https://www.autoblog.nl/nieuws/dit-wordt-het-volgende-grote-probleem-voor-elektrische-auto-s",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "BMW gaat voor M1-moment met de Alpina concept",
-      "link": "https://www.autoblog.nl/nieuws/bmw-wil-heel-graag-de-vision-bmw-alpina-concept-in-productie-te-nemen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Inval bij BYD in Nederland vanwege kopiëren Land Rover",
-      "link": "https://www.autoblog.nl/nieuws/inval-bij-byd-in-nederland-vanwege-kopieren-land-rover",
-      "details": {
-        "ev": [
-          "byd"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla heeft slecht nieuws voor iedereen die een Cybertruck bestelde",
-      "link": "https://www.autoblog.nl/nieuws/tesla-kan-niet-alle-cybertrucks-meer-bouwen-en-moet-geld-teruggeven",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "BMW iX3 maakt gehakt van Mercedes GLC en Volvo EX60",
-      "link": "https://www.autoblog.nl/nieuws/zo-veel-kilometer-rij-je-echt-met-de-bmw-ix3",
-      "details": {
-        "ev": [
-          "bmw ix",
-          "ix3",
-          "laadpaal"
-        ]
       }
     },
     {
@@ -1124,6 +1121,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 76,
+  "output_items": 76
 }

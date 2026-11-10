@@ -1,10 +1,115 @@
 {
-  "generated_at": "2026-11-10T02:40:57.351112+00:00",
+  "generated_at": "2026-11-10T10:24:27.189505+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze tien jaar oude Volkswagen met dieselmotor moet ruim €100.000 opbrengen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-tien-jaar-oude-volkswagen-met-dieselmotor-moet-ruim-e100-000-opbrengen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo zuinig is een Maserati GT2 Stradale als je rustig rijdt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/zo-zuinig-is-een-maserati-gt2-stradale-supercar-als-je-rustig-rijdt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "supercar"
+        ],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Drukste ochtendspits van het jaar: bijna 1.000 kilometer file door dichte mist",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/drukste-ochtendspits-van-het-jaar-bijna-1-000-kilometer-file-door-dichte-mist/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Polestar Formula 2030: een beetje nieuwe Polestar 2 en beetje nieuwe Polestar 7",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/polestar-formula-2030-een-beetje-nieuwe-polestar-2-en-beetje-nieuwe-polestar-7/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "polestar"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "BYD's elektrische superlimo heeft een bereik van meer dan 1.000 kilometer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-elektrische-toplimo-wil-byds-luxemerk-yangwang-merken-als-rolls-royce-en-bentley-pesten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd",
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Opel Corsa GSE: super-Corsa is goedkoper dan Peugeot 208 GTi",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-sterkste-en-snelste-opel-corsa-ooit-is-iets-goedkoper-dan-de-peugeot-208-gti/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van",
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Honda pompt miljarden in nieuwe fabriek voor hybride auto's in VS",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-pompt-miljarden-in-nieuwe-fabriek-voor-hybride-autos-in-vs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -249,101 +354,6 @@
         "ev": [],
         "major": [],
         "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit zijn de beste winterbanden in de maat 245/45 R19: dure topmerken scoren",
-      "link": "https://www.autoweek.nl/autotests/artikel/dit-zijn-de-beste-winterbanden-in-de-maat-245-45-r19/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze auto's hebben niet twee maar drie koplampen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-autos-hebben-niet-twee-maar-drie-koplampen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mazda luisterde naar kritiek en verbeterde veel, maar niet alles op de 6e",
-      "link": "https://www.autoweek.nl/autotests/artikel/mazda-luisterde-naar-kritiek-en-verbeterde-veel-maar-niet-alles-op-de-6e/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De Volkswagen ID Golf: elektrisch en revolutionair conventioneel",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id-golf-elektrisch-en-revolutionair-conventioneel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Er staat ons een zwarte winter te wachten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/er-staat-ons-een-zwarte-winter-te-wachten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zoveel verschillende laadtarieven zien we op reis naar Frankrijk maar op bestemming laden we gratis",
-      "link": "https://www.autoweek.nl/autotests/artikel/zoveel-verschillende-laadtarieven-zien-we-op-reis-naar-frankrijk-maar-op-bestemming-laden-we-gratis/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is waarom deze restomod-911's 2 miljoen dollar kosten en je er ook nog 2 jaar op moet wachten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-waarom-deze-restomod-911s-2-miljoen-dollar-kosten-en-je-er-ook-nog-2-jaar-op-moet-wachten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "restomod"
-        ],
         "boring": [],
         "routine_product": []
       }

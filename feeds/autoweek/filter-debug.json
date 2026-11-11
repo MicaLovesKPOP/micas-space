@@ -1,10 +1,94 @@
 {
-  "generated_at": "2026-11-11T10:47:17.589379+00:00",
+  "generated_at": "2026-11-11T18:38:18.473009+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Sean (49) houdt zijn Volkswagen Polo (met 650.000 km) zelf rijdend: 'Geen klus is me te veel'",
+      "link": "https://www.autoweek.nl/autotests/artikel/sean-49-houdt-zijn-volkswagen-polo-met-650-000-km-zelf-rijdend-geen-klus-is-me-te-gek/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "In China zijn in één maand zeven keer zoveel auto's verkocht als in Nederland in een heel jaar",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/in-china-zijn-in-een-maand-zeven-keer-zoveel-autos-verkocht-als-in-nederland-in-een-heel-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Jaguar Land Rover mag geen beslag leggen op documenten BYD in kopieerzaak Defender-design",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/jaguar-land-rover-mag-geen-beslag-leggen-op-documenten-byd-in-kopieerzaak-defender-design/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "byd"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Dus toch: Mercedes-Benz SL zónder AMG op komst",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dus-toch-mercedes-benz-sl-zonder-amg-op-komst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Akropolis staat in Athene, een Akrapovič hangt onder je Lambo",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-akropolis-staat-in-athene-een-akrapovic-hangt-onder-je-lamborghini/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzineprijs op laagste niveau sinds maart",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-op-laagste-niveau-sinds-maart/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -21,7 +105,7 @@
     {
       "keep": false,
       "reason": "routine EV consumer/review/charging/range content",
-      "title": "Deze plug-in hybrides hebben het grootste elektrische bereik: tot wel 350 kilometer!",
+      "title": "Deze plug-in hybride auto's hebben het grootste elektrische bereik",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-plug-in-hybrides-hebben-het-grootste-elektrische-bereik-tot-wel-350-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [
@@ -96,7 +180,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "Deze typisch Japanse Toyota-pick-up is nu te koop in … de VS!",
+      "title": "Deze typisch Japanse Toyota-pick-up is straks te koop in … de VS!",
       "link": "https://www.autoweek.nl/autonieuws/artikel/deze-typisch-japanse-toyota-pick-up-is-nu-te-koop-in-de-vs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -276,90 +360,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Volkswagen ID3 Neo gaat op de juiste wijze terug in de tijd en de retrotellers zijn functioneel",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-volkswagen-id3-neo-gaat-op-de-juiste-wijze-terug-in-de-tijd-en-de-retrotellers-zijn-functioneel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "leverbaar"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "‘Supercredits’ mogelijk ook voor Europese EV’s van boven de 4,2 meter",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/supercredits-mogelijk-ook-voor-europese-evs-van-boven-de-42-meter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Een verbrandingsmotor kan na 2035 ook als 'zero emission' gelden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zero-emission-zonder-ev-misschien-kan-het-toch-in-2035/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Staking wegenwacht: laat je vroege Laguna II vandaag maar even staan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/staking-wegenwacht-laat-je-vroege-laguna-ii-vandaag-maar-even-staan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De benzineprijs blijft dalen en ligt op laagste niveau in ruim vier maanden",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-benzineprijs-blijft-dalen-en-ligt-op-laagste-niveau-in-maanden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Kia K4 Hybrid is ruimer en goedkoper dan Mild-Hybrid",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kia-k4-hybrid-is-ruimer-en-goedkoper-dan-mild-hybrid/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
       }
     }
   ]

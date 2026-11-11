@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T23:23:35.420811+00:00",
+  "generated_at": "2026-11-11T03:00:07.971293+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 29
+      "items": 33
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,38 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Exo’s Kai, Sehun finalize duo debut plan",
+      "link": "https://www.koreaherald.com/article/10933633",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit lands on Billboard’s Bubbling Under Hot 100",
+      "link": "https://www.koreaherald.com/article/10933522",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Rescene to host 1st stand-alone shows in February",
+      "link": "https://www.koreaherald.com/article/10933438",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Seventeen’s Junghan, Joshua cinch ‘gold’ in Japan",
+      "link": "https://www.koreaherald.com/article/10933415",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "Stray Kids expand ‘Run It’ world tour to 31 cities, 46 shows",
@@ -1307,6 +1339,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "'Dracula' featuring Jennie climbs to No. 3 on Billboard Hot 100",
+      "link": "https://en.yna.co.kr/view/AEN20261111002800315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "Stray Kids adds 25 more dates to ongoing world tour",
       "link": "https://en.yna.co.kr/view/AEN20261110003000315?section=culture/k-pop",
       "keep": false,
@@ -1456,14 +1496,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BLACKPINK's Lisa drops 1st solo EP 'Press Play'",
-      "link": "https://en.yna.co.kr/view/AEN20261023007000315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
@@ -1480,8 +1512,15 @@
       "kept": "Red Velvet’s Wendy Announces November Comeback With Schedule For “Gleam Hour”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
+    },
+    {
+      "dropped": "Exo’s Kai, Sehun finalize duo debut plan",
+      "dropped_source": "Korea Herald",
+      "kept": "EXO’s Kai And Sehun Confirmed To Debut As New Unit In December",
+      "kept_source": "Soompi Music",
+      "category": "Debut / new group"
     }
   ],
   "candidate_items": 18,
-  "final_items": 16
+  "final_items": 15
 }

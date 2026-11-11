@@ -1,10 +1,124 @@
 {
-  "generated_at": "2026-11-11T03:01:08.002936+00:00",
+  "generated_at": "2026-11-11T10:47:17.589379+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "‘Chinese autobouwers bouwen enorme Europese voorraad op vanwege aanstaand quotum’",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-autobouwers-bouwen-enorme-europese-voorraad-op-vanwege-aanstaand-quotum/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Deze plug-in hybrides hebben het grootste elektrische bereik: tot wel 350 kilometer!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-plug-in-hybrides-hebben-het-grootste-elektrische-bereik-tot-wel-350-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "actieradius",
+          "rijbereik",
+          "bijtelling"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De goedkoopste Opel Frontera wordt duurder, maar daar krijg je veel voor terug!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-goedkoopste-opel-frontera-wordt-duurder-maar-biedt-gelukkig-ook-meer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Gouden Sturen voor BMW, Skoda, Opel en meer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/gouden-sturen-voor-bmw-skoda-opel-en-meer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Met een beetje hulp van Renault krijgt de nieuwe Lotus Esprit een V8!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-een-beetje-hulp-van-renault-krijgt-de-nieuwe-lotus-esprit-een-v8/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Laatste Audi A8 geproduceerd in Neckarsulm",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/laatste-audi-a8-geproduceerd-in-neckarsulm/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze typisch Japanse Toyota-pick-up is nu te koop in … de VS!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-typisch-japanse-toyota-pick-up-is-nu-te-koop-in-de-vs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Forse verschillen in accudegradatie binnen hetzelfde model",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/forse-verschillen-in-accudegradatie-binnen-hetzelfde-model/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -244,118 +358,6 @@
         "exceptional": [],
         "boring": [
           "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Duitse vakbond roept op tot staking bij fabriek Mercedes-Benz",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/duitse-vakbond-roept-op-tot-staking-bij-fabriek-mercedes-benz/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Grote zorgen bij Europees Parlement om BYD: 'Kijk of ze ook in EU veiligheidsrisico vormen'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/grote-zorgen-bij-europees-parlement-om-byd-kijk-of-ze-ook-in-eu-veiligheidsrisico-vormen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "SGP wil pseudo-eindheffing versoepelen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/sgp-wil-pseudo-eindheffing-versoepelen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Ram Rampage is per 2027 ook voor Nederland interessant",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/rammetje-ram-rampage-is-per-2027-ook-voor-nederland-interessant/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Kantoren van BYD in Nederland binnengevallen om 'kloon' van Land Rover Defender",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kantoren-van-byd-in-nederland-binnengevallen-om-kloon-van-land-rover-defender/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Vrouw met 'Blank' in kenteken krijgt 40.000 dollar aan boetes",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vrouw-met-met-blank-in-kenteken-krijgt-40-000-dollar-aan-boetes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De EX60 is de beste Volvo in jaren, maar de Mercedes-Benz GLC is nog beter",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-ex60-is-de-beste-volvo-in-jaren-maar-de-mercedes-benz-glx-is-nog-beter/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Porsche Macan heeft excellente rijeigenschappen maar slechte achteruitrijcamera, aldus eigenaren",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-porsche-macan-heeft-excellente-rijeigenschappen-maar-wel-een-belabberde-achteruitrijcamera-aldus-de-macan-rijders-zelf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "review"
         ],
         "routine_product": []
       }

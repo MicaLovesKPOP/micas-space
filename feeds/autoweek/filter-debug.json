@@ -1,10 +1,62 @@
 {
-  "generated_at": "2026-11-12T00:58:43.886597+00:00",
+  "generated_at": "2026-11-12T08:14:31.149474+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Audi Nuvolari kost in de Verenigde Staten zeven keer zoveel als een SQ8",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-audi-nuvolari-kost-in-de-verenigde-staten-zeven-keer-zoveel-als-een-sq8/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [
+          "supercar"
+        ],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Tesla verlengt productie Cybertruck tot eind zomer 2027",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-verlengt-productie-cybertruck-tot-eind-zomer-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Dit zijn de goedkoopste nieuwe elektrische auto's in Nederland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-zijn-de-goedkoopste-nieuwe-elektrische-autos-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "prijs van"
+        ],
+        "routine_product": [
+          "nieuwe ",
+          "in nederland"
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -307,53 +359,6 @@
         "ev": [
           "polestar"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "BYD's elektrische superlimo heeft een bereik van meer dan 1.000 kilometer",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-elektrische-toplimo-wil-byds-luxemerk-yangwang-merken-als-rolls-royce-en-bentley-pesten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd",
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Opel Corsa GSE: super-Corsa is goedkoper dan Peugeot 208 GTi",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-sterkste-en-snelste-opel-corsa-ooit-is-iets-goedkoper-dan-de-peugeot-208-gti/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van",
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Honda pompt miljarden in nieuwe fabriek voor hybride auto's in VS",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-pompt-miljarden-in-nieuwe-fabriek-voor-hybride-autos-in-vs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

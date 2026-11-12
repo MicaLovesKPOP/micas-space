@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T00:59:23.160076+00:00",
+  "generated_at": "2026-11-12T08:17:51.526986+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 28
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -35,6 +35,30 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "Lngshot named Spotify's latest Radar Korea artist",
+      "link": "https://www.koreaherald.com/article/10935101",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Cortis hits 1.5b on Spotify",
+      "link": "https://www.koreaherald.com/article/10934859",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Blackpink’s Jisoo, Babymonster, NCT to perform at 2027 Coachella",
+      "link": "https://www.koreaherald.com/article/10934817",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "John Park’s agency to take action over unauthorized distribution of ‘McDonald’s Order Rap’",
       "link": "https://www.koreaherald.com/article/10934285",
       "keep": false,
@@ -61,6 +85,38 @@
       "source": "Korea Herald",
       "title": "Singapore to go all out for BTS’ ‘Arirang’ in December",
       "link": "https://www.koreaherald.com/article/10933919",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Exo’s Kai, Sehun finalize duo debut plan",
+      "link": "https://www.koreaherald.com/article/10933633",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit lands on Billboard’s Bubbling Under Hot 100",
+      "link": "https://www.koreaherald.com/article/10933522",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Rescene to host 1st stand-alone shows in February",
+      "link": "https://www.koreaherald.com/article/10933438",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Seventeen’s Junghan, Joshua cinch ‘gold’ in Japan",
+      "link": "https://www.koreaherald.com/article/10933415",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -336,6 +392,14 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Stray Kids’ Lee Know Confirmed To Be Gearing Up For Solo Debut",
+      "link": "https://www.soompi.com/article/1886285wpp/stray-kids-lee-know-confirmed-to-be-gearing-up-for-solo-debut",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
     },
     {
       "source": "Soompi Music",
@@ -805,14 +869,6 @@
       "source": "Soompi Music",
       "title": "QUIZ: Rate These Songs From One To Five Stars, And We’ll Guess Your Stray Kids Bias",
       "link": "https://www.soompi.com/article/1877162wpp/quiz-rate-these-songs-from-one-to-five-stars-and-well-guess-your-stray-kids-bias",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Update: 2026 MAMA AWARDS Reveals Additional Special Collaboration Stage",
-      "link": "https://www.soompi.com/article/1882492wpp/2026-mama-awards-announces-special-collaboration-stages",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1299,6 +1355,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "K-pop boy band Cortis racks up 1.5 bln Spotify streams",
+      "link": "https://en.yna.co.kr/view/AEN20261112006300315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "(LEAD) BTS' 'Swim' makes Apple Music's Best Songs of 2026 list",
       "link": "https://en.yna.co.kr/view/AEN20261111006651315?section=culture/k-pop",
       "keep": false,
@@ -1448,14 +1512,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BLACKPINK's Jisoo to release 2nd prerelease single 'Addicted'",
-      "link": "https://en.yna.co.kr/view/AEN20261027001900315?section=culture/k-pop",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
@@ -1465,8 +1521,15 @@
       "kept": "Red Velvet’s Wendy Announces November Comeback With Schedule For “Gleam Hour”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
+    },
+    {
+      "dropped": "Exo’s Kai, Sehun finalize duo debut plan",
+      "dropped_source": "Korea Herald",
+      "kept": "Update: EXO-KASE Reveals Unit Debut Schedule For “Waking Up The City”",
+      "kept_source": "Soompi Music",
+      "category": "Debut / new group"
     }
   ],
-  "candidate_items": 14,
+  "candidate_items": 15,
   "final_items": 13
 }

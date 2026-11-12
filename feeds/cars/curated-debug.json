@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:38:23.277699+00:00",
+  "generated_at": "2026-11-12T00:58:49.644952+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Een bijzondere actie zorgt voor blije automobilisten",
+      "link": "https://www.autoblog.nl/nieuws/een-bijzondere-actie-zorgt-voor-blije-automobilisten",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Deze goedkope EV is nu eindelijk interessant",
+      "link": "https://www.autoblog.nl/nieuws/deze-goedkope-ev-is-nu-eindelijk-interessant",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -369,30 +393,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Rusland heeft een wel heel bijzonder plan met gestolen auto's",
-      "link": "https://www.autoblog.nl/nieuws/rusland-heeft-een-wel-heel-bijzonder-plan-met-gestolen-auto-s",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla kan auto's zelfstandig laten rijden, maar dit lukt nog steeds niet",
-      "link": "https://www.autoblog.nl/nieuws/tesla-kan-auto-s-zelfstandig-laten-rijden-maar-dit-lukt-nog-steeds-niet",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
       }
     },
     {

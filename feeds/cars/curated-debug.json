@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-13T10:51:36.702181+00:00",
+  "generated_at": "2026-11-13T18:29:22.245494+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -82,7 +82,7 @@
       "name": "Hagerty Automotive History",
       "url": "https://www.hagerty.com/media/category/automotive-history/",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "name": "Hagerty Maintenance & Tech",
@@ -104,6 +104,162 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Nederlandse auto-import gaat door het dak door EV-record!",
+      "link": "https://www.autoblog.nl/nieuws/nederlandse-auto-import-gaat-door-het-dak-door-ev-record",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "GTA 6: alles dat je moet weten over auto's, tuning en autorijden",
+      "link": "https://www.autoblog.nl/nieuws/gta-6-alles-dat-je-moet-weten-over-auto-s-tuning-en-autorijden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Pijnlijk: zo onwijs weinig geld houdt VW over per verkochte auto",
+      "link": "https://www.autoblog.nl/nieuws/volkswagen-maakt-minimale-winst-per-auto-zo-weinig-verdient-vw-per-auto",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Je Tesla kan klinken als een Porsche 911 met handbak, maar er zit een nadeel aan",
+      "link": "https://www.autoblog.nl/nieuws/met-deze-simpele-truc-klinkt-je-tesla-ineens-als-een-porsche-911",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Voel je voor een habbekrats iedere dag de Paus met deze Marktplaats occasion",
+      "link": "https://www.autoblog.nl/nieuws/koop-deze-extreem-zeldzame-auto-op-marktplaats-en-voel-je-elke-dag-de-paus",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Gaan we de EQ-reeks van Mercedes missen?",
+      "link": "https://www.autoblog.nl/video/gaan-we-de-eq-reeks-van-mercedes-missen",
+      "details": {
+        "ev": [
+          "eqs"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "André Hazes trakteert zichzelf op een nieuwe auto van 170k",
+      "link": "https://www.autoblog.nl/nieuws/dit-is-de-nieuwe-auto-van-andre-hazes",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Chinese auto is goedkoper, maar kost het dubbele!",
+      "link": "https://www.autoblog.nl/nieuws/chinese-auto-is-goedkoper-maar-kost-het-dubbele",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla staat aan de vooravond van een buitenaardse fusie",
+      "link": "https://www.autoblog.nl/nieuws/tesla-staat-aan-de-vooravond-van-een-buitenaardse-fusie",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Toyota overweegt deze KEI-leuke betaalbare sportauto!",
+      "link": "https://www.autoblog.nl/nieuws/toyota-overweegt-deze-kei-leuke-betaalbare-sportauto",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Terwijl Land Rover rechtszaak uitvecht komen Chinezen met nóg ergere kloon",
+      "link": "https://www.autoblog.nl/nieuws/terwijl-land-rover-rechtszaak-uitvecht-komen-chinezen-met-nog-ergere-kloon",
+      "details": {
+        "ev": [
+          "byd"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Voor 25 euro heb je een schermloze GPS in je auto",
+      "link": "https://www.autoblog.nl/nieuws/voor-25-euro-heb-je-een-schermloze-gps-in-je-auto",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Koop de auto van Wesley Sneijder op Marktplaats en krijg een bijzonder cadeau!",
+      "link": "https://www.autoblog.nl/nieuws/deze-dikke-auto-van-wesley-sneijder-staat-te-koop-op-marktplaats",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -233,159 +389,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Euro NCAP waarschuwt: deze voertuigen zijn levensgevaarlijk in de stad",
       "link": "https://www.autoblog.nl/nieuws/euro-ncap-waarschuwt-deze-voertuigen-zijn-levensgevaarlijk-in-de-stad",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze Amerikaanse BMW M4-killer staat gewoon op Marktplaats",
-      "link": "https://www.autoblog.nl/nieuws/deze-amerikaanse-bmw-m4-killer-staat-gewoon-op-marktplaats",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Red Bull hakt knoop door over toekomst van Liam Lawson",
-      "link": "https://www.autoblog.nl/nieuws/red-bull-hakt-knoop-door-over-toekomst-van-liam-lawson",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": true,
-      "reason": "Autoblog aankoopadvies",
-      "title": "Skoda Octavia (NX) 2020-heden occasion aankoopadvies",
-      "link": "https://www.autoblog.nl/video/skoda-octavia-nx-2020-heden-occasion-aankoopadvies"
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "De duurste laadpaal van Nederland maakt elektrisch rijden peperduur",
-      "link": "https://www.autoblog.nl/nieuws/dit-is-de-duurste-laadpaal-van-nederland",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "laadpaal"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Waarom stopt Polestar de productie van hun populairste model?",
-      "link": "https://www.autoblog.nl/video/waarom-stopt-polestar-de-productie-van-hun-populairste-model",
-      "details": {
-        "ev": [
-          "polestar"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Max Verstappen geeft Ferrari advies over problemen tussen Hamilton en Leclerc",
-      "link": "https://www.autoblog.nl/nieuws/max-verstappen-geeft-ferrari-advies-over-problemen-tussen-hamilton-en-leclerc",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Jaguar Land Rover teruggefloten na inval bij BYD, loopt risico op megaboete",
-      "link": "https://www.autoblog.nl/nieuws/jaguar-land-rover-teruggefloten-na-inval-bij-byd-loopt-risico-op-megaboete",
-      "details": {
-        "ev": [
-          "bev",
-          "byd"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Ferrari 499P Modificata breekt record op de veiling",
-      "link": "https://www.autoblog.nl/nieuws/ferrari-499p-modificata-breekt-record-op-de-veiling",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Elon Musk krijgt een sneertje uit onverwachte hoek",
-      "link": "https://www.autoblog.nl/nieuws/porsche-baas-laat-weten-wat-hij-van-de-tesla-roadster-show-vindt",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Krijgt Audi's legendarische vijfcilinder een nieuwe eigenaar?",
-      "link": "https://www.autoblog.nl/nieuws/krijgt-audi-s-legendarische-vijfcilinder-een-nieuwe-eigenaar",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Voetballers van PSG krijgen eindelijk sponsorauto's waar ze WEL in willen rijden",
-      "link": "https://www.autoblog.nl/nieuws/voetballers-van-psg-krijgen-eindelijk-sponsorauto-s-waar-ze-wel-in-willen-rijden",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Auto durft niet in te voegen en dat eindigt in ellende",
-      "link": "https://www.autoblog.nl/video/auto-durft-niet-in-te-voegen-en-dat-eindigt-in-ellende",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Bizarre GTA 6-vergelijking laat zien hoe echt het spel lijkt!",
-      "link": "https://www.autoblog.nl/nieuws/echt-of-gta-6-bizar-realistische-beelden-op-ocean-drive-gaan-viraal",
       "details": {
         "feature": [],
         "tags": [],
@@ -956,6 +959,13 @@
       "source": "Hagerty Automotive History",
       "keep": true,
       "reason": "automotive history",
+      "title": "Before the Cybertruck, Before the DeLorean, Ford and Allegheny Made Stainless Steel Cars",
+      "link": "https://www.hagerty.com/media/automotive-history/before-the-cybertruck-before-the-delorean-ford-allegheny-made-stainless-steel-cars/"
+    },
+    {
+      "source": "Hagerty Automotive History",
+      "keep": true,
+      "reason": "automotive history",
       "title": "The Book of Scion, Chapter 1",
       "link": "https://www.hagerty.com/media/automotive-history/the-book-of-scion-chapter-1/"
     },
@@ -1122,6 +1132,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 77,
-  "output_items": 77
+  "input_items": 78,
+  "output_items": 78
 }

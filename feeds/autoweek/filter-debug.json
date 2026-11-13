@@ -1,10 +1,105 @@
 {
-  "generated_at": "2026-11-13T10:51:30.561166+00:00",
+  "generated_at": "2026-11-13T18:29:17.681931+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Lekker jong en up-to-date: deze elektrische SUV's zitten nu onder de €40.000",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/lekker-jong-en-up-to-date-deze-elektrische-suvs-zitten-nu-onder-de-e40-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Fiat Stilo 25 jaar: van ambitieuze Golf-rivaal tot zeldzame occasion",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-stilo-25-jaar-van-ambitieuze-golf-rivaal-tot-zeldzame-occasion/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Victor Muller: “We mikken op Pagani en Koenigsegg”",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/victor-muller-we-mikken-op-pagani-en-koenigsegg/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Nissan Qashqai 20 jaar: nog altijd een warm broodje",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nissan-qashqai-20-jaar-nog-altijd-een-warm-broodje/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Geheel nieuwe Honda CR-V staat al voor de deur: altijd hybride, nieuw platform",
+      "link": "https://www.autoweek.nl/autotests/artikel/geheel-nieuwe-honda-cr-v-staat-al-voor-de-deur-altijd-hybride-nieuw-platform/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Uitzonderingen pseudo-eindheffing: geen afschaffing, wel vereenvoudiging",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/uitzonderingen-pseudo-eindheffing-geen-afschaffing-wel-vereenvoudiging/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Toyota dacht ooit aan een superzuinig klein dieseltje dat zelfs de Lupo 3L moest verslaan: 1 op 37!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-dacht-ooit-aan-een-superzuinig-klein-dieseltje-dat-zelfs-de-lupo-3l-moest-verslaan-1-op-37/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -266,109 +361,6 @@
         "routine_product": [
           "in nederland"
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Jaguar Land Rover mag geen beslag leggen op documenten BYD in kopieerzaak Defender-design",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/jaguar-land-rover-mag-geen-beslag-leggen-op-documenten-byd-in-kopieerzaak-defender-design/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dus toch: Mercedes-Benz SL zónder AMG op komst",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dus-toch-mercedes-benz-sl-zonder-amg-op-komst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Akropolis staat in Athene, een Akrapovič hangt onder je Lambo",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-akropolis-staat-in-athene-een-akrapovic-hangt-onder-je-lamborghini/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Benzineprijs op laagste niveau sinds maart",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/benzineprijs-op-laagste-niveau-sinds-maart/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "‘Chinese autobouwers bouwen enorme Europese voorraad op vanwege aanstaand quotum’",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/chinese-autobouwers-bouwen-enorme-europese-voorraad-op-vanwege-aanstaand-quotum/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Deze plug-in hybride auto's hebben het grootste elektrische bereik",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-plug-in-hybrides-hebben-het-grootste-elektrische-bereik-tot-wel-350-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "actieradius",
-          "rijbereik",
-          "bijtelling"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De goedkoopste Opel Frontera wordt duurder, maar daar krijg je veel voor terug!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-goedkoopste-opel-frontera-wordt-duurder-maar-biedt-gelukkig-ook-meer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": []
       }
     }
   ]

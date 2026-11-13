@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:29:22.245494+00:00",
+  "generated_at": "2026-11-13T23:50:49.971793+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Max Verstappen zorgt voor flinke kostenpost met crashes",
+      "link": "https://www.autoblog.nl/nieuws/f1-crashkampioenschap-2026-welke-coureurs-rijdt-de-meeste-schade",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "EV-gekte? EV-export is nog altijd groter dan de EV-import",
+      "link": "https://www.autoblog.nl/nieuws/ev-gekte-ev-export-is-nog-altijd-groter-dan-de-ev-import",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -369,30 +393,6 @@
           "elektrisch",
           "ev"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Alpina gaat onder de BMW-vlag meteen elektrisch",
-      "link": "https://www.autoblog.nl/nieuws/de-allereerste-elektrische-alpina-komt-eraan",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Euro NCAP waarschuwt: deze voertuigen zijn levensgevaarlijk in de stad",
-      "link": "https://www.autoblog.nl/nieuws/euro-ncap-waarschuwt-deze-voertuigen-zijn-levensgevaarlijk-in-de-stad",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -742,8 +742,8 @@
       "source": "PistonHeads Shed of the Week",
       "keep": true,
       "reason": "Shed of the Week",
-      "title": "Shed of the Week | Jaguar S-Type 3.0 V6",
-      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/shed-of-the-week--jaguar-s-type-3-0-v6/51905"
+      "title": "Jaguar S-Type 3.0 V6 | Shed of the Week",
+      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/jaguar-s-type-3-0-v6--shed-of-the-week/51905"
     },
     {
       "source": "PistonHeads Shed of the Week",
@@ -1008,15 +1008,8 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": true,
       "reason": "maintenance & tech",
-      "title": "6 Skills You Pick up When You Own an Old Car",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-skills-drivers-of-old-cars-have/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Kyle Smith",
-      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+      "title": "How to Remove Gross Cigarette Odors from Your Car’s Interior",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/how-to-remove-gross-cigarette-odors-from-your-interior/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1031,13 +1024,6 @@
       "reason": "navigatie/sectielink, geen artikel",
       "title": "SEMA 2026",
       "link": "https://www.hagerty.com/media/tags/sema-2026/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Hydrogen",
-      "link": "https://www.hagerty.com/media/tags/hydrogen/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1064,15 +1050,29 @@
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Piston Slap",
-      "link": "https://www.hagerty.com/media/tags/piston-slap/"
+      "title": "Hydrogen",
+      "link": "https://www.hagerty.com/media/tags/hydrogen/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": true,
+      "reason": "maintenance & tech",
+      "title": "6 Skills You Pick up When You Own an Old Car",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-skills-drivers-of-old-cars-have/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
       "keep": false,
       "reason": "navigatie/sectielink, geen artikel",
-      "title": "Headlights",
-      "link": "https://www.hagerty.com/media/tags/headlights/"
+      "title": "Kyle Smith",
+      "link": "https://www.hagerty.com/media/author/kyle-smith/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": true,
+      "reason": "maintenance & tech",
+      "title": "6 New Project Car Parts from SEMA 2026",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-new-project-car-parts-from-sema-2026/"
     },
     {
       "source": "Hagerty Buyer's Guides",
@@ -1132,6 +1132,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 80,
+  "output_items": 80
 }

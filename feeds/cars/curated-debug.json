@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T06:10:15.317188+00:00",
+  "generated_at": "2026-11-14T13:26:00.461752+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 24
+      "items": 25
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,82 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Waarom zit er eigenlijk een N-stand op je automaat en wanneer gebruik je die?",
+      "link": "https://www.autoblog.nl/nieuws/waarom-zit-er-eigenlijk-een-n-stand-op-je-automaat-en-wanneer-gebruik-je-die",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Spookrijder komt recht op auto afrijden",
+      "link": "https://www.autoblog.nl/video/spookrijder-komt-recht-op-auto-afrijden",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Oordeel zelf: speelde Mercedes vals om Antonelli kampioen te maken?",
+      "link": "https://www.autoblog.nl/nieuws/oordeel-zelf-speelde-mercedes-vals-om-antonelli-kampioen-te-maken",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog lijstje ",
+      "title": "Volgens Victor Muller kies jij voor een Spyker boven een Bugatti of een Pagani",
+      "link": "https://www.autoblog.nl/nieuws/victor-muller-spyker-zit-in-dezelfde-markt-als-pagani-koenigsegg-en-bugatti"
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla begint publieke verkoop van de Cybercab, maar met addertjes onder het gras",
+      "link": "https://www.autoblog.nl/nieuws/tesla-begint-publieke-verkoop-van-de-cybercab-maar-met-addertjes-onder-het-gras",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Advies: 'Ga snelladen, dat is goedkoper dan de langzame laadpaal'",
+      "link": "https://www.autoblog.nl/nieuws/advies-ga-maar-snelladen-dat-kan-goedkoper-zijn-dan-de-langzame-laadpaal",
+      "details": {
+        "ev": [
+          "ev",
+          "laadpaal",
+          "snelladen"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog mijn auto",
+      "title": "Leesvoer: Nadeem bouwde de Porsche 911 waar hij als kind al van droomde",
+      "link": "https://www.autoblog.nl/nieuws/leesvoer-deze-porsche-911-is-financieel-onverstandig-en-daarom-juist-zo-leuk"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -306,93 +382,6 @@
         "feature": [],
         "tags": [],
         "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "FIA doet een Trumpje en beperkt vrijheid van meningsuiting in de Formule 1",
-      "link": "https://www.autoblog.nl/nieuws/als-je-slecht-praat-over-de-formule-1-komt-de-fia-je-halen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Porsche 718 Spyder RS die heftig crashte staat nu te koop",
-      "link": "https://www.autoblog.nl/nieuws/porsche-718-spyder-rs-die-heftig-crashte-staat-nu-te-koop",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Mercedes overweegt rigoureuze maatregelen",
-      "link": "https://www.autoblog.nl/nieuws/ook-mercedes-overweegt-duitse-fabrieken-te-sluiten",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Er is goed nieuws en slecht nieuws over de youngtimerregeling",
-      "link": "https://www.autoblog.nl/nieuws/er-is-goed-nieuws-en-slechts-nieuws-over-de-youngtimerregeling",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "regeling"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Deze Tesla Cybertruck is wél te koop in Nederland",
-      "link": "https://www.autoblog.nl/nieuws/deze-tesla-cybertruck-is-wel-te-koop-in-nederland",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Eigenaar dumpt in één keer zijn gelimiteerde Porsches",
-      "link": "https://www.autoblog.nl/nieuws/eigenaar-dumpt-in-een-keer-zijn-gelimiteerde-porsches",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Autoblog Podcast #S3E05: VW wint met EV’s, Mercedes kapt met EQ",
-      "link": "https://www.autoblog.nl/video/autoblog-podcast-s3e05-vw-wint-met-ev-s-mercedes-kapt-met-eq",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ]
       }
     },
     {
@@ -1132,6 +1121,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 80,
-  "output_items": 80
+  "input_items": 83,
+  "output_items": 83
 }

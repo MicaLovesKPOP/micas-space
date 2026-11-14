@@ -1,10 +1,79 @@
 {
-  "generated_at": "2026-11-14T06:10:09.753534+00:00",
+  "generated_at": "2026-11-14T13:25:56.470138+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 25,
+  "dropped_items": 0,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Zo komt de Mercedes C-klasse uit de 100.000 kilometertest",
+      "link": "https://www.autoweek.nl/autotests/artikel/zo-komt-de-mercedes-c-klasse-uit-de-100-000-kilometertest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Met deze PHEV wil Honda de zakelijk rijder nog voor 2027 aan zich binden",
+      "link": "https://www.autoweek.nl/autotests/artikel/met-deze-phev-wil-honda-de-zakelijk-rijder-nog-voor-2027-aan-zich-binden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De goedkoopste Volkswagen ID Cross mist iets heel belangrijks – Back to basics",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-goedkoopste-volkswagen-id-cross-mist-iets-heel-belangrijks-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De gestroomlijnde Hyundai Ioniq 3 wint niet alleen daarom van de Volvo EX30",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-gestroomlijnde-hyundai-ioniq-3-wint-niet-alleen-daarom-van-de-volvo-ex30/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ex30"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Mijn Citroën C5 heeft nu 215.000 km op de teller, hoe kan ik er nog 200.000 bij rijden?'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mijn-citroen-c5-heeft-nu-215-000-km-op-de-teller-hoe-kan-er-nog-200-000-bij-rijden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -281,86 +350,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Audi Nuvolari kost in de Verenigde Staten zeven keer zoveel als een SQ8",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-audi-nuvolari-kost-in-de-verenigde-staten-zeven-keer-zoveel-als-een-sq8/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "supercar"
-        ],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Tesla verlengt productie Cybertruck tot eind zomer 2027",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/tesla-verlengt-productie-cybertruck-tot-eind-zomer-2027/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Dit zijn de goedkoopste nieuwe elektrische auto's in Nederland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-zijn-de-goedkoopste-nieuwe-elektrische-autos-in-nederland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "prijs van"
-        ],
-        "routine_product": [
-          "nieuwe ",
-          "in nederland"
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Sean (49) houdt zijn Volkswagen Polo (met 650.000 km) zelf rijdend: 'Geen klus is me te veel'",
-      "link": "https://www.autoweek.nl/autotests/artikel/sean-49-houdt-zijn-volkswagen-polo-met-650-000-km-zelf-rijdend-geen-klus-is-me-te-gek/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "In China zijn in één maand zeven keer zoveel auto's verkocht als in Nederland in een heel jaar",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/in-china-zijn-in-een-maand-zeven-keer-zoveel-autos-verkocht-als-in-nederland-in-een-heel-jaar/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:26:00.461752+00:00",
+  "generated_at": "2026-11-14T18:50:36.228728+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,51 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Belangrijke beveiligingswaarschuwing voor bezoekers van Autoblog.nl",
+      "link": "https://www.autoblog.nl/nieuws/belangrijke-beveiligingswaarschuwing-voor-bezoekers-van-autoblog-nl",
+      "details": {
+        "ev": [
+          "bev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Deze goedkope crossovers van Citroën, Fiat en Opel moeten terug naar de garage",
+      "link": "https://www.autoblog.nl/nieuws/deze-goedkope-crossovers-van-citroen-fiat-en-opel-moeten-terug-naar-de-garage",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "terugroep"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Liefhebbersauto met handbak is van Japans merk waarvan je het niet meer verwacht",
+      "link": "https://www.autoblog.nl/nieuws/subaru-wrx-sti-sport-r-lekkere-sportsedan-met-handbak",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog mijn auto",
+      "title": "Bekende Honda S660 kei-car staat te koop op Marktplaats!",
+      "link": "https://www.autoblog.nl/nieuws/bekende-honda-s660-kei-car-staat-te-koop-op-marktplaats"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -334,54 +379,6 @@
         "ev": [
           "byd"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Voor 25 euro heb je een schermloze GPS in je auto",
-      "link": "https://www.autoblog.nl/nieuws/voor-25-euro-heb-je-een-schermloze-gps-in-je-auto",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Koop de auto van Wesley Sneijder op Marktplaats en krijg een bijzonder cadeau!",
-      "link": "https://www.autoblog.nl/nieuws/deze-dikke-auto-van-wesley-sneijder-staat-te-koop-op-marktplaats",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Sneeuwschuiver schuift iets anders dan sneeuw",
-      "link": "https://www.autoblog.nl/video/sneeuwschuiver-schuift-iets-anders-dan-sneeuw",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nieuwe Nederlandse hypercar heeft 5,5 liter V10 en een unieke zitpositie!",
-      "link": "https://www.autoblog.nl/nieuws/deze-nederlandse-hypercar-pakt-het-helemaal-anders-aan",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1121,6 +1118,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 83,
-  "output_items": 83
+  "input_items": 84,
+  "output_items": 84
 }

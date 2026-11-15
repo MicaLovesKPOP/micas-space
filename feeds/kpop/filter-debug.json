@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:04:59.673469+00:00",
+  "generated_at": "2026-11-15T21:46:10.205378+00:00",
   "sources": [
     {
       "name": "Korea Herald",
@@ -339,6 +339,30 @@
     },
     {
       "source": "Soompi Music",
+      "title": "ILLIT, IVE, Stray Kids, CORTIS, ENHYPEN, K/DA, BTS, NMIXX, And More Sweep Top Spots On Billboard World Albums Chart",
+      "link": "https://www.soompi.com/article/1887270wpp/illit-ive-stray-kids-cortis-enhypen-k-da-bts-nmixx-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard, world albums chart"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: RESCENE Snags 4th Win For “With” On “Inkigayo”; Performances By BESTie, ATEEZ, NCT DREAM, And More",
+      "link": "https://www.soompi.com/article/1887262wpp/watch-rescene-snags-4th-win-for-with-on-inkigayo-performances-by-bestie-ateez-nct-dream-and-more",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: KISS OF LIFE Announces Return With Teaser For Winter Single “Greedy”",
+      "link": "https://www.soompi.com/article/1887249wpp/watch-kiss-of-life-announces-return-with-teaser-for-winter-single-greedy",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Soompi Music",
       "title": "Watch: Performances From Melon Music Awards 2026 – DAY 2",
       "link": "https://www.soompi.com/article/1887172wpp/watch-performances-from-melon-music-awards-2026-day-2",
       "keep": false,
@@ -376,6 +400,14 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Soompi’s K-Pop Music Chart 2026, November Week 3",
+      "link": "https://www.soompi.com/article/1887041wpp/soompis-k-pop-music-chart-2026-november-week-3",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: music chart"
     },
     {
       "source": "Soompi Music",
@@ -784,38 +816,6 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Update: JYP Entertainment’s oftheblue Shares New Teaser For Upcoming Debut",
-      "link": "https://www.soompi.com/article/1884508wpp/listen-jyp-entertainment-teases-launch-of-new-group-oftheblue",
-      "keep": false,
-      "category": null,
-      "reason": "teaser/rollout post"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views",
-      "link": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views",
-      "link": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Watch: AND2BLE Takes 2nd Win For “French Kissing” On “Show Champion”; Performances By XLOV, EVNNE, And More",
-      "link": "https://www.soompi.com/article/1884195wpp/watch-and2ble-takes-2nd-win-for-french-kissing-on-show-champion-performances-by-xlov-evnne-and-more",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: takes 2nd win"
     },
     {
       "source": "Soompi Celeb",
@@ -1458,7 +1458,15 @@
       "reason": "no meaningful-change event matched"
     }
   ],
-  "duplicates": [],
-  "candidate_items": 11,
+  "duplicates": [
+    {
+      "dropped": "Watch: CL Announces Comeback Date With Teaser For New Single “ICONIC”",
+      "dropped_source": "Soompi Music",
+      "kept": "Watch: KISS OF LIFE Announces Return With Teaser For Winter Single “Greedy”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
+    }
+  ],
+  "candidate_items": 12,
   "final_items": 11
 }

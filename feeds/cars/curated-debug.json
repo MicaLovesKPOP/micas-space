@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:36:03.633421+00:00",
+  "generated_at": "2026-11-15T09:52:48.527025+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,37 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Fundablog: droomvilla in Hengelo met Ferrari voor de deur",
+      "link": "https://www.autoblog.nl/nieuws/fundablog-droomvilla-in-hengelo-met-ferrari-voor-de-deur",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Slalommende Golf GTI-rijder moet de bak in",
+      "link": "https://www.autoblog.nl/nieuws/slalommende-golf-gti-rijder-moet-de-bak-in",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog #mijnauto",
+      "title": "507 pk V10 in een sedan: de BMW M5 E60 van Thomas #MijnAuto",
+      "link": "https://www.autoblog.nl/video/1-op-3-en-toch-wil-je-hem-hebben-bmw-m5-e60-van-thomas-mijnauto"
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -342,42 +373,6 @@
       "details": {
         "ev": [
           "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Tesla staat aan de vooravond van een buitenaardse fusie",
-      "link": "https://www.autoblog.nl/nieuws/tesla-staat-aan-de-vooravond-van-een-buitenaardse-fusie",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Toyota overweegt deze KEI-leuke betaalbare sportauto!",
-      "link": "https://www.autoblog.nl/nieuws/toyota-overweegt-deze-kei-leuke-betaalbare-sportauto",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Terwijl Land Rover rechtszaak uitvecht komen Chinezen met nóg ergere kloon",
-      "link": "https://www.autoblog.nl/nieuws/terwijl-land-rover-rechtszaak-uitvecht-komen-chinezen-met-nog-ergere-kloon",
-      "details": {
-        "ev": [
-          "byd"
         ]
       }
     },
@@ -1118,6 +1113,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 84,
-  "output_items": 84
+  "input_items": 85,
+  "output_items": 85
 }

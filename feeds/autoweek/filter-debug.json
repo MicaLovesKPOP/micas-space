@@ -1,10 +1,40 @@
 {
-  "generated_at": "2026-11-16T01:57:20.224541+00:00",
+  "generated_at": "2026-11-16T09:31:37.571219+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 25,
   "dropped_items": 0,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Meer EV-rijders overwegen hybride als volgende auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/meer-ev-rijders-overwegen-hybride-als-volgende-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Peugeot e-208-gamma op de schop: goedkoper en luxer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-e-208-gamma-op-de-schop-goedkoper-en-luxer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -312,32 +342,6 @@
       "reason": "non-EV car news",
       "title": "Toyota dacht ooit aan een superzuinig klein dieseltje dat zelfs de Lupo 3L moest verslaan: 1 op 37!",
       "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-dacht-ooit-aan-een-superzuinig-klein-dieseltje-dat-zelfs-de-lupo-3l-moest-verslaan-1-op-37/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Youngtimerregeling verder bijgeschaafd: redding voor auto’s uit 2008 en 2009",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/youngtimerregeling-verder-bijgeschaafd-redding-voor-autos-uit-2008-en-2009/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Atmosferische V8 met handbak: Ford Mustang Cobra keert terug!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/atmosferische-v8-met-handbak-ford-mustang-cobra-keert-terug/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

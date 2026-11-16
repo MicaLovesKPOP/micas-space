@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T08:35:18.261143+00:00",
+  "generated_at": "2026-11-16T18:54:32.090464+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 34
+      "items": 28
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,46 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "Jennie earns two Grammy nominations as major K-pop agencies sit out new Asian pop category",
+      "link": "https://www.koreaherald.com/article/10939069",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Riize, Plave to release collaboration single 'Lowkey' on Nov. 30",
+      "link": "https://www.koreaherald.com/article/10939050",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Katseye wins first Kids' Choice Award in US",
+      "link": "https://www.koreaherald.com/article/10939041",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Government to survey underage K-pop singers' rights following NewJeans contract controversy",
+      "link": "https://www.koreaherald.com/article/10939035",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Former Ador CEO referred to prosecutors over NewJeans' attempted contract termination",
+      "link": "https://www.koreaherald.com/article/10939027",
+      "keep": true,
+      "category": "Contract / agency",
+      "reason": "whitelisted event"
+    },
     {
       "source": "Korea Herald",
       "title": "BTS dominates 2026 MMA with six wins, including artist of the year",
@@ -218,89 +258,73 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "Itzy’s Chaeryeong steps into spotlight with solo debut ‘Lovesick’",
-      "link": "https://www.koreaherald.com/article/10932356",
-      "keep": true,
-      "category": "Debut / new group",
-      "reason": "whitelisted event"
+      "source": "Music Business Worldwide",
+      "title": "Samantha Saturn appointed General Manager of ASCAP Nashville",
+      "link": "https://www.musicbusinessworldwide.com/samantha-saturn-appointed-general-manager-of-ascap-nashville/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Korea Herald",
-      "title": "Deux revives late Kim Sungjae's voice with AI for new album",
-      "link": "https://www.koreaherald.com/article/10932187",
+      "source": "Music Business Worldwide",
+      "title": "IDOL’s Labelcamp launches AI Connector, letting distributors and labels run supply chain operations through Claude and ChatGPT",
+      "link": "https://www.musicbusinessworldwide.com/idols-labelcamp-launches-ai-connector-letting-distributors-and-labels-run-supply-chain-operations-through-claude-and-chatgpt/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "From ‘undiscovered artists’ to Daddy Yankee: 5 things to know about TikTok’s evolution into a superstar distributor",
+      "link": "https://www.musicbusinessworldwide.com/from-undiscovered-artists-to-daddy-yankee-5-things-to-know-about-tiktoks-evolution-into-a-superstar-distributor/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "TikTok says more than 46,000 UK music creators have gone LIVE in 2026, with daily views up 74% YoY",
+      "link": "https://www.musicbusinessworldwide.com/tiktok-says-more-than-46000-uk-music-creators-have-gone-live-in-2026-with-daily-views-up-74-yoy/",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "TXT invites 1,000 fans to Seoul theme park",
-      "link": "https://www.koreaherald.com/article/10932028",
+      "source": "Music Business Worldwide",
+      "title": "ByteDance sued by automotive photography firm EVOX, alleging TikTok parent copied 7,095 images to train its Seedream AI image generator",
+      "link": "https://www.musicbusinessworldwide.com/bytedance-sued-by-automotive-photography-firm-evox-alleging-tiktok-parent-copied-7095-images-to-train-its-seedream-ai-image-generator/",
+      "keep": false,
+      "category": null,
+      "reason": "legal story unrelated to contracts/agency business/artist rights"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Peanuts music catalog owner settles copyright lawsuit against GameMill over Snoopy video game soundtrack",
+      "link": "https://www.musicbusinessworldwide.com/peanuts-music-catalog-owner-settles-copyright-lawsuit-against-gamemill-over-snoopy-video-game-soundtrack/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Yamaha strikes $285M deal to acquire Disguise, whose visual tech has powered tours by Bad Bunny, Beyoncé, and Taylor Swift",
+      "link": "https://www.musicbusinessworldwide.com/yamaha-strikes-285m-deal-to-acquire-disguise-whose-visual-tech-has-powered-tours-by-bad-bunny-beyonce-and-taylor-swift/",
+      "keep": false,
+      "category": null,
+      "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Music Business Worldwide",
+      "title": "Suno launches Bridge, an app that drops AI stems into Ableton Live",
+      "link": "https://www.musicbusinessworldwide.com/suno-launches-bridge-an-app-that-drops-ai-stems-into-ableton-live/",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "Illit tops 200m streams with ‘Do the Dance’",
-      "link": "https://www.koreaherald.com/article/10931923",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Blackpink’s Jennie ties Rose’s record on Billboard’s Hot 100 with Tame Impala collab",
-      "link": "https://www.koreaherald.com/article/10931914",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Stray Kids adds 25 more dates to ongoing world tour",
-      "link": "https://www.koreaherald.com/article/10931766",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Illit's 'Break Even' debuts at 6th on Billboard 200",
-      "link": "https://www.koreaherald.com/article/10931657",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "K-pop industry group pushes back on NYT report over artist contracts",
-      "link": "https://www.koreaherald.com/article/10931196",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Blackpink’s Jisoo signs with WME for worldwide representation",
-      "link": "https://www.koreaherald.com/article/10931114",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Small agencies launch 90% of K-pop groups, but struggle to keep them alive: study",
-      "link": "https://www.koreaherald.com/article/10930889",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Korea Herald",
-      "title": "Exo proves experience counts in hit-packed tour finale",
-      "link": "https://www.koreaherald.com/article/10930874",
+      "source": "Music Business Worldwide",
+      "title": "Jesús López to step down as Chairman and CEO of Universal Music Latin America & Iberian Peninsula, becoming Chairman Emeritus of GTS",
+      "link": "https://www.musicbusinessworldwide.com/jesus-lopez-to-step-down-as-chairman-and-ceo-of-universal-music-latin-america-iberian-peninsula-becoming-chairman-emeritus-of-gts/",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -314,76 +338,36 @@
       "reason": "MBW: no Korean/K-pop context in headline"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "Sony Music renews multi-year licensing deal with China’s NetEase Cloud Music",
-      "link": "https://www.musicbusinessworldwide.com/sony-music-renews-multi-year-licensing-deal-with-chinas-netease-cloud-music/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Az Cohen’s AZTEC, a joint venture label with Believe, has signed its first artist",
-      "link": "https://www.musicbusinessworldwide.com/az-cohens-aztec-a-joint-venture-label-with-believe-has-signed-its-first-artist/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Symphonic inks deal to bring ‘hundreds of thousands’ of songs to Roblox",
-      "link": "https://www.musicbusinessworldwide.com/symphonic-inks-deal-to-bring-hundreds-of-thousands-of-songs-to-roblox/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Reservoir expands copyright lawsuits against Suno and Anthropic to more than 2,500 songs combined",
-      "link": "https://www.musicbusinessworldwide.com/reservoir-expands-copyright-lawsuits-against-suno-and-anthropic-to-more-than-2500-songs-combined/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "THE•TEAM forms 11-member board after Providence completes buyout of founder Casey Wasserman",
-      "link": "https://www.musicbusinessworldwide.com/theteam-forms-11-member-board-after-providence-completes-buyout-of-founder-casey-wasserman/",
-      "keep": false,
-      "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
-    },
-    {
-      "source": "Music Business Worldwide",
-      "title": "Live Nation-operated Cleveland amphitheater breaks ground, ahead of 2028 opening",
-      "link": "https://www.musicbusinessworldwide.com/live-nation-operated-cleveland-amphitheater-breaks-ground-ahead-of-2028-opening/",
+      "source": "Soompi Music",
+      "title": "Tame Impala & Jennie’s “Dracula,” IVE’s “BANG BANG,” And KiiiKiii’s “404 (NEW ERA)” Nominated For 2027 Grammys",
+      "link": "https://www.soompi.com/article/1887716wpp/tame-impala-jennies-dracula-ives-bang-bang-and-kiiikiiis-404-new-era-nominated-for-2027-grammys",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "UMG and Warner Chappell agree to settle lawsuit alleging Quavo’s 2018 track ‘Bubble Gum’ copied a demo handed to him at a Migos after-party",
-      "link": "https://www.musicbusinessworldwide.com/umg-and-warner-chappell-agree-to-settle-lawsuit-alleging-quavos-2018-track-bubble-gum-copied-a-demo-handed-to-him-at-a-migos-after-party/",
+      "source": "Soompi Music",
+      "title": "KATSEYE’s “Gabriela” Becomes Their 7th MV To Hit 100 Million Views",
+      "link": "https://www.soompi.com/article/1887704wpp/katseyes-gabriela-becomes-their-7th-mv-to-hit-100-million-views",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: million views"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "UMG’s Bravado strikes worldwide merch deal with Disney’s Searchlight Pictures",
-      "link": "https://www.musicbusinessworldwide.com/umgs-bravado-strikes-worldwide-merch-deal-with-disneys-searchlight-pictures/",
+      "source": "Soompi Music",
+      "title": "Watch: ILLIT Takes 3rd Win For “You’re Under Arrest” On “SHOW K-POP”",
+      "link": "https://www.soompi.com/article/1887698wpp/watch-illit-takes-3rd-win-for-youre-under-arrest-on-show-k-pop",
       "keep": false,
       "category": null,
-      "reason": "MBW: no Korean/K-pop context in headline"
+      "reason": "routine PR/fandom noise: takes 3rd win"
     },
     {
-      "source": "Music Business Worldwide",
-      "title": "beatBread forms advisory board including executives from Meta and Suno",
-      "link": "https://www.musicbusinessworldwide.com/beatbread-forms-advisory-board-including-executives-from-meta-and-suno/",
+      "source": "Soompi Music",
+      "title": "Hwasa’s “Good Goodbye” Becomes Her 2nd Solo MV To Hit 200 Million Views",
+      "link": "https://www.soompi.com/article/1887636wpp/hwasas-good-goodbye-becomes-her-2nd-solo-mv-to-hit-200-million-views",
       "keep": false,
       "category": null,
-      "reason": "no meaningful-change event matched"
+      "reason": "routine PR/fandom noise: million views"
     },
     {
       "source": "Soompi Music",
@@ -683,7 +667,7 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: EXO-KASE Unveils Striking Teasers For “Waking Up The City” Debut",
+      "title": "Update: EXO-KASE Poses In Teasers For “Waking Up The City” Unit Debut",
       "link": "https://www.soompi.com/article/1885364wpp/exos-kai-and-sehun-gear-up-for-unit-debut-as-exo-kase-with-waking-up-the-city-teaser",
       "keep": false,
       "category": null,
@@ -771,11 +755,11 @@
     },
     {
       "source": "Soompi Music",
-      "title": "Update: Taeyeon Drops Comeback Trailer For Full-Length Album “Unspecial”",
+      "title": "Update: Taeyeon Gears Up For Solo Comeback With “Unspecial” Teasers",
       "link": "https://www.soompi.com/article/1885057wpp/watch-girls-generations-taeyeon-announces-comeback-date-with-teaser-for-unspecial",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
+      "keep": false,
+      "category": null,
+      "reason": "teaser/rollout post"
     },
     {
       "source": "Soompi Music",
@@ -834,36 +818,12 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Music",
-      "title": "ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views",
-      "link": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views",
-      "link": "https://www.soompi.com/article/1884909wpp/watch-le-sserafim-illit-and-katseyes-iconic-by-mistake-mv-surpasses-200-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Winners Of 2026 Korea Grand Music Awards – ARTIST DAY",
-      "link": "https://www.soompi.com/article/1884897wpp/winners-of-2026-korea-grand-music-awards-artist-day",
+      "source": "Soompi Celeb",
+      "title": "YG Entertainment Addresses Reports About BLACKPINK’s Group Activities",
+      "link": "https://www.soompi.com/article/1887648wpp/yg-entertainment-addresses-reports-about-blackpinks-group-activities",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Stars Shine On Red Carpet At 2026 Korea Grand Music Awards – ARTIST DAY",
-      "link": "https://www.soompi.com/article/1884817wpp/stars-shine-on-red-carpet-at-2026-korea-grand-music-awards-kgma-day-1",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: red carpet"
     },
     {
       "source": "Soompi Celeb",
@@ -1338,9 +1298,33 @@
       "reason": "routine PR/fandom noise: brand reputation"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "Stray Kids’ Hyunjin To Limit Movements During Upcoming Performances Due To Shoulder Pain",
-      "link": "https://www.soompi.com/article/1881042wpp/stray-kids-hyunjin-to-limit-movements-during-upcoming-performances-due-to-shoulder-pain",
+      "source": "Yonhap K-pop",
+      "title": "(2nd LD) Jennie nominated for Grammy Awards' Record of the Year for 'Dracula'",
+      "link": "https://en.yna.co.kr/view/AEN20261116009652315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "(LEAD) K-pop's Jennie, Australian act Tame Impala nominated for Grammy Awards' Best Pop Duo",
+      "link": "https://en.yna.co.kr/view/AEN20261116009651315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "(URGENT) Jennie nominated for Grammy Awards' Record of the Year for 'Dracula'",
+      "link": "https://en.yna.co.kr/view/AEN20261116009700315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "K-pop's Jennie, Australian act Tame Impala nominated for Grammy Awards' Best Pop Duo",
+      "link": "https://en.yna.co.kr/view/AEN20261116009600315?section=culture/k-pop",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1472,38 +1456,6 @@
       "keep": false,
       "category": null,
       "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Girl group Rescene aims for lasting appeal following viral chart resurgence",
-      "link": "https://en.yna.co.kr/view/AEN20261103010600315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "legal story unrelated to contracts/agency business/artist rights"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS concerts in Taiwan, Indonesia to be screened at movie theaters in over 80 countries",
-      "link": "https://en.yna.co.kr/view/AEN20261103001800315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "BTS charms 853,000 fans on Latin American tour",
-      "link": "https://en.yna.co.kr/view/AEN20261102004100315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Tws returns with uplifting anthem for youth's trial and error",
-      "link": "https://en.yna.co.kr/view/AEN20261031002700315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
   "duplicates": [
@@ -1513,8 +1465,15 @@
       "kept": "Watch: KISS OF LIFE Announces Return With Teaser For Winter Single “Greedy”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
+    },
+    {
+      "dropped": "Riize, Plave to release collaboration single 'Lowkey' on Nov. 30",
+      "dropped_source": "Korea Herald",
+      "kept": "PLAVE And RIIZE Announce Release Date For Collaboration Track “Lowkey”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
     }
   ],
   "candidate_items": 13,
-  "final_items": 12
+  "final_items": 11
 }

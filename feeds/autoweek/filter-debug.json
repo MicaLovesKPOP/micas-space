@@ -1,10 +1,26 @@
 {
-  "generated_at": "2026-11-15T21:43:24.454560+00:00",
+  "generated_at": "2026-11-16T01:57:20.224541+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 25,
   "dropped_items": 0,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De Audi A2 e-tron laat wat steken vallen maar kleurt verder keurig binnen de lijntjes",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-audi-a2-e-tron-laat-wat-steken-vallen-maar-kleurt-verder-keurig-binnen-de-lijntjes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "a2 e-tron",
+          "e-tron"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -325,21 +341,6 @@
       "matches": {
         "ev": [],
         "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Mercedes-Benz stopt alle investeringen in Duitsland",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mercedes-benz-stopt-alle-investeringen-in-duitsland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "stopt met"
-        ],
         "exceptional": [],
         "boring": [],
         "routine_product": []

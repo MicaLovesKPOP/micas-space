@@ -1,10 +1,83 @@
 {
-  "generated_at": "2026-11-17T02:53:52.026712+00:00",
+  "generated_at": "2026-11-17T11:43:30.427208+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Reo Runabout houdt het als het goed is 800.000 kilometer vol",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-reo-runabout-houdt-het-als-het-goed-is-800-000-kilometer-vol/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen ID Polo voorlopig niet bestelbaar: levering op zijn vroegst in 2028",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id-polo-voorlopig-niet-bestelbaar-levering-op-zijn-vroegst-in-2028/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "bestelbaar",
+          "leverbaar"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Cybercab-productie in Berlijn: Tesla investeert nog wel in Duitsland",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/cybercab-productie-in-berlijn-tesla-investeert-nog-wel-in-duitsland/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "In dit Europese land betaal je €10.000 per letter op je kenteken",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/in-dit-europese-land-betaal-je-tot-e10-000-per-letter-op-je-kenteken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Mercedes geeft stuur uit handen maar de auto vraagt vaker dan Tesla bevestiging",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mercedes-geeft-stuur-uit-handen-maar-de-auto-vraagt-vaker-dan-tesla-bevestiging/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bev",
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": false,
       "reason": "routine EV product/update coverage",
@@ -284,77 +357,6 @@
       "link": "https://www.autoweek.nl/autotests/artikel/zo-komt-de-mercedes-c-klasse-uit-de-100-000-kilometertest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met deze PHEV wil Honda de zakelijke rijder nog voor 2027 aan zich binden",
-      "link": "https://www.autoweek.nl/autotests/artikel/met-deze-phev-wil-honda-de-zakelijk-rijder-nog-voor-2027-aan-zich-binden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De goedkoopste Volkswagen ID Cross mist iets heel belangrijks – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-goedkoopste-volkswagen-id-cross-mist-iets-heel-belangrijks-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "duurder"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De gestroomlijnde Hyundai Ioniq 3 wint niet alleen daarom van de Volvo EX30",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-gestroomlijnde-hyundai-ioniq-3-wint-niet-alleen-daarom-van-de-volvo-ex30/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ex30"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Mijn Citroën C5 heeft nu 215.000 km op de teller, hoe kan ik er nog 200.000 bij rijden?'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/mijn-citroen-c5-heeft-nu-215-000-km-op-de-teller-hoe-kan-er-nog-200-000-bij-rijden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Lekker jong en up-to-date: deze elektrische SUV's zitten nu onder de €40.000",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/lekker-jong-en-up-to-date-deze-elektrische-suvs-zitten-nu-onder-de-e40-000/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
         "major": [],
         "exceptional": [],
         "boring": [],

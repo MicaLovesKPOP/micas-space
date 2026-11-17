@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T19:49:55.745646+00:00",
+  "generated_at": "2026-11-17T02:53:56.528022+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 25
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,21 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Bijna gratis een BMW rijden. Dat kan met deze occasion",
+      "link": "https://www.autoblog.nl/nieuws/is-deze-occasion-de-ideale-dagelijkse-auto",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "belasting",
+          "wegenbelasting"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -379,18 +394,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Porsche-supercar gespot op de Nürburgring, maar er is iets vreemds",
       "link": "https://www.autoblog.nl/nieuws/porsche-supercar-gespot-op-de-nurburgring-maar-er-is-iets-vreemds",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Lamborghini Huracán wordt in Volendam compleet aan gort gereden",
-      "link": "https://www.autoblog.nl/nieuws/peperdure-lamborghini-huracan-crasht-tegen-boom-in-volendam",
       "details": {
         "feature": [],
         "tags": [],
@@ -1134,6 +1137,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 81,
-  "output_items": 81
+  "input_items": 80,
+  "output_items": 80
 }

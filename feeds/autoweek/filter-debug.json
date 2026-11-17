@@ -1,10 +1,28 @@
 {
-  "generated_at": "2026-11-16T19:49:51.219176+00:00",
+  "generated_at": "2026-11-17T02:53:52.026712+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 25,
-  "dropped_items": 0,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Elektrische BMW M3 is nieuwe maatstaf voor sportieve EV's",
+      "link": "https://www.autoweek.nl/autotests/artikel/test-elektrische-bmw-m3-is-nieuwe-maatstaf-voor-sportieve-evs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -337,19 +355,6 @@
         "ev": [
           "elektrisch"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Fiat Stilo 25 jaar: van ambitieuze Golf-rivaal tot zeldzame occasion",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/fiat-stilo-25-jaar-van-ambitieuze-golf-rivaal-tot-zeldzame-occasion/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

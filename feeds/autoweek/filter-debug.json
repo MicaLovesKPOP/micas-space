@@ -1,10 +1,38 @@
 {
-  "generated_at": "2026-11-17T11:43:30.427208+00:00",
+  "generated_at": "2026-11-17T20:48:40.569420+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Nederland is niet meer het topland voor EV’s, ondanks beste infrastructuur",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nederland-is-niet-meer-het-topland-voor-evs-ondanks-beste-infrastructuur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Verkeersboetes tegen wens Kamermeerderheid omhoog met inflatie",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/verkeersboetes-tegen-wens-kamermeerderheid-omhoog-met-inflatie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -52,7 +80,7 @@
     {
       "keep": true,
       "reason": "non-EV car news",
-      "title": "In dit Europese land betaal je €10.000 per letter op je kenteken",
+      "title": "Gepersonaliseerde kentekens in Monaco: tot €40.000!",
       "link": "https://www.autoweek.nl/autonieuws/artikel/in-dit-europese-land-betaal-je-tot-e10-000-per-letter-op-je-kenteken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
@@ -335,32 +363,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Gelukkig werd dit niet de R: met deze wild uitgedoste V70 keek Volvo hoe ver ‘t kon gaan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/gelukkig-werd-dit-niet-de-r-met-deze-wild-uitgedoste-v70-keek-volvo-aan-hoe-ver-t-kon-gaan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo komt de Mercedes C-klasse uit de 100.000 kilometertest",
-      "link": "https://www.autoweek.nl/autotests/artikel/zo-komt-de-mercedes-c-klasse-uit-de-100-000-kilometertest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

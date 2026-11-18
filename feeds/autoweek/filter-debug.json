@@ -1,10 +1,81 @@
 {
-  "generated_at": "2026-11-18T11:30:40.190046+00:00",
+  "generated_at": "2026-11-18T19:33:48.404685+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen T-Roc R: als deze hete T-Roc naar Nederland zou komen, zou hij zomaar een ton kosten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/niet-voor-ons-de-volkswagen-t-roc-r-333-pk-en-milde-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Elektrische vrachtwagens winnen terrein in Europa, Nederland koploper",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-vrachtwagens-winnen-terrein-in-europa-nederland-koploper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Deze Japanse PHEV komt best uit Duitse TÜV-keuring, Tesla en MG onderaan",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-japanse-phev-komt-best-uit-duitse-tuv-keuring-tesla-en-mg-onderaan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Waymo haalt zelfrijdende taxi van Amerikaanse snelweg",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/waymo-haalt-zelfrijdende-taxi-van-amerikaanse-snelweg/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De Bentley Torcal heeft hetzelfde probleem als de ID Polo",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-bentley-torcal-heeft-hetzelfde-probleem-als-de-id-polo/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "leverbaar"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -289,80 +360,6 @@
         "ev": [
           "ev"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit is de 'Nederlandse' hypercar waarin je als bestuurder zit als op een motorfiets",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-nederlandse-hypercar-waarin-je-als-bestuurder-zit-als-op-een-motorfiets/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "hypercar"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Meer EV-rijders overwegen hybride als volgende auto",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/meer-ev-rijders-overwegen-hybride-als-volgende-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Peugeot e-208-gamma op de schop: goedkoper en luxer",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/peugeot-e-208-gamma-op-de-schop-goedkoper-en-luxer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De Audi A2 e-tron laat wat steken vallen maar kleurt verder keurig binnen de lijntjes",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-audi-a2-e-tron-laat-wat-steken-vallen-maar-kleurt-verder-keurig-binnen-de-lijntjes/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "a2 e-tron",
-          "e-tron"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Kees (57) zocht lang naar een Mercedes SL 600 met machtige V12: 'Ze worden steeds meer geld waard'",
-      "link": "https://www.autoweek.nl/autotests/artikel/kees-57-zocht-lang-naar-een-mercedes-sl-600-met-machtige-v12-ze-worden-steeds-meer-geld-waard/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

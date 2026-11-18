@@ -1,10 +1,123 @@
 {
-  "generated_at": "2026-11-18T02:51:30.657121+00:00",
+  "generated_at": "2026-11-18T11:30:40.190046+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 24,
-  "dropped_items": 1,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Grote elektrische Skoda Peaq maakt indruk bij veiligheidstests en botsproeven",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/grote-elektrische-skoda-peaq-maakt-indruk-bij-veiligheidstests-en-botsproeven/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bij de BMW 116d van Erik (63) brak bij 342.000 km de ketting: 'De reparatie kostte heel veel geld'",
+      "link": "https://www.autoweek.nl/autotests/artikel/bij-de-bmw-116d-van-erik-63-brak-bij-342-000-km-de-ketting-de-reparatie-koste-heel-veel-geld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Kia had 40 jaar geleden al een elektrische auto",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kia-had-40-jaar-geleden-al-een-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Plug-in hybride SUV trekt op slechts twee wielen een Boeing 747",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/plug-in-hybride-suv-trekt-op-slechts-twee-wielen-een-boeing-747/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De benzineprijs blijft dalen: op laagste niveau in ruim acht maanden",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-benzineprijs-blijft-dalen-op-laagste-niveau-in-ruim-acht-maanden/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Waarom de vernieuwde BMW iX2 wel en niet in de Neue Klasse zit",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/waarom-de-vernieuwde-bmw-ix2-wel-en-niet-in-de-neue-klasse-zit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "bmw ix",
+          "ix2"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De stagiairs van Volkswagen kregen nog wél een ID Polo te pakken",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-staigairs-van-volkswagen-kregen-nog-wel-een-id-polo-te-pakken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen Tayron: met meer vermogen klaar voor Euro 7",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-tayron-met-meer-vermogen-klaar-voor-euro-7/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -254,115 +367,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Volvo EX90 blijft een logische keuze, maar de Lucid Gravity is wel heel gaaf",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-volvo-ex90-blijft-een-logische-keuze-maar-de-lucid-gravity-is-wel-heel-gaaf/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo zuinig rijdt de Seat Arona in de praktijk",
-      "link": "https://www.autoweek.nl/autotests/artikel/zo-zuinig-rijdt-de-seat-arona-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dure topmerken op plek 1 tot en met 6 bij vierseizoenenbandentest, diverse B-merken netjes in top 10",
-      "link": "https://www.autoweek.nl/autotests/artikel/dure-topmerken-op-plek-1-tot-en-met-6-bij-vierseizoenenbandentest-diverse-b-merken-overtuigend-in-top-10/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Een niet al te heftig elektrisch vermogen past prima bij een limo als de BMW i7",
-      "link": "https://www.autoweek.nl/autotests/artikel/een-niet-al-te-heftig-elektrisch-vermogen-past-prima-bij-een-limo-als-de-bmw-i7/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "i7"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Marcel (70) had ooit een Lancia Delta Integrale Evo 1 maar hij vindt zijn Audi S5 nog leuker",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/marcel-had-ooit-een-lancia-delta-integrale-evo-1-maar-hij-vindt-zijn-audi-s5-nog-leuker/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze vroege SUV's stijgen nu in waarde, net als diverse iconische terreinwagens",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-vroege-suvs-stijgen-nu-in-waarde-net-als-diverse-iconische-terreinwagens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Met deze vroege Trabant moet je niet harder dan 80 km/h willen, maar de pret is er niet minder om",
-      "link": "https://www.autoweek.nl/autotests/artikel/met-deze-vroege-trabant-moet-je-niet-harder-dan-80-km-h-willen-maar-de-pret-is-er-niet-minder-om/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Nieuwe Peugeot e-208: wat Renault kan, kan Peugeot ook!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-peugeot-208-wat-renault-kan-kan-peugeot-ook/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

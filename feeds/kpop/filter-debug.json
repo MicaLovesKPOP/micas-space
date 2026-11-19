@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T01:11:05.011143+00:00",
+  "generated_at": "2026-11-19T08:45:19.050132+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 35
     },
     {
       "name": "Music Business Worldwide",
@@ -35,6 +35,30 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "BTS kicks off Asia-Pacific leg of ‘Arirang’ world tour in Kaohsiung",
+      "link": "https://www.koreaherald.com/article/10943078",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Illit scales back comeback promotions amid members' health concerns",
+      "link": "https://www.koreaherald.com/article/10943077",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Riize airport incident reignites controversy over excessive security for K-pop stars",
+      "link": "https://www.koreaherald.com/article/10942926",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "K-pop stars cheer on exam takers as Ateez's San condemns AI cheating",
       "link": "https://www.koreaherald.com/article/10941731",
       "keep": false,
@@ -43,11 +67,51 @@
     },
     {
       "source": "Korea Herald",
+      "title": "SM's new boy group XTNS set for January debut. Who are they?",
+      "link": "https://www.koreaherald.com/article/10941501",
+      "keep": true,
+      "category": "Debut / new group",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Which K-pop idols are taking Suneung this year?",
+      "link": "https://www.koreaherald.com/article/10941480",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Fifty Fifty adds Taipei to fan concert tour",
+      "link": "https://www.koreaherald.com/article/10941183",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: concert tour"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "P1Harmony’s 10th EP hits Billboard 200 at No. 4",
+      "link": "https://www.koreaherald.com/article/10941166",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: billboard"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Babymonster's ‘Choom’ streamed 100m times on Spotify",
       "link": "https://www.koreaherald.com/article/10941165",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "9th EP from TXT tops iTunes Chart in 20 regions, sells over 1.5m copies in 2 days",
+      "link": "https://www.koreaherald.com/article/10940899",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: itunes chart"
     },
     {
       "source": "Korea Herald",
@@ -1291,6 +1355,22 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "BTS to launch tour of Asia, Australia in Kaohsiung",
+      "link": "https://en.yna.co.kr/view/AEN20261119004700315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
+      "title": "Appeals court upholds prison term for singer Nam Tae-hyun over drunk driving",
+      "link": "https://en.yna.co.kr/view/AEN20261119003500315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "legal story unrelated to contracts/agency business/artist rights"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "Stray Kids' I.N to drop solo single 'No Return'",
       "link": "https://en.yna.co.kr/view/AEN20261117006000315?section=culture/k-pop",
       "keep": true,
@@ -1432,22 +1512,6 @@
       "keep": true,
       "category": "Debut / new group",
       "reason": "whitelisted event"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Jennie sings soundtrack for new Netflix animation 'Steps'",
-      "link": "https://en.yna.co.kr/view/AEN20261106003700315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "U.S. copyright lawsuit over BTS song 'Swim' dropped: report",
-      "link": "https://en.yna.co.kr/view/AEN20261105005800315?section=culture/k-pop",
-      "keep": true,
-      "category": "Legal / dispute",
-      "reason": "whitelisted event"
     }
   ],
   "duplicates": [
@@ -1466,6 +1530,6 @@
       "category": "Comeback / release"
     }
   ],
-  "candidate_items": 12,
-  "final_items": 10
+  "candidate_items": 13,
+  "final_items": 11
 }

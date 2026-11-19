@@ -1,10 +1,77 @@
 {
-  "generated_at": "2026-11-19T01:27:58.551591+00:00",
+  "generated_at": "2026-11-19T09:28:50.454552+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 24,
+  "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "McLaren haalt topmannen van Renault en Hyundai binnen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/mclaren-haalt-topmannen-van-renault-en-hyundai-binnen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "strategie"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "In de VS gaat het nog wél goed met Mercedes: verkoopverwachting bijgesteld",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/in-de-vs-gaat-het-nog-wel-goed-met-mercedes-verkoopverwachting-bijgesteld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Binnenkort kijkt de overheid 'live' mee met je verbruik en uitstoot",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/binnenkort-kijkt-de-overheid-live-mee-met-je-verbruik-en-uitstoot/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Populaire Toyota Corolla Cross is er nu ook als praktische pick-up!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-corolla-deck-extra-praktische-toyota-corolla-cross-met-laadbak/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Lamborghini Temerario Spyder: de eerste met hardtop!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/lamborghini-temerario-spyder-de-eerste-met-hardtop/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -283,82 +350,6 @@
         "ev": [
           "bev",
           "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Elektrische BMW M3 is nieuwe maatstaf voor sportieve EV's",
-      "link": "https://www.autoweek.nl/autotests/artikel/test-elektrische-bmw-m3-is-nieuwe-maatstaf-voor-sportieve-evs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Hyundai maakt ‘bedrijfswagens’ van Kona en Inster, maar geen Bedrijfswagens",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-maakt-bedrijfswagens-van-kona-en-inster-maar-geen-bedrijfswagens/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "inster"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Stichting Autobelangen juicht: “Youngtimerregeling kreeg breedste steun!”",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/stichting-autobelangen-juicht-youngtimerregeling-kreeg-breedste-steun/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Leapmotor werkt mee aan platform Citroën 2CV, alles om kosten te drukken",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/leapmotor-werkt-mee-aan-platform-citroen-2cv-alles-om-kosten-te-drukken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "leapmotor"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "BMW bouwt voor het eerst ooit EV-accupakketten in de VS",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-bouwt-voor-het-eerst-ooit-accupakketten-in-de-vs/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
         ],
         "major": [],
         "exceptional": [],

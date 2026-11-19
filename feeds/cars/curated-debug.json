@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T01:28:03.343289+00:00",
+  "generated_at": "2026-11-19T09:28:55.018026+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,66 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Als het aan Max Verstappen ligt, komt de Formule 1 niet meer op deze circuits",
+      "link": "https://www.autoblog.nl/nieuws/als-het-aan-max-verstappen-ligt-komt-de-formule-1-niet-meer-op-deze-circuits",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "APK-onderzoek: Tesla Model 3 en Y hebben meeste problemen!",
+      "link": "https://www.autoblog.nl/nieuws/apk-onderzoek-tesla-model-3-en-y-hebben-meeste-problemen",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Marktplaats krijgt er ineens 10.000 auto's bij!",
+      "link": "https://www.autoblog.nl/nieuws/marktplaats-breidt-autohoek-uit-met-leaseplatform",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Lamborghini Temerario Spyder heeft 920 pk en een primeur!",
+      "link": "https://www.autoblog.nl/nieuws/lamborghini-temerario-spyder-is-de-belangrijkste-cabrio-van-lambo-ooit",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Volkswagen T-Roc R is de sterkste VW-SUV van Europa!",
+      "link": "https://www.autoblog.nl/nieuws/volkswagen-t-roc-r-is-een-crossover-die-je-wel-wilt",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -331,66 +391,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "‘Lewis Hamilton moet stoppen met zeiken en klagen en met pensioen gaan’",
       "link": "https://www.autoblog.nl/nieuws/lewis-hamilton-moet-stoppen-met-zeiken-en-klagen-en-met-pensioen-gaan",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nederlandse benzineprijs duikt onder nieuwe grens!",
-      "link": "https://www.autoblog.nl/nieuws/nederlandse-benzineprijs-duikt-onder-nieuwe-grens",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Mercedes breekt met een traditie voor deze bizarre supercar",
-      "link": "https://www.autoblog.nl/nieuws/mercedes-verkoopt-een-auto-die-je-waarschijnlijk-nog-nooit-hebt-gezien",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "BMW M4 Cabrio krijgt mogelijk een absurd aantal pk's",
-      "link": "https://www.autoblog.nl/nieuws/bmw-m4-cabrio-krijgt-mogelijk-een-absurd-aantal-pk-s",
-      "details": {
-        "ev": [
-          "elektrisch"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Haal deze zeldzame Audi met 571 pk op bij Domeinen!",
-      "link": "https://www.autoblog.nl/nieuws/haal-deze-zeldzame-audi-met-571-pk-op-bij-domeinen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Citroën-rijder negeert rood kruis en kopt trap [Video]",
-      "link": "https://www.autoblog.nl/nieuws/video-dit-gebeurt-er-als-je-een-rood-kruis-negeert",
       "details": {
         "feature": [],
         "tags": [],
@@ -1127,6 +1127,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 79,
+  "output_items": 79
 }

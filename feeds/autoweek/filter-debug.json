@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-11-20T00:54:06.764360+00:00",
+  "generated_at": "2026-11-20T08:28:16.456107+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 24,
   "dropped_items": 1,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De superstrakke Honda Avancier is de eerste op een nieuw platform",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-superstrakke-honda-avancier-is-de-eerste-op-een-nieuw-platform/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -332,19 +345,6 @@
         "routine_product": [
           "vernieuwde "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De stagiairs van Volkswagen kregen nog wél een ID Polo te pakken",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-staigairs-van-volkswagen-kregen-nog-wel-een-id-polo-te-pakken/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

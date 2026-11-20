@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:54:10.880158+00:00",
+  "generated_at": "2026-11-20T08:28:22.396465+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -106,6 +106,37 @@
   "decisions": [
     {
       "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog jubileum/terugblik",
+      "title": "Dit automerk levert na 20 (!) jaar hun eerste klantenauto af",
+      "link": "https://www.autoblog.nl/nieuws/dit-automerk-levert-na-20-jaar-hun-eerste-klantenauto-af"
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "M2-rijder maakt nog één laatste ritje, wordt gepakt met 273 km/u",
+      "link": "https://www.autoblog.nl/nieuws/m2-rijder-maakt-nog-een-laatste-ritje-wordt-gepakt-met-273-km-u",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hoe laat begint F1 in Las Vegas? En alles wat je moet weten!",
+      "link": "https://www.autoblog.nl/nieuws/f1-gp-van-las-vegas-2026-tijden-en-alles-wat-je-moet-weten",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
       "keep": false,
       "reason": "EV-extra",
       "title": "Voor deze autorijder is de plug-in hybride ineens weer een goed idee",
@@ -150,6 +181,18 @@
         "feature": [],
         "tags": [],
         "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Belangrijke beveiligingswaarschuwing voor bezoekers van Autoblog.nl",
+      "link": "https://www.autoblog.nl/nieuws/belangrijke-beveiligingswaarschuwing-voor-bezoekers-van-autoblog-nl",
+      "details": {
+        "ev": [
+          "bev"
+        ]
       }
     },
     {
@@ -334,54 +377,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Volkswagen T-Roc R is de sterkste VW-SUV van Europa!",
       "link": "https://www.autoblog.nl/nieuws/volkswagen-t-roc-r-is-een-crossover-die-je-wel-wilt",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "In deze Nederlandse stad kan parkeren je heel duur komen te staan",
-      "link": "https://www.autoblog.nl/nieuws/in-deze-nederlandse-stad-is-parkeren-pas-echt-duur",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Zo pis je in één klap miljoenen weg",
-      "link": "https://www.autoblog.nl/nieuws/zo-pis-je-in-een-klap-miljoenen-weg",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "BLIJF WEG UIT EINDHOVEN! IK HERHAAL, BLIJF WEG UIT EINDHOVEN!",
-      "link": "https://www.autoblog.nl/nieuws/blijf-weg-uit-eindhoven-ik-herhaal-blijf-weg-uit-eindhoven",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nederland neemt massaal vrij om GTA 6 te spelen",
-      "link": "https://www.autoblog.nl/nieuws/nederland-neemt-massaal-vrij-om-gta-6-te-spelen",
       "details": {
         "feature": [],
         "tags": [],
@@ -1142,6 +1137,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 81,
-  "output_items": 81
+  "input_items": 82,
+  "output_items": 82
 }

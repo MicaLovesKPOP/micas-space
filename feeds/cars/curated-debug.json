@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:38:27.088658+00:00",
+  "generated_at": "2026-11-20T00:54:10.880158+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Voor deze autorijder is de plug-in hybride ineens weer een goed idee",
+      "link": "https://www.autoblog.nl/nieuws/voor-deze-autorijder-is-de-plug-in-hybride-ineens-weer-interessant",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "BYD heeft iets met het stuurwiel gedaan wat je niet gaat geloven",
+      "link": "https://www.autoblog.nl/nieuws/deze-suv-van-byd-heeft-een-wel-heel-bijzondere-verdwijntruc",
+      "details": {
+        "ev": [
+          "byd"
+        ]
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -358,30 +382,6 @@
       "reason": "geen unieke Autoblog-feature",
       "title": "Nederland neemt massaal vrij om GTA 6 te spelen",
       "link": "https://www.autoblog.nl/nieuws/nederland-neemt-massaal-vrij-om-gta-6-te-spelen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Dit zijn alle auto’s die helemaal nieuw zijn in GTA 6!",
-      "link": "https://www.autoblog.nl/nieuws/deze-gta-auto-s-maken-hun-debuut-in-grand-theft-auto-vi",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Auto’s van Jeremy Clarkson geveild: hoeveel goedkoper zijn ze op Marktplaats?",
-      "link": "https://www.autoblog.nl/nieuws/auto-s-van-jeremy-clarkson-geveild-hoeveel-goedkoper-zijn-ze-op-marktplaats",
       "details": {
         "feature": [],
         "tags": [],
@@ -735,6 +735,13 @@
       "source": "PistonHeads Shed of the Week",
       "keep": true,
       "reason": "Shed of the Week",
+      "title": "Ford Mondeo ST TDCi | Shed of the Week",
+      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/ford-mondeo-st-tdci--shed-of-the-week/51932"
+    },
+    {
+      "source": "PistonHeads Shed of the Week",
+      "keep": true,
+      "reason": "Shed of the Week",
       "title": "Jaguar S-Type 3.0 V6 | Shed of the Week",
       "link": "https://www.pistonheads.com/regulars/ph-features-sheds/jaguar-s-type-3-0-v6--shed-of-the-week/51905"
     },
@@ -828,13 +835,6 @@
       "reason": "Shed of the Week",
       "title": "Volkswagen Touareg 3.2 | Shed of the Week",
       "link": "https://www.pistonheads.com/regulars/ph-features-sheds/volkswagen-touareg-3-2--shed-of-the-week/51550"
-    },
-    {
-      "source": "PistonHeads Shed of the Week",
-      "keep": true,
-      "reason": "Shed of the Week",
-      "title": "Mercedes SL 350 (R320) | Shed of the Week",
-      "link": "https://www.pistonheads.com/regulars/ph-features-sheds/mercedes-sl-350-r320--shed-of-the-week/51524"
     },
     {
       "source": "PistonHeads Spotted",
@@ -992,10 +992,41 @@
     },
     {
       "source": "Hagerty Maintenance & Tech",
-      "keep": true,
-      "reason": "maintenance & tech",
-      "title": "How to Remove Gross Cigarette Odors from Your Car’s Interior",
-      "link": "https://www.hagerty.com/media/maintenance-and-tech/how-to-remove-gross-cigarette-odors-from-your-interior/"
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "From Crashed Teslas to New-Build Classics: How the Electromod Market Has Surged Forward",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/from-crashed-teslas-to-new-build-classics-how-the-electromod-market-has-surged-forward/",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Nik Berg",
+      "link": "https://www.hagerty.com/media/author/nberg/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Electric Vheicles",
+      "link": "https://www.hagerty.com/media/tags/electric-vheicles/",
+      "details": {
+        "ev": [
+          "electric"
+        ]
+      }
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Electromod",
+      "link": "https://www.hagerty.com/media/tags/electromod/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1013,31 +1044,10 @@
     },
     {
       "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Mazda RX-8",
-      "link": "https://www.hagerty.com/media/tags/mazda-rx-8/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Toyota Mirai",
-      "link": "https://www.hagerty.com/media/tags/toyota-mirai/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Honda Clarity",
-      "link": "https://www.hagerty.com/media/tags/honda-clarity/"
-    },
-    {
-      "source": "Hagerty Maintenance & Tech",
-      "keep": false,
-      "reason": "navigatie/sectielink, geen artikel",
-      "title": "Hydrogen",
-      "link": "https://www.hagerty.com/media/tags/hydrogen/"
+      "keep": true,
+      "reason": "maintenance & tech",
+      "title": "How to Remove Gross Cigarette Odors from Your Car’s Interior",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/how-to-remove-gross-cigarette-odors-from-your-interior/"
     },
     {
       "source": "Hagerty Maintenance & Tech",
@@ -1059,6 +1069,20 @@
       "reason": "maintenance & tech",
       "title": "6 New Project Car Parts from SEMA 2026",
       "link": "https://www.hagerty.com/media/maintenance-and-tech/6-new-project-car-parts-from-sema-2026/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": false,
+      "reason": "navigatie/sectielink, geen artikel",
+      "title": "Brandan Gillogly",
+      "link": "https://www.hagerty.com/media/author/brandan-gillogly/"
+    },
+    {
+      "source": "Hagerty Maintenance & Tech",
+      "keep": true,
+      "reason": "maintenance & tech",
+      "title": "6 of Our Favorite New Tools from SEMA 2026",
+      "link": "https://www.hagerty.com/media/maintenance-and-tech/6-of-our-favorite-new-tools-from-sema-2026/"
     },
     {
       "source": "Hagerty Buyer's Guides",
@@ -1118,6 +1142,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 80,
-  "output_items": 80
+  "input_items": 81,
+  "output_items": 81
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T11:46:40.940016+00:00",
+  "generated_at": "2026-11-21T18:14:50.064747+00:00",
   "sources": [
     {
       "name": "Korea Herald",
@@ -33,6 +33,14 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "BTS dominates 2026 MAMAs with five wins",
+      "link": "https://www.koreaherald.com/article/10944819",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "What to look out for at the 2026 MAMAs",
@@ -242,14 +250,6 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Korea Herald",
-      "title": "Riize, Plave to release collaboration single 'Lowkey' on Nov. 30",
-      "link": "https://www.koreaherald.com/article/10939050",
-      "keep": true,
-      "category": "Comeback / release",
-      "reason": "whitelisted event"
-    },
-    {
       "source": "Music Business Worldwide",
       "title": "Vevo dscvr artists to watch 2027: Dalvin La Melodía, Conep, Devon Again, Mari Froes, Die Spitz",
       "link": "https://www.musicbusinessworldwide.com/vevo-dscvr-artists-to-watch-2027-dalvin-la-melodia-conep-devon-again-mari-froes-die-spitz/",
@@ -328,6 +328,30 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Stars Light Up Red Carpet At 2026 MAMA AWARDS – CHAPTER 2",
+      "link": "https://www.soompi.com/article/1889423wpp/stars-light-up-red-carpet-at-2026-mama-awards-chapter-2",
+      "keep": false,
+      "category": null,
+      "reason": "routine PR/fandom noise: red carpet"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Watch: Performances From 2026 MAMA AWARDS – CHAPTER 2",
+      "link": "https://www.soompi.com/article/1889393wpp/watch-performances-from-2026-mama-awards-chapter-2",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "Winners of 2026 MAMA AWARDS – CHAPTER 2",
+      "link": "https://www.soompi.com/article/1889392wpp/winners-of-2026-mama-awards-chapter-2",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -781,30 +805,6 @@
       "source": "Soompi Music",
       "title": "BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup",
       "link": "https://www.soompi.com/article/1885928wpp/blackpinks-jisoo-nct-and-babymonster-announced-for-coachella-2027-lineup",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Baek Yerin’s “Crash Landing On You” OST “Here I Am Again” MV Surpasses 100 Million Views",
-      "link": "https://www.soompi.com/article/1885865wpp/baek-yerins-crash-landing-on-you-ost-here-i-am-again-mv-surpasses-100-million-views",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: million views"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "IVE Scores 1st-Ever Entry On Billboard 200 With “Looks Can Kill”",
-      "link": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill",
-      "keep": false,
-      "category": null,
-      "reason": "routine PR/fandom noise: billboard"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Wonho Announces Dates And Cities For 2027 World Tour “NOCHE”",
-      "link": "https://www.soompi.com/article/1885646wpp/wonho-announces-dates-and-cities-for-2027-world-tour-noche",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -1291,6 +1291,14 @@
     },
     {
       "source": "Yonhap K-pop",
+      "title": "(LEAD) BTS wins 5 MAMA awards as Cortis takes Song of the Year",
+      "link": "https://en.yna.co.kr/view/AEN20261121001851315?section=culture/k-pop",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Yonhap K-pop",
       "title": "BTS wins 5 MAMA awards as Enhypen takes Fans' Choice of the Year",
       "link": "https://en.yna.co.kr/view/AEN20261121001800315?section=culture/k-pop",
       "keep": false,
@@ -1440,25 +1448,9 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
-    },
-    {
-      "source": "Yonhap K-pop",
-      "title": "Andrew Lloyd Webber to make 1st visit to S. Korea",
-      "link": "https://en.yna.co.kr/view/AEN20261111006300315?section=culture/k-pop",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     }
   ],
-  "duplicates": [
-    {
-      "dropped": "Riize, Plave to release collaboration single 'Lowkey' on Nov. 30",
-      "dropped_source": "Korea Herald",
-      "kept": "CL to return with new single on Nov. 20",
-      "kept_source": "Korea Herald",
-      "category": "Comeback / release"
-    }
-  ],
-  "candidate_items": 14,
+  "duplicates": [],
+  "candidate_items": 13,
   "final_items": 13
 }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-21T12:58:54.211259+00:00",
+  "generated_at": "2026-11-21T20:03:17.482190+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 24
+      "items": 23
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,55 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Autoblog Podcast #S3E06: ID. Polo GTI Clubsport + Stijgende verkeersboetes",
+      "link": "https://www.autoblog.nl/video/autoblog-podcast-s3e06-id-polo-gti-clubsport-stijgende-verkeersboetes",
+      "details": {
+        "ev": [
+          "elektrisch",
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Het seizoen is over, dus de perfecte tijd om deze Alpina cabrio te kopen",
+      "link": "https://www.autoblog.nl/nieuws/alpina-b3-cabrio-uit-1995-heeft-niet-de-hoofdprijs",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Wij reden in GTA 6: dit is er veranderd voor de autoliefhebber",
+      "link": "https://www.autoblog.nl/nieuws/wij-reden-in-gta-6-dit-is-er-veranderd-voor-de-autoliefhebber",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "De eerste nieuwe Spyker is klaar en die kun jij gewoon betalen",
+      "link": "https://www.autoblog.nl/nieuws/nieuwe-spyker-is-klaar-maar-het-is-geen-auto",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -338,55 +387,6 @@
         "ev": [
           "ev"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Deze speciale VW Golf GTI is een knipoog naar de Golf I",
-      "link": "https://www.autoblog.nl/nieuws/wist-jij-dat-er-een-volkswagen-golf-gti-s-se-en-autobahn-bestaat",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Eigenlijk iedere auto verslaat Tesla met semi-zelfrijdende functies",
-      "link": "https://www.autoblog.nl/nieuws/test-wijst-uit-dat-chinese-auto-s-de-meest-irritante-en-gevaarlijkste-zijn",
-      "details": {
-        "ev": [
-          "tesla"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Nieuwe elektrische SUV van Opel wordt voor de helft Chinees",
-      "link": "https://www.autoblog.nl/nieuws/nieuwe-elektrische-suv-van-opel-krijgt-chinese-genen",
-      "details": {
-        "ev": [
-          "elektrisch",
-          "leapmotor"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Het glazen dak dat je wist dat ging komen is eindelijk daar! En heeft een prijs",
-      "link": "https://www.autoblog.nl/nieuws/het-glazen-dak-dat-je-wist-dat-ging-komen-is-eindelijk-daar-en-heeft-een-prijs",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1143,6 +1143,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 80,
-  "output_items": 80
+  "input_items": 79,
+  "output_items": 79
 }

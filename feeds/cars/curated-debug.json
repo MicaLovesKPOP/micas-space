@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:18:24.411121+00:00",
+  "generated_at": "2026-11-22T07:25:12.638181+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
@@ -104,6 +104,25 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": true,
+      "reason": "Autoblog #mijnauto",
+      "title": "De Lexus IS-F van Rob is de vergeten V8-rivaal van de BMW M3 #MijnAuto",
+      "link": "https://www.autoblog.nl/video/de-lexus-is-f-van-rob-is-de-vergeten-v8-rivaal-van-de-bmw-m3-mijnauto"
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Jojo-racefestijn in Vegas: samenvatting van de GP van Las Vegas 2026",
+      "link": "https://www.autoblog.nl/nieuws/jojo-racefestijn-in-vegas-samenvatting-van-de-gp-van-las-vegas-2026",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -366,30 +385,6 @@
       }
     },
     {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Eredivisie dit weekeinde een zooitje door GTA VI",
-      "link": "https://www.autoblog.nl/nieuws/gta-vi-release-ontregelt-de-eredivisie",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Chinese EV schrijft in een jaar af waar deze Europese dakloze 18 jaar over doet",
-      "link": "https://www.autoblog.nl/nieuws/deze-dakloze-europese-middenklasser-schreef-in-18-jaar-amper-af",
-      "details": {
-        "ev": [
-          "ev"
-        ]
-      }
-    },
-    {
       "source": "PistonHeads PH Heroes",
       "keep": true,
       "reason": "PH Heroes / terugblik",
@@ -500,6 +495,18 @@
       "reason": "PH Heroes / terugblik",
       "title": "Mercedes E60 AMG | PH Heroes",
       "link": "https://www.pistonheads.com/features/ph-features-heroes/mercedes-e60-amg--ph-heroes/48436"
+    },
+    {
+      "source": "PistonHeads Buying Guides",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Tesla Model Y | PH Used Buying Guide",
+      "link": "https://www.pistonheads.com/features/ph-buying-guides/tesla-model-y--ph-used-buying-guide/51937",
+      "details": {
+        "ev": [
+          "tesla"
+        ]
+      }
     },
     {
       "source": "PistonHeads Buying Guides",
@@ -1143,6 +1150,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 79,
-  "output_items": 79
+  "input_items": 80,
+  "output_items": 80
 }

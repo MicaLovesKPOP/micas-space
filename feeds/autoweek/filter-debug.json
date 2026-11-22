@@ -1,10 +1,110 @@
 {
-  "generated_at": "2026-11-22T07:25:08.707119+00:00",
+  "generated_at": "2026-11-22T15:38:55.647524+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Geen hybride ondersteuning en maar 1.330 kilo: Ferrari 296 Challenge Stradale is puur",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/geen-hybride-ondersteuning-en-maar-1-330-kilo-ferrari-296-challenge-stradale-is-puur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Zo ver komt de KIA EV5 in de praktijk",
+      "link": "https://www.autoweek.nl/autotests/artikel/zo-ver-komt-de-kia-ev5-in-de-praktijk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev5"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "review",
+          "actieradius"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Opel Astra met V6 had het antwoord op de Golf VR6 moeten zijn: uniek prototype van Irmscher",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-opel-astra-met-v6-had-het-antwoord-op-de-golf-vr6-moeten-zijn-uniek-prototype-van-irmscher/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "prototype"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De nieuwe flatplane V8 is ook in de Mercedes-AMG GLE 63 indrukwekkend maar biedt geen toerensensatie",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-nieuwe-flatplane-v8-is-ook-in-de-mercedes-amg-gle-63-indrukwekkend-maar-de-hoogtoerige-explosie-blijft-uit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Arthur kocht deze Volvo 142 in 1981 voor 1.000 gulden en sindsdien liet het merk hem niet meer los",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/arthur-kocht-deze-volvo-142-in-1981-voor-1-000-gulden-en-sindsdien-liet-het-merk-hem-niet-meer-los/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Met de Cupra Tindaya klimt Cupra op de premiumladder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-de-cupra-tindaya-klimt-cupra-op-de-premiumladder/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze in Maranello gemaakte Fiat is een betaalbaar Ferrari-alternatief met een vleugje Manta",
+      "link": "https://www.autoweek.nl/autotests/artikel/deze-in-maranello-gemaakte-fiat-is-een-betaalbaar-ferrari-alternatief-met-een-vleugje-manta/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -253,101 +353,6 @@
       "reason": "non-EV car news",
       "title": "Volkswagen ID Polo GTI Clubsport vaagt met bijna 370 pk de Peugeot 208 GTi weg",
       "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id-polo-gti-clubsport-vaagt-met-bijna-370-pk-de-peugeot-208-gti-weg/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Er is nu een nieuwe Tesla van minder dan 28k, maar met kanttekeningen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/er-is-nu-een-nieuwe-tesla-van-minder-dan-28k-maar-met-kanttekeningen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De superstrakke Honda Avancier is de eerste op een nieuw platform",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-superstrakke-honda-avancier-is-de-eerste-op-een-nieuw-platform/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Toyota Carina is één van de laatste exemplaren van de eerste generatie - In het Wild",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-toyota-carina-is-een-van-de-laatste-exemplaren-van-de-eerste-generatie-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Winst gemaakt op de beurs? Met deze occasions kom je snel weer van je geld af",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/winst-gemaakt-op-de-beurs-met-deze-occasions-kom-je-snel-weer-van-je-geld-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Damiaans Skoda Enyaq is een 'vroege' en niet probleemloos: 'Ik kreeg zelfs een nieuw stuur'",
-      "link": "https://www.autoweek.nl/autotests/artikel/damiaans-skoda-enyaq-is-een-vroege-en-niet-probleemloos-ik-kreeg-zelfs-een-nieuw-stuur/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'BMW M3 begin van nieuw tijdperk, maar Dacia Spring beste auto van het jaar' - podcast",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bmw-m3-begin-van-nieuw-tijdperk-maar-dacia-spring-beste-auto-van-het-jaar-podcast/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Schade aan geparkeerde auto en geen briefje? Zelfs met allriskverzekering kost dat geld",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/schade-aan-geparkeerde-auto-en-geen-briefje-achtergelaten-zelfs-met-allriskverzekering-kost-dat-geld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T01:57:47.875941+00:00",
+  "generated_at": "2026-11-23T10:40:16.766753+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,106 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Vrachtwagen zonder verlichting staat midden op donkere snelweg stil",
+      "link": "https://www.autoblog.nl/video/vrachtwagen-zonder-verlichting-staat-midden-op-donkere-snelweg-stil",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Koenigsegg heeft een vreemd probleem waardoor het BYD niet kan verslaan",
+      "link": "https://www.autoblog.nl/nieuws/koenigsegg-heeft-een-vreemd-probleem-waardoor-het-byd-niet-kan-verslaan",
+      "details": {
+        "ev": [
+          "byd"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Beroemdheid veilt Maybach voor het goede doel, opbrengst valt tegen",
+      "link": "https://www.autoblog.nl/nieuws/beroemdheid-veilt-maybach-voor-het-goede-doel-maar-opbrengst-valt-tegen",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "belasting"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Door deze nieuwe wet ben je nog sneller je rijbewijs kwijt",
+      "link": "https://www.autoblog.nl/nieuws/nieuwe-verkeerswet-maakt-snellere-rijontzegging-mogelijk",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": [
+          "eerste kamer"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Stellantis overweegt te stoppen met deze geldverslindende hobby",
+      "link": "https://www.autoblog.nl/nieuws/stellantis-overweegt-te-stoppen-met-geldverslindende-motorsport",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Waar parkeer je drie uur het duurst? Dit zijn de uitschieters",
+      "link": "https://www.autoblog.nl/nieuws/parkeren-op-straat-drie-uur-kost-in-amsterdam-ruim-24-euro",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Hoe smaakvol of smakeloos maak jij je Ferrari 296 CS?",
+      "link": "https://www.autoblog.nl/nieuws/ferrari-296-challenge-stradale-configurator-smaakvol-of-smakeloos",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Porsche heeft een opmerkelijke oplossing voor dit luxeprobleem",
+      "link": "https://www.autoblog.nl/nieuws/porsche-patenteert-gesplitste-achtervleugel-voor-beter-zicht",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -292,97 +392,6 @@
           "ev",
           "laadpaal"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Verstappen heeft schijt aan FIA: “Ik zou liever thuisblijven”",
-      "link": "https://www.autoblog.nl/nieuws/verstappen-over-races-in-het-midden-oosten-ik-zou-liever-thuisblijven",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Ongeduld komt bestuurder duur te staan",
-      "link": "https://www.autoblog.nl/video/ongeduld-komt-bestuurder-duur-te-staan",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "BREEK: Duitsland wil tolheffing voor auto’s invoeren!",
-      "link": "https://www.autoblog.nl/nieuws/duitsland-wil-tolheffing-voor-automobilisten-invoeren-blijkt-uit-geheim-document",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "Defender-kloon BYD Ti7 mag Europa voorlopig niet in",
-      "link": "https://www.autoblog.nl/nieuws/byd-ti7-voorlopig-verboden-in-eu",
-      "details": {
-        "ev": [
-          "byd"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Russell woest op Verstappen: “Iemand moet een keer opstaan tegen die gast''",
-      "link": "https://www.autoblog.nl/nieuws/russell-woest-op-verstappen-iemand-moet-een-keer-opstaan-tegen-die-gast",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "VIDEO: Ferrari Le Mans-auto beukt iconische Ferrari F1-auto van de baan!",
-      "link": "https://www.autoblog.nl/nieuws/ferrari-499-modificata-beukt-ferrari-f2004-f1-auto-van-de-baan",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": true,
-      "reason": "Autoblog mijn auto",
-      "title": "Leesvoer: Anastasia wilde een jonge bruikbare sportauto en kwam hierbij uit!",
-      "link": "https://www.autoblog.nl/nieuws/leesvoer-anastasia-wilde-een-jonge-bruikbare-sportauto-en-kwam-hierbij-uit"
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Nederland heeft geen geld voor wegonderhoud, maar wel voor Friese verkeersborden",
-      "link": "https://www.autoblog.nl/nieuws/overheid-smijt-400-000-euro-weg-aan-overbodige-verkeersborden",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -1151,6 +1160,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 79,
-  "output_items": 79
+  "input_items": 77,
+  "output_items": 77
 }

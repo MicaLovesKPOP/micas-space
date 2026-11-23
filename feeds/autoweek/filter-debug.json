@@ -1,10 +1,87 @@
 {
-  "generated_at": "2026-11-23T01:57:42.270177+00:00",
+  "generated_at": "2026-11-23T10:40:12.583231+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Toyota Starlet: in Nederland al 27 jaar geleden verdwenen, toch is er een vernieuwde!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-starlet-in-nederland-al-27-jaar-geleden-verdwenen-toch-is-er-een-vernieuwde/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Rijbewijs straks veel sneller kwijt: ook tijdens hoger beroep al rijverbod",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/rijbewijs-straks-veel-sneller-kwijt-ook-tijdens-hoger-beroep-al-rijverbod/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "verbod"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Elektrische Hyundai Kona: goedkoopste uitvoering wordt iets duurder",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/elektrische-hyundai-kona-is-nu-duizenden-euros-goedkoper/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": [
+          "uitvoering"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stelling: 'Een appje sturen tijdens het rijden moet kunnen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stelling-een-appje-achter-het-stuur-tijdens-het-rijden-moet-kunnen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen Tengo: kleiner, maar ook goedkoper dan de T-Cross",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-tengo-kleiner-maar-ook-goedkoper-dan-de-t-cross/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper"
+        ],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -289,73 +366,6 @@
         "major": [
           "europese unie"
         ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Honda opvallend veel populairder in Europa, Chinese merken kleiner marktaandeel",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/honda-opvallend-veel-populairder-in-europa-chinese-merken-kleiner-marktaandeel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "marktaandeel"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ga je bij een tweedehands hybride SUV voor de verleidelijke Mazda CX-5 of toch voor de alternatieven",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ga-je-bij-een-tweedehands-hybride-suv-voor-de-verleidelijke-mazda-cx-5-of-toch-voor-de-alternatieven-die-we-geven/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Mercedes bestaat al 57 jaar, maar Mercedes verkoopt 'm nu voor het eerst",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-mercedes-bestaat-al-57-jaar-maar-mercedes-verkoopt-m-nu-voor-het-eerst/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De meerprijs voor het ‘open’ dak van een Renault Twingo valt mee",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-meerprijs-voor-het-open-dak-van-een-renault-twingo-valt-mee/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen ID Polo GTI Clubsport vaagt met bijna 370 pk de Peugeot 208 GTi weg",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id-polo-gti-clubsport-vaagt-met-bijna-370-pk-de-peugeot-208-gti-weg/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
         "exceptional": [],
         "boring": [],
         "routine_product": []

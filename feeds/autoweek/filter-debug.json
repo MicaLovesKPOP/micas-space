@@ -1,10 +1,135 @@
 {
-  "generated_at": "2026-11-23T10:40:12.583231+00:00",
+  "generated_at": "2026-11-23T22:13:13.343488+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 22,
   "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Hyundai Lantra is een opvallende grijze muis - In het Wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-hyundai-lantra-is-een-opvallende-grijze-muis-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Mercedes-Benz bewijst met de GLA dat luxe een prijs kent",
+      "link": "https://www.autoweek.nl/autotests/artikel/mercedes-benz-bewijst-met-de-gla-dat-luxe-een-prijs-kent/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Pijnpunt voor EV-accuproductie: Congo stopt export kobalt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/pijnpunt-voor-ev-accuproductie-congo-stopt-export-kobalt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "ev"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'EU wil import van hybride auto's afremmen'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/eu-wil-import-van-hybride-autos-afremmen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "europese unie"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Meer tankstations gebruiken algoritmes, effect aan de pomp blijft beperkt",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/meer-tankstations-gebruiken-algoritmes-effect-aan-de-pomp-blijft-beperkt/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Hyundai trekt stekker uit langverwacht spektakelstuk",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-trekt-stekker-uit-langverwacht-spektakelstuk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Met de nieuwste Tesla Self-Driving kun je jezelf zien rondrijden zoals in GTA VI",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-de-nieuwste-tesla-self-driving-kun-je-jezelf-zien-rondrijden-zoals-in-gta-vi/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "tesla"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ook de nieuwe plug-in hybride KGM Rexton wordt Chinees",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-de-nieuwe-plug-in-hybride-kgm-rexton-wordt-chinees/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze Ford Mustang geeft ons een ongemakkelijk gevoel",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-ford-mustang-geeft-ons-een-ongemakkelijk-gevoel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -242,133 +367,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bij Honda dachten ze het schoner maken van auto's zonder katalysator af te kunnen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-honda-dachten-ze-het-schoner-maken-van-autos-zonder-katalysator-af-te-kunnen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Het vernieuwende zag je er bij de eerste Mercedes C-klasse in eerste instantie niet aan af",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/het-vernieuwende-zag-je-er-bij-de-eerste-mercedes-c-klasse-in-eerste-instantie-niet-aan-af/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Dit waren supercars in de sixties, en die vragen om spierballen",
-      "link": "https://www.autoweek.nl/autotests/artikel/dit-waren-supercars-in-de-sixties-en-die-vragen-om-spierballen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [
-          "supercar"
-        ],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Bij de Dacia Striker hakt de volgende stap er wel heel hard in – Back to basics",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-de-dacia-striker-hakt-de-volgende-stap-er-wel-heel-hard-in-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "'Door terugroepactie op mijn Volvo XC40 kan ik niet met eigen stroom laden, krijg ik nu vergoeding?",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/door-terugroepactie-op-mijn-volvo-xc40-kan-ik-niet-via-zonnepanelen-opladen-kan-ik-nu-vergoeding-krijgen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "terugroep"
-        ],
-        "exceptional": [],
-        "boring": [
-          "laden met"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zo tank je goedkoop in Luxemburg zonder dat het benzine kost: ‘Van absurd idee naar serieus plan'",
-      "link": "https://www.autoweek.nl/autotests/artikel/we-rijden-elektrisch-naar-luxemburg-om-goedkope-benzine-te-halen-van-snellader-naar-snellader/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Automatisch tot stilstand: op deze manier mag je met je PHEV ook een zero-emissiezone in",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/automatisch-tot-stilstand-op-deze-manier-mag-je-met-je-phev-ook-een-zero-emissiezone-in/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Firefly volgt de Chiron-methode: ieder jaar een ‘special edition’",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/firefly-volgt-de-chiron-methode-ieder-jaar-een-special-edition/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Land Rover krijgt gelijk: BYD mag Ti 7 voorlopig niet verkopen in Europa",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/land-rover-krijgt-gelijk-byd-mag-ti-7-voorlopig-niet-verkopen-in-europa/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "byd"
-        ],
-        "major": [
-          "europese unie"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]

@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-11-23T22:13:13.343488+00:00",
+  "generated_at": "2026-11-24T06:01:52.020327+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 22,
-  "dropped_items": 3,
+  "kept_items": 23,
+  "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Duitsland wil maximumprijs benzine om automobilist te bescherm",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/duitsland-wil-maximumprijs-benzine-om-automobilist-te-bescherm/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Genesis G80 en GV80: premiummodellen van Hyundai als bijzondere hybride",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/genesis-g80-en-gv80-premiummodellen-van-hyundai-als-bijzondere-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -333,40 +359,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Lynk & Co 08 en Suzuki Across maken allebei indruk als PHEV, op een andere manier",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-lynk-co-08-en-suzuki-across-maken-allebei-indruk-op-een-andere-manier/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "actieradius"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV consumer/review/charging/range content",
-      "title": "Waarom de kleine nieuwe elektrische Stellantis busjes minder ver komen en toch slim zijn",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/waarom-de-kleine-nieuwe-elektrische-stellantis-busjes-minder-ver-komen-en-toch-slim-zijn/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "goedkoper"
-        ],
-        "routine_product": [
-          "nieuwe "
-        ]
       }
     }
   ]

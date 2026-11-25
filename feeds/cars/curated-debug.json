@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-25T01:34:47.910583+00:00",
+  "generated_at": "2026-11-25T10:26:37.288060+00:00",
   "sources": [
     {
       "name": "AutoWeek core",
       "url": "/home/runner/work/micas-space/micas-space/feeds/autoweek/autoweek-filtered.xml",
       "status": "ok",
-      "items": 23
+      "items": 22
     },
     {
       "name": "Autoblog",
@@ -104,6 +104,78 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Suzuki Ignis is terug als betaalbare EV!",
+      "link": "https://www.autoblog.nl/nieuws/suzuki-ignis-is-terug-als-betaalbare-ev-voor-europa",
+      "details": {
+        "ev": [
+          "ev"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Joost Eerdmans (JA21) betaalde zijn Audi A8 gewoon zelf",
+      "link": "https://www.autoblog.nl/nieuws/joost-eerdmans-rijdt-in-een-audi-a8-v8-en-betaalde-m-zelf",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Dit kost de goedkoopste Porsche 718 van Marktplaats",
+      "link": "https://www.autoblog.nl/nieuws/goedkoopste-porsche-718-op-marktplaats-dit-kost-het",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "EV-extra",
+      "title": "Waarom Audi voorlopig nog geen antwoord heeft op de BMW i3",
+      "link": "https://www.autoblog.nl/nieuws/elektrische-audi-a4-komt-voorlopig-niet",
+      "details": {
+        "ev": [
+          "elektrisch"
+        ]
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Het uitmelken van de Alfa Romeo Giulia is begonnen",
+      "link": "https://www.autoblog.nl/nieuws/alfa-romeo-houdt-de-giulia-relevant-met-tien-peperdure-speeltjes",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
+    {
+      "source": "Autoblog",
+      "keep": false,
+      "reason": "geen unieke Autoblog-feature",
+      "title": "Porsche heeft een nieuwe dashcam en dit kun je ermee",
+      "link": "https://www.autoblog.nl/nieuws/porsche-heeft-een-nieuwe-dashcam-en-dit-kun-je-ermee",
+      "details": {
+        "feature": [],
+        "tags": [],
+        "news": []
+      }
+    },
     {
       "source": "Autoblog",
       "keep": false,
@@ -321,80 +393,6 @@
           "byd",
           "snelladen"
         ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "EV-extra",
-      "title": "The Grand Tour seizoen 2 is bevestigd, maar er is slecht nieuws",
-      "link": "https://www.autoblog.nl/nieuws/the-grand-tour-seizoen-2-is-bevestigd-maar-er-is-slecht-nieuws",
-      "details": {
-        "ev": [
-          "bev"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "EU pakt ook China's omwegen om goedkoop PHEV's te importeren aan",
-      "link": "https://www.autoblog.nl/nieuws/eu-gaat-naast-china-nog-meer-landen-importheffingen-op-phev-s-opleggen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Max Verstappen vond Las Vegas een aanfluiting. 'Ik kan het beter niet zeggen'",
-      "link": "https://www.autoblog.nl/nieuws/max-verstappen-vond-las-vegas-een-aanfluiting-ik-kan-het-beter-niet-zeggen",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Hyundai trekt stekker uit productie van gaafste concept ooit",
-      "link": "https://www.autoblog.nl/nieuws/hyundai-trekt-stekker-uit-productie-van-gaafste-concept-ooit",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Levensreddende verlichting is verboden. Raar.",
-      "link": "https://www.autoblog.nl/nieuws/deze-verlichting-kan-levens-redden-maar-is-gewoon-verboden",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": [
-          "verbod"
-        ]
-      }
-    },
-    {
-      "source": "Autoblog",
-      "keep": false,
-      "reason": "geen unieke Autoblog-feature",
-      "title": "Paul de Leeuw zoekt hulp na incident met zijn auto",
-      "link": "https://www.autoblog.nl/nieuws/paul-de-leeuw-zoekt-hulp-na-incident-met-zijn-auto",
-      "details": {
-        "feature": [],
-        "tags": [],
-        "news": []
       }
     },
     {
@@ -861,6 +859,13 @@
       "source": "PistonHeads Spotted",
       "keep": true,
       "reason": "Spotted / Brave Pill",
+      "title": "Lotus Exige (S2) | Spotted",
+      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/lotus-exige-s2--spotted/51941"
+    },
+    {
+      "source": "PistonHeads Spotted",
+      "keep": true,
+      "reason": "Spotted / Brave Pill",
       "title": "BMW M3 Competition (F80) | Spotted",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/bmw-m3-competition-f80--spotted/51881"
     },
@@ -961,13 +966,6 @@
       "reason": "Spotted / Brave Pill",
       "title": "Vauxhall VX220 | PH Auction Block",
       "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/vauxhall-vx220--ph-auction-block/51871"
-    },
-    {
-      "source": "PistonHeads Spotted",
-      "keep": true,
-      "reason": "Spotted / Brave Pill",
-      "title": "Is Mazda's forgotten hot hatch worth a punt?",
-      "link": "https://www.pistonheads.com/regulars/ph-spottedykywt/is-mazdas-forgotten-hot-hatch-worth-a-punt/51868"
     },
     {
       "source": "Hagerty Automotive History",
@@ -1151,6 +1149,6 @@
     }
   ],
   "duplicates": [],
-  "input_items": 78,
-  "output_items": 78
+  "input_items": 77,
+  "output_items": 77
 }

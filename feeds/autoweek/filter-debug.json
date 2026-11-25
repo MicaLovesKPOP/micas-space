@@ -1,10 +1,81 @@
 {
-  "generated_at": "2026-11-25T01:34:43.148737+00:00",
+  "generated_at": "2026-11-25T10:26:31.884583+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 22,
+  "dropped_items": 3,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "EuroNCAP vindt verplichte piepjes in auto's soms 'gevaarlijk irritant'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/euroncap-vindt-verplichte-piepjes-in-autos-soms-gevaarlijk-irritant/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Nieuwe Suzuki Ignis: populaire Suzuki is nu goedkope elektrische auto!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-suzuki-ignis-populaire-suzuki-is-nu-goedkope-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Speciaal voor Trump haalt Toyota de Toyota Camry terug naar Japan",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/speciaal-voor-trump-haalt-toyota-de-toyota-camry-terug-naar-japan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ineos stopt met productie in Europa en gaat naar de Verenigde Staten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ineos-stopt-met-productie-in-europa-en-gaat-naar-de-verenigde-staten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "stopt met"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Kwart van de verkeersdoden door alcohol",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/kwart-van-de-verkeersdoden-door-alcohol/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "major EV industry/technology news",
@@ -292,77 +363,6 @@
         "exceptional": [],
         "boring": [],
         "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Hyundai trekt stekker uit langverwacht spektakelstuk",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-trekt-stekker-uit-langverwacht-spektakelstuk/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Met de nieuwste Tesla Self-Driving kun je jezelf zien rondrijden zoals in GTA VI",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/met-de-nieuwste-tesla-self-driving-kun-je-jezelf-zien-rondrijden-zoals-in-gta-vi/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "tesla"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ook de nieuwe plug-in hybride KGM Rexton wordt Chinees",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-de-nieuwe-plug-in-hybride-kgm-rexton-wordt-chinees/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Ford Mustang geeft ons een ongemakkelijk gevoel",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-ford-mustang-geeft-ons-een-ongemakkelijk-gevoel/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Toyota Starlet: in Nederland al 27 jaar geleden verdwenen, toch is er een vernieuwde!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/toyota-starlet-in-nederland-al-27-jaar-geleden-verdwenen-toch-is-er-een-vernieuwde/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "in nederland"
-        ]
       }
     }
   ]

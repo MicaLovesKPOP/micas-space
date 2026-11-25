@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T23:54:50.077778+00:00",
+  "generated_at": "2026-11-25T08:26:10.408596+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 33
     },
     {
       "name": "Music Business Worldwide",
@@ -35,11 +35,27 @@
   "decisions": [
     {
       "source": "Korea Herald",
+      "title": "Riize to perform at Mexico’s Tecate Pa’l Norte festival in March",
+      "link": "https://www.koreaherald.com/article/10949046",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
       "title": "Riize staff member faces police complaint over alleged airport assault",
       "link": "https://www.koreaherald.com/article/10947961",
       "keep": false,
       "category": null,
       "reason": "legal story unrelated to contracts/agency business/artist rights"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "BTS back in military uniform? Here's what happened",
+      "link": "https://www.koreaherald.com/article/10947905",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Korea Herald",
@@ -69,6 +85,30 @@
       "source": "Korea Herald",
       "title": "Hearts2Hearts hosts 1st fan meetup in Japan",
       "link": "https://www.koreaherald.com/article/10947456",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Big Bang to unveil performance film for ‘GiiiRIP’",
+      "link": "https://www.koreaherald.com/article/10947432",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Seventeen’s Junghan to sing duet with Yamada Ryosuke",
+      "link": "https://www.koreaherald.com/article/10947427",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "TXT extends No. 1 streak on Oricon chart with 9th EP",
+      "link": "https://www.koreaherald.com/article/10947196",
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
@@ -112,6 +152,14 @@
       "keep": false,
       "category": null,
       "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Zerobaseone announces full-group January comeback",
+      "link": "https://www.koreaherald.com/article/10946082",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
     },
     {
       "source": "Korea Herald",
@@ -328,6 +376,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "41st Golden Disc Awards Announces Nominees",
+      "link": "https://www.soompi.com/article/1890589wpp/41st-golden-disc-awards-announces-nominees",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -802,12 +858,12 @@
       "reason": "routine PR/fandom noise: million views"
     },
     {
-      "source": "Soompi Music",
-      "title": "Watch: RESCENE Takes 3rd Win For “With” On “Music Core”; Performances By BESTie, ATEEZ, NCT DREAM, And More",
-      "link": "https://www.soompi.com/article/1886997wpp/watch-rescene-takes-3rd-win-for-with-on-music-core-performances-by-bestie-ateez-nct-dream-and-more",
+      "source": "Soompi Celeb",
+      "title": "KickFlip’s Keiju Injures Hand + To Adjust Participation In Upcoming Activities",
+      "link": "https://www.soompi.com/article/1890536wpp/kickflips-keiju-injures-hand-to-adjust-participation-in-upcoming-activities",
       "keep": false,
       "category": null,
-      "reason": "routine PR/fandom noise: takes 3rd win"
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Celeb",
@@ -1282,14 +1338,6 @@
       "reason": "no meaningful-change event matched"
     },
     {
-      "source": "Soompi Celeb",
-      "title": "Lee Wan And Lee Bo Mi Expecting Their First Child",
-      "link": "https://www.soompi.com/article/1882098wpp/lee-wan-and-lee-bo-mi-expecting-their-first-child",
-      "keep": false,
-      "category": null,
-      "reason": "Soompi Celeb: acting/non-music item"
-    },
-    {
       "source": "Yonhap K-pop",
       "title": "IU to begin new world tour in January",
       "link": "https://en.yna.co.kr/view/AEN20261124008300315?section=culture/k-pop",
@@ -1457,8 +1505,15 @@
       "kept": "ZEROBASEONE’s Kim Ji Woong Announces Release Date For 1st EP “NOISE IN BLUE”",
       "kept_source": "Soompi Music",
       "category": "Comeback / release"
+    },
+    {
+      "dropped": "Zerobaseone announces full-group January comeback",
+      "dropped_source": "Korea Herald",
+      "kept": "ZEROBASEONE’s Kim Ji Woong Announces Release Date For 1st EP “NOISE IN BLUE”",
+      "kept_source": "Soompi Music",
+      "category": "Comeback / release"
     }
   ],
-  "candidate_items": 12,
+  "candidate_items": 13,
   "final_items": 11
 }

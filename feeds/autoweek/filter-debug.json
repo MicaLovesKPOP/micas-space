@@ -1,10 +1,93 @@
 {
-  "generated_at": "2026-11-26T12:16:46.116061+00:00",
+  "generated_at": "2026-11-26T21:54:01.669831+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 23,
   "dropped_items": 2,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Stellantis legt fabrieken stil vanwege hoge kosten",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/stellantis-legt-fabrieken-stil-vanwege-hoge-kosten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze vijf goedkope auto's hebben stoelverwarming",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-vijf-goedkope-autos-hebben-stoelverwarming/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Plug-in hybride Geely Monjaro verlegt geen grenzen maar doet ook weinig verkeerd",
+      "link": "https://www.autoweek.nl/autotests/artikel/geely-monjaro-verlegt-geen-grenzen-maar-doet-ook-weinig-verkeerd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Xpeng L05: goedkoper dan de G6, duurder dan de L03",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/xpeng-l05-goedkoper-dan-de-g6-duurder-dan-de-l03/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "xpeng"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "goedkoper",
+          "duurder"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Met deze Peugeot 205 gaan we terug naar het begin - In het Wild",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-peugeot-205-gaan-we-terug-naar-het-begin-in-het-wild/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Als ik een B-Kadett zie, word ik toch altijd weer een beetje week'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/als-ik-een-b-kadett-zie-word-ik-toch-altijd-weer-een-beetje-week/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -272,97 +355,6 @@
       "reason": "non-EV car news",
       "title": "EuroNCAP vindt verplichte piepjes in auto's soms 'gevaarlijk irritant'",
       "link": "https://www.autoweek.nl/autonieuws/artikel/euroncap-vindt-verplichte-piepjes-in-autos-soms-gevaarlijk-irritant/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Nieuwe Suzuki Ignis: populaire Suzuki is nu goedkope elektrische auto!",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/nieuwe-suzuki-ignis-populaire-suzuki-is-nu-goedkope-elektrische-auto/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Speciaal voor Trump haalt Toyota de Toyota Camry terug naar Japan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/speciaal-voor-trump-haalt-toyota-de-toyota-camry-terug-naar-japan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Ineos stopt met productie in Europa en gaat naar de Verenigde Staten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/ineos-stopt-met-productie-in-europa-en-gaat-naar-de-verenigde-staten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [
-          "stopt met"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Kwart van de verkeersdoden door alcohol",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/kwart-van-de-verkeersdoden-door-alcohol/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "major EV industry/technology news",
-      "title": "Nieuwe Porsche Boxster staat als speelse stuurmans-EV zonder boxer zeker niet in zijn hemd",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-porsche-boxster-staat-als-speelse-stuurmans-ev-zonder-boxer-zeker-niet-in-zijn-hemd/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "ev"
-        ],
-        "major": [
-          "verbod",
-          "prototype"
-        ],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze Volkswagen Passat is een vertroeteld werkpaard - Liefhebber Gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-volkswagen-passat-is-een-vertroeteld-werkpaard-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
       "matches": {
         "ev": [],
         "major": [],

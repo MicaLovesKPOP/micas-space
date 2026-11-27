@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-11-27T13:49:06.688092+00:00",
+  "generated_at": "2026-11-27T22:39:16.150008+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 21,
   "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze klassiekers koop je voor slechts €3.000; lekker om in een verwarmde garage aan te klussen!",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-klassiekers-koop-je-voor-slechts-e3-000-lekker-om-in-een-verwarmde-garage-aan-te-klussen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "EV article kept because no routine-consumer trigger matched",
@@ -347,21 +360,6 @@
       "matches": {
         "ev": [
           "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Deze Temu-Taycan van MG is een plug-in hybride stationwagon",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-temu-taycan-van-mg-is-een-plug-in-hybride-stationwagon/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "taycan"
         ],
         "major": [],
         "exceptional": [],

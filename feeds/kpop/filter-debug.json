@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T20:09:22.613728+00:00",
+  "generated_at": "2026-11-27T02:49:37.543375+00:00",
   "sources": [
     {
       "name": "Korea Herald",
       "url": "https://www.koreaherald.com/rss/kh_Kpop",
       "status": "ok",
-      "items": 27
+      "items": 30
     },
     {
       "name": "Music Business Worldwide",
@@ -33,6 +33,30 @@
     }
   ],
   "decisions": [
+    {
+      "source": "Korea Herald",
+      "title": "FT Island announces 3-city Asia tour",
+      "link": "https://www.koreaherald.com/article/10951678",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Aespa to drop English-language version of Japan single",
+      "link": "https://www.koreaherald.com/article/10951554",
+      "keep": true,
+      "category": "Comeback / release",
+      "reason": "whitelisted event"
+    },
+    {
+      "source": "Korea Herald",
+      "title": "Lead track off Illit’s 4th EP certifies platinum in Japan",
+      "link": "https://www.koreaherald.com/article/10951430",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
+    },
     {
       "source": "Korea Herald",
       "title": "AKMU to release first-ever Christmas single",
@@ -328,6 +352,14 @@
       "keep": false,
       "category": null,
       "reason": "MBW: no Korean/K-pop context in headline"
+    },
+    {
+      "source": "Soompi Music",
+      "title": "ENHYPEN To Headline Mad Cool 2027 In Madrid",
+      "link": "https://www.soompi.com/article/1891101wpp/enhypen-to-headline-mad-cool-2027-in-madrid",
+      "keep": false,
+      "category": null,
+      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Music",
@@ -800,14 +832,6 @@
       "keep": true,
       "category": "Comeback / release",
       "reason": "whitelisted event"
-    },
-    {
-      "source": "Soompi Music",
-      "title": "Winners Of Melon Music Awards 2026 – DAY 2",
-      "link": "https://www.soompi.com/article/1887152wpp/winners-of-melon-music-awards-2026-day-2",
-      "keep": false,
-      "category": null,
-      "reason": "no meaningful-change event matched"
     },
     {
       "source": "Soompi Celeb",
@@ -1466,6 +1490,6 @@
       "category": "Comeback / release"
     }
   ],
-  "candidate_items": 11,
-  "final_items": 9
+  "candidate_items": 12,
+  "final_items": 10
 }

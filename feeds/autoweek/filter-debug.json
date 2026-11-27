@@ -1,10 +1,189 @@
 {
-  "generated_at": "2026-11-27T04:11:42.835719+00:00",
+  "generated_at": "2026-11-27T13:49:06.688092+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
-  "kept_items": 23,
-  "dropped_items": 2,
+  "kept_items": 21,
+  "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "De nieuwste elektrische Skoda's wegen tienduizenden kilo's",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwste-elektrische-skodas-wegen-tienduizenden-kilos/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De eerste SUV van AUDI krijgt een benzinemotor",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/ook-de-eerste-suv-van-audi-krijgt-een-benzinemotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De nieuwe TVR Griffith komt toch (en met hulp van Lotus!)",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-tvr-griffith-komt-toch-en-met-hulp-van-lotus/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Volkswagen Golf GTI 1976 viert jubileum met handbak",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-golf-gti-1976-viert-jubileum-met-stoot-extra-vermogen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De gefacelifte Volvo XC60 is goed, maar roept ook vragen op",
+      "link": "https://www.autoweek.nl/autotests/artikel/de-gefacelifte-volvo-xc60-is-goed-maar-roept-ook-vragen-op/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "facelift"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Benzine is duur: dit zijn de zuinigste benzineauto's die je in Nederland kunt kopen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-zijn-de-zuinigste-nieuwe-autos-met-een-benzinemotor/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "in nederland"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Deze zeventien jaar oude Nissan is opeens een plug-in hybride",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-zeventien-jaar-oude-nissan-is-opeens-een-plug-in-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "De vernieuwde Honda Accord kijkt alsof de zon heel laag staat",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-vernieuwde-honda-accord-kijkt-alsof-de-zon-heel-laag-staat/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "vernieuwde "
+        ]
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "Werkgevers sturen aan op thuis- en kantoorladen van elektrische leaseauto in plaats van snelladen",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/werkgevers-sturen-aan-op-thuis-en-kantoorladen-van-elektrische-leaseauto-in-plaats-van-snelladen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "snelladen"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV consumer/review/charging/range content",
+      "title": "De elektrische Mercedes-Benz GLA krijgt een nieuw tussenmaatje met actieradius van 550 kilometer",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/de-elektrische-mercedes-benz-gla-krijgt-een-nieuw-tussenmaatje-met-actieradius-van-550-kilometer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "elektrisch"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "actieradius",
+          "rijbereik"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": false,
+      "reason": "routine EV product/update coverage",
+      "title": "Met deze nieuwe Hyundai kun je net als met een Nio een lege accu omwisselen voor een volle",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/hyundai-mercury-deze-elektrische-hyundai-kan-net-als-een-nio-zijn-accu-wisselen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "nio "
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": [
+          "nieuwe "
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Voor het eerst komt er ook in de stad een trajectcontrole",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/voor-het-eerst-komt-er-ook-in-de-stad-een-trajectcontrole/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -184,179 +363,6 @@
         "ev": [
           "taycan"
         ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deze messcherpe Hyundai is een nieuwe plug-in hybride",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deze-messcherpe-hyundai-is-een-nieuwe-plug-in-hybride/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "ANWB: kloof voor- en tegenstanders elektrische auto's groeit",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/anwb-kloof-voor-en-tegenstanders-elektrische-autos-groeit/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Range Rover GT komt er bijna aan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/range-rover-gt-komt-er-bijna-aan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "range"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Zoekt er nog iemand een fonkelnieuwe Fiat Cinquecento? - Liefhebber Gezocht",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/zoekt-er-nog-iemand-een-fonkelnieuwe-fiat-cinquecento-liefhebber-gezocht/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Deskundigen: overheid moet beter op infrastructuur letten",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/deskundigen-overheid-moet-beter-op-infrastructuur-letten/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Amazon gaat ook in Europa auto's online verkopen",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/amazon-gaat-ook-in-europa-autos-online-verkopen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "Vederlichte elektrische auto's: dit zijn de minst zware EV's van nu",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/vederlichte-elektrische-autos-dit-zijn-de-minst-zware-evs-van-nu/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch",
-          "ev"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Volkswagen ID Cross R-Line is stiekem een ID Polo GTI met een maatje meer",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-volkswagen-id-cross-r-line-is-eigenlijk-een-id-polo-gti-met-een-maatje-meer/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De nieuwe Nissan Pixo is een Renault Twingo, maar dan voor minder geld",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-nieuwe-nissan-pixo-is-een-renault-twingo-maar-dan-voor-minder-geld/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": false,
-      "reason": "routine EV product/update coverage",
-      "title": "Dit is de elektrische en nieuwe Honda Alpha",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/dit-is-de-elektrische-en-nieuwe-honda-alpha/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": [
-          "nieuwe "
-        ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "De Volkswagen ID Cross is in alle opzichten een echte Volkswagen",
-      "link": "https://www.autoweek.nl/autotests/artikel/de-volkswagen-id-cross-is-in-alle-opzichten-een-echte-volkswagen/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "EuroNCAP vindt verplichte piepjes in auto's soms 'gevaarlijk irritant'",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/euroncap-vindt-verplichte-piepjes-in-autos-soms-gevaarlijk-irritant/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
         "major": [],
         "exceptional": [],
         "boring": [],

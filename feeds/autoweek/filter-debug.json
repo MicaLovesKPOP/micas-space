@@ -1,10 +1,86 @@
 {
-  "generated_at": "2026-11-28T04:13:26.588073+00:00",
+  "generated_at": "2026-11-28T13:33:35.027991+00:00",
   "source": "https://www.autoweek.nl/rss",
   "source_items": 25,
   "kept_items": 21,
   "dropped_items": 4,
   "decisions": [
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Ook als je geen caravan hoeft te trekken is de Toyota RAV4 Plug-in Hybrid 300 AWD fijner dan de 270",
+      "link": "https://www.autoweek.nl/autotests/artikel/ook-als-je-geen-caravan-hoeft-te-trekken-is-de-toyota-rav4-plug-in-hybrid-300-fijner-dan-de-270-al-is-fwd-indrukwekkend-zuinig/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "kost €",
+          "bestellen"
+        ],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Naast de GTI Edition 30 is de Volkswagen Golf GTI Edition 50 een waar feest",
+      "link": "https://www.autoweek.nl/autotests/artikel/naast-de-gti-edition-30-is-de-volkswagen-golf-gti-edition-50-een-waar-feest/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "EV article kept because no routine-consumer trigger matched",
+      "title": "Met deze Opel is de relatie van Stellantis en Leapmotor niet langer platonisch - Vooruitblik",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/met-deze-opel-is-de-relatie-van-stellantis-en-leapmotor-niet-langer-platonisch-vooruitblik/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [
+          "leapmotor"
+        ],
+        "major": [],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "Bij de Audi A2 kun je voor de basisprijs tussen twee uitvoeringen kiezen – Back to Basics",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/bij-de-audi-a2-kun-je-voor-de-basisprijs-tussen-twee-uitvoeringen-kiezen-back-to-basics/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [],
+        "exceptional": [],
+        "boring": [
+          "duurder"
+        ],
+        "routine_product": [
+          "uitvoering"
+        ]
+      }
+    },
+    {
+      "keep": true,
+      "reason": "non-EV car news",
+      "title": "'Er zit een kapotte celmodule in het accupakket van mijn Volvo V90 na een terugroepactie'",
+      "link": "https://www.autoweek.nl/autonieuws/artikel/er-zit-een-kapotte-celmodule-in-het-accupakket-van-mijn-volvo-v90-na-een-terugroepactie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
+      "matches": {
+        "ev": [],
+        "major": [
+          "terugroep"
+        ],
+        "exceptional": [],
+        "boring": [],
+        "routine_product": []
+      }
+    },
     {
       "keep": true,
       "reason": "non-EV car news",
@@ -293,78 +369,6 @@
         "routine_product": [
           "nieuwe "
         ]
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Adviesprijs diesel zakt naar laagste punt sinds medio juli",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/adviesprijs-diesel-zakt-naar-laagste-punt-sinds-medio-juli/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Heico geeft de Volvo EX60 een sinistere uitstraling",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/heico-geeft-de-volvo-ex60-een-sinistere-uitstraling/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Volkswagen ID Buzz Cargo: meer ruimte en bereik voor maximaal €2.300",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/volkswagen-id-buzz-cargo-meer-ruimte-en-bereik-voor-maximaal-e2-300/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "non-EV car news",
-      "title": "Geely Monjaro EM-i: groter dan een Volvo XC60 maar goedkoper dan een Tiguan",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/geely-monjaro-em-i-groter-dan-een-volvo-xc60-maar-goedkoper-dan-een-tiguan/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [],
-        "major": [],
-        "exceptional": [],
-        "boring": [
-          "rijbereik",
-          "goedkoper"
-        ],
-        "routine_product": []
-      }
-    },
-    {
-      "keep": true,
-      "reason": "EV article kept because no routine-consumer trigger matched",
-      "title": "De kleinste elektrische auto van Nederland krijgt een hete versie",
-      "link": "https://www.autoweek.nl/autonieuws/artikel/de-kleinste-elektrische-auto-van-nederland-krijgt-een-hete-versie/?utm_source=rss&utm_medium=rssdefault&utm_campaign=rss",
-      "matches": {
-        "ev": [
-          "elektrisch"
-        ],
-        "major": [],
-        "exceptional": [],
-        "boring": [],
-        "routine_product": []
       }
     }
   ]
